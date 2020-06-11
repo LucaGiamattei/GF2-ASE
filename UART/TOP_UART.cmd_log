@@ -1,0 +1,37 @@
+xst -intstyle ise -ifn "/home/luca/ISE_ws/UART/TOP_UART.xst" -ofn "/home/luca/ISE_ws/UART/TOP_UART.syr" 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/UART/TOP_UART.xst" -ofn "/home/luca/ISE_ws/UART/TOP_UART.syr" 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/UART/TOP_UART.xst" -ofn "/home/luca/ISE_ws/UART/TOP_UART.syr" 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/UART/TOP_UART.xst" -ofn "/home/luca/ISE_ws/UART/TOP_UART.syr" 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/UART/TOP_UART.xst" -ofn "/home/luca/ISE_ws/UART/TOP_UART.syr" 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/UART/TOP_UART.xst" -ofn "/home/luca/ISE_ws/UART/TOP_UART.syr" 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/UART/TOP_UART.xst" -ofn "/home/luca/ISE_ws/UART/TOP_UART.syr" 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/UART/TOP_UART.xst" -ofn "/home/luca/ISE_ws/UART/TOP_UART.syr" 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/UART/TOP_UART.xst" -ofn "/home/luca/ISE_ws/UART/TOP_UART.syr" 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/UART/TOP_UART.xst" -ofn "/home/luca/ISE_ws/UART/TOP_UART.syr" 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/UART/TOP_UART.xst" -ofn "/home/luca/ISE_ws/UART/TOP_UART.syr" 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/UART/TOP_UART.xst" -ofn "/home/luca/ISE_ws/UART/TOP_UART.syr" 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/UART/TOP_UART.xst" -ofn "/home/luca/ISE_ws/UART/TOP_UART.syr" 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/UART/TOP_UART.xst" -ofn "/home/luca/ISE_ws/UART/TOP_UART.syr" 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/UART/TOP_UART.xst" -ofn "/home/luca/ISE_ws/UART/TOP_UART.syr" 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/UART/TOP_UART.xst" -ofn "/home/luca/ISE_ws/UART/TOP_UART.syr" 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/UART/TOP_UART.xst" -ofn "/home/luca/ISE_ws/UART/TOP_UART.syr" 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/UART/TOP_UART.xst" -ofn "/home/luca/ISE_ws/UART/TOP_UART.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc myucf.ucf -p xc3s100e-tq144-5 TOP_UART.ngc TOP_UART.ngd  
+map -intstyle ise -p xc3s100e-tq144-5 -cm area -ir off -pr off -c 100 -o TOP_UART_map.ncd TOP_UART.ngd TOP_UART.pcf 
+par -w -intstyle ise -ol high -t 1 TOP_UART_map.ncd TOP_UART.ncd TOP_UART.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TOP_UART.twx TOP_UART.ncd -o TOP_UART.twr TOP_UART.pcf -ucf myucf.ucf 
+bitgen -intstyle ise -f TOP_UART.ut TOP_UART.ncd 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/UART/TOP_UART.xst" -ofn "/home/luca/ISE_ws/UART/TOP_UART.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc myucf.ucf -p xc3s250e-tq144-5 TOP_UART.ngc TOP_UART.ngd  
+map -intstyle ise -p xc3s250e-tq144-5 -cm area -ir off -pr off -c 100 -o TOP_UART_map.ncd TOP_UART.ngd TOP_UART.pcf 
+par -w -intstyle ise -ol high -t 1 TOP_UART_map.ncd TOP_UART.ncd TOP_UART.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TOP_UART.twx TOP_UART.ncd -o TOP_UART.twr TOP_UART.pcf -ucf myucf.ucf 
+bitgen -intstyle ise -f TOP_UART.ut TOP_UART.ncd 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/UART/TOP_UART.xst" -ofn "/home/luca/ISE_ws/UART/TOP_UART.syr" 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/UART/TOP_UART.xst" -ofn "/home/luca/ISE_ws/UART/TOP_UART.syr" 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/UART/TOP_UART.xst" -ofn "/home/luca/ISE_ws/UART/TOP_UART.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc myucf.ucf -p xc3s250e-tq144-5 TOP_UART.ngc TOP_UART.ngd  
+map -intstyle ise -p xc3s250e-tq144-5 -cm area -ir off -pr off -c 100 -o TOP_UART_map.ncd TOP_UART.ngd TOP_UART.pcf 
+par -w -intstyle ise -ol high -t 1 TOP_UART_map.ncd TOP_UART.ncd TOP_UART.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TOP_UART.twx TOP_UART.ncd -o TOP_UART.twr TOP_UART.pcf -ucf myucf.ucf 
+bitgen -intstyle ise -f TOP_UART.ut TOP_UART.ncd 
