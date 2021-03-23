@@ -1,8 +1,0 @@
-vhdl work "cont_modn.vhd"
-vhdl work "clk_filter_byCounter.vhd"
-vhdl work "cathodes_manager.vhd"
-vhdl work "anodes_manager.vhd"
-vhdl work "RS232RefComp.vhd"
-vhdl work "reg.vhd"
-vhdl work "display_seven_segments.vhd"
-vhdl work "TOP_ALU_UART.vhd"
