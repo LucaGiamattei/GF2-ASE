@@ -1,0 +1,2 @@
+vhdl isim_temp "netgen/par/FF_T_timesim.vhd"
+vhdl isim_temp "FFT_tb.vhd"

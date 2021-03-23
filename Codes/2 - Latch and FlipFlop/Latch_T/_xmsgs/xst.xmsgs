@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="1537" delta="new" >&quot;<arg fmt="%s" index="1">/home/luca/Scrivania/Codici_tesina/Latch_T/Latch_rs.vhd</arg>&quot; line <arg fmt="%d" index="2">25</arg>: Generic &lt;<arg fmt="%s" index="3">DELAYQT</arg>&gt; of type Time is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1537" delta="new" >&quot;<arg fmt="%s" index="1">/home/luca/Scrivania/Codici_tesina/Latch_T/Latch_rs.vhd</arg>&quot; line <arg fmt="%d" index="2">26</arg>: Generic &lt;<arg fmt="%s" index="3">DELAYNQT</arg>&gt; of type Time is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1537" delta="new" >&quot;<arg fmt="%s" index="1">/home/luca/Scrivania/Codici_tesina/Latch_T/Latch_rs.vhd</arg>&quot; line <arg fmt="%d" index="2">27</arg>: Generic &lt;<arg fmt="%s" index="3">DELAY_INERTIAL_NOR</arg>&gt; of type Time is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1537" delta="new" >&quot;<arg fmt="%s" index="1">/home/luca/Scrivania/Codici_tesina/Latch_T/Latch_rs.vhd</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Generic &lt;<arg fmt="%s" index="3">DELAY_TRANSPORT_NOR</arg>&gt; of type Time is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1537" delta="new" >&quot;<arg fmt="%s" index="1">/home/luca/Scrivania/Codici_tesina/Latch_T/Latch_rs.vhd</arg>&quot; line <arg fmt="%d" index="2">29</arg>: Generic &lt;<arg fmt="%s" index="3">DELAY_TAN</arg>&gt; of type Time is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1537" delta="new" >&quot;<arg fmt="%s" index="1">/home/luca/Scrivania/Codici_tesina/Latch_T/Latch_rs.vhd</arg>&quot; line <arg fmt="%d" index="2">30</arg>: Generic &lt;<arg fmt="%s" index="3">DELAY_TNA</arg>&gt; of type Time is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1537" delta="new" >&quot;<arg fmt="%s" index="1">/home/luca/Scrivania/Codici_tesina/Latch_T/Latch_rs.vhd</arg>&quot; line <arg fmt="%d" index="2">31</arg>: Generic &lt;<arg fmt="%s" index="3">DELAY_INERTIAL_AND</arg>&gt; of type Time is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1537" delta="new" >&quot;<arg fmt="%s" index="1">/home/luca/Scrivania/Codici_tesina/Latch_T/Latch_rs.vhd</arg>&quot; line <arg fmt="%d" index="2">32</arg>: Generic &lt;<arg fmt="%s" index="3">DELAY_TRANSPORT_AND</arg>&gt; of type Time is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2170" delta="new" >Unit <arg fmt="%s" index="1">Latch_T</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="new" >Unit <arg fmt="%s" index="1">Latch_T</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+</messages>
+

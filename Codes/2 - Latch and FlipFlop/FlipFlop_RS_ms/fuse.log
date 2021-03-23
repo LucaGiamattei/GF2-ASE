@@ -1,0 +1,25 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -relaunch -intstyle "ise" -incremental -o "/home/luca/ISE_ws/FlipFlopRSMS/FFRSMSTB_isim_beh.exe" -prj "/home/luca/ISE_ws/FlipFlopRSMS/FFRSMSTB_beh.prj" "work.FFRSMSTB" 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/luca/ISE_ws/FlipFlopRSMS/Latch_RS.vhd" into library work
+Parsing VHDL file "/home/luca/ISE_ws/FlipFlopRSMS/invert.vhd" into library work
+Parsing VHDL file "/home/luca/ISE_ws/FlipFlopRSMS/FFRSMS.vhd" into library work
+Parsing VHDL file "/home/luca/ISE_ws/FlipFlopRSMS/FFRSMSTB.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 95972 KB
+Fuse CPU Usage: 1390 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture dataflow of entity Latch_rs [\Latch_rs(1000,1000,3000,5000,10...]
+Compiling architecture dataflow of entity invert [\invert(3000,25000)\]
+Compiling architecture structural of entity FFRSMS [ffrsms_default]
+Compiling architecture behavior of entity ffrsmstb
+Time Resolution for simulation is 1ps.
+Compiled 9 VHDL Units
+Built simulation executable /home/luca/ISE_ws/FlipFlopRSMS/FFRSMSTB_isim_beh.exe
+Fuse Memory Usage: 399548 KB
+Fuse CPU Usage: 1430 ms
+GCC CPU Usage: 130 ms

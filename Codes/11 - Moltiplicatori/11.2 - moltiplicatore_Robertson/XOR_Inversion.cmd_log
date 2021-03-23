@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/giorgio/Documenti/shiftregister/shiftregister/XOR_Inversion.xst" -ofn "/home/giorgio/Documenti/shiftregister/shiftregister/XOR_Inversion.syr" 

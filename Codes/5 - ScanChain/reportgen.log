@@ -1,0 +1,26 @@
+Release 14.7 reportgen P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+giorgio-VirtualBox::  Fri Mar 15 23:09:56 2019
+
+/home/giorgio/14.7/ISE_DS/ISE/bin/lin64/unwrapped/reportgen -intstyle ise
+-clock_regions -o ControlUnit ControlUnit.ncd 
+
+Loading device for application Rf_Device from file '3s100e.nph' in environment
+/home/giorgio/14.7/ISE_DS/ISE/.
+   "ControlUnit" is an NCD, version 3.2, device xc3s100e, package tq144, speed
+-4
+ReportGen:LoadDesign: 'ControlUnit.ncd'
+Initializing temperature to 85.000 Celsius. (default - Range: -40.000 to 100.000
+Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.320 Volts)
+Device speed data version:  "PRODUCTION 1.27 2013-10-13".
+
+Generating Clock Region Report: ControlUnit.clk_rgn
+
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 0
+
+reportgen done!

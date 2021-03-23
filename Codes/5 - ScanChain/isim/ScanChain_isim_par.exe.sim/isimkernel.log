@@ -1,0 +1,31 @@
+Command line:
+   ScanChain_isim_par.exe
+     -simmode  gui
+     -sdfmax  /ScanChain/=netgen/par/ScanChain_timesim.sdf
+     -sdfroot  /
+     -simrunnum  0
+     -socket  52391
+
+Fri Mar 15 11:37:13 2019
+
+
+ Elaboration Time: 0.03 sec
+
+ Current Memory Usage: 203.784 Meg
+
+ Total Signals          : 1445
+ Total Nets             : 918
+ Total Signal Drivers   : 878
+ Total Blocks           : 393
+ Total Primitive Blocks : 213
+ Total Processes        : 879
+ Total Traceable Variables  : 2172
+ Total Scalar Nets and Variables : 10792
+Total Line Count : 3274
+
+ Total Simulation Time: 0.05 sec
+
+ Current Memory Usage: 279.359 Meg
+
+Fri Mar 15 11:37:32 2019
+

@@ -1,0 +1,6 @@
+vhdl work "FFD.vhd"
+vhdl work "flipflopmux.vhd"
+vhdl work "MUX2.vhd"
+vhdl work "Shift_register.vhd"
+vhdl work "flipflop_msb.vhd"
+vhdl work "registro.vhd"

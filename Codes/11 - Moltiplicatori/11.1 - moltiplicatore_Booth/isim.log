@@ -1,0 +1,23 @@
+ISim log file
+Running: /home/giorgio/Documenti/Prova/test_isim_par.exe -intstyle ise -gui -sdfmax /uut/=netgen/par/Moltiplicatore_Booth_timesim.sdf -sdfroot /uut -tclbatch isim.cmd -wdb /home/giorgio/Documenti/Prova/test_isim_par.wdb 
+INFO: There is another simulation running in the same directory. Using database file name isim4.wdb.
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+INFO: SDF backannotation was successful with SDF file netgen/par/Moltiplicatore_Booth_timesim.sdf, for root module /uut/.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+at 400858 ps(3), Instance /test/uut/Inst_Counter_ModN_c_2/ : Warning: /X_FF PULSE WIDTH High VIOLATION ON RST;
+  Expected := 1.794 ns; Observed := 0.293 ns; At : 400.858 ns
+at 400858 ps(3), Instance /test/uut/Inst_Counter_ModN_res_out/ : Warning: /X_FF PULSE WIDTH High VIOLATION ON RST;
+  Expected := 1.794 ns; Observed := 0.293 ns; At : 400.858 ns
+# exit 0
+# exit 0
+# exit 0
+# exit 0

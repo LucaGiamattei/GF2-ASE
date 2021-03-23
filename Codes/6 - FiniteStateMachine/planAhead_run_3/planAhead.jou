@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Sun Mar 17 13:25:16 2019
+# Process ID: 8042
+# Log file: /home/giorgio/Documenti/FSM/planAhead_run_3/planAhead.log
+# Journal file: /home/giorgio/Documenti/FSM/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/giorgio/Documenti/FSM/pa.fromNcd.tcl
+report_clock_interaction -significant_digits 3 -name timing_1

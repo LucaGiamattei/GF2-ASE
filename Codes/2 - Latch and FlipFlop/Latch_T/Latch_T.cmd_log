@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/luca/Scrivania/Codici_tesina/Latch_T/Latch_T.xst" -ofn "/home/luca/Scrivania/Codici_tesina/Latch_T/Latch_T.syr" 

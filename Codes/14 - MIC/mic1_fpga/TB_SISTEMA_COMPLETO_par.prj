@@ -1,0 +1,3 @@
+verilog work "netgen/par/sistema_mic1_timesim.v"
+vhdl work "tb_mic1conuart.vhd"
+verilog work "C:/Xilinx92i/verilog/src/glbl.v"

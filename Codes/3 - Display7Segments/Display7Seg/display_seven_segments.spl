@@ -1,0 +1,10 @@
+[Inputs]
+clock
+reset_n
+=value[15:0]=
+=enable[3:0]=
+=dots[3:0]=
+[Outputs]
+=anodes[3:0]=
+=cathodes[7:0]=
+[BiDir]

@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/giorgio/Documenti/shiftregister/shiftregister/flipflop_msb.xst" -ofn "/home/giorgio/Documenti/shiftregister/shiftregister/flipflop_msb.syr" 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/shiftregister/shiftregister/flipflop_msb.xst" -ofn "/home/giorgio/Documenti/shiftregister/shiftregister/flipflop_msb.syr" 

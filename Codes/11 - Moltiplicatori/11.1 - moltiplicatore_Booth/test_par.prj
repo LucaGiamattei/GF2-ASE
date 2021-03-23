@@ -1,0 +1,2 @@
+vhdl work "netgen/par/Moltiplicatore_Booth_timesim.vhd"
+vhdl work "test.vhd"

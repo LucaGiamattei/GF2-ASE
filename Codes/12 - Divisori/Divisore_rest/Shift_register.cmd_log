@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/luca/ISE_ws/Divisore_rest/Shift_register.xst" -ofn "/home/luca/ISE_ws/Divisore_rest/Shift_register.syr" 

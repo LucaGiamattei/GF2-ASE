@@ -1,0 +1,311 @@
+V3 200
+FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/4to16decoder.vhd 2019/02/14.08:40:36 P.20131013
+EN work/decoder 1553456173 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/4to16decoder.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/decoder/Behavioral 1553456174 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/4to16decoder.vhd \
+      EN work/decoder 1553456173
+FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/alu.vhd 2019/02/14.08:40:36 P.20131013
+EN work/ALU 1553456160 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/alu.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/ALU/ALU_Structural 1553456161 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/alu.vhd \
+      EN work/ALU 1553456160
+FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/constant_pool_rom.vhd 2019/02/27.16:57:36 P.20131013
+EN work/cpool_rom 1553456189 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/constant_pool_rom.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/cpool_rom/basic 1553456190 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/constant_pool_rom.vhd \
+      EN work/cpool_rom 1553456189
+FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/control_store.vhd 2019/02/14.08:40:42 P.20131013
+PH work/costanti 1553456164 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/control_store.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+EN work/control_store 1553456165 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/control_store.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PH work/costanti 1553456164
+AR work/control_store/Behavioral 1553456166 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/control_store.vhd \
+      EN work/control_store 1553456165
+FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/decodifica_indirizzi.vhd 2019/03/24.19:56:08 P.20131013
+EN work/decodifica_indirizzi 1553456191 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/decodifica_indirizzi.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/decodifica_indirizzi/Behavioral 1553456192 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/decodifica_indirizzi.vhd \
+      EN work/decodifica_indirizzi 1553456191
+FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/dff.vhd 2019/02/14.08:40:44 P.20131013
+EN work/dff 1553456150 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/dff.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/dff/Behavioral 1553456151 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/dff.vhd \
+      EN work/dff 1553456150
+FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/divisore.vhd 2019/02/14.08:40:40 P.20131013
+EN work/divisore_freq 1553456181 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/divisore.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/divisore_freq/Behavioral 1553456182 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/divisore.vhd \
+      EN work/divisore_freq 1553456181 CP DCM_SP
+FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/high_bit.vhd 2019/02/14.08:40:42 P.20131013
+EN work/high_bit 1553456171 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/high_bit.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/high_bit/DATAFLOW 1553456172 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/high_bit.vhd \
+      EN work/high_bit 1553456171
+FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/mbr.vhd 2019/02/14.08:40:44 P.20131013
+EN work/mbr_register 1553456158 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/mbr.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/mbr_register/Behavioral 1553456159 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/mbr.vhd \
+      EN work/mbr_register 1553456158
+FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/mdr_register.vhd 2019/02/14.08:40:46 P.20131013
+EN work/mdr_register 1553456156 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/mdr_register.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/mdr_register/Behavioral 1553456157 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/mdr_register.vhd \
+      EN work/mdr_register 1553456156
+FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/mic1.vhd 2019/02/14.08:40:48 P.20131013
+EN work/mic1 1553456183 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/mic1.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/mic1/Behavioral 1553456184 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/mic1.vhd \
+      EN work/mic1 1553456183 CP parte_di_controllo CP parte_operativa
+FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/mpc.vhd 2019/02/14.08:40:50 P.20131013
+EN work/mpc 1553456169 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/mpc.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/mpc/Behavioral 1553456170 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/mpc.vhd \
+      EN work/mpc 1553456169
+FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/negedge_dff.vhd 2019/02/14.08:40:50 P.20131013
+EN work/negedge_dff 1553456148 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/negedge_dff.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/negedge_dff/Behavioral 1553456149 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/negedge_dff.vhd \
+      EN work/negedge_dff 1553456148
+FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/neg_edge_reg.vhd 2019/02/14.08:40:48 P.20131013
+EN work/neg_edge_reg 1553456162 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/neg_edge_reg.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/neg_edge_reg/Behavioral 1553456163 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/neg_edge_reg.vhd \
+      EN work/neg_edge_reg 1553456162
+FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/oring.vhd 2019/02/14.08:40:48 P.20131013
+EN work/oring 1553456167 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/oring.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/oring/Behavioral 1553456168 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/oring.vhd \
+      EN work/oring 1553456167
+FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/parte_operativa.vhd 2019/02/14.08:40:48 P.20131013
+EN work/parte_operativa 1553456177 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/parte_operativa.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/parte_operativa/Behavioral 1553456178 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/parte_operativa.vhd \
+      EN work/parte_operativa 1553456177 CP negedge_dff CP dff CP shifter \
+      CP posedge_reg_enable CP mdr_register CP mbr_register CP ALU CP neg_edge_reg
+FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/pc.vhd 2019/02/14.08:40:50 P.20131013
+EN work/parte_di_controllo 1553456175 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/pc.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PH work/costanti 1553456164
+AR work/parte_di_controllo/Behavioral 1553456176 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/pc.vhd \
+      EN work/parte_di_controllo 1553456175 CP control_store CP oring CP mpc \
+      CP high_bit CP decoder
+FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/posedge_reg_enable.vhd 2019/02/14.08:40:50 P.20131013
+EN work/posedge_reg_enable 1553456154 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/posedge_reg_enable.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/posedge_reg_enable/Behavioral 1553456155 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/posedge_reg_enable.vhd \
+      EN work/posedge_reg_enable 1553456154
+FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/ram_core.vhd 2019/02/14.08:40:52 P.20131013
+EN work/ram 1553456187 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/ram_core.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/NUMERIC_STD 1381692181
+AR work/ram/Behavioral 1553456188 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/ram_core.vhd \
+      EN work/ram 1553456187
+FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/rom8.vhd 2019/03/24.20:35:34 P.20131013
+EN work/boot_rom 1553456185 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/rom8.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/NUMERIC_STD 1381692181
+AR work/boot_rom/basic 1553456186 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/rom8.vhd \
+      EN work/boot_rom 1553456185
+FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/shifter.vhd 2019/02/14.08:40:54 P.20131013
+EN work/shifter 1553456152 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/shifter.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/shifter/Behavioral 1553456153 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/shifter.vhd \
+      EN work/shifter 1553456152
+FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.vhd 2019/03/24.18:46:45 P.20131013
+EN work/sistema_mic1 1553456193 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/sistema_mic1/Behavioral 1553456194 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.vhd \
+      EN work/sistema_mic1 1553456193 CP Switch_Led CP divisore_freq CP mic1 \
+      CP boot_rom CP ram CP cpool_rom CP decodifica_indirizzi
+FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/Switch_Led.vhd 2019/03/24.20:35:34 P.20131013
+EN work/Switch_Led 1553456179 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/Switch_Led.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Switch_Led/Behavioral 1553456180 \
+      FL /home/luca/Scrivania/design/OR_con_constante/mic1_fpga/Switch_Led.vhd \
+      EN work/Switch_Led 1553456179
+FL C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/4to16decoder.vhd 2019/02/14.08:40:36 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/alu.vhd 2019/02/14.08:40:36 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/constant_pool_rom.vhd 2019/02/27.16:57:36 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/control_store.vhd 2019/02/14.08:40:42 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/decodifica_indirizzi.vhd 2019/02/14.08:40:44 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/dff.vhd 2019/02/14.08:40:44 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/divisore.vhd 2019/02/14.08:40:40 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/high_bit.vhd 2019/02/14.08:40:42 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/mbr.vhd 2019/02/14.08:40:44 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/mdr_register.vhd 2019/02/14.08:40:46 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/mic1.vhd 2019/02/14.08:40:48 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/mpc.vhd 2019/02/14.08:40:50 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/negedge_dff.vhd 2019/02/14.08:40:50 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/neg_edge_reg.vhd 2019/02/14.08:40:48 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/oring.vhd 2019/02/14.08:40:48 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/parte_operativa.vhd 2019/02/14.08:40:48 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/pc.vhd 2019/02/14.08:40:50 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/posedge_reg_enable.vhd 2019/02/14.08:40:50 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/ram_core.vhd 2019/02/14.08:40:52 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/rom8.vhd 2019/02/27.16:57:34 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/shifter.vhd 2019/02/14.08:40:54 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/sistema_mic1.vhd 2019/02/14.08:41:02 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/Switch_Led.vhd 2019/02/14.08:41:10 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga/4to16decoder.vhd 2019/02/13.11:28:20 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga/alu.vhd 2019/02/13.11:28:08 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga/constant_pool_rom.vhd 2019/02/14.16:34:32 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga/control_store.vhd 2019/02/14.16:37:02 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga/decodifica_indirizzi.vhd 2019/02/13.11:28:06 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga/dff.vhd 2019/02/13.11:28:06 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga/divisore.vhd 2019/02/13.11:28:06 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga/high_bit.vhd 2019/02/13.11:28:06 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga/mbr.vhd 2019/02/13.11:28:04 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga/mdr_register.vhd 2019/02/13.11:28:04 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga/mic1.vhd 2019/02/13.11:28:04 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga/mpc.vhd 2019/02/13.11:28:02 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga/negedge_dff.vhd 2019/02/13.11:28:02 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga/neg_edge_reg.vhd 2019/02/13.11:28:02 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga/oring.vhd 2019/02/13.11:28:02 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga/parte_operativa.vhd 2019/02/13.11:28:02 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga/pc.vhd 2019/02/13.11:28:02 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga/posedge_reg_enable.vhd 2019/02/13.11:28:02 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga/ram_core.vhd 2019/02/13.11:28:02 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga/rom8.vhd 2019/02/14.17:06:05 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga/shifter.vhd 2019/02/13.11:28:00 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga/sistema_mic1.vhd 2019/02/14.16:37:22 P.20131013
+FL C:/Users/Marco/Desktop/mic1_fpga/Switch_Led.vhd 2019/02/14.16:40:56 P.20131013
+FL C:/Users/mazze/Xilinx/Mic1/mic1_fpga/4to16decoder.vhd 2008/01/20.22:56:38 P.20131013
+FL C:/Users/mazze/Xilinx/Mic1/mic1_fpga/alu.vhd 2009/04/04.13:51:40 P.20131013
+FL C:/Users/mazze/Xilinx/Mic1/mic1_fpga/baud_rate_gen.vhd 2009/04/06.13:18:24 P.20131013
+EN work/baud_gen 1546532773 \
+      FL C:/Users/mazze/Xilinx/Mic1/mic1_fpga/baud_rate_gen.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/NUMERIC_STD 1381692181
+AR work/baud_gen/arch 1546532774 \
+      FL C:/Users/mazze/Xilinx/Mic1/mic1_fpga/baud_rate_gen.vhd EN work/baud_gen 1546532773 \
+      PB ieee/NUMERIC_STD 1381692181
+FL C:/Users/mazze/Xilinx/Mic1/mic1_fpga/constant_pool_rom.vhd 2009/04/12.16:17:10 P.20131013
+FL C:/Users/mazze/Xilinx/Mic1/mic1_fpga/control_store.vhd 2009/04/12.16:06:30 P.20131013
+FL C:/Users/mazze/Xilinx/Mic1/mic1_fpga/decodifica_indirizzi.vhd 2009/03/31.18:44:00 P.20131013
+FL C:/Users/mazze/Xilinx/Mic1/mic1_fpga/dff.vhd 2009/03/30.09:45:24 P.20131013
+FL C:/Users/mazze/Xilinx/Mic1/mic1_fpga/divisore.vhd 2009/03/27.11:11:10 P.20131013
+FL C:/Users/mazze/Xilinx/Mic1/mic1_fpga/high_bit.vhd 2009/03/30.09:43:40 P.20131013
+FL C:/Users/mazze/Xilinx/Mic1/mic1_fpga/if_uart.vhd 2009/04/09.13:22:56 P.20131013
+EN work/if_uart 1546532795 FL C:/Users/mazze/Xilinx/Mic1/mic1_fpga/if_uart.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/if_uart/Behavioral 1546532796 \
+      FL C:/Users/mazze/Xilinx/Mic1/mic1_fpga/if_uart.vhd EN work/if_uart 1546532795 \
+      CP baud_gen CP uart_rx CP uart_tx
+FL C:/Users/mazze/Xilinx/Mic1/mic1_fpga/mbr.vhd 2009/03/30.17:07:54 P.20131013
+FL C:/Users/mazze/Xilinx/Mic1/mic1_fpga/mdr_register.vhd 2009/03/30.13:06:30 P.20131013
+FL C:/Users/mazze/Xilinx/Mic1/mic1_fpga/mic1.vhd 2009/03/30.09:20:18 P.20131013
+FL C:/Users/mazze/Xilinx/Mic1/mic1_fpga/mpc.vhd 2009/03/30.09:43:22 P.20131013
+FL C:/Users/mazze/Xilinx/Mic1/mic1_fpga/negedge_dff.vhd 2009/03/30.09:44:44 P.20131013
+FL C:/Users/mazze/Xilinx/Mic1/mic1_fpga/neg_edge_reg.vhd 2009/03/30.11:16:28 P.20131013
+FL C:/Users/mazze/Xilinx/Mic1/mic1_fpga/oring.vhd 2009/03/30.09:39:24 P.20131013
+FL C:/Users/mazze/Xilinx/Mic1/mic1_fpga/parte_operativa.vhd 2009/04/09.15:35:22 P.20131013
+FL C:/Users/mazze/Xilinx/Mic1/mic1_fpga/pc.vhd 2009/04/08.19:20:10 P.20131013
+FL C:/Users/mazze/Xilinx/Mic1/mic1_fpga/posedge_reg_enable.vhd 2009/03/30.16:11:24 P.20131013
+FL C:/Users/mazze/Xilinx/Mic1/mic1_fpga/ram_core.vhd 2009/04/03.16:55:56 P.20131013
+FL C:/Users/mazze/Xilinx/Mic1/mic1_fpga/rom8.vhd 2019/01/03.17:25:28 P.20131013
+FL C:/Users/mazze/Xilinx/Mic1/mic1_fpga/shifter.vhd 2009/03/30.10:11:20 P.20131013
+FL C:/Users/mazze/Xilinx/Mic1/mic1_fpga/sistema_mic1.vhd 2009/04/09.10:40:22 P.20131013
+FL C:/Users/mazze/Xilinx/Mic1/mic1_fpga/uart_rx.vhd 2009/04/06.13:18:32 P.20131013
+EN work/uart_rx 1546532775 FL C:/Users/mazze/Xilinx/Mic1/mic1_fpga/uart_rx.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/NUMERIC_STD 1381692181
+AR work/uart_rx/arch 1546532776 \
+      FL C:/Users/mazze/Xilinx/Mic1/mic1_fpga/uart_rx.vhd EN work/uart_rx 1546532775 \
+      PB ieee/NUMERIC_STD 1381692181
+FL C:/Users/mazze/Xilinx/Mic1/mic1_fpga/uart_tx.vhd 2009/04/06.13:18:38 P.20131013
+EN work/uart_tx 1546532777 FL C:/Users/mazze/Xilinx/Mic1/mic1_fpga/uart_tx.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/NUMERIC_STD 1381692181
+AR work/uart_tx/arch 1546532778 \
+      FL C:/Users/mazze/Xilinx/Mic1/mic1_fpga/uart_tx.vhd EN work/uart_tx 1546532777 \
+      PB ieee/NUMERIC_STD 1381692181
+FL C:/Users/utente/Desktop/ASE-Esercizi/mic1_fpga/4to16decoder.vhd 2019/02/13.11:28:18 P.20131013
+FL C:/Users/utente/Desktop/ASE-Esercizi/mic1_fpga/alu.vhd 2019/02/13.11:28:07 P.20131013
+FL C:/Users/utente/Desktop/ASE-Esercizi/mic1_fpga/constant_pool_rom.vhd 2019/02/14.16:34:31 P.20131013
+FL C:/Users/utente/Desktop/ASE-Esercizi/mic1_fpga/control_store.vhd 2019/02/14.16:37:01 P.20131013
+FL C:/Users/utente/Desktop/ASE-Esercizi/mic1_fpga/decodifica_indirizzi.vhd 2019/02/13.11:28:05 P.20131013
+FL C:/Users/utente/Desktop/ASE-Esercizi/mic1_fpga/dff.vhd 2019/02/13.11:28:04 P.20131013
+FL C:/Users/utente/Desktop/ASE-Esercizi/mic1_fpga/divisore.vhd 2019/02/13.11:28:04 P.20131013
+FL C:/Users/utente/Desktop/ASE-Esercizi/mic1_fpga/high_bit.vhd 2019/02/13.11:28:04 P.20131013
+FL C:/Users/utente/Desktop/ASE-Esercizi/mic1_fpga/mbr.vhd 2019/02/13.11:28:03 P.20131013
+FL C:/Users/utente/Desktop/ASE-Esercizi/mic1_fpga/mdr_register.vhd 2019/02/13.11:28:03 P.20131013
+FL C:/Users/utente/Desktop/ASE-Esercizi/mic1_fpga/mic1.vhd 2019/02/13.11:28:02 P.20131013
+FL C:/Users/utente/Desktop/ASE-Esercizi/mic1_fpga/mpc.vhd 2019/02/13.11:28:01 P.20131013
+FL C:/Users/utente/Desktop/ASE-Esercizi/mic1_fpga/negedge_dff.vhd 2019/02/13.11:28:00 P.20131013
+FL C:/Users/utente/Desktop/ASE-Esercizi/mic1_fpga/neg_edge_reg.vhd 2019/02/13.11:28:00 P.20131013
+FL C:/Users/utente/Desktop/ASE-Esercizi/mic1_fpga/oring.vhd 2019/02/13.11:28:00 P.20131013
+FL C:/Users/utente/Desktop/ASE-Esercizi/mic1_fpga/parte_operativa.vhd 2019/02/13.11:28:00 P.20131013
+FL C:/Users/utente/Desktop/ASE-Esercizi/mic1_fpga/pc.vhd 2019/02/13.11:28:00 P.20131013
+FL C:/Users/utente/Desktop/ASE-Esercizi/mic1_fpga/posedge_reg_enable.vhd 2019/02/13.11:28:00 P.20131013
+FL C:/Users/utente/Desktop/ASE-Esercizi/mic1_fpga/ram_core.vhd 2019/02/13.11:28:00 P.20131013
+FL C:/Users/utente/Desktop/ASE-Esercizi/mic1_fpga/rom8.vhd 2019/02/14.16:27:36 P.20131013
+FL C:/Users/utente/Desktop/ASE-Esercizi/mic1_fpga/shifter.vhd 2019/02/13.11:27:59 P.20131013
+FL C:/Users/utente/Desktop/ASE-Esercizi/mic1_fpga/sistema_mic1.vhd 2019/02/14.16:37:20 P.20131013
+FL C:/Users/utente/Desktop/ASE-Esercizi/mic1_fpga/Switch_Led.vhd 2019/02/14.16:40:55 P.20131013

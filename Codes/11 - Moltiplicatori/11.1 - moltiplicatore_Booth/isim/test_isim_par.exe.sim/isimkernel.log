@@ -1,0 +1,31 @@
+Command line:
+   test_isim_par.exe
+     -simmode  gui
+     -sdfmax  /uut/=netgen/par/Moltiplicatore_Booth_timesim.sdf
+     -sdfroot  /uut
+     -simrunnum  4
+     -socket  40267
+
+Sun Mar 10 13:27:33 2019
+
+
+ Elaboration Time: 0.04 sec
+
+ Current Memory Usage: 208.912 Meg
+
+ Total Signals          : 2480
+ Total Nets             : 1533
+ Total Signal Drivers   : 1494
+ Total Blocks           : 687
+ Total Primitive Blocks : 366
+ Total Processes        : 1493
+ Total Traceable Variables  : 3662
+ Total Scalar Nets and Variables : 16162
+Total Line Count : 5516
+
+ Total Simulation Time: 0.07 sec
+
+ Current Memory Usage: 284.488 Meg
+
+Sun Mar 10 13:27:44 2019
+

@@ -1,0 +1,52 @@
+Running: /home/giorgio/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/testbench_isim_beh.exe -prj /home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/testbench_beh.prj work.testbench 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 3
+Turning on mult-threading, number of parallel sub-compilation jobs: 6 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" into library work
+Parsing VHDL file "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/tb_contenitore.vhd" into library work
+Parsing VHDL file "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/LEVEL_CSL.vhd" into library work
+Parsing VHDL file "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/FULL_ADDER.vhd" into library work
+Parsing VHDL file "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/CSL_TREE.vhd" into library work
+Parsing VHDL file "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/CSL.vhd" into library work
+Parsing VHDL file "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/Contenitore.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1242 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/tb_contenitore.vhd" Line 29: Note: "nb"
+WARNING:HDLCompiler:1242 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/tb_contenitore.vhd" Line 29: Note: "nb"
+Completed static elaboration
+Fuse Memory Usage: 100508 KB
+Fuse CPU Usage: 1030 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package math_real
+Compiling package std_logic_arith
+Compiling package extentionwork
+Compiling architecture full_adder_dataflow of entity FULL_ADDER [full_adder_default]
+Compiling architecture structural of entity CSL [\CSL(8)\]
+Compiling architecture structural of entity LEVEL_CSL [\LEVEL_CSL(14,8)\]
+Compiling architecture structural of entity CSL [\CSL(9)\]
+Compiling architecture structural of entity LEVEL_CSL [\LEVEL_CSL(10,9)\]
+Compiling architecture structural of entity CSL [\CSL(10)\]
+Compiling architecture structural of entity LEVEL_CSL [\LEVEL_CSL(7,10)\]
+Compiling architecture structural of entity CSL [\CSL(11)\]
+Compiling architecture structural of entity LEVEL_CSL [\LEVEL_CSL(5,11)\]
+Compiling architecture structural of entity CSL [\CSL(12)\]
+Compiling architecture structural of entity LEVEL_CSL [\LEVEL_CSL(4,12)\]
+Compiling architecture structural of entity CSL [\CSL(13)\]
+Compiling architecture structural of entity LEVEL_CSL [\LEVEL_CSL(3,13)\]
+Compiling architecture structural of entity CSL_TREE [\CSL_TREE(3,0,13,14)\]
+Compiling architecture structural of entity CSL_TREE [\CSL_TREE(4,1,12,14)\]
+Compiling architecture structural of entity CSL_TREE [\CSL_TREE(5,2,11,14)\]
+Compiling architecture structural of entity CSL_TREE [\CSL_TREE(7,1,10,14)\]
+Compiling architecture structural of entity CSL_TREE [\CSL_TREE(10,1,9,14)\]
+Compiling architecture structural of entity CSL_TREE [\CSL_TREE(14,2,8,14)\]
+Compiling architecture behavioral of entity Contenitore [\Contenitore(14,8)\]
+Compiling architecture behavior of entity testbench
+Time Resolution for simulation is 1ps.
+Waiting for 21 sub-compilation(s) to finish...
+Compiled 47 VHDL Units
+Built simulation executable /home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/testbench_isim_beh.exe
+Fuse Memory Usage: 547336 KB
+Fuse CPU Usage: 1210 ms
+GCC CPU Usage: 3500 ms

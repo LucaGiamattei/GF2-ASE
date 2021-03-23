@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "/home/giorgio/Documenti/shiftregister/shiftregister/RCA_ADD_SUB.xst" -ofn "/home/giorgio/Documenti/shiftregister/shiftregister/RCA_ADD_SUB.syr" 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/shiftregister/shiftregister/RCA_ADD_SUB.xst" -ofn "/home/giorgio/Documenti/shiftregister/shiftregister/RCA_ADD_SUB.syr" 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/shiftregister/shiftregister/RCA_ADD_SUB.xst" -ofn "/home/giorgio/Documenti/shiftregister/shiftregister/RCA_ADD_SUB.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-5 RCA_ADD_SUB.ngc RCA_ADD_SUB.ngd  
+xst -intstyle ise -ifn "/home/giorgio/Documenti/shiftregister/shiftregister/RCA_ADD_SUB.xst" -ofn "/home/giorgio/Documenti/shiftregister/shiftregister/RCA_ADD_SUB.syr" 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/shiftregister/shiftregister/RCA_ADD_SUB.xst" -ofn "/home/giorgio/Documenti/shiftregister/shiftregister/RCA_ADD_SUB.syr" 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/shiftregister/shiftregister/RCA_ADD_SUB.xst" -ofn "/home/giorgio/Documenti/shiftregister/shiftregister/RCA_ADD_SUB.syr" 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/shiftregister/shiftregister/RCA_ADD_SUB.xst" -ofn "/home/giorgio/Documenti/shiftregister/shiftregister/RCA_ADD_SUB.syr" 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/shiftregister/shiftregister/RCA_ADD_SUB.xst" -ofn "/home/giorgio/Documenti/shiftregister/shiftregister/RCA_ADD_SUB.syr" 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/shiftregister/shiftregister/RCA_ADD_SUB.xst" -ofn "/home/giorgio/Documenti/shiftregister/shiftregister/RCA_ADD_SUB.syr" 

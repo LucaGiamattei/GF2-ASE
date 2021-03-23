@@ -1,0 +1,2 @@
+vhdl isim_temp "netgen/translate/clock_filter_translate.vhd"
+vhdl isim_temp "tb_clock_filter.vhd"

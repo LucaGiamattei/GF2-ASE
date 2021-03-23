@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/luca/ISE_ws/Latch_RS/Latch_rs.ncd
+OUTFILE=/home/luca/ISE_ws/Latch_RS/Latch_rs.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=/home/luca/ISE_ws/Latch_RS
+LICENSE=WebPack
+USER_INFO=211628941_0_0_336

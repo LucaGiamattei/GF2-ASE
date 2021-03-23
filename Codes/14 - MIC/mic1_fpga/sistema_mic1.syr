@@ -1,0 +1,1306 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> 
+Reading design: sistema_mic1.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "sistema_mic1.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "sistema_mic1"
+Output Format                      : NGC
+Target Device                      : xc3s250e-5-tq144
+
+---- Source Options
+Top Module Name                    : sistema_mic1
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Distributed
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : Yes
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Move First FlipFlop Stage          : YES
+Move Last FlipFlop Stage           : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : YES
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/negedge_dff.vhd" in Library work.
+Architecture behavioral of Entity negedge_dff is up to date.
+Compiling vhdl file "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/dff.vhd" in Library work.
+Architecture behavioral of Entity dff is up to date.
+Compiling vhdl file "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/shifter.vhd" in Library work.
+Architecture behavioral of Entity shifter is up to date.
+Compiling vhdl file "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/posedge_reg_enable.vhd" in Library work.
+Architecture behavioral of Entity posedge_reg_enable is up to date.
+Compiling vhdl file "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/mdr_register.vhd" in Library work.
+Architecture behavioral of Entity mdr_register is up to date.
+Compiling vhdl file "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/mbr.vhd" in Library work.
+Architecture behavioral of Entity mbr_register is up to date.
+Compiling vhdl file "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/alu.vhd" in Library work.
+Architecture alu_structural of Entity alu is up to date.
+Compiling vhdl file "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/neg_edge_reg.vhd" in Library work.
+Architecture behavioral of Entity neg_edge_reg is up to date.
+Compiling vhdl file "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/control_store.vhd" in Library work.
+WARNING:HDLParsers:817 - "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/control_store.vhd" Line 4287. Choice goto2 is not a locally static expression.
+WARNING:HDLParsers:817 - "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/control_store.vhd" Line 4288. Choice goto3 is not a locally static expression.
+WARNING:HDLParsers:817 - "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/control_store.vhd" Line 4289. Choice goto4 is not a locally static expression.
+WARNING:HDLParsers:817 - "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/control_store.vhd" Line 4290. Choice goto5 is not a locally static expression.
+WARNING:HDLParsers:817 - "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/control_store.vhd" Line 4293. Choice bipush2 is not a locally static expression.
+WARNING:HDLParsers:817 - "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/control_store.vhd" Line 4294. Choice bipush3 is not a locally static expression.
+WARNING:HDLParsers:817 - "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/control_store.vhd" Line 4296. Choice iadd2 is not a locally static expression.
+WARNING:HDLParsers:817 - "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/control_store.vhd" Line 4297. Choice iadd3 is not a locally static expression.
+WARNING:HDLParsers:817 - "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/control_store.vhd" Line 4299. Choice isub2 is not a locally static expression.
+WARNING:HDLParsers:817 - "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/control_store.vhd" Line 4300. Choice isub3 is not a locally static expression.
+WARNING:HDLParsers:817 - "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/control_store.vhd" Line 4302. Choice iand2 is not a locally static expression.
+WARNING:HDLParsers:817 - "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/control_store.vhd" Line 4303. Choice iand3 is not a locally static expression.
+WARNING:HDLParsers:817 - "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/control_store.vhd" Line 4305. Choice ior2 is not a locally static expression.
+WARNING:HDLParsers:817 - "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/control_store.vhd" Line 4306. Choice ior3 is not a locally static expression.
+WARNING:HDLParsers:817 - "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/control_store.vhd" Line 4308. Choice dup2 is not a locally static expression.
+Architecture behavioral of Entity control_store is up to date.
+Compiling vhdl file "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/oring.vhd" in Library work.
+Architecture behavioral of Entity oring is up to date.
+Compiling vhdl file "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/mpc.vhd" in Library work.
+Architecture behavioral of Entity mpc is up to date.
+Compiling vhdl file "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/high_bit.vhd" in Library work.
+Architecture dataflow of Entity high_bit is up to date.
+Compiling vhdl file "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/4to16decoder.vhd" in Library work.
+Architecture behavioral of Entity decoder is up to date.
+Compiling vhdl file "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/pc.vhd" in Library work.
+Architecture behavioral of Entity parte_di_controllo is up to date.
+Compiling vhdl file "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/parte_operativa.vhd" in Library work.
+Architecture behavioral of Entity parte_operativa is up to date.
+Compiling vhdl file "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/Switch_Led.vhd" in Library work.
+Architecture behavioral of Entity switch_led is up to date.
+Compiling vhdl file "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/divisore.vhd" in Library work.
+Architecture behavioral of Entity divisore_freq is up to date.
+Compiling vhdl file "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/mic1.vhd" in Library work.
+Architecture behavioral of Entity mic1 is up to date.
+Compiling vhdl file "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/rom8.vhd" in Library work.
+Architecture basic of Entity boot_rom is up to date.
+Compiling vhdl file "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/ram_core.vhd" in Library work.
+Architecture behavioral of Entity ram is up to date.
+Compiling vhdl file "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/constant_pool_rom.vhd" in Library work.
+Architecture basic of Entity cpool_rom is up to date.
+Compiling vhdl file "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/decodifica_indirizzi.vhd" in Library work.
+Architecture behavioral of Entity decodifica_indirizzi is up to date.
+Compiling vhdl file "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.vhd" in Library work.
+Architecture behavioral of Entity sistema_mic1 is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <sistema_mic1> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Switch_Led> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <divisore_freq> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <mic1> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <boot_rom> in library <work> (architecture <basic>).
+
+Analyzing hierarchy for entity <ram> in library <work> (architecture <behavioral>) with generics.
+	ADDR_WIDTH = 7
+	DATA_WIDTH = 32
+
+Analyzing hierarchy for entity <cpool_rom> in library <work> (architecture <basic>).
+
+Analyzing hierarchy for entity <decodifica_indirizzi> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <parte_di_controllo> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <parte_operativa> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <control_store> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <oring> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <mpc> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <high_bit> in library <work> (architecture <dataflow>).
+
+Analyzing hierarchy for entity <decoder> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <negedge_dff> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <dff> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <shifter> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <posedge_reg_enable> in library <work> (architecture <behavioral>) with generics.
+	valore_iniziale = "00000000000000000000000000000000"
+
+Analyzing hierarchy for entity <mdr_register> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <posedge_reg_enable> in library <work> (architecture <behavioral>) with generics.
+	valore_iniziale = "11111111111111111111111111111111"
+
+Analyzing hierarchy for entity <posedge_reg_enable> in library <work> (architecture <behavioral>) with generics.
+	valore_iniziale = "00000000000000001000000000010000"
+
+Analyzing hierarchy for entity <posedge_reg_enable> in library <work> (architecture <behavioral>) with generics.
+	valore_iniziale = "00000000000000001000000000000000"
+
+Analyzing hierarchy for entity <posedge_reg_enable> in library <work> (architecture <behavioral>) with generics.
+	valore_iniziale = "00000000000000000100000000000000"
+
+Analyzing hierarchy for entity <mbr_register> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ALU> in library <work> (architecture <alu_structural>).
+
+Analyzing hierarchy for entity <neg_edge_reg> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <sistema_mic1> in library <work> (Architecture <behavioral>).
+Entity <sistema_mic1> analyzed. Unit <sistema_mic1> generated.
+
+Analyzing Entity <Switch_Led> in library <work> (Architecture <behavioral>).
+Entity <Switch_Led> analyzed. Unit <Switch_Led> generated.
+
+Analyzing Entity <divisore_freq> in library <work> (Architecture <behavioral>).
+    Set user-defined property "CLKDV_DIVIDE =  5.0000000000000000" for instance <DCM_SP_inst> in unit <divisore_freq>.
+    Set user-defined property "CLKFX_DIVIDE =  4" for instance <DCM_SP_inst> in unit <divisore_freq>.
+    Set user-defined property "CLKFX_MULTIPLY =  4" for instance <DCM_SP_inst> in unit <divisore_freq>.
+    Set user-defined property "CLKIN_DIVIDE_BY_2 =  TRUE" for instance <DCM_SP_inst> in unit <divisore_freq>.
+    Set user-defined property "CLKIN_PERIOD =  20.0000000000000000" for instance <DCM_SP_inst> in unit <divisore_freq>.
+    Set user-defined property "CLKOUT_PHASE_SHIFT =  NONE" for instance <DCM_SP_inst> in unit <divisore_freq>.
+    Set user-defined property "CLK_FEEDBACK =  1X" for instance <DCM_SP_inst> in unit <divisore_freq>.
+    Set user-defined property "DESKEW_ADJUST =  SYSTEM_SYNCHRONOUS" for instance <DCM_SP_inst> in unit <divisore_freq>.
+    Set user-defined property "DFS_FREQUENCY_MODE =  LOW" for instance <DCM_SP_inst> in unit <divisore_freq>.
+    Set user-defined property "DLL_FREQUENCY_MODE =  LOW" for instance <DCM_SP_inst> in unit <divisore_freq>.
+    Set user-defined property "DSS_MODE =  NONE" for instance <DCM_SP_inst> in unit <divisore_freq>.
+    Set user-defined property "DUTY_CYCLE_CORRECTION =  TRUE" for instance <DCM_SP_inst> in unit <divisore_freq>.
+    Set user-defined property "FACTORY_JF =  C080" for instance <DCM_SP_inst> in unit <divisore_freq>.
+    Set user-defined property "PHASE_SHIFT =  0" for instance <DCM_SP_inst> in unit <divisore_freq>.
+    Set user-defined property "STARTUP_WAIT =  FALSE" for instance <DCM_SP_inst> in unit <divisore_freq>.
+Entity <divisore_freq> analyzed. Unit <divisore_freq> generated.
+
+Analyzing Entity <mic1> in library <work> (Architecture <behavioral>).
+Entity <mic1> analyzed. Unit <mic1> generated.
+
+Analyzing Entity <parte_di_controllo> in library <work> (Architecture <behavioral>).
+Entity <parte_di_controllo> analyzed. Unit <parte_di_controllo> generated.
+
+Analyzing Entity <control_store> in library <work> (Architecture <behavioral>).
+Entity <control_store> analyzed. Unit <control_store> generated.
+
+Analyzing Entity <oring> in library <work> (Architecture <behavioral>).
+Entity <oring> analyzed. Unit <oring> generated.
+
+Analyzing Entity <mpc> in library <work> (Architecture <behavioral>).
+Entity <mpc> analyzed. Unit <mpc> generated.
+
+Analyzing Entity <high_bit> in library <work> (Architecture <dataflow>).
+Entity <high_bit> analyzed. Unit <high_bit> generated.
+
+Analyzing Entity <decoder> in library <work> (Architecture <behavioral>).
+Entity <decoder> analyzed. Unit <decoder> generated.
+
+Analyzing Entity <parte_operativa> in library <work> (Architecture <behavioral>).
+Entity <parte_operativa> analyzed. Unit <parte_operativa> generated.
+
+Analyzing Entity <negedge_dff> in library <work> (Architecture <behavioral>).
+Entity <negedge_dff> analyzed. Unit <negedge_dff> generated.
+
+Analyzing Entity <dff> in library <work> (Architecture <behavioral>).
+Entity <dff> analyzed. Unit <dff> generated.
+
+Analyzing Entity <shifter> in library <work> (Architecture <behavioral>).
+Entity <shifter> analyzed. Unit <shifter> generated.
+
+Analyzing generic Entity <posedge_reg_enable.1> in library <work> (Architecture <behavioral>).
+	valore_iniziale = "00000000000000000000000000000000"
+Entity <posedge_reg_enable.1> analyzed. Unit <posedge_reg_enable.1> generated.
+
+Analyzing Entity <mdr_register> in library <work> (Architecture <behavioral>).
+Entity <mdr_register> analyzed. Unit <mdr_register> generated.
+
+Analyzing generic Entity <posedge_reg_enable.2> in library <work> (Architecture <behavioral>).
+	valore_iniziale = "11111111111111111111111111111111"
+Entity <posedge_reg_enable.2> analyzed. Unit <posedge_reg_enable.2> generated.
+
+Analyzing generic Entity <posedge_reg_enable.3> in library <work> (Architecture <behavioral>).
+	valore_iniziale = "00000000000000001000000000010000"
+Entity <posedge_reg_enable.3> analyzed. Unit <posedge_reg_enable.3> generated.
+
+Analyzing generic Entity <posedge_reg_enable.4> in library <work> (Architecture <behavioral>).
+	valore_iniziale = "00000000000000001000000000000000"
+Entity <posedge_reg_enable.4> analyzed. Unit <posedge_reg_enable.4> generated.
+
+Analyzing generic Entity <posedge_reg_enable.5> in library <work> (Architecture <behavioral>).
+	valore_iniziale = "00000000000000000100000000000000"
+Entity <posedge_reg_enable.5> analyzed. Unit <posedge_reg_enable.5> generated.
+
+Analyzing Entity <mbr_register> in library <work> (Architecture <behavioral>).
+Entity <mbr_register> analyzed. Unit <mbr_register> generated.
+
+Analyzing Entity <ALU> in library <work> (Architecture <alu_structural>).
+Entity <ALU> analyzed. Unit <ALU> generated.
+
+Analyzing Entity <neg_edge_reg> in library <work> (Architecture <behavioral>).
+Entity <neg_edge_reg> analyzed. Unit <neg_edge_reg> generated.
+
+Analyzing Entity <boot_rom> in library <work> (Architecture <basic>).
+Entity <boot_rom> analyzed. Unit <boot_rom> generated.
+
+Analyzing generic Entity <ram> in library <work> (Architecture <behavioral>).
+	ADDR_WIDTH = 7
+	DATA_WIDTH = 32
+Entity <ram> analyzed. Unit <ram> generated.
+
+Analyzing Entity <cpool_rom> in library <work> (Architecture <basic>).
+Entity <cpool_rom> analyzed. Unit <cpool_rom> generated.
+
+Analyzing Entity <decodifica_indirizzi> in library <work> (Architecture <behavioral>).
+Entity <decodifica_indirizzi> analyzed. Unit <decodifica_indirizzi> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Switch_Led>.
+    Related source file is "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/Switch_Led.vhd".
+WARNING:Xst:647 - Input <load> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit tristate buffer for signal <IO_MDR<31>>.
+    Found 1-bit tristate buffer for signal <IO_MDR<30>>.
+    Found 1-bit tristate buffer for signal <IO_MDR<29>>.
+    Found 1-bit tristate buffer for signal <IO_MDR<28>>.
+    Found 1-bit tristate buffer for signal <IO_MDR<27>>.
+    Found 1-bit tristate buffer for signal <IO_MDR<26>>.
+    Found 1-bit tristate buffer for signal <IO_MDR<25>>.
+    Found 1-bit tristate buffer for signal <IO_MDR<24>>.
+    Found 1-bit tristate buffer for signal <IO_MDR<23>>.
+    Found 1-bit tristate buffer for signal <IO_MDR<22>>.
+    Found 1-bit tristate buffer for signal <IO_MDR<21>>.
+    Found 1-bit tristate buffer for signal <IO_MDR<20>>.
+    Found 1-bit tristate buffer for signal <IO_MDR<19>>.
+    Found 1-bit tristate buffer for signal <IO_MDR<18>>.
+    Found 1-bit tristate buffer for signal <IO_MDR<17>>.
+    Found 1-bit tristate buffer for signal <IO_MDR<16>>.
+    Found 1-bit tristate buffer for signal <IO_MDR<15>>.
+    Found 1-bit tristate buffer for signal <IO_MDR<14>>.
+    Found 1-bit tristate buffer for signal <IO_MDR<13>>.
+    Found 1-bit tristate buffer for signal <IO_MDR<12>>.
+    Found 1-bit tristate buffer for signal <IO_MDR<11>>.
+    Found 1-bit tristate buffer for signal <IO_MDR<10>>.
+    Found 1-bit tristate buffer for signal <IO_MDR<9>>.
+    Found 1-bit tristate buffer for signal <IO_MDR<8>>.
+    Found 1-bit tristate buffer for signal <IO_MDR<7>>.
+    Found 1-bit tristate buffer for signal <IO_MDR<6>>.
+    Found 1-bit tristate buffer for signal <IO_MDR<5>>.
+    Found 1-bit tristate buffer for signal <IO_MDR<4>>.
+    Found 1-bit tristate buffer for signal <IO_MDR<3>>.
+    Found 1-bit tristate buffer for signal <IO_MDR<2>>.
+    Found 1-bit tristate buffer for signal <IO_MDR<1>>.
+    Found 1-bit tristate buffer for signal <IO_MDR<0>>.
+    Found 1-bit register for signal <Mtridata_IO_MDR<0>>.
+    Found 1-bit register for signal <Mtridata_IO_MDR<10>>.
+    Found 1-bit register for signal <Mtridata_IO_MDR<11>>.
+    Found 1-bit register for signal <Mtridata_IO_MDR<12>>.
+    Found 1-bit register for signal <Mtridata_IO_MDR<13>>.
+    Found 1-bit register for signal <Mtridata_IO_MDR<14>>.
+    Found 1-bit register for signal <Mtridata_IO_MDR<15>>.
+    Found 1-bit register for signal <Mtridata_IO_MDR<16>>.
+    Found 1-bit register for signal <Mtridata_IO_MDR<17>>.
+    Found 1-bit register for signal <Mtridata_IO_MDR<18>>.
+    Found 1-bit register for signal <Mtridata_IO_MDR<19>>.
+    Found 1-bit register for signal <Mtridata_IO_MDR<1>>.
+    Found 1-bit register for signal <Mtridata_IO_MDR<20>>.
+    Found 1-bit register for signal <Mtridata_IO_MDR<21>>.
+    Found 1-bit register for signal <Mtridata_IO_MDR<22>>.
+    Found 1-bit register for signal <Mtridata_IO_MDR<23>>.
+    Found 1-bit register for signal <Mtridata_IO_MDR<24>>.
+    Found 1-bit register for signal <Mtridata_IO_MDR<25>>.
+    Found 1-bit register for signal <Mtridata_IO_MDR<26>>.
+    Found 1-bit register for signal <Mtridata_IO_MDR<27>>.
+    Found 1-bit register for signal <Mtridata_IO_MDR<28>>.
+    Found 1-bit register for signal <Mtridata_IO_MDR<29>>.
+    Found 1-bit register for signal <Mtridata_IO_MDR<2>>.
+    Found 1-bit register for signal <Mtridata_IO_MDR<30>>.
+    Found 1-bit register for signal <Mtridata_IO_MDR<31>>.
+    Found 1-bit register for signal <Mtridata_IO_MDR<3>>.
+    Found 1-bit register for signal <Mtridata_IO_MDR<4>>.
+    Found 1-bit register for signal <Mtridata_IO_MDR<5>>.
+    Found 1-bit register for signal <Mtridata_IO_MDR<6>>.
+    Found 1-bit register for signal <Mtridata_IO_MDR<7>>.
+    Found 1-bit register for signal <Mtridata_IO_MDR<8>>.
+    Found 1-bit register for signal <Mtridata_IO_MDR<9>>.
+    Found 1-bit register for signal <Mtrien_IO_MDR<0>>.
+    Found 1-bit register for signal <Mtrien_IO_MDR<10>>.
+    Found 1-bit register for signal <Mtrien_IO_MDR<11>>.
+    Found 1-bit register for signal <Mtrien_IO_MDR<12>>.
+    Found 1-bit register for signal <Mtrien_IO_MDR<13>>.
+    Found 1-bit register for signal <Mtrien_IO_MDR<14>>.
+    Found 1-bit register for signal <Mtrien_IO_MDR<15>>.
+    Found 1-bit register for signal <Mtrien_IO_MDR<16>>.
+    Found 1-bit register for signal <Mtrien_IO_MDR<17>>.
+    Found 1-bit register for signal <Mtrien_IO_MDR<18>>.
+    Found 1-bit register for signal <Mtrien_IO_MDR<19>>.
+    Found 1-bit register for signal <Mtrien_IO_MDR<1>>.
+    Found 1-bit register for signal <Mtrien_IO_MDR<20>>.
+    Found 1-bit register for signal <Mtrien_IO_MDR<21>>.
+    Found 1-bit register for signal <Mtrien_IO_MDR<22>>.
+    Found 1-bit register for signal <Mtrien_IO_MDR<23>>.
+    Found 1-bit register for signal <Mtrien_IO_MDR<24>>.
+    Found 1-bit register for signal <Mtrien_IO_MDR<25>>.
+    Found 1-bit register for signal <Mtrien_IO_MDR<26>>.
+    Found 1-bit register for signal <Mtrien_IO_MDR<27>>.
+    Found 1-bit register for signal <Mtrien_IO_MDR<28>>.
+    Found 1-bit register for signal <Mtrien_IO_MDR<29>>.
+    Found 1-bit register for signal <Mtrien_IO_MDR<2>>.
+    Found 1-bit register for signal <Mtrien_IO_MDR<30>>.
+    Found 1-bit register for signal <Mtrien_IO_MDR<31>>.
+    Found 1-bit register for signal <Mtrien_IO_MDR<3>>.
+    Found 1-bit register for signal <Mtrien_IO_MDR<4>>.
+    Found 1-bit register for signal <Mtrien_IO_MDR<5>>.
+    Found 1-bit register for signal <Mtrien_IO_MDR<6>>.
+    Found 1-bit register for signal <Mtrien_IO_MDR<7>>.
+    Found 1-bit register for signal <Mtrien_IO_MDR<8>>.
+    Found 1-bit register for signal <Mtrien_IO_MDR<9>>.
+    Found 8-bit register for signal <reg_led>.
+    Summary:
+	inferred  72 D-type flip-flop(s).
+	inferred  32 Tristate(s).
+Unit <Switch_Led> synthesized.
+
+
+Synthesizing Unit <boot_rom>.
+    Related source file is "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/rom8.vhd".
+    Found 512x8-bit ROM for signal <DATA$rom0000> created at line 114.
+    Found 8-bit tristate buffer for signal <DATA>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   8 Tristate(s).
+Unit <boot_rom> synthesized.
+
+
+Synthesizing Unit <ram>.
+    Related source file is "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/ram_core.vhd".
+    Found 128x32-bit single-port RAM <Mram_ram> for signal <ram>.
+    Found 32-bit tristate buffer for signal <data>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred  32 Tristate(s).
+Unit <ram> synthesized.
+
+
+Synthesizing Unit <cpool_rom>.
+    Related source file is "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/constant_pool_rom.vhd".
+    Found 32x32-bit ROM for signal <DATA$rom0000> created at line 93.
+    Found 32-bit tristate buffer for signal <DATA>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  32 Tristate(s).
+Unit <cpool_rom> synthesized.
+
+
+Synthesizing Unit <decodifica_indirizzi>.
+    Related source file is "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/decodifica_indirizzi.vhd".
+    Found 32-bit comparator greatequal for signal <app$cmp_ge0000> created at line 73.
+    Found 32-bit comparator greatequal for signal <app$cmp_ge0001> created at line 73.
+    Found 32-bit comparator greatequal for signal <app$cmp_ge0002> created at line 73.
+    Found 32-bit comparator less for signal <app$cmp_lt0000> created at line 73.
+    Found 32-bit comparator less for signal <app$cmp_lt0001> created at line 73.
+    Summary:
+	inferred   5 Comparator(s).
+Unit <decodifica_indirizzi> synthesized.
+
+
+Synthesizing Unit <control_store>.
+    Related source file is "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/control_store.vhd".
+Unit <control_store> synthesized.
+
+
+Synthesizing Unit <oring>.
+    Related source file is "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/oring.vhd".
+Unit <oring> synthesized.
+
+
+Synthesizing Unit <mpc>.
+    Related source file is "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/mpc.vhd".
+    Found 9-bit register for signal <dout>.
+    Summary:
+	inferred   9 D-type flip-flop(s).
+Unit <mpc> synthesized.
+
+
+Synthesizing Unit <high_bit>.
+    Related source file is "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/high_bit.vhd".
+Unit <high_bit> synthesized.
+
+
+Synthesizing Unit <decoder>.
+    Related source file is "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/4to16decoder.vhd".
+    Found 1-of-16 decoder for signal <output>.
+    Summary:
+	inferred   1 Decoder(s).
+Unit <decoder> synthesized.
+
+
+Synthesizing Unit <negedge_dff>.
+    Related source file is "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/negedge_dff.vhd".
+    Found 1-bit register for signal <q>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <negedge_dff> synthesized.
+
+
+Synthesizing Unit <dff>.
+    Related source file is "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/dff.vhd".
+    Found 1-bit register for signal <q>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <dff> synthesized.
+
+
+Synthesizing Unit <shifter>.
+    Related source file is "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/shifter.vhd".
+    Found 32-bit 4-to-1 multiplexer for signal <output>.
+    Summary:
+	inferred  32 Multiplexer(s).
+Unit <shifter> synthesized.
+
+
+Synthesizing Unit <posedge_reg_enable_1>.
+    Related source file is "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/posedge_reg_enable.vhd".
+    Found 32-bit register for signal <output_reg>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <posedge_reg_enable_1> synthesized.
+
+
+Synthesizing Unit <mdr_register>.
+    Related source file is "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/mdr_register.vhd".
+    Found 32-bit register for signal <uscita_mdr>.
+    Found 32-bit 4-to-1 multiplexer for signal <select_input>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+	inferred  32 Multiplexer(s).
+Unit <mdr_register> synthesized.
+
+
+Synthesizing Unit <posedge_reg_enable_2>.
+    Related source file is "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/posedge_reg_enable.vhd".
+    Found 32-bit register for signal <output_reg>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <posedge_reg_enable_2> synthesized.
+
+
+Synthesizing Unit <posedge_reg_enable_3>.
+    Related source file is "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/posedge_reg_enable.vhd".
+    Found 32-bit register for signal <output_reg>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <posedge_reg_enable_3> synthesized.
+
+
+Synthesizing Unit <posedge_reg_enable_4>.
+    Related source file is "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/posedge_reg_enable.vhd".
+    Found 32-bit register for signal <output_reg>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <posedge_reg_enable_4> synthesized.
+
+
+Synthesizing Unit <posedge_reg_enable_5>.
+    Related source file is "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/posedge_reg_enable.vhd".
+    Found 32-bit register for signal <output_reg>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <posedge_reg_enable_5> synthesized.
+
+
+Synthesizing Unit <mbr_register>.
+    Related source file is "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/mbr.vhd".
+    Found 8-bit register for signal <memoria>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <mbr_register> synthesized.
+
+
+Synthesizing Unit <ALU>.
+    Related source file is "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/alu.vhd".
+    Found 32-bit adder for signal <a_complemento_a_uno>.
+    Found 32-bit adder for signal <a_piu_b_piu_uno_sig>.
+    Found 32-bit adder for signal <a_piu_b_sig$add0000> created at line 142.
+    Found 32-bit adder for signal <a_piu_uno>.
+    Found 32-bit subtractor for signal <b_meno_a>.
+    Found 32-bit subtractor for signal <b_meno_uno>.
+    Found 32-bit adder for signal <b_piu_uno>.
+    Summary:
+	inferred   7 Adder/Subtractor(s).
+Unit <ALU> synthesized.
+
+
+Synthesizing Unit <neg_edge_reg>.
+    Related source file is "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/neg_edge_reg.vhd".
+    Found 9-bit register for signal <output>.
+    Summary:
+	inferred   9 D-type flip-flop(s).
+Unit <neg_edge_reg> synthesized.
+
+
+Synthesizing Unit <divisore_freq>.
+    Related source file is "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/divisore.vhd".
+WARNING:Xst:646 - Signal <STATUS_s> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <RST_s> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <PSINCDEC_s> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <PSEN_s> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:646 - Signal <PSDONE_s> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <PSCLK_s> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:646 - Signal <LOCKED_s> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <CLKIN_s> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <CLKFX_S> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <CLKFX180_s> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <CLKFB_s> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <CLKDV_s> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <CLK90_s> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <CLK2X_s> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <CLK2X180_s> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <CLK270_s> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <CLK180_s> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <CLK0_s> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <divisore_freq> synthesized.
+
+
+Synthesizing Unit <parte_di_controllo>.
+    Related source file is "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/pc.vhd".
+WARNING:Xst:646 - Signal <lineedec_appese> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <parte_di_controllo> synthesized.
+
+
+Synthesizing Unit <parte_operativa>.
+    Related source file is "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/parte_operativa.vhd".
+WARNING:Xst:1780 - Signal <wwrite_ritardato_intermedio> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <wr_sig> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <wcbtr_mdr_sig> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <rread_ritardato_intermedio> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <rd_sig> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <input> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <fi2_sig> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <fi1_sig> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <fe_sig> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found 32-bit tristate buffer for signal <inguscita_mdr>.
+    Summary:
+	inferred  32 Tristate(s).
+Unit <parte_operativa> synthesized.
+
+
+Synthesizing Unit <mic1>.
+    Related source file is "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/mic1.vhd".
+WARNING:Xst:646 - Signal <uscita_mar_sig<31:30>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <mic1> synthesized.
+
+
+Synthesizing Unit <sistema_mic1>.
+    Related source file is "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.vhd".
+WARNING:Xst:646 - Signal <uscita_pc_sig<31:9>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <leds_sig> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <DATA_sig> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <CE_sig> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <sistema_mic1> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 128x32-bit single-port RAM                            : 1
+# ROMs                                                 : 2
+ 32x32-bit ROM                                         : 1
+ 512x8-bit ROM                                         : 1
+# Adders/Subtractors                                   : 7
+ 32-bit adder                                          : 5
+ 32-bit subtractor                                     : 2
+# Registers                                            : 81
+ 1-bit register                                        : 68
+ 32-bit register                                       : 9
+ 8-bit register                                        : 2
+ 9-bit register                                        : 2
+# Comparators                                          : 5
+ 32-bit comparator greatequal                          : 3
+ 32-bit comparator less                                : 2
+# Multiplexers                                         : 2
+ 32-bit 4-to-1 multiplexer                             : 2
+# Decoders                                             : 1
+ 1-of-16 decoder                                       : 1
+# Tristates                                            : 36
+ 1-bit tristate buffer                                 : 32
+ 32-bit tristate buffer                                : 3
+ 8-bit tristate buffer                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+INFO:Xst:2261 - The FF/Latch <Mtridata_IO_MDR<10>> in Unit <Inst_Switch_Led> is equivalent to the following 23 FFs/Latches, which will be removed : <Mtridata_IO_MDR<11>> <Mtridata_IO_MDR<12>> <Mtridata_IO_MDR<13>> <Mtridata_IO_MDR<14>> <Mtridata_IO_MDR<20>> <Mtridata_IO_MDR<15>> <Mtridata_IO_MDR<21>> <Mtridata_IO_MDR<16>> <Mtridata_IO_MDR<22>> <Mtridata_IO_MDR<17>> <Mtridata_IO_MDR<23>> <Mtridata_IO_MDR<18>> <Mtridata_IO_MDR<24>> <Mtridata_IO_MDR<19>> <Mtridata_IO_MDR<30>> <Mtridata_IO_MDR<25>> <Mtridata_IO_MDR<8>> <Mtridata_IO_MDR<31>> <Mtridata_IO_MDR<26>> <Mtridata_IO_MDR<28>> <Mtridata_IO_MDR<27>> <Mtridata_IO_MDR<9>> <Mtridata_IO_MDR<29>> 
+WARNING:Xst:638 - in unit Inst_Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<11> Mtridata_IO_MDR<11> signal will be lost.
+WARNING:Xst:638 - in unit Inst_Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<12> Mtridata_IO_MDR<12> signal will be lost.
+WARNING:Xst:638 - in unit Inst_Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<13> Mtridata_IO_MDR<13> signal will be lost.
+WARNING:Xst:638 - in unit Inst_Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<14> Mtridata_IO_MDR<14> signal will be lost.
+WARNING:Xst:638 - in unit Inst_Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<20> Mtridata_IO_MDR<20> signal will be lost.
+WARNING:Xst:638 - in unit Inst_Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<15> Mtridata_IO_MDR<15> signal will be lost.
+WARNING:Xst:638 - in unit Inst_Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<21> Mtridata_IO_MDR<21> signal will be lost.
+WARNING:Xst:638 - in unit Inst_Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<16> Mtridata_IO_MDR<16> signal will be lost.
+WARNING:Xst:638 - in unit Inst_Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<22> Mtridata_IO_MDR<22> signal will be lost.
+WARNING:Xst:638 - in unit Inst_Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<17> Mtridata_IO_MDR<17> signal will be lost.
+WARNING:Xst:638 - in unit Inst_Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<23> Mtridata_IO_MDR<23> signal will be lost.
+WARNING:Xst:638 - in unit Inst_Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<18> Mtridata_IO_MDR<18> signal will be lost.
+WARNING:Xst:638 - in unit Inst_Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<24> Mtridata_IO_MDR<24> signal will be lost.
+WARNING:Xst:638 - in unit Inst_Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<19> Mtridata_IO_MDR<19> signal will be lost.
+WARNING:Xst:638 - in unit Inst_Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<30> Mtridata_IO_MDR<30> signal will be lost.
+WARNING:Xst:638 - in unit Inst_Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<25> Mtridata_IO_MDR<25> signal will be lost.
+WARNING:Xst:638 - in unit Inst_Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<8> Mtridata_IO_MDR<8> signal will be lost.
+WARNING:Xst:638 - in unit Inst_Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<31> Mtridata_IO_MDR<31> signal will be lost.
+WARNING:Xst:638 - in unit Inst_Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<26> Mtridata_IO_MDR<26> signal will be lost.
+WARNING:Xst:638 - in unit Inst_Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<28> Mtridata_IO_MDR<28> signal will be lost.
+WARNING:Xst:638 - in unit Inst_Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<27> Mtridata_IO_MDR<27> signal will be lost.
+WARNING:Xst:638 - in unit Inst_Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<9> Mtridata_IO_MDR<9> signal will be lost.
+WARNING:Xst:638 - in unit Inst_Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<29> Mtridata_IO_MDR<29> signal will be lost.
+WARNING:Xst:1293 - FF/Latch <output_reg_16> has a constant value of 0 in block <cpp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <output_reg_17> has a constant value of 0 in block <cpp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <output_reg_18> has a constant value of 0 in block <cpp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <output_reg_19> has a constant value of 0 in block <cpp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <output_reg_20> has a constant value of 0 in block <cpp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <output_reg_21> has a constant value of 0 in block <cpp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <output_reg_22> has a constant value of 0 in block <cpp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <output_reg_23> has a constant value of 0 in block <cpp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <output_reg_24> has a constant value of 0 in block <cpp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <output_reg_25> has a constant value of 0 in block <cpp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <output_reg_26> has a constant value of 0 in block <cpp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <output_reg_27> has a constant value of 0 in block <cpp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <output_reg_28> has a constant value of 0 in block <cpp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <output_reg_29> has a constant value of 0 in block <cpp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <output_reg_30> has a constant value of 0 in block <cpp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <output_reg_31> has a constant value of 0 in block <cpp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <output_6> has a constant value of 0 in block <Inst_neg_edge_reg>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Mtridata_IO_MDR<10>> (without init value) has a constant value of 0 in block <Inst_Switch_Led>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <output_reg_0> has a constant value of 0 in block <cpp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <output_reg_1> has a constant value of 0 in block <cpp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <output_reg_2> has a constant value of 0 in block <cpp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <output_reg_3> has a constant value of 0 in block <cpp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <output_reg_4> has a constant value of 0 in block <cpp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <output_reg_5> has a constant value of 0 in block <cpp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <output_reg_6> has a constant value of 0 in block <cpp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <output_reg_7> has a constant value of 0 in block <cpp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <output_reg_8> has a constant value of 0 in block <cpp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <output_reg_9> has a constant value of 0 in block <cpp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <output_reg_10> has a constant value of 0 in block <cpp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <output_reg_11> has a constant value of 0 in block <cpp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <output_reg_12> has a constant value of 0 in block <cpp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <output_reg_13> has a constant value of 0 in block <cpp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <output_reg_14> has a constant value of 1 in block <cpp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <output_reg_15> has a constant value of 0 in block <cpp>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <output_reg_30> of sequential type is unconnected in block <mar>.
+WARNING:Xst:2677 - Node <output_reg_31> of sequential type is unconnected in block <mar>.
+WARNING:Xst:2677 - Node <output_0> of sequential type is unconnected in block <Inst_neg_edge_reg>.
+WARNING:Xst:1290 - Hierarchical block <cpp> is unconnected in block <Inst_parte_operativa>.
+   It will be removed from the design.
+
+Synthesizing (advanced) Unit <ram>.
+INFO:Xst:3216 - HDL ADVISOR - LUT implementation is currently selected for the RAM <Mram_ram>. If you want the register to be removed and the RAM to be implemented as block RAM, please change the RAM implementation style accordingly.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 128-word x 32-bit                   |          |
+    |     clkA           | connected to signal <ck>            | rise     |
+    |     weA            | connected to signal <_and0000>      | high     |
+    |     addrA          | connected to signal <addr>          |          |
+    |     diA            | connected to signal <data>          |          |
+    |     doA            | connected to signal <data_sig>      |          |
+    -----------------------------------------------------------------------
+Unit <ram> synthesized (advanced).
+
+Synthesizing (advanced) Unit <sistema_mic1>.
+INFO:Xst:3044 - The ROM <Inst_cpool_rom/Mrom_DATA_rom0000> will be implemented as a read-only BLOCK RAM, absorbing the register: <Inst_mic1/Inst_parte_operativa/mar/output_reg>.
+INFO:Xst:3225 - The RAM <Inst_cpool_rom/Mrom_DATA_rom0000> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 32-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <ck_signal>     | rise     |
+    |     enA            | connected to signal <Inst_mic1/Inst_parte_operativa/wcbtr_mar_sig> | high     |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <Inst_mic1/Inst_parte_operativa/c_bus> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <sistema_mic1> synthesized (advanced).
+WARNING:Xst:2677 - Node <Inst_mic1/Inst_parte_operativa/mar/output_reg_30> of sequential type is unconnected in block <sistema_mic1>.
+WARNING:Xst:2677 - Node <Inst_mic1/Inst_parte_operativa/mar/output_reg_31> of sequential type is unconnected in block <sistema_mic1>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 128x32-bit single-port distributed RAM                : 1
+ 32x32-bit single-port block RAM                       : 1
+# ROMs                                                 : 1
+ 512x8-bit ROM                                         : 1
+# Adders/Subtractors                                   : 7
+ 32-bit adder                                          : 5
+ 32-bit subtractor                                     : 2
+# Registers                                            : 388
+ Flip-Flops                                            : 388
+# Comparators                                          : 5
+ 32-bit comparator greatequal                          : 3
+ 32-bit comparator less                                : 2
+# Multiplexers                                         : 2
+ 32-bit 4-to-1 multiplexer                             : 2
+# Decoders                                             : 1
+ 1-of-16 decoder                                       : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <Mtridata_IO_MDR<29>> (without init value) has a constant value of 0 in block <Switch_Led>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mtridata_IO_MDR<28>> (without init value) has a constant value of 0 in block <Switch_Led>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mtridata_IO_MDR<27>> (without init value) has a constant value of 0 in block <Switch_Led>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mtridata_IO_MDR<8>> (without init value) has a constant value of 0 in block <Switch_Led>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mtridata_IO_MDR<9>> (without init value) has a constant value of 0 in block <Switch_Led>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mtridata_IO_MDR<31>> (without init value) has a constant value of 0 in block <Switch_Led>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mtridata_IO_MDR<25>> (without init value) has a constant value of 0 in block <Switch_Led>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mtridata_IO_MDR<26>> (without init value) has a constant value of 0 in block <Switch_Led>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mtridata_IO_MDR<19>> (without init value) has a constant value of 0 in block <Switch_Led>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mtridata_IO_MDR<24>> (without init value) has a constant value of 0 in block <Switch_Led>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mtridata_IO_MDR<30>> (without init value) has a constant value of 0 in block <Switch_Led>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mtridata_IO_MDR<23>> (without init value) has a constant value of 0 in block <Switch_Led>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mtridata_IO_MDR<17>> (without init value) has a constant value of 0 in block <Switch_Led>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mtridata_IO_MDR<18>> (without init value) has a constant value of 0 in block <Switch_Led>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mtridata_IO_MDR<16>> (without init value) has a constant value of 0 in block <Switch_Led>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mtridata_IO_MDR<21>> (without init value) has a constant value of 0 in block <Switch_Led>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mtridata_IO_MDR<22>> (without init value) has a constant value of 0 in block <Switch_Led>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mtridata_IO_MDR<20>> (without init value) has a constant value of 0 in block <Switch_Led>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mtridata_IO_MDR<14>> (without init value) has a constant value of 0 in block <Switch_Led>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mtridata_IO_MDR<15>> (without init value) has a constant value of 0 in block <Switch_Led>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mtridata_IO_MDR<13>> (without init value) has a constant value of 0 in block <Switch_Led>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mtridata_IO_MDR<12>> (without init value) has a constant value of 0 in block <Switch_Led>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mtridata_IO_MDR<11>> (without init value) has a constant value of 0 in block <Switch_Led>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Mtridata_IO_MDR<10>> (without init value) has a constant value of 0 in block <Switch_Led>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:638 - in unit Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<11> Mtridata_IO_MDR<11> signal will be lost.
+WARNING:Xst:638 - in unit Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<12> Mtridata_IO_MDR<12> signal will be lost.
+WARNING:Xst:638 - in unit Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<13> Mtridata_IO_MDR<13> signal will be lost.
+WARNING:Xst:638 - in unit Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<15> Mtridata_IO_MDR<15> signal will be lost.
+WARNING:Xst:638 - in unit Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<14> Mtridata_IO_MDR<14> signal will be lost.
+WARNING:Xst:638 - in unit Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<20> Mtridata_IO_MDR<20> signal will be lost.
+WARNING:Xst:638 - in unit Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<22> Mtridata_IO_MDR<22> signal will be lost.
+WARNING:Xst:638 - in unit Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<21> Mtridata_IO_MDR<21> signal will be lost.
+WARNING:Xst:638 - in unit Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<16> Mtridata_IO_MDR<16> signal will be lost.
+WARNING:Xst:638 - in unit Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<18> Mtridata_IO_MDR<18> signal will be lost.
+WARNING:Xst:638 - in unit Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<17> Mtridata_IO_MDR<17> signal will be lost.
+WARNING:Xst:638 - in unit Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<23> Mtridata_IO_MDR<23> signal will be lost.
+WARNING:Xst:638 - in unit Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<30> Mtridata_IO_MDR<30> signal will be lost.
+WARNING:Xst:638 - in unit Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<24> Mtridata_IO_MDR<24> signal will be lost.
+WARNING:Xst:638 - in unit Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<19> Mtridata_IO_MDR<19> signal will be lost.
+WARNING:Xst:638 - in unit Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<26> Mtridata_IO_MDR<26> signal will be lost.
+WARNING:Xst:638 - in unit Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<25> Mtridata_IO_MDR<25> signal will be lost.
+WARNING:Xst:638 - in unit Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<31> Mtridata_IO_MDR<31> signal will be lost.
+WARNING:Xst:638 - in unit Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<9> Mtridata_IO_MDR<9> signal will be lost.
+WARNING:Xst:638 - in unit Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<8> Mtridata_IO_MDR<8> signal will be lost.
+WARNING:Xst:638 - in unit Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<27> Mtridata_IO_MDR<27> signal will be lost.
+WARNING:Xst:638 - in unit Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<28> Mtridata_IO_MDR<28> signal will be lost.
+WARNING:Xst:638 - in unit Switch_Led Conflict on KEEP property on signal Mtridata_IO_MDR<10> and Mtridata_IO_MDR<29> Mtridata_IO_MDR<29> signal will be lost.
+WARNING:Xst:2040 - Unit sistema_mic1: 32 multi-source signals are replaced by logic (pull-up yes): io_mdr_sig<0>, io_mdr_sig<10>, io_mdr_sig<11>, io_mdr_sig<12>, io_mdr_sig<13>, io_mdr_sig<14>, io_mdr_sig<15>, io_mdr_sig<16>, io_mdr_sig<17>, io_mdr_sig<18>, io_mdr_sig<19>, io_mdr_sig<1>, io_mdr_sig<20>, io_mdr_sig<21>, io_mdr_sig<22>, io_mdr_sig<23>, io_mdr_sig<24>, io_mdr_sig<25>, io_mdr_sig<26>, io_mdr_sig<27>, io_mdr_sig<28>, io_mdr_sig<29>, io_mdr_sig<2>, io_mdr_sig<30>, io_mdr_sig<31>, io_mdr_sig<3>, io_mdr_sig<4>, io_mdr_sig<5>, io_mdr_sig<6>, io_mdr_sig<7>, io_mdr_sig<8>, io_mdr_sig<9>.
+WARNING:Xst:2042 - Unit ram: 32 internal tristates are replaced by logic (pull-up yes): data<0>, data<10>, data<11>, data<12>, data<13>, data<14>, data<15>, data<16>, data<17>, data<18>, data<19>, data<1>, data<20>, data<21>, data<22>, data<23>, data<24>, data<25>, data<26>, data<27>, data<28>, data<29>, data<2>, data<30>, data<31>, data<3>, data<4>, data<5>, data<6>, data<7>, data<8>, data<9>.
+WARNING:Xst:2042 - Unit boot_rom: 8 internal tristates are replaced by logic (pull-up yes): DATA<0>, DATA<1>, DATA<2>, DATA<3>, DATA<4>, DATA<5>, DATA<6>, DATA<7>.
+WARNING:Xst:2042 - Unit Switch_Led: 32 internal tristates are replaced by logic (pull-up yes): IO_MDR<0>, IO_MDR<10>, IO_MDR<11>, IO_MDR<12>, IO_MDR<13>, IO_MDR<14>, IO_MDR<15>, IO_MDR<16>, IO_MDR<17>, IO_MDR<18>, IO_MDR<19>, IO_MDR<1>, IO_MDR<20>, IO_MDR<21>, IO_MDR<22>, IO_MDR<23>, IO_MDR<24>, IO_MDR<25>, IO_MDR<26>, IO_MDR<27>, IO_MDR<28>, IO_MDR<29>, IO_MDR<2>, IO_MDR<30>, IO_MDR<31>, IO_MDR<3>, IO_MDR<4>, IO_MDR<5>, IO_MDR<6>, IO_MDR<7>, IO_MDR<8>, IO_MDR<9>.
+
+Optimizing unit <sistema_mic1> ...
+
+Optimizing unit <control_store> ...
+
+Optimizing unit <boot_rom> ...
+
+Optimizing unit <mpc> ...
+
+Optimizing unit <mdr_register> ...
+
+Optimizing unit <posedge_reg_enable_2> ...
+
+Optimizing unit <posedge_reg_enable_3> ...
+
+Optimizing unit <posedge_reg_enable_4> ...
+
+Optimizing unit <posedge_reg_enable_5> ...
+
+Optimizing unit <mbr_register> ...
+
+Optimizing unit <ALU> ...
+
+Optimizing unit <neg_edge_reg> ...
+WARNING:Xst:1293 - FF/Latch <Inst_mic1/Inst_parte_operativa/Inst_neg_edge_reg/output_6> has a constant value of 0 in block <sistema_mic1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_mic1/Inst_parte_operativa/cpp/output_reg_0> has a constant value of 0 in block <sistema_mic1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_mic1/Inst_parte_operativa/cpp/output_reg_1> has a constant value of 0 in block <sistema_mic1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_mic1/Inst_parte_operativa/cpp/output_reg_2> has a constant value of 0 in block <sistema_mic1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_mic1/Inst_parte_operativa/cpp/output_reg_3> has a constant value of 0 in block <sistema_mic1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_mic1/Inst_parte_operativa/cpp/output_reg_4> has a constant value of 0 in block <sistema_mic1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_mic1/Inst_parte_operativa/cpp/output_reg_5> has a constant value of 0 in block <sistema_mic1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_mic1/Inst_parte_operativa/cpp/output_reg_6> has a constant value of 0 in block <sistema_mic1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_mic1/Inst_parte_operativa/cpp/output_reg_7> has a constant value of 0 in block <sistema_mic1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_mic1/Inst_parte_operativa/cpp/output_reg_8> has a constant value of 0 in block <sistema_mic1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_mic1/Inst_parte_operativa/cpp/output_reg_9> has a constant value of 0 in block <sistema_mic1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_mic1/Inst_parte_operativa/cpp/output_reg_10> has a constant value of 0 in block <sistema_mic1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_mic1/Inst_parte_operativa/cpp/output_reg_11> has a constant value of 0 in block <sistema_mic1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_mic1/Inst_parte_operativa/cpp/output_reg_12> has a constant value of 0 in block <sistema_mic1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_mic1/Inst_parte_operativa/cpp/output_reg_13> has a constant value of 0 in block <sistema_mic1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_mic1/Inst_parte_operativa/cpp/output_reg_14> has a constant value of 1 in block <sistema_mic1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_mic1/Inst_parte_operativa/cpp/output_reg_31> has a constant value of 0 in block <sistema_mic1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_mic1/Inst_parte_operativa/cpp/output_reg_30> has a constant value of 0 in block <sistema_mic1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_mic1/Inst_parte_operativa/cpp/output_reg_29> has a constant value of 0 in block <sistema_mic1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_mic1/Inst_parte_operativa/cpp/output_reg_28> has a constant value of 0 in block <sistema_mic1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_mic1/Inst_parte_operativa/cpp/output_reg_27> has a constant value of 0 in block <sistema_mic1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_mic1/Inst_parte_operativa/cpp/output_reg_26> has a constant value of 0 in block <sistema_mic1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_mic1/Inst_parte_operativa/cpp/output_reg_25> has a constant value of 0 in block <sistema_mic1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_mic1/Inst_parte_operativa/cpp/output_reg_24> has a constant value of 0 in block <sistema_mic1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_mic1/Inst_parte_operativa/cpp/output_reg_23> has a constant value of 0 in block <sistema_mic1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_mic1/Inst_parte_operativa/cpp/output_reg_22> has a constant value of 0 in block <sistema_mic1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_mic1/Inst_parte_operativa/cpp/output_reg_21> has a constant value of 0 in block <sistema_mic1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_mic1/Inst_parte_operativa/cpp/output_reg_20> has a constant value of 0 in block <sistema_mic1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_mic1/Inst_parte_operativa/cpp/output_reg_19> has a constant value of 0 in block <sistema_mic1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_mic1/Inst_parte_operativa/cpp/output_reg_18> has a constant value of 0 in block <sistema_mic1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_mic1/Inst_parte_operativa/cpp/output_reg_17> has a constant value of 0 in block <sistema_mic1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_mic1/Inst_parte_operativa/cpp/output_reg_16> has a constant value of 0 in block <sistema_mic1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_mic1/Inst_parte_operativa/cpp/output_reg_15> has a constant value of 0 in block <sistema_mic1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <Inst_mic1/Inst_parte_operativa/Inst_neg_edge_reg/output_0> of sequential type is unconnected in block <sistema_mic1>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block sistema_mic1, actual ratio is 41.
+INFO:Xst:2260 - The FF/Latch <Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_ena_cmp_eq01081_SW0_FRB> in Unit <sistema_mic1> is equivalent to the following FF/Latch : <Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_ena_cmp_eq00451_SW0_FRB> 
+INFO:Xst:2261 - The FF/Latch <Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_ena_cmp_eq01081_SW0_FRB> in Unit <sistema_mic1> is equivalent to the following FF/Latch, which will be removed : <Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_ena_cmp_eq00451_SW0_FRB> 
+
+Pipelining and Register Balancing Report ...
+
+Processing Unit <sistema_mic1> :
+	Register(s) Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus_or0009503_FRB Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_3 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_6 Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus_or0009456_FRB has(ve) been forward balanced into : Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus_or0009551_FRB.
+	Register(s) Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_ena_cmp_eq001611_FRB Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_ena_cmp_eq0058111_FRB Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_6 Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus_or00091111_FRB has(ve) been forward balanced into : Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus_or00057_SW0_FRB.
+	Register(s) Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_0 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_1 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_7 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_2 has(ve) been forward balanced into : Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_ena_cmp_eq01051_SW0_FRB.
+	Register(s) Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_0 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_2 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_1 has(ve) been forward balanced into : Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_ena_cmp_eq000021_FRB.
+	Register(s) Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_0 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_2 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_1 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_4 has(ve) been forward balanced into : Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus_or0009359_SW0_FRB.
+	Register(s) Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_0 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_2 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_7 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_1 has(ve) been forward balanced into : Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_ena_cmp_eq01081_SW0_FRB.
+	Register(s) Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_1 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_0 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_2 has(ve) been forward balanced into : Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_ena_cmp_eq012011_FRB.
+	Register(s) Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_1 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_0 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_7 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_2 has(ve) been forward balanced into : Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_ena_cmp_eq01151_SW0_FRB.
+	Register(s) Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_1 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_2 has(ve) been forward balanced into : Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus_or0009171_FRB.
+	Register(s) Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_1 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_2 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_0 has(ve) been forward balanced into : Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_ena_cmp_eq000211_FRB.
+	Register(s) Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_1 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_2 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_0 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_7 has(ve) been forward balanced into : Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_ena_cmp_eq00151_SW0_FRB.
+	Register(s) Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_1 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_2 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_4 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_0 has(ve) been forward balanced into : Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_ena_cmp_eq00361_SW0_FRB.
+	Register(s) Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_1 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_2 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_6 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_4 has(ve) been forward balanced into : Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus_or0009379_FRB.
+	Register(s) Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_1 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_6 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_0 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_2 has(ve) been forward balanced into : Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_ena_cmp_eq00121_SW0_FRB.
+	Register(s) Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_2 Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus_or0009259_SW0_FRB Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_5 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_3 has(ve) been forward balanced into : Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus_or0009259_FRB.
+	Register(s) Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_2 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_0 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_1 has(ve) been forward balanced into : Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_ena_cmp_eq012411_FRB.
+	Register(s) Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_2 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_1 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_0 has(ve) been forward balanced into : Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus_or00091111_FRB.
+	Register(s) Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_2 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_1 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_0 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_7 has(ve) been forward balanced into : Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_ena_cmp_eq01111_SW0_FRB.
+	Register(s) Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_2 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_3 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_1 Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus_or0009181_FRB has(ve) been forward balanced into : Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus_or0009238_SW0_FRB.
+	Register(s) Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_2 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_3 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_1 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_5 has(ve) been forward balanced into : Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus_or00094_FRB.
+	Register(s) Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_2 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_3 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_7 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_1 has(ve) been forward balanced into : Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus_or00025_SW0_SW0_FRB.
+	Register(s) Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_3 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_2 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_1 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_0 has(ve) been forward balanced into : Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus_or000222_SW0_FRB.
+	Register(s) Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_3 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_4 has(ve) been forward balanced into : Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus_or0009611_FRB.
+	Register(s) Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_3 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_6 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_5 has(ve) been forward balanced into : Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus_or00091131_FRB.
+	Register(s) Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_4 Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_ena_cmp_eq001411_FRB Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_7 has(ve) been forward balanced into : Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus_or00025_SW0_SW2_FRB.
+	Register(s) Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_5 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_0 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_2 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_4 has(ve) been forward balanced into : Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus_or0009373_FRB.
+	Register(s) Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_5 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_6 Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_ena_cmp_eq00451_SW0_FRB Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_ena_cmp_eq01111_SW0_FRB has(ve) been forward balanced into : Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus_or00079_SW0_FRB.
+	Register(s) Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_6 Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus_or0009129_FRB Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_3 Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus_or0009109_FRB has(ve) been forward balanced into : Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus_or0009148_FRB.
+	Register(s) Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_6 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_0 Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus_or0009430_SW0_FRB Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus_or0009430_SW1_FRB has(ve) been forward balanced into : Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus_or0009430_FRB.
+	Register(s) Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_6 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_3 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_2 Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus_or000924_SW0_FRB has(ve) been forward balanced into : Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus_or000924_FRB.
+	Register(s) Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_6 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_5 has(ve) been forward balanced into : Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus_or0009181_FRB.
+	Register(s) Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_7 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_5 has(ve) been forward balanced into : Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_ena_cmp_eq0058111_FRB.
+	Register(s) Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_7 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_6 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_5 Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_4 has(ve) been forward balanced into : Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_ena_cmp_eq007021_FRB.
+	Register(s) Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_10 has(ve) been backward balanced into : Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_10_BRB1 Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_10_BRB2.
+	Register(s) Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_11 has(ve) been backward balanced into : Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_11_BRB1 Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_11_BRB2.
+	Register(s) Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_12 has(ve) been backward balanced into : Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_12_BRB1 Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_12_BRB2.
+	Register(s) Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_13 has(ve) been backward balanced into : Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_13_BRB1 Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_13_BRB2.
+	Register(s) Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_14 has(ve) been backward balanced into : Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_14_BRB1 Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_14_BRB2.
+	Register(s) Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_15 has(ve) been backward balanced into : Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_15_BRB1 Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_15_BRB2.
+	Register(s) Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_16 has(ve) been backward balanced into : Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_16_BRB1 Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_16_BRB2.
+	Register(s) Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_17 has(ve) been backward balanced into : Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_17_BRB1 Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_17_BRB2.
+	Register(s) Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_18 has(ve) been backward balanced into : Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_18_BRB1 Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_18_BRB2.
+	Register(s) Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_19 has(ve) been backward balanced into : Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_19_BRB1 Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_19_BRB2.
+	Register(s) Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_2 has(ve) been backward balanced into : Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_2_BRB1 Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_2_BRB2.
+	Register(s) Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_20 has(ve) been backward balanced into : Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_20_BRB1 Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_20_BRB2.
+	Register(s) Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_21 has(ve) been backward balanced into : Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_21_BRB1 Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_21_BRB2.
+	Register(s) Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_22 has(ve) been backward balanced into : Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_22_BRB1 Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_22_BRB2.
+	Register(s) Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_23 has(ve) been backward balanced into : Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_23_BRB1 Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_23_BRB2.
+	Register(s) Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_24 has(ve) been backward balanced into : Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_24_BRB1 Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_24_BRB2.
+	Register(s) Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_25 has(ve) been backward balanced into : Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_25_BRB1 Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_25_BRB2.
+	Register(s) Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_26 has(ve) been backward balanced into : Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_26_BRB1 Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_26_BRB2.
+	Register(s) Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_27 has(ve) been backward balanced into : Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_27_BRB1 Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_27_BRB2.
+	Register(s) Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_28 has(ve) been backward balanced into : Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_28_BRB1 Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_28_BRB2.
+	Register(s) Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_29 has(ve) been backward balanced into : Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_29_BRB1 Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_29_BRB2.
+	Register(s) Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_3 has(ve) been backward balanced into : Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_3_BRB1 Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_3_BRB2.
+	Register(s) Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_30 has(ve) been backward balanced into : Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_30_BRB1 Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_30_BRB2.
+	Register(s) Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_31 has(ve) been backward balanced into : Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_31_BRB0 Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_31_BRB1 Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_31_BRB2.
+	Register(s) Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_4 has(ve) been backward balanced into : Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_4_BRB1 Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_4_BRB2.
+	Register(s) Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_6 has(ve) been backward balanced into : Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_6_BRB1 Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_6_BRB2 .
+	Register(s) Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_7 has(ve) been backward balanced into : Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_7_BRB1 Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_7_BRB2 Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_7_BRB3.
+	Register(s) Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_8 has(ve) been backward balanced into : Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_8_BRB1 Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_8_BRB2.
+	Register(s) Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_9 has(ve) been backward balanced into : Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_9_BRB1 Inst_mic1/Inst_parte_operativa/Inst_mdr_register/uscita_mdr_9_BRB2.
+Unit <sistema_mic1> processed.
+FlipFlop Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_3 has been replicated 1 time(s)
+FlipFlop Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_4 has been replicated 1 time(s)
+FlipFlop Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_5 has been replicated 1 time(s)
+FlipFlop Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_6 has been replicated 1 time(s)
+FlipFlop Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_7 has been replicated 1 time(s)
+FlipFlop Inst_mic1/Inst_parte_operativa/mar/output_reg_0 has been replicated 1 time(s)
+FlipFlop Inst_mic1/Inst_parte_operativa/mar/output_reg_1 has been replicated 1 time(s)
+FlipFlop Inst_mic1/Inst_parte_operativa/mar/output_reg_2 has been replicated 1 time(s)
+FlipFlop Inst_mic1/Inst_parte_operativa/mar/output_reg_3 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+Processing Unit <sistema_mic1> :
+	Found 2-bit shift register for signal <Inst_mic1/Inst_parte_operativa/Inst_negedge_dff4/q>.
+Unit <sistema_mic1> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 406
+ Flip-Flops                                            : 406
+# Shift Registers                                      : 1
+ 2-bit shift register                                  : 1
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : sistema_mic1.ngr
+Top Level Output File Name         : sistema_mic1
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 19
+
+Cell Usage :
+# BELS                             : 2432
+#      GND                         : 1
+#      INV                         : 34
+#      LUT1                        : 66
+#      LUT2                        : 127
+#      LUT2_D                      : 6
+#      LUT2_L                      : 8
+#      LUT3                        : 206
+#      LUT3_D                      : 38
+#      LUT3_L                      : 16
+#      LUT4                        : 966
+#      LUT4_D                      : 79
+#      LUT4_L                      : 81
+#      MUXCY                       : 506
+#      MUXF5                       : 73
+#      VCC                         : 1
+#      XORCY                       : 224
+# FlipFlops/Latches                : 407
+#      FD                          : 53
+#      FD_1                        : 5
+#      FDE                         : 297
+#      FDE_1                       : 32
+#      FDR_1                       : 16
+#      FDS                         : 1
+#      FDS_1                       : 3
+# RAMS                             : 129
+#      RAM32X1S                    : 128
+#      RAMB16_S36                  : 1
+# Shift Registers                  : 1
+#      SRL16_1                     : 1
+# Clock Buffers                    : 1
+#      BUFG                        : 1
+# IO Buffers                       : 18
+#      IBUF                        : 9
+#      IBUFG                       : 1
+#      OBUF                        : 8
+# DCMs                             : 1
+#      DCM_SP                      : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s250etq144-5 
+
+ Number of Slices:                      992  out of   2448    40%  
+ Number of Slice Flip Flops:            407  out of   4896     8%  
+ Number of 4 input LUTs:               1884  out of   4896    38%  
+    Number used as logic:              1627
+    Number used as Shift registers:       1
+    Number used as RAMs:                256
+ Number of IOs:                          19
+ Number of bonded IOBs:                  18  out of    108    16%  
+ Number of BRAMs:                         1  out of     12     8%  
+ Number of GCLKs:                         1  out of     24     4%  
+ Number of DCMs:                          1  out of      4    25%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+-------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)               | Load  |
+-----------------------------------+-------------------------------------+-------+
+ck                                 | Inst_divisore_freq/DCM_SP_inst:CLKDV| 537   |
+-----------------------------------+-------------------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 4.412ns (Maximum Frequency: 226.657MHz)
+   Minimum input arrival time before clock: 4.106ns
+   Maximum output required time after clock: 4.040ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ck'
+  Clock period: 4.412ns (frequency: 226.657MHz)
+  Total number of paths / destination ports: 611108272 / 1651
+-------------------------------------------------------------------------
+Delay:               22.060ns (Levels of Logic = 41)
+  Source:            Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_8 (FF)
+  Destination:       Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_8 (FF)
+  Source Clock:      ck rising 0.2X
+  Destination Clock: ck rising 0.2X
+
+  Data Path: Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_8 to Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_8
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDS:C->Q             27   0.514   1.224  Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_8 (Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_8)
+     LUT3_D:I0->O         32   0.612   1.076  Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_ena_cmp_eq000011 (Inst_mic1/Inst_parte_di_controllo/Inst_control_store/N9)
+     LUT4:I3->O            8   0.612   0.673  Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_ena_cmp_eq00151 (Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_ena_cmp_eq0015)
+     LUT4:I2->O            1   0.612   0.360  Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus_or000521 (Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus_or000521)
+     LUT4:I3->O            5   0.612   0.568  Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus_or000530 (Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus_or0005)
+     LUT4:I2->O            1   0.612   0.000  Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus<2>_wg_lut<5> (Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus<2>_wg_lut<5>)
+     MUXCY:S->O            1   0.404   0.000  Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus<2>_wg_cy<5> (Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus<2>_wg_cy<5>)
+     MUXCY:CI->O         134   0.399   1.252  Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus<2>_wg_cy<6> (Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_b_bus<2>_wg_cy<6>)
+     LUT3:I0->O            4   0.612   0.568  Inst_mic1/Inst_parte_operativa/b_bus<0>41 (N34)
+     LUT4:I1->O            3   0.612   0.454  Inst_mic1/Inst_parte_operativa/b_bus<0>16 (Inst_mic1/Inst_parte_operativa/b_bus<0>16)
+     LUT4:I3->O            4   0.612   0.568  Inst_mic1/Inst_parte_operativa/b_bus<0>124 (Inst_mic1/Inst_parte_operativa/b_bus<0>)
+     LUT2:I1->O            1   0.612   0.000  Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_lut<0> (Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_lut<0>)
+     MUXCY:S->O            1   0.404   0.000  Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<0> (Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<0>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<1> (Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<2> (Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<3> (Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<4> (Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<5> (Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<6> (Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<7> (Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<7>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<8> (Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<8>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<9> (Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<9>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<10> (Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<10>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<11> (Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<11>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<12> (Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<12>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<13> (Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<13>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<14> (Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<14>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<15> (Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<15>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<16> (Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<16>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<17> (Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<17>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<18> (Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<18>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<19> (Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<19>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<20> (Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<20>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<21> (Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_cy<21>)
+     XORCY:CI->O           2   0.699   0.532  Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_sig_add0000_xor<22> (Inst_mic1/Inst_parte_operativa/Inst_ALU/a_piu_b_sig<22>)
+     LUT1:I0->O            1   0.612   0.000  Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_piu_uno_sig_cy<22>_rt (Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_piu_uno_sig_cy<22>_rt)
+     MUXCY:S->O            1   0.404   0.000  Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_piu_uno_sig_cy<22> (Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_piu_uno_sig_cy<22>)
+     XORCY:CI->O           3   0.699   0.454  Inst_mic1/Inst_parte_operativa/Inst_ALU/Madd_a_piu_b_piu_uno_sig_xor<23> (Inst_mic1/Inst_parte_operativa/Inst_ALU/a_piu_b_piu_uno_sig<23>)
+     LUT4_L:I3->LO         1   0.612   0.103  Inst_mic1/Inst_parte_operativa/Inst_ALU/Output<23>107 (Inst_mic1/Inst_parte_operativa/alushi_sig<23>)
+     LUT4:I3->O            1   0.612   0.426  Inst_mic1/Inst_parte_di_controllo/highbit_sig_ored230 (Inst_mic1/Inst_parte_di_controllo/highbit_sig_ored230)
+     LUT4:I1->O            1   0.612   0.360  Inst_mic1/Inst_parte_di_controllo/highbit_sig_ored260 (Inst_mic1/Inst_parte_di_controllo/highbit_sig_ored260)
+     LUT4:I3->O            1   0.612   0.000  Inst_mic1/Inst_parte_di_controllo/highbit_sig_ored3551 (Inst_mic1/Inst_parte_di_controllo/highbit_sig_ored355)
+     FDS:D                     0.268          Inst_mic1/Inst_parte_di_controllo/Inst_mpc/dout_8
+    ----------------------------------------
+    Total                     22.060ns (13.441ns logic, 8.619ns route)
+                                       (60.9% logic, 39.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'ck'
+  Total number of paths / destination ports: 80 / 80
+-------------------------------------------------------------------------
+Offset:              4.106ns (Levels of Logic = 2)
+  Source:            done (PAD)
+  Destination:       Inst_Switch_Led/Mtridata_IO_MDR<7> (FF)
+  Destination Clock: ck falling 0.2X
+
+  Data Path: done to Inst_Switch_Led/Mtridata_IO_MDR<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.106   0.520  done_IBUF (done_IBUF)
+     LUT4:I1->O           32   0.612   1.073  Inst_Switch_Led/Mtridata_IO_MDR<10>_and0000_inv1 (Inst_Switch_Led/Mtridata_IO_MDR<10>_and0000_inv)
+     FDR_1:R                   0.795          Inst_Switch_Led/Mtridata_IO_MDR<0>
+    ----------------------------------------
+    Total                      4.106ns (2.513ns logic, 1.593ns route)
+                                       (61.2% logic, 38.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'ck'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              4.040ns (Levels of Logic = 1)
+  Source:            Inst_Switch_Led/reg_led_7 (FF)
+  Destination:       LED<7> (PAD)
+  Source Clock:      ck falling 0.2X
+
+  Data Path: Inst_Switch_Led/reg_led_7 to LED<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE_1:C->Q            1   0.514   0.357  Inst_Switch_Led/reg_led_7 (Inst_Switch_Led/reg_led_7)
+     OBUF:I->O                 3.169          LED_7_OBUF (LED<7>)
+    ----------------------------------------
+    Total                      4.040ns (3.683ns logic, 0.357ns route)
+                                       (91.2% logic, 8.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 43.00 secs
+Total CPU time to Xst completion: 42.13 secs
+ 
+--> 
+
+
+Total memory usage is 585880 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  197 (   0 filtered)
+Number of infos    :    6 (   0 filtered)
+

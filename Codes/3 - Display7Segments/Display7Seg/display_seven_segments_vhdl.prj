@@ -1,0 +1,5 @@
+vhdl work "C:\Users\Mario\Desktop\Display7Segs\Display7Seg\counter_mod4.vhd"
+vhdl work "C:\Users\Mario\Desktop\Display7Segs\Display7Seg\clock_filter.vhd"
+vhdl work "C:\Users\Mario\Desktop\Display7Segs\Display7Seg\cathodes_manager.vhd"
+vhdl work "C:\Users\Mario\Desktop\Display7Segs\Display7Seg\anodes_manager.vhd"
+vhdl work "C:\Users\Mario\Desktop\Display7Segs\Display7Seg\display_seven_segments.vhd"

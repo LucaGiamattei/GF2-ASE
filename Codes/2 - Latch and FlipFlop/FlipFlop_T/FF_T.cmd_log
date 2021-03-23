@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "/home/luca/ISE_ws/FlipFlop_T/FF_T.xst" -ofn "/home/luca/ISE_ws/FlipFlop_T/FF_T.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 FF_T.ngc FF_T.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o FF_T_map.ncd FF_T.ngd FF_T.pcf 
+par -w -intstyle ise -ol high -t 1 FF_T_map.ncd FF_T.ncd FF_T.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FF_T.twx FF_T.ncd -o FF_T.twr FF_T.pcf 
+bitgen -intstyle ise -f FF_T.ut FF_T.ncd 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/FlipFlop_T/FF_T.xst" -ofn "/home/luca/ISE_ws/FlipFlop_T/FF_T.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 FF_T.ngc FF_T.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o FF_T_map.ncd FF_T.ngd FF_T.pcf 
+par -w -intstyle ise -ol high -t 1 FF_T_map.ncd FF_T.ncd FF_T.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FF_T.twx FF_T.ncd -o FF_T.twr FF_T.pcf 
+netgen -intstyle ise -s 4  -pcf FF_T.pcf -rpw 100 -tpw 0 -ar Structure -tm FF_T -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim FF_T.ncd FF_T_timesim.vhd 

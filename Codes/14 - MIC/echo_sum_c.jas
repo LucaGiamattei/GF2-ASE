@@ -1,0 +1,28 @@
+// 
+// OR tra INPUT ed un costante  
+//
+
+.constant
+due 0x32			// needed for method invokation - see S.C.O. chapter 4
+.end-constant
+
+.main
+
+.var
+a
+.end-var
+
+L1:   IN           // richiede carattere in input
+      DUP          // duplica la testa dello stack(carattere appena inserito) per per confronto
+      BIPUSH 0x0 // push 0x0 per confronto
+      IF_ICMPEQ L2//se non ho immesso char ritorno ad L1
+	  ISTORE a  //salvo il char nella var a
+	  NOP
+	  ILOAD a //carico a
+	  LDC_W due //carico due 0x32
+	  IADD //sommo
+	  OUT //stampo risultato
+	  GOTO L1// loop back ad inizio programma
+L2:	POP
+	GOTO L1
+.end-main

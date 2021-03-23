@@ -1,0 +1,16 @@
+AR counter behavioral /home/giorgio/Documenti/ES_SCAN_CHAIN/Counter.vhd sub00/vhpl13 1552687133
+AR registro behavioral /home/giorgio/Documenti/ES_SCAN_CHAIN/registro.vhd sub00/vhpl07 1552687127
+EN mux2 NULL /home/giorgio/Documenti/ES_SCAN_CHAIN/MUX2.vhd sub00/vhpl00 1552687120
+AR ffd behavioral /home/giorgio/Documenti/ES_SCAN_CHAIN/FFD.vhd sub00/vhpl03 1552687123
+EN flipflopmux NULL /home/giorgio/Documenti/ES_SCAN_CHAIN/flipflopmux.vhd sub00/vhpl04 1552687124
+AR shift_register behavioral /home/giorgio/Documenti/ES_SCAN_CHAIN/Shift_register.vhd sub00/vhpl11 1552687131
+EN scanchain NULL /home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.vhd sub00/vhpl14 1552687134
+EN ffd NULL /home/giorgio/Documenti/ES_SCAN_CHAIN/FFD.vhd sub00/vhpl02 1552687122
+AR flipflopmux structural /home/giorgio/Documenti/ES_SCAN_CHAIN/flipflopmux.vhd sub00/vhpl05 1552687125
+EN counter NULL /home/giorgio/Documenti/ES_SCAN_CHAIN/Counter.vhd sub00/vhpl12 1552687132
+AR scanchain structural /home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.vhd sub00/vhpl15 1552687135
+EN controlunit NULL /home/giorgio/Documenti/ES_SCAN_CHAIN/ControlUnit.vhd sub00/vhpl08 1552693295
+AR mux2 dataflow /home/giorgio/Documenti/ES_SCAN_CHAIN/MUX2.vhd sub00/vhpl01 1552687121
+EN shift_register NULL /home/giorgio/Documenti/ES_SCAN_CHAIN/Shift_register.vhd sub00/vhpl10 1552687130
+AR controlunit behavioral /home/giorgio/Documenti/ES_SCAN_CHAIN/ControlUnit.vhd sub00/vhpl09 1552693296
+EN registro NULL /home/giorgio/Documenti/ES_SCAN_CHAIN/registro.vhd sub00/vhpl06 1552687126

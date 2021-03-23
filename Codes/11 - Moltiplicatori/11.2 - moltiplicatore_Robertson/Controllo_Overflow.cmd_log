@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/giorgio/Documenti/shiftregister/shiftregister/Controllo_Overflow.xst" -ofn "/home/giorgio/Documenti/shiftregister/shiftregister/Controllo_Overflow.syr" 

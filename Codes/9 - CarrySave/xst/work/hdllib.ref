@@ -1,0 +1,12 @@
+PH extentionwork NULL /home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd sub00/vhpl02 1551615655
+PB extentionwork extentionwork /home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd sub00/vhpl03 1551615656
+EN csl_tree NULL /home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/CSL_TREE.vhd sub00/vhpl08 1551615661
+AR full_adder full_adder_dataflow /home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/FULL_ADDER.vhd sub00/vhpl01 1551615654
+AR contenitore behavioral /home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/Contenitore.vhd sub00/vhpl11 1551615664
+EN level_csl NULL /home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/LEVEL_CSL.vhd sub00/vhpl06 1551615659
+EN csl NULL /home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/CSL.vhd sub00/vhpl04 1551615657
+AR csl structural /home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/CSL.vhd sub00/vhpl05 1551615658
+EN full_adder NULL /home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/FULL_ADDER.vhd sub00/vhpl00 1551615653
+AR level_csl structural /home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/LEVEL_CSL.vhd sub00/vhpl07 1551615660
+AR csl_tree structural /home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/CSL_TREE.vhd sub00/vhpl09 1551615662
+EN contenitore NULL /home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/Contenitore.vhd sub00/vhpl10 1551615663

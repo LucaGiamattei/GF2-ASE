@@ -1,0 +1,130 @@
+xst -intstyle ise -ifn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.xst" -ofn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 ScanChain.ngc ScanChain.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o ScanChain_map.ncd ScanChain.ngd ScanChain.pcf 
+par -w -intstyle ise -ol high -t 1 ScanChain_map.ncd ScanChain.ncd ScanChain.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ScanChain.twx ScanChain.ncd -o ScanChain.twr ScanChain.pcf 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.xst" -ofn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 ScanChain.ngc ScanChain.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o ScanChain_map.ncd ScanChain.ngd ScanChain.pcf 
+par -w -intstyle ise -ol high -t 1 ScanChain_map.ncd ScanChain.ncd ScanChain.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ScanChain.twx ScanChain.ncd -o ScanChain.twr ScanChain.pcf 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.xst" -ofn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 ScanChain.ngc ScanChain.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o ScanChain_map.ncd ScanChain.ngd ScanChain.pcf 
+par -w -intstyle ise -ol high -t 1 ScanChain_map.ncd ScanChain.ncd ScanChain.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ScanChain.twx ScanChain.ncd -o ScanChain.twr ScanChain.pcf 
+netgen -intstyle ise -s 4  -pcf ScanChain.pcf -rpw 100 -tpw 0 -ar Structure -tm ScanChain -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim ScanChain.ncd ScanChain_timesim.vhd 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.xst" -ofn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 ScanChain.ngc ScanChain.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o ScanChain_map.ncd ScanChain.ngd ScanChain.pcf 
+par -w -intstyle ise -ol high -t 1 ScanChain_map.ncd ScanChain.ncd ScanChain.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ScanChain.twx ScanChain.ncd -o ScanChain.twr ScanChain.pcf 
+netgen -intstyle ise -s 4  -pcf ScanChain.pcf -rpw 100 -tpw 0 -ar Structure -tm ScanChain -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim ScanChain.ncd ScanChain_timesim.vhd 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.xst" -ofn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 ScanChain.ngc ScanChain.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o ScanChain_map.ncd ScanChain.ngd ScanChain.pcf 
+par -w -intstyle ise -ol high -t 1 ScanChain_map.ncd ScanChain.ncd ScanChain.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ScanChain.twx ScanChain.ncd -o ScanChain.twr ScanChain.pcf 
+netgen -intstyle ise -s 4  -pcf ScanChain.pcf -rpw 100 -tpw 0 -ar Structure -tm ScanChain -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim ScanChain.ncd ScanChain_timesim.vhd 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.xst" -ofn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 ScanChain.ngc ScanChain.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o ScanChain_map.ncd ScanChain.ngd ScanChain.pcf 
+par -w -intstyle ise -ol high -t 1 ScanChain_map.ncd ScanChain.ncd ScanChain.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ScanChain.twx ScanChain.ncd -o ScanChain.twr ScanChain.pcf 
+netgen -intstyle ise -s 4  -pcf ScanChain.pcf -rpw 100 -tpw 0 -ar Structure -tm ScanChain -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim ScanChain.ncd ScanChain_timesim.vhd 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.xst" -ofn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 ScanChain.ngc ScanChain.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o ScanChain_map.ncd ScanChain.ngd ScanChain.pcf 
+par -w -intstyle ise -ol high -t 1 ScanChain_map.ncd ScanChain.ncd ScanChain.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ScanChain.twx ScanChain.ncd -o ScanChain.twr ScanChain.pcf 
+netgen -intstyle ise -s 4  -pcf ScanChain.pcf -rpw 100 -tpw 0 -ar Structure -tm ScanChain -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim ScanChain.ncd ScanChain_timesim.vhd 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.xst" -ofn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 ScanChain.ngc ScanChain.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o ScanChain_map.ncd ScanChain.ngd ScanChain.pcf 
+par -w -intstyle ise -ol high -t 1 ScanChain_map.ncd ScanChain.ncd ScanChain.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ScanChain.twx ScanChain.ncd -o ScanChain.twr ScanChain.pcf 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.xst" -ofn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 ScanChain.ngc ScanChain.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o ScanChain_map.ncd ScanChain.ngd ScanChain.pcf 
+par -w -intstyle ise -ol high -t 1 ScanChain_map.ncd ScanChain.ncd ScanChain.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ScanChain.twx ScanChain.ncd -o ScanChain.twr ScanChain.pcf 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.xst" -ofn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 ScanChain.ngc ScanChain.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o ScanChain_map.ncd ScanChain.ngd ScanChain.pcf 
+par -w -intstyle ise -ol high -t 1 ScanChain_map.ncd ScanChain.ncd ScanChain.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ScanChain.twx ScanChain.ncd -o ScanChain.twr ScanChain.pcf 
+netgen -intstyle ise -s 4  -pcf ScanChain.pcf -rpw 100 -tpw 0 -ar Structure -tm ScanChain -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim ScanChain.ncd ScanChain_timesim.vhd 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.xst" -ofn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 ScanChain.ngc ScanChain.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o ScanChain_map.ncd ScanChain.ngd ScanChain.pcf 
+par -w -intstyle ise -ol high -t 1 ScanChain_map.ncd ScanChain.ncd ScanChain.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ScanChain.twx ScanChain.ncd -o ScanChain.twr ScanChain.pcf 
+netgen -intstyle ise -s 4  -pcf ScanChain.pcf -rpw 100 -tpw 0 -ar Structure -tm ScanChain -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim ScanChain.ncd ScanChain_timesim.vhd 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.xst" -ofn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 ScanChain.ngc ScanChain.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o ScanChain_map.ncd ScanChain.ngd ScanChain.pcf 
+par -w -intstyle ise -ol high -t 1 ScanChain_map.ncd ScanChain.ncd ScanChain.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ScanChain.twx ScanChain.ncd -o ScanChain.twr ScanChain.pcf 
+netgen -intstyle ise -s 4  -pcf ScanChain.pcf -rpw 100 -tpw 0 -ar Structure -tm ScanChain -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim ScanChain.ncd ScanChain_timesim.vhd 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.xst" -ofn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 ScanChain.ngc ScanChain.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o ScanChain_map.ncd ScanChain.ngd ScanChain.pcf 
+par -w -intstyle ise -ol high -t 1 ScanChain_map.ncd ScanChain.ncd ScanChain.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ScanChain.twx ScanChain.ncd -o ScanChain.twr ScanChain.pcf 
+netgen -intstyle ise -s 4  -pcf ScanChain.pcf -rpw 100 -tpw 0 -ar Structure -tm ScanChain -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim ScanChain.ncd ScanChain_timesim.vhd 
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm ScanChain -w -dir netgen/translate -ofmt vhdl -sim ScanChain.ngd ScanChain_translate.vhd 
+netgen -intstyle ise -s 4  -pcf ScanChain.pcf -rpw 100 -tpw 0 -ar Structure -tm ScanChain -w -dir netgen/map -ofmt vhdl -sim ScanChain_map.ncd ScanChain_map.vhd 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.xst" -ofn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.syr" 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.xst" -ofn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.syr" 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.xst" -ofn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 ScanChain.ngc ScanChain.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o ScanChain_map.ncd ScanChain.ngd ScanChain.pcf 
+par -w -intstyle ise -ol high -t 1 ScanChain_map.ncd ScanChain.ncd ScanChain.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ScanChain.twx ScanChain.ncd -o ScanChain.twr ScanChain.pcf 
+netgen -intstyle ise -s 4  -pcf ScanChain.pcf -rpw 100 -tpw 0 -ar Structure -tm ScanChain -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim ScanChain.ncd ScanChain_timesim.vhd 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.xst" -ofn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 ScanChain.ngc ScanChain.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o ScanChain_map.ncd ScanChain.ngd ScanChain.pcf 
+par -w -intstyle ise -ol high -t 1 ScanChain_map.ncd ScanChain.ncd ScanChain.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ScanChain.twx ScanChain.ncd -o ScanChain.twr ScanChain.pcf 
+netgen -intstyle ise -s 4  -pcf ScanChain.pcf -rpw 100 -tpw 0 -ar Structure -tm ScanChain -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim ScanChain.ncd ScanChain_timesim.vhd 
+bitgen -intstyle ise -f ScanChain.ut ScanChain.ncd 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.xst" -ofn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.syr" 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.xst" -ofn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.syr" 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.xst" -ofn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.syr" 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.xst" -ofn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 ScanChain.ngc ScanChain.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o ScanChain_map.ncd ScanChain.ngd ScanChain.pcf 
+par -w -intstyle ise -ol high -t 1 ScanChain_map.ncd ScanChain.ncd ScanChain.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ScanChain.twx ScanChain.ncd -o ScanChain.twr ScanChain.pcf 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.xst" -ofn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 ScanChain.ngc ScanChain.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o ScanChain_map.ncd ScanChain.ngd ScanChain.pcf 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.xst" -ofn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 ScanChain.ngc ScanChain.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o ScanChain_map.ncd ScanChain.ngd ScanChain.pcf 
+par -w -intstyle ise -ol high -t 1 ScanChain_map.ncd ScanChain.ncd ScanChain.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ScanChain.twx ScanChain.ncd -o ScanChain.twr ScanChain.pcf 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.xst" -ofn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 ScanChain.ngc ScanChain.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o ScanChain_map.ncd ScanChain.ngd ScanChain.pcf 
+par -w -intstyle ise -ol high -t 1 ScanChain_map.ncd ScanChain.ncd ScanChain.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ScanChain.twx ScanChain.ncd -o ScanChain.twr ScanChain.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -a -i -p xc3s100e-tq144-4 ScanChain.ngc ScanChain.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o ScanChain_map.ncd ScanChain.ngd ScanChain.pcf 
+par -w -intstyle ise -ol high -t 1 ScanChain_map.ncd ScanChain.ncd ScanChain.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ScanChain.twx ScanChain.ncd -o ScanChain.twr ScanChain.pcf 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.xst" -ofn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 ScanChain.ngc ScanChain.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o ScanChain_map.ncd ScanChain.ngd ScanChain.pcf 
+par -w -intstyle ise -ol high -t 1 ScanChain_map.ncd ScanChain.ncd ScanChain.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ScanChain.twx ScanChain.ncd -o ScanChain.twr ScanChain.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ScanChain.ucf -p xc3s100e-tq144-4 ScanChain.ngc ScanChain.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o ScanChain_map.ncd ScanChain.ngd ScanChain.pcf 
+par -w -intstyle ise -ol high -t 1 ScanChain_map.ncd ScanChain.ncd ScanChain.pcf 
+trce -intstyle ise -v 12 -s 4 -n 12 -fastpaths -xml ScanChain.twx ScanChain.ncd -o ScanChain.twr ScanChain.pcf -ucf ScanChain.ucf 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.xst" -ofn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ScanChain.ucf -p xc3s100e-tq144-4 ScanChain.ngc ScanChain.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o ScanChain_map.ncd ScanChain.ngd ScanChain.pcf 
+par -w -intstyle ise -ol high -t 1 ScanChain_map.ncd ScanChain.ncd ScanChain.pcf 
+trce -intstyle ise -v 12 -s 4 -n 12 -fastpaths -xml ScanChain.twx ScanChain.ncd -o ScanChain.twr ScanChain.pcf -ucf ScanChain.ucf 

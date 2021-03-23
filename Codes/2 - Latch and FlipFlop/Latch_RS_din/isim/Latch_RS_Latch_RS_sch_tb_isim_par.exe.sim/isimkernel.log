@@ -1,0 +1,31 @@
+Command line:
+   Latch_RS_Latch_RS_sch_tb_isim_par.exe
+     -simmode  gui
+     -sdfmax  /UUT/=netgen/par/Latch_RS_timesim.sdf
+     -sdfroot  /UUT
+     -simrunnum  0
+     -socket  50289
+
+Tue Feb 19 19:48:01 2019
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 197.431 Meg
+
+ Total Signals          : 99
+ Total Nets             : 74
+ Total Signal Drivers   : 26
+ Total Blocks           : 29
+ Total Primitive Blocks : 19
+ Total Processes        : 25
+ Total Traceable Variables  : 149
+ Total Scalar Nets and Variables : 4813
+Total Line Count : 121
+
+ Total Simulation Time: 0.03 sec
+
+ Current Memory Usage: 273.007 Meg
+
+Tue Feb 19 19:54:43 2019
+

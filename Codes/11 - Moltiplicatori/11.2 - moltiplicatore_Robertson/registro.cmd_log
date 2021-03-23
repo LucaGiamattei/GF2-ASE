@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "/home/giorgio/Documenti/shiftregister/shiftregister/registro.xst" -ofn "/home/giorgio/Documenti/shiftregister/shiftregister/registro.syr" 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/shiftregister/shiftregister/registro.xst" -ofn "/home/giorgio/Documenti/shiftregister/shiftregister/registro.syr" 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/shiftregister/shiftregister/registro.xst" -ofn "/home/giorgio/Documenti/shiftregister/shiftregister/registro.syr" 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/shiftregister/shiftregister/registro.xst" -ofn "/home/giorgio/Documenti/shiftregister/shiftregister/registro.syr" 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/shiftregister/shiftregister/registro.xst" -ofn "/home/giorgio/Documenti/shiftregister/shiftregister/registro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-5 registro.ngc registro.ngd  
+map -intstyle ise -p xc3s100e-tq144-5 -cm area -ir off -pr off -c 100 -o registro_map.ncd registro.ngd registro.pcf 
+par -w -intstyle ise -ol high -t 1 registro_map.ncd registro.ncd registro.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml registro.twx registro.ncd -o registro.twr registro.pcf 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/shiftregister/shiftregister/registro.xst" -ofn "/home/giorgio/Documenti/shiftregister/shiftregister/registro.syr" 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/shiftregister/shiftregister/registro.xst" -ofn "/home/giorgio/Documenti/shiftregister/shiftregister/registro.syr" 

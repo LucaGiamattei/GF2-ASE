@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="Divisore_rest" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Shift_register - Behavioral |home|luca|ISE_ws|Divisore_rest|Shift_register.vhd</ClosedNode>
+         <ClosedNode>/divisore_restoring - Structural |home|luca|ISE_ws|Divisore_rest|divisore_restoring.vhd/rca - RCAddSub - Structural</ClosedNode>
+         <ClosedNode>/divisore_restoring - Structural |home|luca|ISE_ws|Divisore_rest|divisore_restoring.vhd/reg_a - Shift_register - Behavioral/ffm - flipflopMux - Structural</ClosedNode>
+         <ClosedNode>/divisore_restoring - Structural |home|luca|ISE_ws|Divisore_rest|divisore_restoring.vhd/reg_a - registro_precaricato - Structural</ClosedNode>
+         <ClosedNode>/divisore_restoring - Structural |home|luca|ISE_ws|Divisore_rest|divisore_restoring.vhd/reg_a - shift_register - Behavioral</ClosedNode>
+         <ClosedNode>/divisore_restoring - Structural |home|luca|ISE_ws|Divisore_rest|divisore_restoring.vhd/reg_a - shift_register - Behavioral/ffd_with_mux - flipflopMux - Structural</ClosedNode>
+         <ClosedNode>/divisore_restoring - Structural |home|luca|ISE_ws|Divisore_rest|divisore_restoring.vhd/reg_q - Shift_register - Behavioral</ClosedNode>
+         <ClosedNode>/divisore_restoring - Structural |home|luca|ISE_ws|Divisore_rest|divisore_restoring.vhd/reg_q - Shift_register - Behavioral/ffm - flipflopmux - Structural</ClosedNode>
+         <ClosedNode>/divisore_restoring - Structural |home|luca|ISE_ws|Divisore_rest|divisore_restoring.vhd/reg_q - registro_precaricato - Structural</ClosedNode>
+         <ClosedNode>/divisore_restoring - Structural |home|luca|ISE_ws|Divisore_rest|divisore_restoring.vhd/reg_q - shift_register - Behavioral</ClosedNode>
+         <ClosedNode>/divisore_restoring - Structural |home|luca|ISE_ws|Divisore_rest|divisore_restoring.vhd/reg_s - shift_register - Behavioral</ClosedNode>
+         <ClosedNode>/divisore_restoring - Structural |home|luca|ISE_ws|Divisore_rest|divisore_restoring.vhd/reg_s - shift_register - Behavioral/ffd_with_mux - flipflopMux - Structural</ClosedNode>
+         <ClosedNode>/divisore_restoring - Structural |home|luca|ISE_ws|Divisore_rest|divisore_restoring.vhd/reg_s - shift_register - Behavioral/ffd_with_mux - flipflopmux - Structural</ClosedNode>
+         <ClosedNode>/divisore_restoring - Structural |home|luca|ISE_ws|Divisore_rest|divisore_restoring.vhd/reg_s - shift_register_1bit - Structural</ClosedNode>
+         <ClosedNode>/flipflopMux_precaricato - Behavioral |home|luca|ISE_ws|Divisore_rest|flipflopMux_precaricato.vhd</ClosedNode>
+         <ClosedNode>/registro_precaricato - Structural |home|luca|ISE_ws|Divisore_rest|registro_precaricato.vhd/ffd_mux - flipflopMux_precaricato - Behavioral</ClosedNode>
+         <ClosedNode>/shift_register_1bit - Structural |home|luca|ISE_ws|Divisore_rest|shift_register_1bit.vhd</ClosedNode>
+         <ClosedNode>/shift_register_1bit - Structural |home|luca|ISE_ws|Divisore_rest|shift_register_1bit.vhd/ffd_mux - flipflopMux - Structural</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>divisore_restoring - Structural (/home/luca/ISE_ws/Divisore_rest/divisore_restoring.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001ed000000020000000000000000000000000200000064ffffffff000000810000000300000002000001ed0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>divisore_restoring - Structural (/home/luca/ISE_ws/Divisore_rest/divisore_restoring.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Synthesize - XST</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000019c000000010000000100000000000000000000000064ffffffff0000008100000000000000010000019c0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Synthesize - XST</CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>flipflopmux.vhd</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000039f000000040101000100000000000000000000000064ffffffff000000810000000000000004000000cf00000001000000000000005d0000000100000000000000840000000100000000000001ef0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>flipflopmux.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000128000000010001000100000000000000000000000064ffffffff000000810000000000000001000001280000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001ab000000010000000100000000000000000000000064ffffffff000000810000000000000001000001ab0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff000000000000000200000160000000ff01000000060100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/shift_register_1bit - Structural |home|luca|ISE_ws|Divisore_rest|shift_register_1bit.vhd</ClosedNode>
+         <ClosedNode>/tb_1 - behavior |home|luca|ISE_ws|Divisore_rest|tb_1.vhd/uut - divisore_restoring - Structural/reg_a - Shift_register - Behavioral</ClosedNode>
+         <ClosedNode>/tb_1 - behavior |home|luca|ISE_ws|Divisore_rest|tb_1.vhd/uut - divisore_restoring - Structural/reg_a - shift_register - Behavioral</ClosedNode>
+         <ClosedNode>/tb_1 - behavior |home|luca|ISE_ws|Divisore_rest|tb_1.vhd/uut - divisore_restoring - Structural/reg_q - Shift_register - Behavioral</ClosedNode>
+         <ClosedNode>/tb_1 - behavior |home|luca|ISE_ws|Divisore_rest|tb_1.vhd/uut - divisore_restoring - Structural/reg_q - shift_register - Behavioral</ClosedNode>
+         <ClosedNode>/tb_1 - behavior |home|luca|ISE_ws|Divisore_rest|tb_1.vhd/uut - divisore_restoring - Structural/reg_s - shift_register - Behavioral/ffd_with_mux - flipflopmux - Structural</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>tb_1 - behavior (/home/luca/ISE_ws/Divisore_rest/tb_1.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000023a000000020000000000000000000000000200000064ffffffff0000008100000003000000020000023a0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>tb_1 - behavior (/home/luca/ISE_ws/Divisore_rest/tb_1.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000177000000010000000100000000000000000000000064ffffffff000000810000000000000001000001770000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001ab000000010000000100000000000000000000000064ffffffff000000810000000000000001000001ab0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <ItemView engineview="PostRouteSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/tb_1 - behavior |home|luca|ISE_ws|Divisore_rest|tb_1.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>tb_1 - behavior (/home/luca/ISE_ws/Divisore_rest/tb_1.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000f0000000020000000000000000000000000200000064ffffffff000000810000000300000002000000f00000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>tb_1 - behavior (/home/luca/ISE_ws/Divisore_rest/tb_1.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="PostRouteSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001aa000000010000000100000000000000000000000064ffffffff000000810000000000000001000001aa0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="PostRouteSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>ISim Simulator</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001aa000000010000000100000000000000000000000064ffffffff000000810000000000000001000001aa0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>ISim Simulator</CurrentItem>
+   </ItemView>
+</Project>

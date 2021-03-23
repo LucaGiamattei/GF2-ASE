@@ -1,0 +1,374 @@
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+par -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -w -intstyle ise -ol std -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf
+trce -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -e 3 -s 4 -xml sistema_mic1 sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf
+bitgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd
+netgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -s 4 -pcf sistema_mic1.pcf -rpw 100 -tpw 0 -ar Structure -tm sistema_mic1 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim sistema_mic1.ncd sistema_mic1_timesim.vhd
+netgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -s 4 -pcf sistema_mic1.pcf -rpw 100 -tpw 0 -ar Structure -tm sistema_mic1 -w -dir netgen/map -ofmt vhdl -sim sistema_mic1_map.ncd sistema_mic1_map.vhd
+netgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm sistema_mic1 -w -dir netgen/translate -ofmt vhdl -sim sistema_mic1.ngd sistema_mic1_translate.vhd
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+par -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -w -intstyle ise -ol std -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf
+trce -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -e 3 -s 4 -xml sistema_mic1 sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf
+netgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -s 4 -pcf sistema_mic1.pcf -rpw 100 -tpw 0 -ar Structure -tm sistema_mic1 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim sistema_mic1.ncd sistema_mic1_timesim.vhd
+netgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm sistema_mic1 -w -dir netgen/translate -ofmt vhdl -sim sistema_mic1.ngd sistema_mic1_translate.vhd
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+par -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -w -intstyle ise -ol std -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf
+trce -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -e 3 -s 4 -xml sistema_mic1 sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf
+netgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -s 4 -pcf sistema_mic1.pcf -rpw 100 -tpw 0 -ar Structure -tm sistema_mic1 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim sistema_mic1.ncd sistema_mic1_timesim.vhd
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+par -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -w -intstyle ise -ol std -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf
+trce -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -e 3 -s 4 -xml sistema_mic1 sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf
+bitgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd
+netgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -s 4 -pcf sistema_mic1.pcf -rpw 100 -tpw 0 -ar Structure -tm sistema_mic1 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim sistema_mic1.ncd sistema_mic1_timesim.vhd
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+par -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -w -intstyle ise -ol std -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf
+trce -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -e 3 -s 4 -xml sistema_mic1 sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf
+netgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -s 4 -pcf sistema_mic1.pcf -rpw 100 -tpw 0 -ar Structure -tm sistema_mic1 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim sistema_mic1.ncd sistema_mic1_timesim.vhd
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+par -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -w -intstyle ise -ol std -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf
+trce -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -e 3 -s 4 -xml sistema_mic1 sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf
+bitgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+par -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -w -intstyle ise -ol std -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf
+trce -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -e 3 -s 4 -xml sistema_mic1 sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf
+netgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -s 4 -pcf sistema_mic1.pcf -sdf_anno true -sdf_path netgen/par -insert_glbl true -insert_pp_buffers false -w -dir netgen/par -ofmt verilog -sim sistema_mic1.ncd sistema_mic1_timesim.v
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+par -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -w -intstyle ise -ol std -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf
+trce -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -e 3 -s 4 -xml sistema_mic1 sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf
+netgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -s 4 -pcf sistema_mic1.pcf -rpw 100 -tpw 0 -ar Structure -tm sistema_mic1 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim sistema_mic1.ncd sistema_mic1_timesim.vhd
+netgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm sistema_mic1 -w -dir netgen/translate -ofmt vhdl -sim sistema_mic1.ngd sistema_mic1_translate.vhd
+netgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -s 4 -pcf sistema_mic1.pcf -rpw 100 -tpw 0 -ar Structure -tm sistema_mic1 -w -dir netgen/map -ofmt vhdl -sim sistema_mic1_map.ncd sistema_mic1_map.vhd
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+par -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -w -intstyle ise -ol std -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf
+trce -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -e 3 -s 4 -xml sistema_mic1 sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf
+netgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1/mic1.ise" -intstyle ise -s 4 -pcf sistema_mic1.pcf -rpw 100 -tpw 0 -ar Structure -tm sistema_mic1 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim sistema_mic1.ncd sistema_mic1_timesim.vhd
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+par -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -w -intstyle ise -ol std -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf
+trce -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -e 3 -s 4 -xml sistema_mic1 sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf
+netgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -s 4 -pcf sistema_mic1.pcf -rpw 100 -tpw 0 -ar Structure -tm sistema_mic1 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim sistema_mic1.ncd sistema_mic1_timesim.vhd
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+par -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -w -intstyle ise -ol std -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf
+trce -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -e 3 -s 4 -xml sistema_mic1 sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf
+bitgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd
+map -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -p xc3s500e-fg320-4 -cm speed -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+par -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -w -intstyle ise -pl high -rl high -xe c -t 1 -n 10 sistema_mic1_map.ncd "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mppr_result.dir" sistema_mic1.pcf
+par -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -w -intstyle ise -pl high -rl high -xe c -t 1 -n 10 sistema_mic1_map.ncd "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mppr_result.dir" sistema_mic1.pcf
+ngdbuild -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -p xc3s500e-fg320-4 -cm speed -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+par -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -w -intstyle ise -pl med -rl med -t 1 -n 10 sistema_mic1_map.ncd "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mppr_result.dir" sistema_mic1.pcf
+par -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -w -intstyle ise -pl med -rl med -t 1 -k sistema_mic1.ncd sistema_mic1.ncd sistema_mic1.pcf
+trce -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -e 3 -s 4 -xml sistema_mic1 sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf
+bitgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -p xc3s500e-fg320-4 -cm speed -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+par -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -w -intstyle ise -pl med -rl med -t 1 -k sistema_mic1.ncd sistema_mic1.ncd sistema_mic1.pcf
+trce -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -e 3 -s 4 -xml sistema_mic1 sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf
+bitgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -p xc3s500e-fg320-4 -cm speed -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+par -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -w -intstyle ise -pl med -rl med -t 1 -k sistema_mic1.ncd sistema_mic1.ncd sistema_mic1.pcf
+trce -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -e 3 -s 4 -xml sistema_mic1 sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf
+netgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -s 4 -pcf sistema_mic1.pcf -rpw 100 -tpw 0 -ar Structure -tm sistema_mic1 -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim sistema_mic1.ncd sistema_mic1_timesim.vhd
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -p xc3s500e-fg320-4 -cm speed -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+par -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -w -intstyle ise -pl med -rl med -t 1 -k sistema_mic1.ncd sistema_mic1.ncd sistema_mic1.pcf
+trce -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -e 3 -s 4 -xml sistema_mic1 sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf
+netgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -s 4 -pcf sistema_mic1.pcf -rpw 100 -tpw 0 -ar Structure -tm sistema_mic1 -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim sistema_mic1.ncd sistema_mic1_timesim.vhd
+bitgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+par -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -w -intstyle ise -ol std -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf
+trce -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -e 3 -s 4 -xml sistema_mic1 sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf
+bitgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd
+netgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -s 4 -pcf sistema_mic1.pcf -rpw 100 -tpw 0 -ar Structure -tm sistema_mic1 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim sistema_mic1.ncd sistema_mic1_timesim.vhd
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+par -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -w -intstyle ise -ol std -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf
+trce -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -e 3 -s 4 -xml sistema_mic1 sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf
+netgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mic1.ise" -intstyle ise -s 4 -pcf sistema_mic1.pcf -rpw 100 -tpw 0 -ar Structure -tm sistema_mic1 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim sistema_mic1.ncd sistema_mic1_timesim.vhd
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+par -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -w -intstyle ise -ol std -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf
+trce -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -e 3 -s 4 -xml sistema_mic1 sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf
+bitgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd
+netgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -s 4 -pcf sistema_mic1.pcf -rpw 100 -tpw 0 -ar Structure -tm sistema_mic1 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim sistema_mic1.ncd sistema_mic1_timesim.vhd
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -uc "constraint.ucf" -p xc3s500e-fg320-4 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -uc "constraint.ucf" -p xc3s500e-fg320-4 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+par -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -w -intstyle ise -ol std -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf
+trce -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -e 3 -s 4 -xml sistema_mic1 sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf -ucf constraint.ucf
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -uc "constraint.ucf" -p xc3s500e-fg320-4 "sistema_mic1.ngc" sistema_mic1.ngd
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -uc "constraint.ucf" -p xc3s500e-fg320-4 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+par -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -w -intstyle ise -ol std -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf
+trce -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -e 3 -s 4 -xml sistema_mic1 sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf -ucf constraint.ucf
+bitgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd
+netgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -s 4 -pcf sistema_mic1.pcf -rpw 100 -tpw 0 -ar Structure -tm sistema_mic1 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim sistema_mic1.ncd sistema_mic1_timesim.vhd
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -uc "constraint.ucf" -p xc3s500e-fg320-4 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+par -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -w -intstyle ise -ol std -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf
+trce -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -e 3 -s 4 -xml sistema_mic1 sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf -ucf constraint.ucf
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -uc "constraint.ucf" -p xc3s500e-fg320-4 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+par -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -w -intstyle ise -ol std -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf
+trce -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -e 3 -s 4 -xml sistema_mic1 sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf -ucf constraint.ucf
+bitgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -uc "constraint.ucf" -p xc3s500e-fg320-4 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+par -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -w -intstyle ise -ol std -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf
+trce -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -e 3 -s 4 -xml sistema_mic1 sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf -ucf constraint.ucf
+bitgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd
+bitgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd
+bitgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd
+bitgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd
+bitgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -uc "constraint.ucf" -p xc3s500e-fg320-4 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+par -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -w -intstyle ise -ol std -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf
+trce -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -e 3 -s 4 -xml sistema_mic1 sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf -ucf constraint.ucf
+bitgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd
+bitgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd
+bitgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -uc "constraint.ucf" -p xc3s500e-fg320-5 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -p xc3s500e-fg320-5 -cm area -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+par -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -w -intstyle ise -ol std -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf
+trce -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -e 3 -s 5 -xml sistema_mic1 sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf -ucf constraint.ucf
+bitgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd
+netgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/mic1.ise" -intstyle ise -ar Structure -tm sistema_mic1 -w -dir netgen/synthesis -ofmt vhdl -sim sistema_mic1.ngc sistema_mic1_synthesis.vhd
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok_ccellar/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok_ccellar/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -uc "constraint.ucf" -p xc3s500e-fg320-5 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok_ccellar/mic1.ise" -intstyle ise -p xc3s500e-fg320-5 -cm area -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+par -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok_ccellar/mic1.ise" -w -intstyle ise -ol std -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf
+trce -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok_ccellar/mic1.ise" -intstyle ise -e 3 -s 5 -xml sistema_mic1 sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf -ucf constraint.ucf
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok_ccellar/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok_ccellar/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -uc "constraint.ucf" -p xc3s500e-fg320-5 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok_ccellar/mic1.ise" -intstyle ise -p xc3s500e-fg320-5 -cm area -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+par -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok_ccellar/mic1.ise" -w -intstyle ise -ol std -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf
+trce -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok_ccellar/mic1.ise" -intstyle ise -e 3 -s 5 -xml sistema_mic1 sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf -ucf constraint.ucf
+bitgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok_ccellar/mic1.ise" -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd
+netgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok_ccellar/mic1.ise" -intstyle ise -s 5 -pcf sistema_mic1.pcf -rpw 100 -tpw 0 -ar Structure -tm sistema_mic1 -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim sistema_mic1.ncd sistema_mic1_timesim.vhd
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok_ccellar/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok_ccellar/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok_ccellar/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok_ccellar/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok_ccellar/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -uc "constraint.ucf" -p xc3s500e-fg320-5 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok_ccellar/mic1.ise" -intstyle ise -p xc3s500e-fg320-5 -cm area -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+par -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok_ccellar/mic1.ise" -w -intstyle ise -ol std -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf
+trce -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok_ccellar/mic1.ise" -intstyle ise -e 3 -s 5 -xml sistema_mic1 sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf -ucf constraint.ucf
+bitgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok_ccellar/mic1.ise" -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd
+xst -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok_ccellar/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok_ccellar/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -uc "constraint.ucf" -p xc3s500e-fg320-5 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok_ccellar/mic1.ise" -intstyle ise -p xc3s500e-fg320-5 -cm area -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+par -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok_ccellar/mic1.ise" -w -intstyle ise -ol std -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf
+trce -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok_ccellar/mic1.ise" -intstyle ise -e 3 -s 5 -xml sistema_mic1 sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf -ucf constraint.ucf
+bitgen -ise "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok_ccellar/mic1.ise" -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd
+xst -ise "C:/mic1_ok_ccellar/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/mic1_ok_ccellar/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -uc "constraint.ucf" -p xc3s500e-fg320-5 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/mic1_ok_ccellar/mic1.ise" -intstyle ise -p xc3s500e-fg320-5 -cm area -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+par -ise "C:/mic1_ok_ccellar/mic1.ise" -w -intstyle ise -ol std -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf
+trce -ise "C:/mic1_ok_ccellar/mic1.ise" -intstyle ise -e 3 -s 5 -xml sistema_mic1 sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf -ucf constraint.ucf
+bitgen -ise "C:/mic1_ok_ccellar/mic1.ise" -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd
+xst -ise "C:/mic1_ok_ccellar/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/mic1_ok_ccellar/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -uc "constraint.ucf" -p xc3s500e-fg320-5 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/mic1_ok_ccellar/mic1.ise" -intstyle ise -p xc3s500e-fg320-5 -cm area -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+par -ise "C:/mic1_ok_ccellar/mic1.ise" -w -intstyle ise -ol std -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf
+trce -ise "C:/mic1_ok_ccellar/mic1.ise" -intstyle ise -e 3 -s 5 -xml sistema_mic1 sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf -ucf constraint.ucf
+bitgen -ise "C:/mic1_ok_ccellar/mic1.ise" -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd
+xst -ise "C:/mic1_ok_ccellar/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/mic1_ok_ccellar/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -uc "constraint.ucf" -p xc3s500e-fg320-5 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/mic1_ok_ccellar/mic1.ise" -intstyle ise -p xc3s500e-fg320-5 -cm area -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+par -ise "C:/mic1_ok_ccellar/mic1.ise" -w -intstyle ise -ol std -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf
+trce -ise "C:/mic1_ok_ccellar/mic1.ise" -intstyle ise -e 3 -s 5 -xml sistema_mic1 sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf -ucf constraint.ucf
+bitgen -ise "C:/mic1_ok_ccellar/mic1.ise" -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd
+xst -ise "C:/mic1_ok_ccellar/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/mic1_ok_ccellar/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -uc "constraint.ucf" -p xc3s500e-fg320-5 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/mic1_ok_ccellar/mic1.ise" -intstyle ise -p xc3s500e-fg320-5 -cm area -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+par -ise "C:/mic1_ok_ccellar/mic1.ise" -w -intstyle ise -ol std -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf
+trce -ise "C:/mic1_ok_ccellar/mic1.ise" -intstyle ise -e 3 -s 5 -xml sistema_mic1 sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf -ucf constraint.ucf
+bitgen -ise "C:/mic1_ok_ccellar/mic1.ise" -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd
+xst -ise "C:/Documents and Settings/caccolillo/Documenti/Download/mic1_article/mic1_article/FOR FTP WEB SITE/ISE project/mic1_ok/mic1_ok/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/Documents and Settings/caccolillo/Documenti/Download/mic1_article/mic1_article/FOR FTP WEB SITE/ISE project/mic1_ok/mic1_ok/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -uc "constraint.ucf" -p xc3s50a-tq144-5 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/Documents and Settings/caccolillo/Documenti/Download/mic1_article/mic1_article/FOR FTP WEB SITE/ISE project/mic1_ok/mic1_ok/mic1.ise" -intstyle ise -p xc3s50a-tq144-5 -cm area -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+xst -ise "C:/Documents and Settings/caccolillo/Documenti/Download/mic1_article/mic1_article/FOR FTP WEB SITE/ISE project/mic1_ok/mic1_ok/mic1.ise" -intstyle ise -ifn sistema_mic1.xst -ofn sistema_mic1.syr
+ngdbuild -ise "C:/Documents and Settings/caccolillo/Documenti/Download/mic1_article/mic1_article/FOR FTP WEB SITE/ISE project/mic1_ok/mic1_ok/mic1.ise" -intstyle ise -dd _ngo -nt timestamp -uc "constraint.ucf" -p xc3s500e-fg320-5 "sistema_mic1.ngc" sistema_mic1.ngd
+map -ise "C:/Documents and Settings/caccolillo/Documenti/Download/mic1_article/mic1_article/FOR FTP WEB SITE/ISE project/mic1_ok/mic1_ok/mic1.ise" -intstyle ise -p xc3s500e-fg320-5 -cm area -pr b -k 4 -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf
+par -ise "C:/Documents and Settings/caccolillo/Documenti/Download/mic1_article/mic1_article/FOR FTP WEB SITE/ISE project/mic1_ok/mic1_ok/mic1.ise" -w -intstyle ise -ol std -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf
+trce -ise "C:/Documents and Settings/caccolillo/Documenti/Download/mic1_article/mic1_article/FOR FTP WEB SITE/ISE project/mic1_ok/mic1_ok/mic1.ise" -intstyle ise -e 3 -s 5 -xml sistema_mic1 sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf -ucf constraint.ucf
+bitgen -ise "C:/Documents and Settings/caccolillo/Documenti/Download/mic1_article/mic1_article/FOR FTP WEB SITE/ISE project/mic1_ok/mic1_ok/mic1.ise" -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd
+xst -intstyle ise -ifn "C:/Users/mazze/Xilinx/Mic1/mic1_fpga/sistema_mic1.xst" -ofn "C:/Users/mazze/Xilinx/Mic1/mic1_fpga/sistema_mic1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraint.ucf -p xc3s500e-fg320-5 sistema_mic1.ngc sistema_mic1.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr b -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf 
+par -w -intstyle ise -ol high -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf 
+trce -intstyle ise -e 3 -s 5 -n 3 -xml sistema_mic1.twx sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf -ucf constraint.ucf 
+bitgen -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd 
+xst -intstyle ise -ifn "C:/Users/mazze/Xilinx/Mic1/mic1_fpga/sistema_mic1.xst" -ofn "C:/Users/mazze/Xilinx/Mic1/mic1_fpga/sistema_mic1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraint.ucf -p xc3s1200e-fg320-5 sistema_mic1.ngc sistema_mic1.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr b -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf 
+par -w -intstyle ise -ol high -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf 
+trce -intstyle ise -e 3 -s 5 -n 3 -xml sistema_mic1.twx sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf -ucf constraint.ucf 
+bitgen -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd 
+xst -intstyle ise -ifn "C:/Users/mazze/Xilinx/Mic1/mic1_fpga/sistema_mic1.xst" -ofn "C:/Users/mazze/Xilinx/Mic1/mic1_fpga/sistema_mic1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraint.ucf -p xc3s1200e-fg320-5 sistema_mic1.ngc sistema_mic1.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr b -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf 
+par -w -intstyle ise -ol high -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf 
+trce -intstyle ise -e 3 -s 5 -n 3 -xml sistema_mic1.twx sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf -ucf constraint.ucf 
+bitgen -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd 
+xst -intstyle ise -ifn "C:/Users/utente/Desktop/ASE-Esercizi/mic1_fpga/sistema_mic1.xst" -ofn "C:/Users/utente/Desktop/ASE-Esercizi/mic1_fpga/sistema_mic1.syr" 
+xst -intstyle ise -ifn "C:/Users/utente/Desktop/ASE-Esercizi/mic1_fpga/sistema_mic1.xst" -ofn "C:/Users/utente/Desktop/ASE-Esercizi/mic1_fpga/sistema_mic1.syr" 
+xst -intstyle ise -ifn "C:/Users/utente/Desktop/ASE-Esercizi/mic1_fpga/sistema_mic1.xst" -ofn "C:/Users/utente/Desktop/ASE-Esercizi/mic1_fpga/sistema_mic1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_1200General.ucf -p xc3s1200e-fg320-5 sistema_mic1.ngc sistema_mic1.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr b -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf 
+par -w -intstyle ise -ol high -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf 
+xst -intstyle ise -ifn "C:/Users/Marco/Desktop/mic1_fpga/sistema_mic1.xst" -ofn "C:/Users/Marco/Desktop/mic1_fpga/sistema_mic1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_1200General.ucf -p xc3s1200e-fg320-5 sistema_mic1.ngc sistema_mic1.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr b -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf 
+par -w -intstyle ise -ol high -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf 
+trce -intstyle ise -e 3 -s 5 -n 3 -xml sistema_mic1.twx sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf -ucf Nexys2_1200General.ucf 
+xst -intstyle ise -ifn "C:/Users/Marco/Desktop/mic1_fpga/sistema_mic1.xst" -ofn "C:/Users/Marco/Desktop/mic1_fpga/sistema_mic1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_1200General.ucf -p xc3s1200e-fg320-5 sistema_mic1.ngc sistema_mic1.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr b -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf 
+par -w -intstyle ise -ol high -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf 
+trce -intstyle ise -e 3 -s 5 -n 3 -xml sistema_mic1.twx sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf -ucf Nexys2_1200General.ucf 
+bitgen -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd 
+xst -intstyle ise -ifn "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/sistema_mic1.xst" -ofn "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/sistema_mic1.syr" 
+xst -intstyle ise -ifn "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/sistema_mic1.xst" -ofn "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/sistema_mic1.syr" 
+xst -intstyle ise -ifn "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/sistema_mic1.xst" -ofn "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/sistema_mic1.syr" 
+xst -intstyle ise -ifn "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/sistema_mic1.xst" -ofn "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/sistema_mic1.syr" 
+xst -intstyle ise -ifn "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/sistema_mic1.xst" -ofn "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/sistema_mic1.syr" 
+xst -intstyle ise -ifn "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/sistema_mic1.xst" -ofn "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/sistema_mic1.syr" 
+xst -intstyle ise -ifn "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/sistema_mic1.xst" -ofn "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/sistema_mic1.syr" 
+xst -intstyle ise -ifn "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/sistema_mic1.xst" -ofn "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/sistema_mic1.syr" 
+xst -intstyle ise -ifn "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/sistema_mic1.xst" -ofn "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/sistema_mic1.syr" 
+xst -intstyle ise -ifn "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/sistema_mic1.xst" -ofn "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/sistema_mic1.syr" 
+xst -intstyle ise -ifn "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/sistema_mic1.xst" -ofn "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/sistema_mic1.syr" 
+xst -intstyle ise -ifn "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/sistema_mic1.xst" -ofn "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/sistema_mic1.syr" 
+xst -intstyle ise -ifn "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/sistema_mic1.xst" -ofn "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/sistema_mic1.syr" 
+xst -intstyle ise -ifn "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/sistema_mic1.xst" -ofn "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/sistema_mic1.syr" 
+xst -intstyle ise -ifn "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/sistema_mic1.xst" -ofn "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/sistema_mic1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_1200General.ucf -p xc3s1200e-fg320-5 sistema_mic1.ngc sistema_mic1.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr b -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf 
+par -w -intstyle ise -ol high -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf 
+trce -intstyle ise -e 3 -s 5 -n 3 -xml sistema_mic1.twx sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf -ucf Nexys2_1200General.ucf 
+bitgen -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd 
+xst -intstyle ise -ifn "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/sistema_mic1.xst" -ofn "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/sistema_mic1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_1200General.ucf -p xc3s1200e-fg320-5 sistema_mic1.ngc sistema_mic1.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr b -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf 
+par -w -intstyle ise -ol high -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf 
+trce -intstyle ise -e 3 -s 5 -n 3 -xml sistema_mic1.twx sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf -ucf Nexys2_1200General.ucf 
+bitgen -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd 
+xst -intstyle ise -ifn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.xst" -ofn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc myconf.ucf -p xc3s250e-tq144-5 sistema_mic1.ngc sistema_mic1.ngd  
+map -intstyle ise -p xc3s250e-tq144-5 -cm area -ir off -pr b -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf 
+par -w -intstyle ise -ol high -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf 
+xst -intstyle ise -ifn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.xst" -ofn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc myconf.ucf -p xc3s250e-tq144-5 sistema_mic1.ngc sistema_mic1.ngd  
+map -intstyle ise -p xc3s250e-tq144-5 -cm area -ir off -pr b -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf 
+par -w -intstyle ise -ol high -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf 
+trce -intstyle ise -e 3 -s 5 -n 3 -xml sistema_mic1.twx sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf -ucf myconf.ucf 
+bitgen -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd 
+xst -intstyle ise -ifn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.xst" -ofn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc myconf.ucf -p xc3s250e-tq144-5 sistema_mic1.ngc sistema_mic1.ngd  
+map -intstyle ise -p xc3s250e-tq144-5 -cm area -ir off -pr b -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf 
+par -w -intstyle ise -ol high -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf 
+trce -intstyle ise -e 3 -s 5 -n 3 -xml sistema_mic1.twx sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf -ucf myconf.ucf 
+bitgen -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd 
+xst -intstyle ise -ifn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.xst" -ofn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.syr" 
+xst -intstyle ise -ifn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.xst" -ofn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc myconf.ucf -p xc3s250e-tq144-5 sistema_mic1.ngc sistema_mic1.ngd  
+map -intstyle ise -p xc3s250e-tq144-5 -cm area -ir off -pr b -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf 
+par -w -intstyle ise -ol high -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf 
+trce -intstyle ise -e 3 -s 5 -n 3 -xml sistema_mic1.twx sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf -ucf myconf.ucf 
+bitgen -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd 
+xst -intstyle ise -ifn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.xst" -ofn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc myconf.ucf -p xc3s250e-tq144-5 sistema_mic1.ngc sistema_mic1.ngd  
+map -intstyle ise -p xc3s250e-tq144-5 -cm area -ir off -pr b -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf 
+par -w -intstyle ise -ol high -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf 
+trce -intstyle ise -e 3 -s 5 -n 3 -xml sistema_mic1.twx sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf -ucf myconf.ucf 
+bitgen -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd 
+xst -intstyle ise -ifn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.xst" -ofn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.syr" 
+xst -intstyle ise -ifn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.xst" -ofn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.syr" 
+xst -intstyle ise -ifn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.xst" -ofn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.syr" 
+xst -intstyle ise -ifn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.xst" -ofn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.syr" 
+xst -intstyle ise -ifn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.xst" -ofn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.syr" 
+xst -intstyle ise -ifn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.xst" -ofn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.syr" 
+xst -intstyle ise -ifn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.xst" -ofn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.syr" 
+xst -intstyle ise -ifn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.xst" -ofn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc myconf.ucf -p xc3s250e-tq144-5 sistema_mic1.ngc sistema_mic1.ngd  
+map -intstyle ise -p xc3s250e-tq144-5 -cm area -ir off -pr b -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf 
+par -w -intstyle ise -ol high -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf 
+trce -intstyle ise -e 3 -s 5 -n 3 -xml sistema_mic1.twx sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf -ucf myconf.ucf 
+bitgen -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd 
+xst -intstyle ise -ifn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.xst" -ofn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc myconf.ucf -p xc3s250e-tq144-5 sistema_mic1.ngc sistema_mic1.ngd  
+map -intstyle ise -p xc3s250e-tq144-5 -cm area -ir off -pr b -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf 
+par -w -intstyle ise -ol high -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf 
+xst -intstyle ise -ifn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.xst" -ofn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc myconf.ucf -p xc3s250e-tq144-5 sistema_mic1.ngc sistema_mic1.ngd  
+map -intstyle ise -p xc3s250e-tq144-5 -cm area -ir off -pr b -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf 
+par -w -intstyle ise -ol high -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf 
+trce -intstyle ise -e 3 -s 5 -n 3 -xml sistema_mic1.twx sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf -ucf myconf.ucf 
+bitgen -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd 
+xst -intstyle ise -ifn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.xst" -ofn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc myconf.ucf -p xc3s250e-tq144-5 sistema_mic1.ngc sistema_mic1.ngd  
+map -intstyle ise -p xc3s250e-tq144-5 -cm area -ir off -pr b -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf 
+par -w -intstyle ise -ol high -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf 
+trce -intstyle ise -e 3 -s 5 -n 3 -xml sistema_mic1.twx sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf -ucf myconf.ucf 
+bitgen -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd 
+xst -intstyle ise -ifn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.xst" -ofn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.syr" 
+xst -intstyle ise -ifn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.xst" -ofn "/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc myconf.ucf -p xc3s250e-tq144-5 sistema_mic1.ngc sistema_mic1.ngd  
+map -intstyle ise -p xc3s250e-tq144-5 -cm area -ir off -pr b -c 100 -o sistema_mic1_map.ncd sistema_mic1.ngd sistema_mic1.pcf 
+par -w -intstyle ise -ol high -t 1 sistema_mic1_map.ncd sistema_mic1.ncd sistema_mic1.pcf 
+trce -intstyle ise -e 3 -s 5 -n 3 -xml sistema_mic1.twx sistema_mic1.ncd -o sistema_mic1.twr sistema_mic1.pcf -ucf myconf.ucf 
+bitgen -intstyle ise -f sistema_mic1.ut sistema_mic1.ncd 

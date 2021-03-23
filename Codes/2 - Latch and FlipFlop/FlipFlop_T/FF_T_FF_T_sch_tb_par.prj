@@ -1,0 +1,2 @@
+vhdl work "netgen/par/FF_T_timesim.vhd"
+vhdl work "FFT_tb.vhd"

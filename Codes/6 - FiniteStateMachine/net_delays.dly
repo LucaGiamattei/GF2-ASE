@@ -1,0 +1,70 @@
+Release 14.7 - reportgen P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Sun Mar 17 11:52:09 2019
+
+File: /tmp/xil_xRPnL2.dly
+
+ The 20 worst nets by delay are:
++-----------------+-----------+
+| Max Delay       | Netname   |
++-----------------+-----------+
+   0.100            reset_n_IBUF
+   0.100            i_IBUF
+   0.100            clk_BUFGP/IBUFG
+   0.100            Q_OBUF
+   0.100            clk_BUFGP
+   0.100            current_FSM_FFd1
+   0.100            current_FSM_FFd3
+   0.100            current_FSM_FFd2
+---------------------------------
+
+-------------------------------------------------------------------------------
+                               Net Delays
+-------------------------------------------------------------------------------
+
+Q_OBUF
+   current_FSM_FFd3.X
+      UNR  Q.O1
+
+clk_BUFGP
+   clk_BUFGP/BUFG.O
+      UNR  current_FSM_FFd2.CLK
+      UNR  current_FSM_FFd3.CLK
+
+clk_BUFGP/IBUFG
+   clk.I
+      UNR  clk_BUFGP/BUFG.I0
+
+current_FSM_FFd1
+   current_FSM_FFd2.YQ
+      UNR  current_FSM_FFd2.F2
+      UNR  current_FSM_FFd2.G4
+      UNR  current_FSM_FFd3.F1
+      UNR  current_FSM_FFd3.G4
+
+current_FSM_FFd2
+   current_FSM_FFd2.XQ
+      UNR  current_FSM_FFd2.F4
+      UNR  current_FSM_FFd2.G3
+      UNR  current_FSM_FFd3.F2
+      UNR  current_FSM_FFd3.G3
+
+current_FSM_FFd3
+   current_FSM_FFd3.YQ
+      UNR  current_FSM_FFd2.F3
+      UNR  current_FSM_FFd2.G2
+      UNR  current_FSM_FFd3.F3
+      UNR  current_FSM_FFd3.G2
+
+i_IBUF
+   i.I
+      UNR  current_FSM_FFd2.F1
+      UNR  current_FSM_FFd2.G1
+      UNR  current_FSM_FFd3.G1
+
+reset_n_IBUF
+   reset_n.I
+      UNR  current_FSM_FFd2.SR
+      UNR  current_FSM_FFd3.SR
+

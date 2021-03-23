@@ -1,0 +1,6 @@
+V3 3
+FL /home/luca/ISE_ws/Latch_RS/Latch_rs.vhd 2019/02/25.19:03:14 P.20131013
+EN work/Latch_rs 1551117799 FL /home/luca/ISE_ws/Latch_RS/Latch_rs.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Latch_rs/dataflow 1551117800 \
+      FL /home/luca/ISE_ws/Latch_RS/Latch_rs.vhd EN work/Latch_rs 1551117799

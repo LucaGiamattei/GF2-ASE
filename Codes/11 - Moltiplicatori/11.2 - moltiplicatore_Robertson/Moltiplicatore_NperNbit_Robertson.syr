@@ -1,0 +1,609 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.03 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.03 secs
+ 
+--> 
+Reading design: Moltiplicatore_NperNbit_Robertson.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Moltiplicatore_NperNbit_Robertson.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Moltiplicatore_NperNbit_Robertson"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-tq144
+
+---- Source Options
+Top Module Name                    : Moltiplicatore_NperNbit_Robertson
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/flipflopF is now defined in a different file.  It was defined in "/home/giorgio/Documenti/shiftregister/shiftregister/flipflop_msb.vhd", and is now defined in "/home/giorgio/Documenti/shiftregister/shiftregister/flipflopF.vhd".
+WARNING:HDLParsers:3607 - Unit work/flipflopF/Behavioral is now defined in a different file.  It was defined in "/home/giorgio/Documenti/shiftregister/shiftregister/flipflop_msb.vhd", and is now defined in "/home/giorgio/Documenti/shiftregister/shiftregister/flipflopF.vhd".
+Compiling vhdl file "/home/giorgio/Documenti/shiftregister/shiftregister/fulladder.vhd" in Library work.
+Architecture dataflow of Entity full_adder is up to date.
+Compiling vhdl file "/home/giorgio/Documenti/shiftregister/shiftregister/MUX2.vhd" in Library work.
+Architecture dataflow of Entity mux2 is up to date.
+Compiling vhdl file "/home/giorgio/Documenti/shiftregister/shiftregister/FFD.vhd" in Library work.
+Architecture behavioral of Entity ffd is up to date.
+Compiling vhdl file "/home/giorgio/Documenti/shiftregister/shiftregister/XOR_Inversion.vhd" in Library work.
+Architecture dataflow of Entity xor_inversion is up to date.
+Compiling vhdl file "/home/giorgio/Documenti/shiftregister/shiftregister/ripplecarry.vhd" in Library work.
+Architecture structural of Entity ripple_carry is up to date.
+Compiling vhdl file "/home/giorgio/Documenti/shiftregister/shiftregister/Controllo_Overflow.vhd" in Library work.
+Architecture behavioral of Entity controllo_overflow is up to date.
+Compiling vhdl file "/home/giorgio/Documenti/shiftregister/shiftregister/flipflopmux.vhd" in Library work.
+Architecture structural of Entity flipflopmux is up to date.
+Compiling vhdl file "/home/giorgio/Documenti/shiftregister/shiftregister/Counter_ModN.vhd" in Library work.
+Architecture behavioral of Entity counter_modn is up to date.
+Compiling vhdl file "/home/giorgio/Documenti/shiftregister/shiftregister/ControlUnit.vhd" in Library work.
+Architecture behavioral of Entity controlunit is up to date.
+Compiling vhdl file "/home/giorgio/Documenti/shiftregister/shiftregister/Shift_register.vhd" in Library work.
+Architecture behavioral of Entity shift_register is up to date.
+Compiling vhdl file "/home/giorgio/Documenti/shiftregister/shiftregister/registro.vhd" in Library work.
+Architecture behavioral of Entity registro is up to date.
+Compiling vhdl file "/home/giorgio/Documenti/shiftregister/shiftregister/flipflopF.vhd" in Library work.
+Architecture behavioral of Entity flipflopf is up to date.
+Compiling vhdl file "/home/giorgio/Documenti/shiftregister/shiftregister/RCA_ADD_SUB.vhd" in Library work.
+Architecture structural of Entity rca_add_sub is up to date.
+Compiling vhdl file "/home/giorgio/Documenti/shiftregister/shiftregister/Moltiplicatore_NperNbit_Robertson.vhd" in Library work.
+Architecture behavioral of Entity moltiplicatore_npernbit_robertson is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Moltiplicatore_NperNbit_Robertson> in library <work> (architecture <behavioral>) with generics.
+	N = 8
+
+Analyzing hierarchy for entity <Counter_ModN> in library <work> (architecture <behavioral>) with generics.
+	N = 8
+
+Analyzing hierarchy for entity <ControlUnit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Shift_register> in library <work> (architecture <behavioral>) with generics.
+	N = 8
+	shift_right_left = '0'
+
+Analyzing hierarchy for entity <registro> in library <work> (architecture <behavioral>) with generics.
+	N = 8
+
+Analyzing hierarchy for entity <flipflopF> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <RCA_ADD_SUB> in library <work> (architecture <structural>) with generics.
+	N = 8
+
+Analyzing hierarchy for entity <flipflopmux> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <XOR_Inversion> in library <work> (architecture <dataflow>) with generics.
+	N = 8
+
+Analyzing hierarchy for entity <ripple_carry> in library <work> (architecture <structural>) with generics.
+	num_bit = 8
+
+Analyzing hierarchy for entity <Controllo_Overflow> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <MUX2> in library <work> (architecture <dataflow>).
+
+Analyzing hierarchy for entity <FFD> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <full_adder> in library <work> (architecture <dataflow>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <Moltiplicatore_NperNbit_Robertson> in library <work> (Architecture <behavioral>).
+	N = 8
+WARNING:Xst:753 - "/home/giorgio/Documenti/shiftregister/shiftregister/Moltiplicatore_NperNbit_Robertson.vhd" line 158: Unconnected output port 'counter' of component 'Counter_ModN'.
+WARNING:Xst:753 - "/home/giorgio/Documenti/shiftregister/shiftregister/Moltiplicatore_NperNbit_Robertson.vhd" line 232: Unconnected output port 'overflow' of component 'RCA_ADD_SUB'.
+Entity <Moltiplicatore_NperNbit_Robertson> analyzed. Unit <Moltiplicatore_NperNbit_Robertson> generated.
+
+Analyzing generic Entity <Counter_ModN> in library <work> (Architecture <behavioral>).
+	N = 8
+Entity <Counter_ModN> analyzed. Unit <Counter_ModN> generated.
+
+Analyzing Entity <ControlUnit> in library <work> (Architecture <behavioral>).
+Entity <ControlUnit> analyzed. Unit <ControlUnit> generated.
+
+Analyzing generic Entity <Shift_register> in library <work> (Architecture <behavioral>).
+	N = 8
+	shift_right_left = '0'
+Entity <Shift_register> analyzed. Unit <Shift_register> generated.
+
+Analyzing Entity <flipflopmux> in library <work> (Architecture <structural>).
+Entity <flipflopmux> analyzed. Unit <flipflopmux> generated.
+
+Analyzing Entity <MUX2> in library <work> (Architecture <dataflow>).
+Entity <MUX2> analyzed. Unit <MUX2> generated.
+
+Analyzing Entity <FFD> in library <work> (Architecture <behavioral>).
+Entity <FFD> analyzed. Unit <FFD> generated.
+
+Analyzing generic Entity <registro> in library <work> (Architecture <behavioral>).
+	N = 8
+Entity <registro> analyzed. Unit <registro> generated.
+
+Analyzing Entity <flipflopF> in library <work> (Architecture <behavioral>).
+Entity <flipflopF> analyzed. Unit <flipflopF> generated.
+
+Analyzing generic Entity <RCA_ADD_SUB> in library <work> (Architecture <structural>).
+	N = 8
+WARNING:Xst:753 - "/home/giorgio/Documenti/shiftregister/shiftregister/RCA_ADD_SUB.vhd" line 89: Unconnected output port 'riporto_out' of component 'ripple_carry'.
+Entity <RCA_ADD_SUB> analyzed. Unit <RCA_ADD_SUB> generated.
+
+Analyzing generic Entity <XOR_Inversion> in library <work> (Architecture <dataflow>).
+	N = 8
+Entity <XOR_Inversion> analyzed. Unit <XOR_Inversion> generated.
+
+Analyzing generic Entity <ripple_carry> in library <work> (Architecture <structural>).
+	num_bit = 8
+Entity <ripple_carry> analyzed. Unit <ripple_carry> generated.
+
+Analyzing Entity <full_adder> in library <work> (Architecture <dataflow>).
+Entity <full_adder> analyzed. Unit <full_adder> generated.
+
+Analyzing Entity <Controllo_Overflow> in library <work> (Architecture <behavioral>).
+Entity <Controllo_Overflow> analyzed. Unit <Controllo_Overflow> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Counter_ModN>.
+    Related source file is "/home/giorgio/Documenti/shiftregister/shiftregister/Counter_ModN.vhd".
+    Found 1-bit register for signal <res_out>.
+    Found 3-bit up counter for signal <c>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <Counter_ModN> synthesized.
+
+
+Synthesizing Unit <ControlUnit>.
+    Related source file is "/home/giorgio/Documenti/shiftregister/shiftregister/ControlUnit.vhd".
+    Found finite state machine <FSM_0> for signal <stato_corrente>.
+    -----------------------------------------------------------------------
+    | States             | 5                                              |
+    | Transitions        | 8                                              |
+    | Inputs             | 3                                              |
+    | Outputs            | 7                                              |
+    | Clock              | clock                     (rising_edge)        |
+    | Reset              | reset_n                   (negative)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | idle                                           |
+    | Power Up State     | idle                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <ControlUnit> synthesized.
+
+
+Synthesizing Unit <registro>.
+    Related source file is "/home/giorgio/Documenti/shiftregister/shiftregister/registro.vhd".
+    Found 8-bit register for signal <temp>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <registro> synthesized.
+
+
+Synthesizing Unit <flipflopF>.
+    Related source file is "/home/giorgio/Documenti/shiftregister/shiftregister/flipflopF.vhd".
+    Found 1-bit register for signal <temp>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <flipflopF> synthesized.
+
+
+Synthesizing Unit <MUX2>.
+    Related source file is "/home/giorgio/Documenti/shiftregister/shiftregister/MUX2.vhd".
+Unit <MUX2> synthesized.
+
+
+Synthesizing Unit <FFD>.
+    Related source file is "/home/giorgio/Documenti/shiftregister/shiftregister/FFD.vhd".
+    Found 1-bit register for signal <Q>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <FFD> synthesized.
+
+
+Synthesizing Unit <XOR_Inversion>.
+    Related source file is "/home/giorgio/Documenti/shiftregister/shiftregister/XOR_Inversion.vhd".
+    Found 8-bit xor2 for signal <temp>.
+Unit <XOR_Inversion> synthesized.
+
+
+Synthesizing Unit <Controllo_Overflow>.
+    Related source file is "/home/giorgio/Documenti/shiftregister/shiftregister/Controllo_Overflow.vhd".
+    Found 1-bit xor2 for signal <overf$xor0000> created at line 65.
+    Found 1-bit xor2 for signal <overf$xor0001> created at line 65.
+Unit <Controllo_Overflow> synthesized.
+
+
+Synthesizing Unit <full_adder>.
+    Related source file is "/home/giorgio/Documenti/shiftregister/shiftregister/fulladder.vhd".
+    Found 1-bit xor2 for signal <somma>.
+    Found 1-bit xor2 for signal <riporto_out$xor0000> created at line 43.
+Unit <full_adder> synthesized.
+
+
+Synthesizing Unit <flipflopmux>.
+    Related source file is "/home/giorgio/Documenti/shiftregister/shiftregister/flipflopmux.vhd".
+Unit <flipflopmux> synthesized.
+
+
+Synthesizing Unit <ripple_carry>.
+    Related source file is "/home/giorgio/Documenti/shiftregister/shiftregister/ripplecarry.vhd".
+Unit <ripple_carry> synthesized.
+
+
+Synthesizing Unit <Shift_register>.
+    Related source file is "/home/giorgio/Documenti/shiftregister/shiftregister/Shift_register.vhd".
+Unit <Shift_register> synthesized.
+
+
+Synthesizing Unit <RCA_ADD_SUB>.
+    Related source file is "/home/giorgio/Documenti/shiftregister/shiftregister/RCA_ADD_SUB.vhd".
+Unit <RCA_ADD_SUB> synthesized.
+
+
+Synthesizing Unit <Moltiplicatore_NperNbit_Robertson>.
+    Related source file is "/home/giorgio/Documenti/shiftregister/shiftregister/Moltiplicatore_NperNbit_Robertson.vhd".
+WARNING:Xst:1780 - Signal <valore_in_q> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found 1-bit xor2 for signal <msb_a_temp$xor0000> created at line 149.
+Unit <Moltiplicatore_NperNbit_Robertson> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 3-bit up counter                                      : 1
+# Registers                                            : 19
+ 1-bit register                                        : 18
+ 8-bit register                                        : 1
+# Xors                                                 : 27
+ 1-bit xor2                                            : 27
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <cu/stato_corrente/FSM> on signal <stato_corrente[1:5]> with one-hot encoding.
+-------------------------------
+ State             | Encoding
+-------------------------------
+ idle              | 00001
+ init              | 00010
+ scelta_operazione | 00100
+ shift_stato       | 01000
+ add_sub           | 10000
+-------------------------------
+WARNING:Xst:1290 - Hierarchical block <controllo> is unconnected in block <Add_Sub_pm>.
+   It will be removed from the design.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# Counters                                             : 1
+ 3-bit up counter                                      : 1
+# Registers                                            : 26
+ Flip-Flops                                            : 26
+# Xors                                                 : 27
+ 1-bit xor2                                            : 27
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Moltiplicatore_NperNbit_Robertson> ...
+
+Optimizing unit <registro> ...
+
+Optimizing unit <ripple_carry> ...
+
+Optimizing unit <Shift_register> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Moltiplicatore_NperNbit_Robertson, actual ratio is 3.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 34
+ Flip-Flops                                            : 34
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Moltiplicatore_NperNbit_Robertson.ngr
+Top Level Output File Name         : Moltiplicatore_NperNbit_Robertson
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 36
+
+Cell Usage :
+# BELS                             : 65
+#      INV                         : 2
+#      LUT2                        : 13
+#      LUT2_D                      : 1
+#      LUT3                        : 16
+#      LUT3_L                      : 1
+#      LUT4                        : 24
+#      LUT4_L                      : 1
+#      MUXF5                       : 6
+#      VCC                         : 1
+# FlipFlops/Latches                : 34
+#      FDC                         : 4
+#      FDCE                        : 29
+#      FDP                         : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 35
+#      IBUF                        : 18
+#      OBUF                        : 17
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100etq144-5 
+
+ Number of Slices:                       30  out of    960     3%  
+ Number of Slice Flip Flops:             34  out of   1920     1%  
+ Number of 4 input LUTs:                 58  out of   1920     3%  
+ Number of IOs:                          36
+ Number of bonded IOBs:                  36  out of    108    33%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 34    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+------------------------------------------------------------------------------------------------------+---------------------------------+-------+
+Control Signal                                                                                        | Buffer(FF name)                 | Load  |
+------------------------------------------------------------------------------------------------------+---------------------------------+-------+
+cu/stato_corrente_FSM_Acst_FSM_inv(registro_m/reset_n_inv1_INV_0:O)                                   | NONE(cu/stato_corrente_FSM_FFd1)| 21    |
+Inst_Counter_ModN/reset(registro_A/LOOP_FOR_ISTANTIATE_FFM[0].shift_right.ffm/flipflop/reset_n_inv1:O)| NONE(Inst_Counter_ModN/c_0)     | 12    |
+ff_msb/reset_n_inv(ff_msb/reset_n_inv1:O)                                                             | NONE(ff_msb/temp)               | 1     |
+------------------------------------------------------------------------------------------------------+---------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 6.407ns (Maximum Frequency: 156.067MHz)
+   Minimum input arrival time before clock: 3.395ns
+   Maximum output required time after clock: 4.380ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock'
+  Clock period: 6.407ns (frequency: 156.067MHz)
+  Total number of paths / destination ports: 277 / 54
+-------------------------------------------------------------------------
+Delay:               6.407ns (Levels of Logic = 5)
+  Source:            Inst_Counter_ModN/res_out (FF)
+  Destination:       registro_A/LOOP_FOR_ISTANTIATE_FFM[7].shift_right.ffm/flipflop/Q (FF)
+  Source Clock:      clock rising
+  Destination Clock: clock rising
+
+  Data Path: Inst_Counter_ModN/res_out to registro_A/LOOP_FOR_ISTANTIATE_FFM[7].shift_right.ffm/flipflop/Q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            24   0.514   1.094  Inst_Counter_ModN/res_out (Inst_Counter_ModN/res_out)
+     LUT3_L:I2->LO         1   0.612   0.103  Add_Sub_pm/rca/serie_di_fa[0].fa/riporto_out1 (Add_Sub_pm/rca/vettore_riporti<1>)
+     LUT4:I3->O            3   0.612   0.451  Add_Sub_pm/rca/serie_di_fa[1].fa/riporto_out1 (Add_Sub_pm/rca/vettore_riporti<2>)
+     MUXF5:S->O            4   0.641   0.499  Add_Sub_pm/rca/serie_di_fa[3].fa/riporto_out1 (Add_Sub_pm/rca/vettore_riporti<4>)
+     MUXF5:S->O            1   0.641   0.360  registro_A/LOOP_FOR_ISTANTIATE_FFM[7].shift_right.ffm/mux/temp_out_mux_SW0 (N16)
+     LUT4:I3->O            1   0.612   0.000  registro_A/LOOP_FOR_ISTANTIATE_FFM[7].shift_right.ffm/mux/temp_out_mux (registro_A/LOOP_FOR_ISTANTIATE_FFM[7].shift_right.ffm/out_temp)
+     FDCE:D                    0.268          registro_A/LOOP_FOR_ISTANTIATE_FFM[7].shift_right.ffm/flipflop/Q
+    ----------------------------------------
+    Total                      6.407ns (3.900ns logic, 2.508ns route)
+                                       (60.9% logic, 39.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock'
+  Total number of paths / destination ports: 19 / 19
+-------------------------------------------------------------------------
+Offset:              3.395ns (Levels of Logic = 3)
+  Source:            op1<7> (PAD)
+  Destination:       registro_A/LOOP_FOR_ISTANTIATE_FFM[7].shift_right.ffm/flipflop/Q (FF)
+  Destination Clock: clock rising
+
+  Data Path: op1<7> to registro_A/LOOP_FOR_ISTANTIATE_FFM[7].shift_right.ffm/flipflop/Q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.106   0.410  op1_7_IBUF (op1_7_IBUF)
+     LUT4:I2->O            1   0.612   0.387  registro_A/LOOP_FOR_ISTANTIATE_FFM[7].shift_right.ffm/mux/temp_out_mux_SW1 (N17)
+     LUT4:I2->O            1   0.612   0.000  registro_A/LOOP_FOR_ISTANTIATE_FFM[7].shift_right.ffm/mux/temp_out_mux (registro_A/LOOP_FOR_ISTANTIATE_FFM[7].shift_right.ffm/out_temp)
+     FDCE:D                    0.268          registro_A/LOOP_FOR_ISTANTIATE_FFM[7].shift_right.ffm/flipflop/Q
+    ----------------------------------------
+    Total                      3.395ns (2.598ns logic, 0.797ns route)
+                                       (76.5% logic, 23.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock'
+  Total number of paths / destination ports: 17 / 17
+-------------------------------------------------------------------------
+Offset:              4.380ns (Levels of Logic = 1)
+  Source:            registro_A/LOOP_FOR_ISTANTIATE_FFM[4].shift_right.ffm/flipflop/Q (FF)
+  Destination:       risultato<12> (PAD)
+  Source Clock:      clock rising
+
+  Data Path: registro_A/LOOP_FOR_ISTANTIATE_FFM[4].shift_right.ffm/flipflop/Q to risultato<12>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             9   0.514   0.697  registro_A/LOOP_FOR_ISTANTIATE_FFM[4].shift_right.ffm/flipflop/Q (registro_A/LOOP_FOR_ISTANTIATE_FFM[4].shift_right.ffm/flipflop/Q)
+     OBUF:I->O                 3.169          risultato_12_OBUF (risultato<12>)
+    ----------------------------------------
+    Total                      4.380ns (3.683ns logic, 0.697ns route)
+                                       (84.1% logic, 15.9% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 3.36 secs
+ 
+--> 
+
+
+Total memory usage is 526556 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    7 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

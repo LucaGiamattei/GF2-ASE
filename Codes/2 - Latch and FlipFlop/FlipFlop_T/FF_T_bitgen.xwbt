@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/luca/ISE_ws/FlipFlop_T/FF_T.ncd
+OUTFILE=/home/luca/ISE_ws/FlipFlop_T/FF_T.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=/home/luca/ISE_ws/FlipFlop_T
+LICENSE=WebPack
+USER_INFO=211628941_0_0_336

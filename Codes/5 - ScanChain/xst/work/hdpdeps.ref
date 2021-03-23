@@ -1,0 +1,52 @@
+V3 31
+FL /home/giorgio/Documenti/ES_SCAN_CHAIN/ControlUnit.vhd 2019/03/15.11:36:41 P.20131013
+EN work/ControlUnit 1552693295 \
+      FL /home/giorgio/Documenti/ES_SCAN_CHAIN/ControlUnit.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/MATH_REAL 1381692182 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/NUMERIC_STD 1381692181
+AR work/ControlUnit/Behavioral 1552693296 \
+      FL /home/giorgio/Documenti/ES_SCAN_CHAIN/ControlUnit.vhd \
+      EN work/ControlUnit 1552693295
+FL /home/giorgio/Documenti/ES_SCAN_CHAIN/Counter.vhd 2019/03/15.11:11:53 P.20131013
+EN work/Counter 1552687132 FL /home/giorgio/Documenti/ES_SCAN_CHAIN/Counter.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/MATH_REAL 1381692182 \
+      PB ieee/std_logic_arith 1381692177
+AR work/Counter/Behavioral 1552687133 \
+      FL /home/giorgio/Documenti/ES_SCAN_CHAIN/Counter.vhd EN work/Counter 1552687132
+FL /home/giorgio/Documenti/ES_SCAN_CHAIN/FFD.vhd 2019/03/10.13:30:55 P.20131013
+EN work/FFD 1552687122 FL /home/giorgio/Documenti/ES_SCAN_CHAIN/FFD.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/FFD/Behavioral 1552687123 \
+      FL /home/giorgio/Documenti/ES_SCAN_CHAIN/FFD.vhd EN work/FFD 1552687122
+FL /home/giorgio/Documenti/ES_SCAN_CHAIN/flipflopmux.vhd 2019/03/04.19:23:49 P.20131013
+EN work/flipflopmux 1552687124 \
+      FL /home/giorgio/Documenti/ES_SCAN_CHAIN/flipflopmux.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/flipflopmux/Structural 1552687125 \
+      FL /home/giorgio/Documenti/ES_SCAN_CHAIN/flipflopmux.vhd \
+      EN work/flipflopmux 1552687124 CP MUX2 CP FFD
+FL /home/giorgio/Documenti/ES_SCAN_CHAIN/MUX2.vhd 2019/03/04.18:53:01 P.20131013
+EN work/MUX2 1552687120 FL /home/giorgio/Documenti/ES_SCAN_CHAIN/MUX2.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/MUX2/dataflow 1552687121 \
+      FL /home/giorgio/Documenti/ES_SCAN_CHAIN/MUX2.vhd EN work/MUX2 1552687120
+FL /home/giorgio/Documenti/ES_SCAN_CHAIN/registro.vhd 2019/03/07.17:35:42 P.20131013
+EN work/registro 1552687126 FL /home/giorgio/Documenti/ES_SCAN_CHAIN/registro.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/registro/Behavioral 1552687127 \
+      FL /home/giorgio/Documenti/ES_SCAN_CHAIN/registro.vhd EN work/registro 1552687126
+FL /home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.vhd 2019/03/14.22:19:05 P.20131013
+EN work/ScanChain 1552687134 \
+      FL /home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/MATH_REAL 1381692182 \
+      PB ieee/std_logic_arith 1381692177
+AR work/ScanChain/Structural 1552687135 \
+      FL /home/giorgio/Documenti/ES_SCAN_CHAIN/ScanChain.vhd EN work/ScanChain 1552687134 \
+      CP registro CP ControlUnit CP Shift_register CP Counter
+FL /home/giorgio/Documenti/ES_SCAN_CHAIN/Shift_register.vhd 2019/03/13.21:01:36 P.20131013
+EN work/Shift_register 1552687130 \
+      FL /home/giorgio/Documenti/ES_SCAN_CHAIN/Shift_register.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Shift_register/Behavioral 1552687131 \
+      FL /home/giorgio/Documenti/ES_SCAN_CHAIN/Shift_register.vhd \
+      EN work/Shift_register 1552687130 CP MUX2 CP flipflopmux

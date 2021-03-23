@@ -1,0 +1,2 @@
+vhdl work "netgen/par/Moltiplicatore_NperNbit_Robertson_timesim.vhd"
+vhdl work "tb_moltiplicatore.vhd"

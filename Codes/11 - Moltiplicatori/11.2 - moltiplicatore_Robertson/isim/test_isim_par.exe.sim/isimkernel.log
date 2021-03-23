@@ -1,0 +1,12 @@
+Command line:
+   test_isim_par.exe
+     -simmode  gui
+     -sdfmax  /uut/=netgen/par/Moltiplicatore_NperNbit_Robertson_timesim.sdf
+     -sdfroot  /uut
+     -simrunnum  1
+     -socket  44813
+
+Fri Mar  8 21:42:07 2019
+
+
+ Elaboration Time: 0.05 sec

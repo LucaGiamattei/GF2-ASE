@@ -1,0 +1,31 @@
+Command line:
+   FFD_TB_isim_par.exe
+     -simmode  gui
+     -sdfmax  /uut/=netgen/par/FFD_edg_timesim.sdf
+     -sdfroot  /uut
+     -simrunnum  0
+     -socket  56813
+
+Wed Feb 20 12:43:01 2019
+
+
+ Elaboration Time: 0.03 sec
+
+ Current Memory Usage: 197.489 Meg
+
+ Total Signals          : 125
+ Total Nets             : 76
+ Total Signal Drivers   : 53
+ Total Blocks           : 41
+ Total Primitive Blocks : 24
+ Total Processes        : 54
+ Total Traceable Variables  : 212
+ Total Scalar Nets and Variables : 4961
+Total Line Count : 212
+
+ Total Simulation Time: 0.16 sec
+
+ Current Memory Usage: 273.064 Meg
+
+Wed Feb 20 12:44:21 2019
+

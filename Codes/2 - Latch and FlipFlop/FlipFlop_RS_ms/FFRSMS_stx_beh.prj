@@ -1,0 +1,3 @@
+vhdl isim_temp "Latch_RS.vhd"
+vhdl isim_temp "invert.vhd"
+vhdl isim_temp "FFRSMS.vhd"

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/luca/ISE_ws/FF_ms/ffms_ffms_sch_tb_isim_par.exe" -prj "/home/luca/ISE_ws/FF_ms/ffms_ffms_sch_tb_par.prj" "work.ffms_ffms_sch_tb" 

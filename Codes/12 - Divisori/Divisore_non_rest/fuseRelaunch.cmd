@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/luca/ISE_ws/Divisore_non_rest/tb_0_isim_beh.exe" -prj "/home/luca/ISE_ws/Divisore_non_rest/tb_0_beh.prj" "tb_0" 

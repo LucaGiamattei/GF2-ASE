@@ -1,0 +1,2 @@
+vhdl work "netgen/map/FFD_edg_map.vhd"
+vhdl work "FFD_TB.vhd"

@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "C:/Users/Mario/Desktop/Display7Segs/Display7Seg/clock_filter.xst" -ofn "C:/Users/Mario/Desktop/Display7Segs/Display7Seg/clock_filter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1200e-fg320-5 clock_filter.ngc clock_filter.ngd  
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm clock_filter -w -dir netgen/translate -ofmt vhdl -sim clock_filter.ngd clock_filter_translate.vhd 
+xst -intstyle ise -ifn "C:/Users/Mario/Desktop/Display7Segs/Display7Seg/clock_filter.xst" -ofn "C:/Users/Mario/Desktop/Display7Segs/Display7Seg/clock_filter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1200e-fg320-5 clock_filter.ngc clock_filter.ngd  
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm clock_filter -w -dir netgen/translate -ofmt vhdl -sim clock_filter.ngd clock_filter_translate.vhd 
+vhdtdtfi -lib work clock_filter.vhd -prj Display7Seg -o clock_filter.spl -module clock_filter -template /home/giorgio/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e clock_filter.spl /home/giorgio/Display7Seg/clock_filter.sym 
+vhdtdtfi -prj Display7Seg -o /home/giorgio/Display7Seg/clock_filter.vhi -module clock_filter -template /home/giorgio/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work clock_filter.vhd 

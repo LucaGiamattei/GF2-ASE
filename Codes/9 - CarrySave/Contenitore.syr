@@ -1,0 +1,1854 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Reading design: Contenitore.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Contenitore.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Contenitore"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-tq144
+
+---- Source Options
+Top Module Name                    : Contenitore
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/FULL_ADDER.vhd" in Library work.
+Architecture full_adder_dataflow of Entity full_adder is up to date.
+Compiling vhdl file "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" in Library work.
+Architecture extentionwork of Entity extentionwork is up to date.
+Compiling vhdl file "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/CSL.vhd" in Library work.
+Architecture structural of Entity csl is up to date.
+Compiling vhdl file "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/LEVEL_CSL.vhd" in Library work.
+Architecture structural of Entity level_csl is up to date.
+Compiling vhdl file "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/CSL_TREE.vhd" in Library work.
+Architecture structural of Entity csl_tree is up to date.
+Compiling vhdl file "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/Contenitore.vhd" in Library work.
+Architecture behavioral of Entity contenitore is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+Analyzing hierarchy for entity <Contenitore> in library <work> (architecture <behavioral>) with generics.
+	n_addendi = 100
+	n_bit = 8
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+
+Analyzing hierarchy for entity <CSL_TREE> in library <work> (architecture <structural>) with generics.
+	N = 8
+	bit_in_uscita = 19
+	n_addendi = 100
+	n_addendi_uscita = 1
+
+Analyzing hierarchy for entity <LEVEL_CSL> in library <work> (architecture <structural>) with generics.
+	N = 8
+	n_addendi = 100
+
+Analyzing hierarchy for entity <CSL_TREE> in library <work> (architecture <structural>) with generics.
+	N = 9
+	bit_in_uscita = 19
+	n_addendi = 67
+	n_addendi_uscita = 1
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 8
+
+Analyzing hierarchy for entity <LEVEL_CSL> in library <work> (architecture <structural>) with generics.
+	N = 9
+	n_addendi = 67
+
+Analyzing hierarchy for entity <CSL_TREE> in library <work> (architecture <structural>) with generics.
+	N = 10
+	bit_in_uscita = 19
+	n_addendi = 45
+	n_addendi_uscita = 0
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 9
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 9
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 9
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 9
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 9
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 9
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 9
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 9
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 9
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 9
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 9
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 9
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 9
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 9
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 9
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 9
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 9
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 9
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 9
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 9
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 9
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 9
+
+Analyzing hierarchy for entity <LEVEL_CSL> in library <work> (architecture <structural>) with generics.
+	N = 10
+	n_addendi = 45
+
+Analyzing hierarchy for entity <CSL_TREE> in library <work> (architecture <structural>) with generics.
+	N = 11
+	bit_in_uscita = 19
+	n_addendi = 30
+	n_addendi_uscita = 0
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 10
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 10
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 10
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 10
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 10
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 10
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 10
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 10
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 10
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 10
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 10
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 10
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 10
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 10
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 10
+
+Analyzing hierarchy for entity <LEVEL_CSL> in library <work> (architecture <structural>) with generics.
+	N = 11
+	n_addendi = 30
+
+Analyzing hierarchy for entity <CSL_TREE> in library <work> (architecture <structural>) with generics.
+	N = 12
+	bit_in_uscita = 19
+	n_addendi = 20
+	n_addendi_uscita = 2
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 11
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 11
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 11
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 11
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 11
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 11
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 11
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 11
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 11
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 11
+
+Analyzing hierarchy for entity <LEVEL_CSL> in library <work> (architecture <structural>) with generics.
+	N = 12
+	n_addendi = 20
+
+Analyzing hierarchy for entity <CSL_TREE> in library <work> (architecture <structural>) with generics.
+	N = 13
+	bit_in_uscita = 19
+	n_addendi = 14
+	n_addendi_uscita = 2
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 12
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 12
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 12
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 12
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 12
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 12
+
+Analyzing hierarchy for entity <LEVEL_CSL> in library <work> (architecture <structural>) with generics.
+	N = 13
+	n_addendi = 14
+
+Analyzing hierarchy for entity <CSL_TREE> in library <work> (architecture <structural>) with generics.
+	N = 14
+	bit_in_uscita = 19
+	n_addendi = 10
+	n_addendi_uscita = 1
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 13
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 13
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 13
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 13
+
+Analyzing hierarchy for entity <LEVEL_CSL> in library <work> (architecture <structural>) with generics.
+	N = 14
+	n_addendi = 10
+
+Analyzing hierarchy for entity <CSL_TREE> in library <work> (architecture <structural>) with generics.
+	N = 15
+	bit_in_uscita = 19
+	n_addendi = 7
+	n_addendi_uscita = 1
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 14
+
+Analyzing hierarchy for entity <LEVEL_CSL> in library <work> (architecture <structural>) with generics.
+	N = 15
+	n_addendi = 7
+
+Analyzing hierarchy for entity <CSL_TREE> in library <work> (architecture <structural>) with generics.
+	N = 16
+	bit_in_uscita = 19
+	n_addendi = 5
+	n_addendi_uscita = 2
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 15
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 15
+
+Analyzing hierarchy for entity <LEVEL_CSL> in library <work> (architecture <structural>) with generics.
+	N = 16
+	n_addendi = 5
+
+Analyzing hierarchy for entity <CSL_TREE> in library <work> (architecture <structural>) with generics.
+	N = 17
+	bit_in_uscita = 19
+	n_addendi = 4
+	n_addendi_uscita = 1
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 16
+
+Analyzing hierarchy for entity <LEVEL_CSL> in library <work> (architecture <structural>) with generics.
+	N = 17
+	n_addendi = 4
+
+Analyzing hierarchy for entity <CSL_TREE> in library <work> (architecture <structural>) with generics.
+	N = 18
+	bit_in_uscita = 19
+	n_addendi = 3
+	n_addendi_uscita = 0
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 17
+
+Analyzing hierarchy for entity <LEVEL_CSL> in library <work> (architecture <structural>) with generics.
+	N = 18
+	n_addendi = 3
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <CSL> in library <work> (architecture <structural>) with generics.
+	nbit = 18
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+Analyzing hierarchy for entity <FULL_ADDER> in library <work> (architecture <full_adder_dataflow>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <Contenitore> in library <work> (Architecture <behavioral>).
+	n_addendi = 100
+	n_bit = 8
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+INFO:Xst:1749 - "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/extentionwork.vhd" line 47: report: nb
+Entity <Contenitore> analyzed. Unit <Contenitore> generated.
+
+Analyzing generic Entity <CSL_TREE.1> in library <work> (Architecture <structural>).
+	N = 8
+	bit_in_uscita = 19
+	n_addendi = 100
+	n_addendi_uscita = 1
+Entity <CSL_TREE.1> analyzed. Unit <CSL_TREE.1> generated.
+
+Analyzing generic Entity <LEVEL_CSL.1> in library <work> (Architecture <structural>).
+	N = 8
+	n_addendi = 100
+Entity <LEVEL_CSL.1> analyzed. Unit <LEVEL_CSL.1> generated.
+
+Analyzing generic Entity <CSL.1> in library <work> (Architecture <structural>).
+	nbit = 8
+Entity <CSL.1> analyzed. Unit <CSL.1> generated.
+
+Analyzing Entity <FULL_ADDER> in library <work> (Architecture <full_adder_dataflow>).
+Entity <FULL_ADDER> analyzed. Unit <FULL_ADDER> generated.
+
+Analyzing generic Entity <CSL_TREE.2> in library <work> (Architecture <structural>).
+	N = 9
+	bit_in_uscita = 19
+	n_addendi = 67
+	n_addendi_uscita = 1
+Entity <CSL_TREE.2> analyzed. Unit <CSL_TREE.2> generated.
+
+Analyzing generic Entity <LEVEL_CSL.2> in library <work> (Architecture <structural>).
+	N = 9
+	n_addendi = 67
+Entity <LEVEL_CSL.2> analyzed. Unit <LEVEL_CSL.2> generated.
+
+Analyzing generic Entity <CSL.2> in library <work> (Architecture <structural>).
+	nbit = 9
+Entity <CSL.2> analyzed. Unit <CSL.2> generated.
+
+Analyzing generic Entity <CSL_TREE.3> in library <work> (Architecture <structural>).
+	N = 10
+	bit_in_uscita = 19
+	n_addendi = 45
+	n_addendi_uscita = 0
+Entity <CSL_TREE.3> analyzed. Unit <CSL_TREE.3> generated.
+
+Analyzing generic Entity <LEVEL_CSL.3> in library <work> (Architecture <structural>).
+	N = 10
+	n_addendi = 45
+Entity <LEVEL_CSL.3> analyzed. Unit <LEVEL_CSL.3> generated.
+
+Analyzing generic Entity <CSL.3> in library <work> (Architecture <structural>).
+	nbit = 10
+Entity <CSL.3> analyzed. Unit <CSL.3> generated.
+
+Analyzing generic Entity <CSL_TREE.4> in library <work> (Architecture <structural>).
+	N = 11
+	bit_in_uscita = 19
+	n_addendi = 30
+	n_addendi_uscita = 0
+Entity <CSL_TREE.4> analyzed. Unit <CSL_TREE.4> generated.
+
+Analyzing generic Entity <LEVEL_CSL.4> in library <work> (Architecture <structural>).
+	N = 11
+	n_addendi = 30
+Entity <LEVEL_CSL.4> analyzed. Unit <LEVEL_CSL.4> generated.
+
+Analyzing generic Entity <CSL.4> in library <work> (Architecture <structural>).
+	nbit = 11
+Entity <CSL.4> analyzed. Unit <CSL.4> generated.
+
+Analyzing generic Entity <CSL_TREE.5> in library <work> (Architecture <structural>).
+	N = 12
+	bit_in_uscita = 19
+	n_addendi = 20
+	n_addendi_uscita = 2
+Entity <CSL_TREE.5> analyzed. Unit <CSL_TREE.5> generated.
+
+Analyzing generic Entity <LEVEL_CSL.5> in library <work> (Architecture <structural>).
+	N = 12
+	n_addendi = 20
+Entity <LEVEL_CSL.5> analyzed. Unit <LEVEL_CSL.5> generated.
+
+Analyzing generic Entity <CSL.5> in library <work> (Architecture <structural>).
+	nbit = 12
+Entity <CSL.5> analyzed. Unit <CSL.5> generated.
+
+Analyzing generic Entity <CSL_TREE.6> in library <work> (Architecture <structural>).
+	N = 13
+	bit_in_uscita = 19
+	n_addendi = 14
+	n_addendi_uscita = 2
+Entity <CSL_TREE.6> analyzed. Unit <CSL_TREE.6> generated.
+
+Analyzing generic Entity <LEVEL_CSL.6> in library <work> (Architecture <structural>).
+	N = 13
+	n_addendi = 14
+Entity <LEVEL_CSL.6> analyzed. Unit <LEVEL_CSL.6> generated.
+
+Analyzing generic Entity <CSL.6> in library <work> (Architecture <structural>).
+	nbit = 13
+Entity <CSL.6> analyzed. Unit <CSL.6> generated.
+
+Analyzing generic Entity <CSL_TREE.7> in library <work> (Architecture <structural>).
+	N = 14
+	bit_in_uscita = 19
+	n_addendi = 10
+	n_addendi_uscita = 1
+Entity <CSL_TREE.7> analyzed. Unit <CSL_TREE.7> generated.
+
+Analyzing generic Entity <LEVEL_CSL.7> in library <work> (Architecture <structural>).
+	N = 14
+	n_addendi = 10
+Entity <LEVEL_CSL.7> analyzed. Unit <LEVEL_CSL.7> generated.
+
+Analyzing generic Entity <CSL.7> in library <work> (Architecture <structural>).
+	nbit = 14
+Entity <CSL.7> analyzed. Unit <CSL.7> generated.
+
+Analyzing generic Entity <CSL_TREE.8> in library <work> (Architecture <structural>).
+	N = 15
+	bit_in_uscita = 19
+	n_addendi = 7
+	n_addendi_uscita = 1
+Entity <CSL_TREE.8> analyzed. Unit <CSL_TREE.8> generated.
+
+Analyzing generic Entity <LEVEL_CSL.8> in library <work> (Architecture <structural>).
+	N = 15
+	n_addendi = 7
+Entity <LEVEL_CSL.8> analyzed. Unit <LEVEL_CSL.8> generated.
+
+Analyzing generic Entity <CSL.8> in library <work> (Architecture <structural>).
+	nbit = 15
+Entity <CSL.8> analyzed. Unit <CSL.8> generated.
+
+Analyzing generic Entity <CSL_TREE.9> in library <work> (Architecture <structural>).
+	N = 16
+	bit_in_uscita = 19
+	n_addendi = 5
+	n_addendi_uscita = 2
+Entity <CSL_TREE.9> analyzed. Unit <CSL_TREE.9> generated.
+
+Analyzing generic Entity <LEVEL_CSL.9> in library <work> (Architecture <structural>).
+	N = 16
+	n_addendi = 5
+Entity <LEVEL_CSL.9> analyzed. Unit <LEVEL_CSL.9> generated.
+
+Analyzing generic Entity <CSL.9> in library <work> (Architecture <structural>).
+	nbit = 16
+Entity <CSL.9> analyzed. Unit <CSL.9> generated.
+
+Analyzing generic Entity <CSL_TREE.10> in library <work> (Architecture <structural>).
+	N = 17
+	bit_in_uscita = 19
+	n_addendi = 4
+	n_addendi_uscita = 1
+Entity <CSL_TREE.10> analyzed. Unit <CSL_TREE.10> generated.
+
+Analyzing generic Entity <LEVEL_CSL.10> in library <work> (Architecture <structural>).
+	N = 17
+	n_addendi = 4
+Entity <LEVEL_CSL.10> analyzed. Unit <LEVEL_CSL.10> generated.
+
+Analyzing generic Entity <CSL.10> in library <work> (Architecture <structural>).
+	nbit = 17
+Entity <CSL.10> analyzed. Unit <CSL.10> generated.
+
+Analyzing generic Entity <CSL_TREE.11> in library <work> (Architecture <structural>).
+	N = 18
+	bit_in_uscita = 19
+	n_addendi = 3
+	n_addendi_uscita = 0
+Entity <CSL_TREE.11> analyzed. Unit <CSL_TREE.11> generated.
+
+Analyzing generic Entity <LEVEL_CSL.11> in library <work> (Architecture <structural>).
+	N = 18
+	n_addendi = 3
+Entity <LEVEL_CSL.11> analyzed. Unit <LEVEL_CSL.11> generated.
+
+Analyzing generic Entity <CSL.11> in library <work> (Architecture <structural>).
+	nbit = 18
+Entity <CSL.11> analyzed. Unit <CSL.11> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <FULL_ADDER>.
+    Related source file is "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/FULL_ADDER.vhd".
+    Found 1-bit xor3 for signal <si>.
+    Summary:
+	inferred   1 Xor(s).
+Unit <FULL_ADDER> synthesized.
+
+
+Synthesizing Unit <CSL_1>.
+    Related source file is "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/CSL.vhd".
+Unit <CSL_1> synthesized.
+
+
+Synthesizing Unit <CSL_2>.
+    Related source file is "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/CSL.vhd".
+Unit <CSL_2> synthesized.
+
+
+Synthesizing Unit <CSL_3>.
+    Related source file is "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/CSL.vhd".
+Unit <CSL_3> synthesized.
+
+
+Synthesizing Unit <CSL_4>.
+    Related source file is "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/CSL.vhd".
+Unit <CSL_4> synthesized.
+
+
+Synthesizing Unit <CSL_5>.
+    Related source file is "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/CSL.vhd".
+Unit <CSL_5> synthesized.
+
+
+Synthesizing Unit <CSL_6>.
+    Related source file is "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/CSL.vhd".
+Unit <CSL_6> synthesized.
+
+
+Synthesizing Unit <CSL_7>.
+    Related source file is "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/CSL.vhd".
+Unit <CSL_7> synthesized.
+
+
+Synthesizing Unit <CSL_8>.
+    Related source file is "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/CSL.vhd".
+Unit <CSL_8> synthesized.
+
+
+Synthesizing Unit <CSL_9>.
+    Related source file is "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/CSL.vhd".
+Unit <CSL_9> synthesized.
+
+
+Synthesizing Unit <CSL_10>.
+    Related source file is "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/CSL.vhd".
+Unit <CSL_10> synthesized.
+
+
+Synthesizing Unit <CSL_11>.
+    Related source file is "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/CSL.vhd".
+Unit <CSL_11> synthesized.
+
+
+Synthesizing Unit <LEVEL_CSL_1>.
+    Related source file is "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/LEVEL_CSL.vhd".
+WARNING:Xst:646 - Signal <c<99>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <LEVEL_CSL_1> synthesized.
+
+
+Synthesizing Unit <LEVEL_CSL_2>.
+    Related source file is "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/LEVEL_CSL.vhd".
+WARNING:Xst:646 - Signal <c<66>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <LEVEL_CSL_2> synthesized.
+
+
+Synthesizing Unit <LEVEL_CSL_3>.
+    Related source file is "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/LEVEL_CSL.vhd".
+Unit <LEVEL_CSL_3> synthesized.
+
+
+Synthesizing Unit <LEVEL_CSL_4>.
+    Related source file is "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/LEVEL_CSL.vhd".
+Unit <LEVEL_CSL_4> synthesized.
+
+
+Synthesizing Unit <LEVEL_CSL_5>.
+    Related source file is "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/LEVEL_CSL.vhd".
+WARNING:Xst:646 - Signal <c<19:18>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <LEVEL_CSL_5> synthesized.
+
+
+Synthesizing Unit <LEVEL_CSL_6>.
+    Related source file is "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/LEVEL_CSL.vhd".
+WARNING:Xst:646 - Signal <c<13:12>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <LEVEL_CSL_6> synthesized.
+
+
+Synthesizing Unit <LEVEL_CSL_7>.
+    Related source file is "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/LEVEL_CSL.vhd".
+WARNING:Xst:646 - Signal <c<9>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <LEVEL_CSL_7> synthesized.
+
+
+Synthesizing Unit <LEVEL_CSL_8>.
+    Related source file is "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/LEVEL_CSL.vhd".
+WARNING:Xst:646 - Signal <c<6>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <LEVEL_CSL_8> synthesized.
+
+
+Synthesizing Unit <LEVEL_CSL_9>.
+    Related source file is "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/LEVEL_CSL.vhd".
+WARNING:Xst:646 - Signal <c<4:3>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <LEVEL_CSL_9> synthesized.
+
+
+Synthesizing Unit <LEVEL_CSL_10>.
+    Related source file is "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/LEVEL_CSL.vhd".
+WARNING:Xst:646 - Signal <c<3>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <LEVEL_CSL_10> synthesized.
+
+
+Synthesizing Unit <LEVEL_CSL_11>.
+    Related source file is "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/LEVEL_CSL.vhd".
+Unit <LEVEL_CSL_11> synthesized.
+
+
+Synthesizing Unit <CSL_TREE_11>.
+    Related source file is "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/CSL_TREE.vhd".
+WARNING:Xst:1780 - Signal <vet_uscite_s_temp> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <vet_uscite_c_temp> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <concatenate1> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <concatenate> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <CSL_TREE_11> synthesized.
+
+
+Synthesizing Unit <CSL_TREE_10>.
+    Related source file is "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/CSL_TREE.vhd".
+WARNING:Xst:1780 - Signal <vet_uscite_s_temp> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <vet_uscite_c_temp> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <concatenate> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <CSL_TREE_10> synthesized.
+
+
+Synthesizing Unit <CSL_TREE_9>.
+    Related source file is "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/CSL_TREE.vhd".
+WARNING:Xst:1780 - Signal <vet_uscite_s_temp> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <vet_uscite_c_temp> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <concatenate> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <CSL_TREE_9> synthesized.
+
+
+Synthesizing Unit <CSL_TREE_8>.
+    Related source file is "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/CSL_TREE.vhd".
+WARNING:Xst:1780 - Signal <vet_uscite_s_temp> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <vet_uscite_c_temp> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <concatenate> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <CSL_TREE_8> synthesized.
+
+
+Synthesizing Unit <CSL_TREE_7>.
+    Related source file is "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/CSL_TREE.vhd".
+WARNING:Xst:1780 - Signal <vet_uscite_s_temp> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <vet_uscite_c_temp> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <concatenate> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <CSL_TREE_7> synthesized.
+
+
+Synthesizing Unit <CSL_TREE_6>.
+    Related source file is "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/CSL_TREE.vhd".
+WARNING:Xst:1780 - Signal <vet_uscite_s_temp> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <vet_uscite_c_temp> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <concatenate> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <CSL_TREE_6> synthesized.
+
+
+Synthesizing Unit <CSL_TREE_5>.
+    Related source file is "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/CSL_TREE.vhd".
+WARNING:Xst:1780 - Signal <vet_uscite_s_temp> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <vet_uscite_c_temp> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <concatenate> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <CSL_TREE_5> synthesized.
+
+
+Synthesizing Unit <CSL_TREE_4>.
+    Related source file is "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/CSL_TREE.vhd".
+WARNING:Xst:1780 - Signal <vet_uscite_s_temp> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <vet_uscite_c_temp> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <concatenate1> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <CSL_TREE_4> synthesized.
+
+
+Synthesizing Unit <CSL_TREE_3>.
+    Related source file is "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/CSL_TREE.vhd".
+WARNING:Xst:1780 - Signal <vet_uscite_s_temp> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <vet_uscite_c_temp> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <concatenate1> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <CSL_TREE_3> synthesized.
+
+
+Synthesizing Unit <CSL_TREE_2>.
+    Related source file is "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/CSL_TREE.vhd".
+WARNING:Xst:1780 - Signal <vet_uscite_s_temp> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <vet_uscite_c_temp> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <concatenate> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <CSL_TREE_2> synthesized.
+
+
+Synthesizing Unit <CSL_TREE_1>.
+    Related source file is "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/CSL_TREE.vhd".
+WARNING:Xst:1780 - Signal <vet_uscite_s_temp> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <vet_uscite_c_temp> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <concatenate> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <CSL_TREE_1> synthesized.
+
+
+Synthesizing Unit <Contenitore>.
+    Related source file is "/home/giorgio/Documenti/Carry_save_NuscitadaFissare/ES_CARRY_SAVE/Contenitore.vhd".
+Unit <Contenitore> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 969
+ 1-bit xor3                                            : 969
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 969
+ 1-bit xor3                                            : 969
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Contenitore> ...
+
+Optimizing unit <LEVEL_CSL_1> ...
+
+Optimizing unit <LEVEL_CSL_2> ...
+
+Optimizing unit <LEVEL_CSL_3> ...
+
+Optimizing unit <LEVEL_CSL_4> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Contenitore, actual ratio is 96.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Contenitore.ngr
+Top Level Output File Name         : Contenitore
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 838
+
+Cell Usage :
+# BELS                             : 1585
+#      GND                         : 1
+#      LUT3                        : 1533
+#      LUT4                        : 51
+# IO Buffers                       : 838
+#      IBUF                        : 800
+#      OBUF                        : 38
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100etq144-5 
+
+ Number of Slices:                      911  out of    960    94%  
+ Number of 4 input LUTs:               1584  out of   1920    82%  
+ Number of IOs:                         838
+ Number of bonded IOBs:                 838  out of    108   775% (*) 
+
+WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 17.236ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1212728 / 24
+-------------------------------------------------------------------------
+Delay:               17.236ns (Levels of Logic = 13)
+  Source:            addendi<31><7> (PAD)
+  Destination:       uscite_c<0><12> (PAD)
+
+  Data Path: addendi<31><7> to uscite_c<0><12>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.106   0.532  addendi_31__7_IBUF (addendi_31__7_IBUF)
+     LUT3:I0->O            2   0.612   0.532  csl/SI_RESTO_NO_FINE.livelloNonFinale1/GEN[10].csl_istantiate/GEN[7].FA/cp1 (csl/temp_uscite_c<10><8>)
+     LUT3:I0->O            2   0.612   0.532  csl/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.livelloNonFinale1/GEN[14].csl_istantiate/GEN[8].FA/cp1 (csl/SI_RESTO_NO_FINE.ricorsione1/temp_uscite_c<14><9>)
+     LUT3:I0->O            2   0.612   0.532  csl/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/NO_RESTO_NO_FINE.livelloNonFinale/GEN[12].csl_istantiate/GEN[9].FA/Mxor_si_xo<0>1 (csl/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/temp_uscite_s<12><9>)
+     LUT4:I0->O            3   0.612   0.603  csl/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/NO_RESTO_NO_FINE.ricorsione/NO_RESTO_NO_FINE.livelloNonFinale/GEN[4].csl_istantiate/GEN[9].FA/Mxor_si_xo<0>1 (csl/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/NO_RESTO_NO_FINE.ricorsione/temp_uscite_s<4><9>)
+     LUT4:I0->O            3   0.612   0.603  csl/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/NO_RESTO_NO_FINE.ricorsione/NO_RESTO_NO_FINE.ricorsione/SI_RESTO_NO_FINE.livelloNonFinale1/GEN[1].csl_istantiate/GEN[9].FA/cp1 (csl/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/NO_RESTO_NO_FINE.ricorsione/NO_RESTO_NO_FINE.ricorsione/temp_uscite_c<1><10>)
+     LUT4:I0->O            2   0.612   0.410  csl/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/NO_RESTO_NO_FINE.ricorsione/NO_RESTO_NO_FINE.ricorsione/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.livelloNonFinale1/GEN[2].csl_istantiate/GEN[10].FA/Mxor_si_xo<0>1 (csl/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/NO_RESTO_NO_FINE.ricorsione/NO_RESTO_NO_FINE.ricorsione/SI_RESTO_NO_FINE.ricorsione1/temp_uscite_s<2><10>)
+     LUT3:I2->O            2   0.612   0.532  csl/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/NO_RESTO_NO_FINE.ricorsione/NO_RESTO_NO_FINE.ricorsione/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.livelloNonFinale1/GEN[0].csl_istantiate/GEN[10].FA/Mxor_si_xo<0>1 (csl/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/NO_RESTO_NO_FINE.ricorsione/NO_RESTO_NO_FINE.ricorsione/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/temp_uscite_s<0><10>_XDM0001)
+     LUT3:I0->O            2   0.612   0.532  csl/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/NO_RESTO_NO_FINE.ricorsione/NO_RESTO_NO_FINE.ricorsione/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.livelloNonFinale1/GEN[0].csl_istantiate/GEN[10].FA/Mxor_si_xo<0>1 (csl/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/NO_RESTO_NO_FINE.ricorsione/NO_RESTO_NO_FINE.ricorsione/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/temp_uscite_s<0><10>)
+     LUT3:I0->O            2   0.612   0.532  csl/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/NO_RESTO_NO_FINE.ricorsione/NO_RESTO_NO_FINE.ricorsione/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.livelloNonFinale1/GEN[0].csl_istantiate/GEN[10].FA/cp1 (csl/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/NO_RESTO_NO_FINE.ricorsione/NO_RESTO_NO_FINE.ricorsione/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/temp_uscite_c<0><11>_XDM0001)
+     LUT3:I0->O            2   0.612   0.532  csl/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/NO_RESTO_NO_FINE.ricorsione/NO_RESTO_NO_FINE.ricorsione/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.livelloNonFinale1/GEN[0].csl_istantiate/GEN[11].FA/Mxor_si_xo<0>1 (csl/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/NO_RESTO_NO_FINE.ricorsione/NO_RESTO_NO_FINE.ricorsione/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/temp_uscite_s<0><11>)
+     LUT3:I0->O            1   0.612   0.357  csl/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/NO_RESTO_NO_FINE.ricorsione/NO_RESTO_NO_FINE.ricorsione/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/SI_RESTO_NO_FINE.ricorsione1/NO_RESTO_SI_FINE.livelloFinale/GEN[0].csl_istantiate/GEN[11].FA/cp1 (uscite_c_0__12_OBUF)
+     OBUF:I->O                 3.169          uscite_c_0__12_OBUF (uscite_c<0><12>)
+    ----------------------------------------
+    Total                     17.236ns (11.007ns logic, 6.229ns route)
+                                       (63.9% logic, 36.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 17.00 secs
+Total CPU time to Xst completion: 16.71 secs
+ 
+--> 
+
+
+Total memory usage is 590760 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   43 (   0 filtered)
+Number of infos    :   70 (   0 filtered)
+

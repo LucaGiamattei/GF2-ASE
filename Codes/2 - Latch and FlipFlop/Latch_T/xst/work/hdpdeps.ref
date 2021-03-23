@@ -1,0 +1,12 @@
+V3 6
+FL /home/luca/ISE_ws/Latch_rs/Latch_rs.vhd 2019/02/21.11:09:43 P.20131013
+EN work/Latch_rs 1550743788 FL /home/luca/ISE_ws/Latch_rs/Latch_rs.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Latch_rs/dataflow 1550743789 \
+      FL /home/luca/ISE_ws/Latch_rs/Latch_rs.vhd EN work/Latch_rs 1550743788
+FL /home/luca/Scrivania/Codici_tesina/Latch_T/Latch_rs.vhd 2019/02/25.19:21:11 P.20131013
+EN work/Latch_T 1551118875 \
+      FL /home/luca/Scrivania/Codici_tesina/Latch_T/Latch_rs.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Latch_T/dataflow 1551118876 \
+      FL /home/luca/Scrivania/Codici_tesina/Latch_T/Latch_rs.vhd EN work/Latch_T 1551118875

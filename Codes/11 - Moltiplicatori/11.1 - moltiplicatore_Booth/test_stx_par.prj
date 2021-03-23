@@ -1,0 +1,2 @@
+vhdl isim_temp "netgen/par/Moltiplicatore_Booth_timesim.vhd"
+vhdl isim_temp "test.vhd"

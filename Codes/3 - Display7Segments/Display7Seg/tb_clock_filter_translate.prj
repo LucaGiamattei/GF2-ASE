@@ -1,0 +1,2 @@
+vhdl work "netgen/translate/clock_filter_translate.vhd"
+vhdl work "tb_clock_filter.vhd"

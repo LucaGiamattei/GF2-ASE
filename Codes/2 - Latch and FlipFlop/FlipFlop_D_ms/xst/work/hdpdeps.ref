@@ -1,0 +1,6 @@
+V3 6
+FL /home/luca/ISE_ws/FF_ms/ffms.vhf 2019/02/22.12:26:57 P.20131013
+EN work/ffms 1550835629 FL /home/luca/ISE_ws/FF_ms/ffms.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/ffms/BEHAVIORAL 1550835630 \
+      FL /home/luca/ISE_ws/FF_ms/ffms.vhf EN work/ffms 1550835629 CP INV CP LD

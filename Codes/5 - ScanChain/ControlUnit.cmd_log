@@ -1,0 +1,11 @@
+vhdtdtfi -prj ES_SCAN_CHAIN -o /home/giorgio/Documenti/ES_SCAN_CHAIN/ControlUnit.vhi -module ControlUnit -template /home/giorgio/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ControlUnit.vhd 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ControlUnit.xst" -ofn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-4 ControlUnit.ngc ControlUnit.ngd  
+map -intstyle ise -p xc3s100e-tq144-4 -cm area -ir off -pr off -c 100 -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -t 1 ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+trce -intstyle ise -v 12 -s 4 -n 12 -fastpaths -xml ControlUnit.twx ControlUnit.ncd -o ControlUnit.twr ControlUnit.pcf 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ControlUnit.xst" -ofn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ControlUnit.syr" 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ControlUnit.xst" -ofn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ControlUnit.syr" 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ControlUnit.xst" -ofn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ControlUnit.syr" 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ControlUnit.xst" -ofn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ControlUnit.syr" 
+xst -intstyle ise -ifn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ControlUnit.xst" -ofn "/home/giorgio/Documenti/ES_SCAN_CHAIN/ControlUnit.syr" 

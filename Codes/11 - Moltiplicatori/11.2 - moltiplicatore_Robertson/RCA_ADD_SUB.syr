@@ -1,0 +1,362 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.03 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.03 secs
+ 
+--> 
+Reading design: RCA_ADD_SUB.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "RCA_ADD_SUB.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "RCA_ADD_SUB"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-tq144
+
+---- Source Options
+Top Module Name                    : RCA_ADD_SUB
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/giorgio/Documenti/shiftregister/shiftregister/fulladder.vhd" in Library work.
+Architecture dataflow of Entity full_adder is up to date.
+Compiling vhdl file "/home/giorgio/Documenti/shiftregister/shiftregister/XOR_Inversion.vhd" in Library work.
+Architecture dataflow of Entity xor_inversion is up to date.
+Compiling vhdl file "/home/giorgio/Documenti/shiftregister/shiftregister/ripplecarry.vhd" in Library work.
+Architecture structural of Entity ripple_carry is up to date.
+Compiling vhdl file "/home/giorgio/Documenti/shiftregister/shiftregister/Controllo_Overflow.vhd" in Library work.
+Architecture behavioral of Entity controllo_overflow is up to date.
+Compiling vhdl file "/home/giorgio/Documenti/shiftregister/shiftregister/RCA_ADD_SUB.vhd" in Library work.
+Entity <rca_add_sub> compiled.
+Entity <rca_add_sub> (Architecture <structural>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <RCA_ADD_SUB> in library <work> (architecture <structural>) with generics.
+	N = 8
+
+Analyzing hierarchy for entity <XOR_Inversion> in library <work> (architecture <dataflow>) with generics.
+	N = 8
+
+Analyzing hierarchy for entity <ripple_carry> in library <work> (architecture <structural>) with generics.
+	num_bit = 8
+
+Analyzing hierarchy for entity <Controllo_Overflow> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <full_adder> in library <work> (architecture <dataflow>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <RCA_ADD_SUB> in library <work> (Architecture <structural>).
+	N = 8
+WARNING:Xst:753 - "/home/giorgio/Documenti/shiftregister/shiftregister/RCA_ADD_SUB.vhd" line 89: Unconnected output port 'riporto_out' of component 'ripple_carry'.
+Entity <RCA_ADD_SUB> analyzed. Unit <RCA_ADD_SUB> generated.
+
+Analyzing generic Entity <XOR_Inversion> in library <work> (Architecture <dataflow>).
+	N = 8
+Entity <XOR_Inversion> analyzed. Unit <XOR_Inversion> generated.
+
+Analyzing generic Entity <ripple_carry> in library <work> (Architecture <structural>).
+	num_bit = 8
+Entity <ripple_carry> analyzed. Unit <ripple_carry> generated.
+
+Analyzing Entity <full_adder> in library <work> (Architecture <dataflow>).
+Entity <full_adder> analyzed. Unit <full_adder> generated.
+
+Analyzing Entity <Controllo_Overflow> in library <work> (Architecture <behavioral>).
+Entity <Controllo_Overflow> analyzed. Unit <Controllo_Overflow> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <XOR_Inversion>.
+    Related source file is "/home/giorgio/Documenti/shiftregister/shiftregister/XOR_Inversion.vhd".
+    Found 8-bit xor2 for signal <temp>.
+Unit <XOR_Inversion> synthesized.
+
+
+Synthesizing Unit <Controllo_Overflow>.
+    Related source file is "/home/giorgio/Documenti/shiftregister/shiftregister/Controllo_Overflow.vhd".
+    Found 1-bit xor2 for signal <overf$xor0000> created at line 65.
+    Found 1-bit xor2 for signal <overf$xor0001> created at line 65.
+Unit <Controllo_Overflow> synthesized.
+
+
+Synthesizing Unit <full_adder>.
+    Related source file is "/home/giorgio/Documenti/shiftregister/shiftregister/fulladder.vhd".
+    Found 1-bit xor2 for signal <somma>.
+    Found 1-bit xor2 for signal <riporto_out$xor0000> created at line 43.
+Unit <full_adder> synthesized.
+
+
+Synthesizing Unit <ripple_carry>.
+    Related source file is "/home/giorgio/Documenti/shiftregister/shiftregister/ripplecarry.vhd".
+Unit <ripple_carry> synthesized.
+
+
+Synthesizing Unit <RCA_ADD_SUB>.
+    Related source file is "/home/giorgio/Documenti/shiftregister/shiftregister/RCA_ADD_SUB.vhd".
+Unit <RCA_ADD_SUB> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 26
+ 1-bit xor2                                            : 26
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 26
+ 1-bit xor2                                            : 26
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <RCA_ADD_SUB> ...
+
+Optimizing unit <ripple_carry> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block RCA_ADD_SUB, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : RCA_ADD_SUB.ngr
+Top Level Output File Name         : RCA_ADD_SUB
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 26
+
+Cell Usage :
+# BELS                             : 16
+#      LUT2                        : 1
+#      LUT3                        : 1
+#      LUT4                        : 14
+# IO Buffers                       : 26
+#      IBUF                        : 17
+#      OBUF                        : 9
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100etq144-5 
+
+ Number of Slices:                        8  out of    960     0%  
+ Number of 4 input LUTs:                 16  out of   1920     0%  
+ Number of IOs:                          26
+ Number of bonded IOBs:                  26  out of    108    24%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 13.414ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 131 / 9
+-------------------------------------------------------------------------
+Delay:               13.414ns (Levels of Logic = 10)
+  Source:            add_sub_n (PAD)
+  Destination:       overflow (PAD)
+
+  Data Path: add_sub_n to overflow
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            15   1.106   0.894  add_sub_n_IBUF (add_sub_n_IBUF)
+     LUT3:I2->O            2   0.612   0.410  rca/serie_di_fa[0].fa/riporto_out1 (rca/vettore_riporti<1>)
+     LUT4:I2->O            2   0.612   0.410  rca/serie_di_fa[1].fa/riporto_out1 (rca/vettore_riporti<2>)
+     LUT4:I2->O            2   0.612   0.410  rca/serie_di_fa[2].fa/riporto_out1 (rca/vettore_riporti<3>)
+     LUT4:I2->O            2   0.612   0.410  rca/serie_di_fa[3].fa/riporto_out1 (rca/vettore_riporti<4>)
+     LUT4:I2->O            2   0.612   0.410  rca/serie_di_fa[4].fa/riporto_out1 (rca/vettore_riporti<5>)
+     LUT4:I2->O            2   0.612   0.410  rca/serie_di_fa[5].fa/riporto_out1 (rca/vettore_riporti<6>)
+     LUT4:I2->O            2   0.612   0.532  rca/serie_di_fa[6].fa/riporto_out1 (rca/vettore_riporti<7>)
+     LUT4:I0->O            1   0.612   0.357  controllo/overf_and00001 (overflow_OBUF)
+     OBUF:I->O                 3.169          overflow_OBUF (overflow)
+    ----------------------------------------
+    Total                     13.414ns (9.171ns logic, 4.243ns route)
+                                       (68.4% logic, 31.6% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 3.09 secs
+ 
+--> 
+
+
+Total memory usage is 520904 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

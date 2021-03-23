@@ -1,0 +1,7 @@
+vhdl work "extentionwork.vhd"
+vhdl work "tb_contenitore.vhd"
+vhdl work "LEVEL_CSL.vhd"
+vhdl work "FULL_ADDER.vhd"
+vhdl work "CSL_TREE.vhd"
+vhdl work "CSL.vhd"
+vhdl work "Contenitore.vhd"

@@ -1,0 +1,1 @@
+vhdtdtfi -lib work counter_mod4.vhd -prj Display7Seg -o counter_mod4.spl -module counter_mod4 -template /home/giorgio/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 

@@ -1,0 +1,2 @@
+vhdl work "netgen/map/Latch_RS_map.vhd"
+vhdl work "RS_TB.vhd"

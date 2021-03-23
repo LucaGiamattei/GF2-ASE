@@ -1,0 +1,17 @@
+EN display_seven_segments NULL /home/luca/Scaricati/Display7Seg1/Display7Seg/display_seven_segments.vhd sub00/vhpl08 1551111742
+EN clock_filter NULL /home/luca/Scaricati/Display7Seg1/Display7Seg/clock_filter.vhd sub00/vhpl00 1551111736
+EN cathodes_manager NULL /home/luca/Scaricati/Display7Seg1/Display7Seg/cathodes_manager.vhd sub00/vhpl04 1551111738
+AR control_unit behavioral /home/luca/Scaricati/Display7Seg1/Display7Seg/control_unit.vhd sub00/vhpl11 1551111745
+EN display_on_board NULL /home/luca/Scaricati/Display7Seg1/Display7Seg/display_on_board.vhd sub00/vhpl12 1551111746
+AR anodes_manager behavioral /home/luca/Scaricati/Display7Seg1/Display7Seg/anodes_manager.vhd sub00/vhpl07 1551111741
+EN counter_mod4 NULL /home/giorgio/Display7Seg/counter_mod4.vhd sub00/vhpl02 1550947543
+AR clock_filter behavioral /home/giorgio/Display7Seg/clock_filter.vhd sub00/vhpl01 1551104516
+AR display_on_board structural /home/luca/Scaricati/Display7Seg1/Display7Seg/display_on_board.vhd sub00/vhpl13 1551111747
+AR cathodes_manager behavioral /home/luca/Scaricati/Display7Seg1/Display7Seg/cathodes_manager.vhd sub00/vhpl05 1551111739
+EN counter_modn NULL /home/luca/Scaricati/Display7Seg1/Display7Seg/counter_mod4.vhd sub00/vhpl14 1551111734
+EN control_unit NULL /home/luca/Scaricati/Display7Seg1/Display7Seg/control_unit.vhd sub00/vhpl10 1551111744
+AR clock_filter structural /home/luca/Scaricati/Display7Seg1/Display7Seg/clock_filter.vhd sub00/vhpl16 1551111737
+AR counter_mod4 behavioral /home/giorgio/Display7Seg/counter_mod4.vhd sub00/vhpl03 1550947544
+EN anodes_manager NULL /home/luca/Scaricati/Display7Seg1/Display7Seg/anodes_manager.vhd sub00/vhpl06 1551111740
+AR counter_modn behavioral /home/luca/Scaricati/Display7Seg1/Display7Seg/counter_mod4.vhd sub00/vhpl15 1551111735
+AR display_seven_segments structural /home/luca/Scaricati/Display7Seg1/Display7Seg/display_seven_segments.vhd sub00/vhpl09 1551111743

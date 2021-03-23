@@ -1,0 +1,7 @@
+vhdl isim_temp "extentionwork.vhd"
+vhdl isim_temp "tb_contenitore.vhd"
+vhdl isim_temp "LEVEL_CSL.vhd"
+vhdl isim_temp "FULL_ADDER.vhd"
+vhdl isim_temp "CSL_TREE.vhd"
+vhdl isim_temp "CSL.vhd"
+vhdl isim_temp "Contenitore.vhd"

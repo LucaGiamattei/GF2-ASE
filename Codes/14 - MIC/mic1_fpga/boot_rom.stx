@@ -1,0 +1,25 @@
+Release 9.2i - xst J.36
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.58 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/boot_rom is now defined in a different file.  It was defined in "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/rom8.vhd", and is now defined in "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok_ccellar/rom8.vhd".
+WARNING:HDLParsers:3607 - Unit work/boot_rom/basic is now defined in a different file.  It was defined in "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok/rom8.vhd", and is now defined in "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok_ccellar/rom8.vhd".
+Compiling vhdl file "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok_ccellar/rom8.vhd" in Library work.
+Entity <boot_rom> compiled.
+ERROR:HDLParsers:3312 - "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok_ccellar/rom8.vhd" Line 480. Undefined symbol 'CE'.
+ERROR:HDLParsers:1209 - "C:/Documents and Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_ok_ccellar/rom8.vhd" Line 480. CE: Undefined symbol (last report in this block)
+CPU : 0.38 / 0.95 s | Elapsed : 1.00 / 1.00 s
+ 
+--> 
+
+Total memory usage is 112552 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

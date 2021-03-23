@@ -1,0 +1,8 @@
+EN nor_2_in NULL /home/luca/ISE_ws/FFD_edg/nor_2_in.vhd sub00/vhpl02 1550772989
+AR nor_3_in nor_3_in /home/luca/ISE_ws/FFD_edg/nor_3_in.vhd sub00/vhpl07 1550677180
+AR nor_2_in nor_2_in /home/luca/ISE_ws/FFD_edg/nor_2_in.vhd sub00/vhpl03 1550772990
+AR or_2_in or_2_in /home/luca/ISE_ws/FFD_edg/or_2_in.vhd sub00/vhpl01 1550665604
+AR ffd_edg structural /home/luca/ISE_ws/FFD_edg/FFD_edg.vhd sub00/vhpl05 1550772992
+EN nor_3_in NULL /home/luca/ISE_ws/FFD_edg/nor_3_in.vhd sub00/vhpl06 1550677179
+EN or_2_in NULL /home/luca/ISE_ws/FFD_edg/or_2_in.vhd sub00/vhpl00 1550665603
+EN ffd_edg NULL /home/luca/ISE_ws/FFD_edg/FFD_edg.vhd sub00/vhpl04 1550772991

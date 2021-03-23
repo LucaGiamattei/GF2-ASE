@@ -1,0 +1,39 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/luca/ISE_ws/FF_ms/ffms_ffms_sch_tb_isim_par.exe -prj /home/luca/ISE_ws/FF_ms/ffms_ffms_sch_tb_par.prj work.ffms_ffms_sch_tb 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/luca/ISE_ws/FF_ms/netgen/par/ffms_timesim.vhd" into library work
+Parsing VHDL file "/home/luca/ISE_ws/FF_ms/ffms_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 158696 KB
+Fuse CPU Usage: 1790 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling package textio
+Compiling package vital_timing
+Compiling package vcomponents
+Compiling package vital_primitives
+Compiling package vpackage
+Compiling architecture x_buf_v of entity X_BUF [\X_BUF(true,true,"UNPLACED",(0,0...]
+Compiling architecture x_obuf_v of entity X_OBUF [\X_OBUF(true,true,"DONT_CARE",12...]
+Compiling architecture x_bufgmux_v of entity X_BUFGMUX [\X_BUFGMUX(true,"*",true,false,"...]
+Compiling architecture x_inv_v of entity X_INV [\X_INV(true,true,"BUFGMUX_X2Y10"...]
+Compiling architecture x_latche_v of entity X_LATCHE [\X_LATCHE(true,true,true,"UNPLAC...]
+Compiling architecture x_zero_v of entity X_ZERO [\X_ZERO("UNPLACED")(1,8)\]
+Compiling architecture x_one_v of entity X_ONE [\X_ONE("UNPLACED")(1,8)\]
+Compiling architecture x_inv_v of entity X_INV [\X_INV(true,true,"UNPLACED",(0,0...]
+Compiling architecture x_roc_v of entity X_ROC [\X_ROC("UNPLACED",100000,"*")(1,...]
+Compiling architecture x_toc_v of entity X_TOC [\X_TOC("UNPLACED",0,"*")(1,8,1,1...]
+Compiling architecture structure of entity ffms [ffms_default]
+Compiling architecture behavioral of entity ffms_ffms_sch_tb
+Time Resolution for simulation is 1ps.
+Waiting for 10 sub-compilation(s) to finish...
+Compiled 46 VHDL Units
+Built simulation executable /home/luca/ISE_ws/FF_ms/ffms_ffms_sch_tb_isim_par.exe
+Fuse Memory Usage: 475904 KB
+Fuse CPU Usage: 2280 ms
+GCC CPU Usage: 1610 ms

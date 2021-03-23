@@ -1,0 +1,6 @@
+V3 3
+FL /home/giorgio/Documenti/FSM/FSM.vhd 2019/03/17.13:36:33 P.20131013
+EN work/FSM 1552845848 FL /home/giorgio/Documenti/FSM/FSM.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/FSM/Behavioral 1552845849 \
+      FL /home/giorgio/Documenti/FSM/FSM.vhd EN work/FSM 1552845848

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/giorgio/Documenti/ES_SCAN_CHAIN/tb_2_isim_par.exe" -prj "/home/giorgio/Documenti/ES_SCAN_CHAIN/tb_2_par.prj" "work.tb_2" 

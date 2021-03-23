@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.ncd
+OUTFILE=/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/sistema_mic1.bit
+FAMILY=Spartan3E
+PART=xc3s250e-5tq144
+WORKINGDIR=/home/luca/Scrivania/design/OR_con_constante/mic1_fpga
+LICENSE=WebPack
+USER_INFO=211628941_0_0_336

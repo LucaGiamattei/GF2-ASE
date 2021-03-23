@@ -1,0 +1,53 @@
+xst -intstyle ise -ifn "/home/luca/Scrivania/ASE/ISE_ws/Latch_RS/Latch_RS.xst" -ofn "/home/luca/Scrivania/ASE/ISE_ws/Latch_RS/Latch_RS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 Latch_RS.ngc Latch_RS.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Latch_RS_map.ncd Latch_RS.ngd Latch_RS.pcf 
+par -w -intstyle ise -ol high -t 1 Latch_RS_map.ncd Latch_RS.ncd Latch_RS.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Latch_RS.twx Latch_RS.ncd -o Latch_RS.twr Latch_RS.pcf 
+netgen -intstyle ise -s 4  -pcf Latch_RS.pcf -rpw 100 -tpw 0 -ar Structure -tm Latch_RS -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim Latch_RS.ncd Latch_RS_timesim.vhd 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/Latch_RS/Latch_RS.xst" -ofn "/home/luca/ISE_ws/Latch_RS/Latch_RS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 Latch_RS.ngc Latch_RS.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Latch_RS_map.ncd Latch_RS.ngd Latch_RS.pcf 
+par -w -intstyle ise -ol high -t 1 Latch_RS_map.ncd Latch_RS.ncd Latch_RS.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Latch_RS.twx Latch_RS.ncd -o Latch_RS.twr Latch_RS.pcf 
+netgen -intstyle ise -s 4  -pcf Latch_RS.pcf -rpw 100 -tpw 0 -ar Structure -tm Latch_RS -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim Latch_RS.ncd Latch_RS_timesim.vhd 
+netgen -intstyle ise -s 4  -pcf Latch_RS.pcf -rpw 100 -tpw 0 -ar Structure -tm Latch_RS -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim Latch_RS.ncd Latch_RS_timesim.vhd 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/Latch_RS/Latch_RS.xst" -ofn "/home/luca/ISE_ws/Latch_RS/Latch_RS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 Latch_RS.ngc Latch_RS.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Latch_RS_map.ncd Latch_RS.ngd Latch_RS.pcf 
+par -w -intstyle ise -ol high -t 1 Latch_RS_map.ncd Latch_RS.ncd Latch_RS.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Latch_RS.twx Latch_RS.ncd -o Latch_RS.twr Latch_RS.pcf 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/Latch_RS/Latch_RS.xst" -ofn "/home/luca/ISE_ws/Latch_RS/Latch_RS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 Latch_RS.ngc Latch_RS.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Latch_RS_map.ncd Latch_RS.ngd Latch_RS.pcf 
+par -w -intstyle ise -ol high -t 1 Latch_RS_map.ncd Latch_RS.ncd Latch_RS.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Latch_RS.twx Latch_RS.ncd -o Latch_RS.twr Latch_RS.pcf 
+netgen -intstyle ise -s 4  -pcf Latch_RS.pcf -rpw 100 -tpw 0 -ar Structure -tm Latch_RS -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim Latch_RS.ncd Latch_RS_timesim.vhd 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/Latch_RS/Latch_RS.xst" -ofn "/home/luca/ISE_ws/Latch_RS/Latch_RS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 Latch_RS.ngc Latch_RS.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Latch_RS_map.ncd Latch_RS.ngd Latch_RS.pcf 
+par -w -intstyle ise -ol high -t 1 Latch_RS_map.ncd Latch_RS.ncd Latch_RS.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Latch_RS.twx Latch_RS.ncd -o Latch_RS.twr Latch_RS.pcf 
+netgen -intstyle ise -s 4  -pcf Latch_RS.pcf -rpw 100 -tpw 0 -ar Structure -tm Latch_RS -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim Latch_RS.ncd Latch_RS_timesim.vhd 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/Latch_RS/Latch_RS.xst" -ofn "/home/luca/ISE_ws/Latch_RS/Latch_RS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 Latch_RS.ngc Latch_RS.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Latch_RS_map.ncd Latch_RS.ngd Latch_RS.pcf 
+par -w -intstyle ise -ol high -t 1 Latch_RS_map.ncd Latch_RS.ncd Latch_RS.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Latch_RS.twx Latch_RS.ncd -o Latch_RS.twr Latch_RS.pcf 
+netgen -intstyle ise -s 4  -pcf Latch_RS.pcf -rpw 100 -tpw 0 -ar Structure -tm Latch_RS -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim Latch_RS.ncd Latch_RS_timesim.vhd 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/Latch_RS/Latch_RS.xst" -ofn "/home/luca/ISE_ws/Latch_RS/Latch_RS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 Latch_RS.ngc Latch_RS.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Latch_RS_map.ncd Latch_RS.ngd Latch_RS.pcf 
+par -w -intstyle ise -ol high -t 1 Latch_RS_map.ncd Latch_RS.ncd Latch_RS.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Latch_RS.twx Latch_RS.ncd -o Latch_RS.twr Latch_RS.pcf 
+netgen -intstyle ise -s 4  -pcf Latch_RS.pcf -rpw 100 -tpw 0 -ar Structure -tm Latch_RS -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim Latch_RS.ncd Latch_RS_timesim.vhd 
+netgen -intstyle ise -s 4  -pcf Latch_RS.pcf -rpw 100 -tpw 0 -ar Structure -tm Latch_RS -w -dir netgen/map -ofmt vhdl -sim Latch_RS_map.ncd Latch_RS_map.vhd 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/Latch_RS/Latch_RS.xst" -ofn "/home/luca/ISE_ws/Latch_RS/Latch_RS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 Latch_RS.ngc Latch_RS.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Latch_RS_map.ncd Latch_RS.ngd Latch_RS.pcf 
+par -w -intstyle ise -ol high -t 1 Latch_RS_map.ncd Latch_RS.ncd Latch_RS.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Latch_RS.twx Latch_RS.ncd -o Latch_RS.twr Latch_RS.pcf 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/Latch_RS/Latch_RS.xst" -ofn "/home/luca/ISE_ws/Latch_RS/Latch_RS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 Latch_RS.ngc Latch_RS.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Latch_RS_map.ncd Latch_RS.ngd Latch_RS.pcf 
+par -w -intstyle ise -ol high -t 1 Latch_RS_map.ncd Latch_RS.ncd Latch_RS.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Latch_RS.twx Latch_RS.ncd -o Latch_RS.twr Latch_RS.pcf 

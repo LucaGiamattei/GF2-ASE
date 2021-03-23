@@ -1,0 +1,70 @@
+Release 9.2i par J.36
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+
+CACCOLAN-244F84::  Sat Apr 04 11:28:58 2009
+
+par -w -intstyle ise -pl med -rl med -t 1 -n 10 sistema_mic1_map.ncd
+"C:/Documents and
+Settings/caccolillo/Desktop/ccellar_mic_vhdl/mic1_/mppr_result.dir"
+sistema_mic1.pcf 
+
+
+Constraints file: sistema_mic1.pcf.
+   "sistema_mic1" is an NCD, version 3.1, device xc3s500e, package fg320, speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: -40.000 to 100.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.320 Volts)
+
+INFO:Par:282 - No user timing constraints were detected or you have set the option to ignore timing constraints ("par
+   -x"). Place and Route will run in "Performance Evaluation Mode" to automatically improve the performance of all
+   internal clocks in this design. The PAR timing summary will list the performance achieved for each clock. Note: For
+   the fastest runtime, set the effort level to "std".  For best performance, set the effort level to "high". For a
+   balance between the fastest runtime and best performance, set the effort level to "med".
+WARNING:Timing:3262 - Feedback on DCM or PLL Inst_divisore_freq/DCM_SP_inst forms an incomplete loop. The Tdcmino
+   calculation will be invalid. If the DCM or PLL uses external feedback, please apply the FEEDBACK constraint to
+   indicate the external board delay. Consult the Constraints Guide for further information on how to apply the FEEDBACK
+   constraint.
+
+Device speed data version:  "PRODUCTION 1.26 2007-04-13".
+
+
+Design Summary Report:
+
+ Number of External IOBs                         121 out of 232    52%
+
+   Number of External Input IOBs                  2
+
+      Number of External Input IBUFs              2
+
+   Number of External Output IOBs               119
+
+      Number of External Output IOBs            119
+
+   Number of External Bidir IOBs                  0
+
+
+   Number of BUFGMUXs                        1 out of 24      4%
+   Number of DCMs                            1 out of 4      25%
+   Number of Slices                       1295 out of 4656   27%
+      Number of SLICEMs                    128 out of 2328    5%
+
+
+
+Overall effort level (-ol):   Not applicable because -pl and -rl switches are used
+Placer effort level (-pl):    Medium
+Placer cost table entry (-t): 2
+Router effort level (-rl):    Medium
+
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:98c93d) REAL time: 2 secs 
+
+Phase 2.7
+Phase 2.7 (Checksum:1312cfe) REAL time: 2 secs 
+
+Phase 3.31
+Phase 3.31 (Checksum:1c9c37d) REAL time: 2 secs 
+
+Phase 4.2

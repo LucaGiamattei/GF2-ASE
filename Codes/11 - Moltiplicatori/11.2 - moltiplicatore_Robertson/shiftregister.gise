@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="shiftregister.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ControlUnit_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ControlUnit_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Controllo_Overflow.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Controllo_Overflow.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Controllo_Overflow.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Controllo_Overflow.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Controllo_Overflow.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Controllo_Overflow.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Controllo_Overflow.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Controllo_Overflow.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Controllo_Overflow_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Controllo_Overflow_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Moltiplicatore_NperNbit_Robertson.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Moltiplicatore_NperNbit_Robertson.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Moltiplicatore_NperNbit_Robertson.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Moltiplicatore_NperNbit_Robertson.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Moltiplicatore_NperNbit_Robertson.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Moltiplicatore_NperNbit_Robertson.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Moltiplicatore_NperNbit_Robertson.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="Moltiplicatore_NperNbit_Robertson.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="Moltiplicatore_NperNbit_Robertson.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="Moltiplicatore_NperNbit_Robertson.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Moltiplicatore_NperNbit_Robertson.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="Moltiplicatore_NperNbit_Robertson.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Moltiplicatore_NperNbit_Robertson.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Moltiplicatore_NperNbit_Robertson.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="Moltiplicatore_NperNbit_Robertson.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="Moltiplicatore_NperNbit_Robertson.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="Moltiplicatore_NperNbit_Robertson.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="Moltiplicatore_NperNbit_Robertson.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Moltiplicatore_NperNbit_Robertson.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Moltiplicatore_NperNbit_Robertson_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="Moltiplicatore_NperNbit_Robertson_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Moltiplicatore_NperNbit_Robertson_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Moltiplicatore_NperNbit_Robertson_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Moltiplicatore_NperNbit_Robertson_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Moltiplicatore_NperNbit_Robertson_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="Moltiplicatore_NperNbit_Robertson_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Moltiplicatore_NperNbit_Robertson_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Moltiplicatore_NperNbit_Robertson_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Moltiplicatore_NperNbit_Robertson_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="Moltiplicatore_NperNbit_Robertson_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Moltiplicatore_NperNbit_Robertson_par.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Moltiplicatore_NperNbit_Robertson_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Moltiplicatore_NperNbit_Robertson_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Moltiplicatore_NperNbit_Robertson_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="Moltiplicatore_NperNbit_Robertson_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Moltiplicatore_NperNbit_Robertson_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Moltiplicatore_NperNbit_Robertson_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="RCA_ADD_SUB.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="RCA_ADD_SUB.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="RCA_ADD_SUB.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="RCA_ADD_SUB.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="RCA_ADD_SUB.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="RCA_ADD_SUB.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="RCA_ADD_SUB.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="RCA_ADD_SUB.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="RCA_ADD_SUB.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="RCA_ADD_SUB.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="RCA_ADD_SUB_envsettings.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="RCA_ADD_SUB_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="RCA_ADD_SUB_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="RCA_ADD_SUB_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="RCA_ADD_SUB_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Shift_register.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Shift_register.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Shift_register.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Shift_register.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Shift_register.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Shift_register.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Shift_register.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="Shift_register.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="Shift_register.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Shift_register.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Shift_register.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Shift_register.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="Shift_register.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="Shift_register.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="Shift_register.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Shift_register.xst"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="Shift_register_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Shift_register_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Shift_register_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Shift_register_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="Shift_register_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Shift_register_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="Shift_register_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Shift_register_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Shift_register_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="XOR_Inversion.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="XOR_Inversion.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="XOR_Inversion.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="XOR_Inversion.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="XOR_Inversion.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="XOR_Inversion.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="XOR_Inversion.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="XOR_Inversion.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="XOR_Inversion_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="XOR_Inversion_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="flipflop_msb.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="flipflop_msb.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="flipflop_msb.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="flipflop_msb.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="flipflop_msb.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="flipflop_msb.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="flipflop_msb.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="flipflop_msb.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="flipflop_msb_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="flipflop_msb_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="flipflop_msb_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd">
+      <branch xil_pn:name="BehavioralSim"/>
+      <branch xil_pn:name="PostRouteSimulation"/>
+    </file>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log">
+      <branch xil_pn:name="BehavioralSim"/>
+      <branch xil_pn:name="PostRouteSimulation"/>
+    </file>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="netgen"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/par/Moltiplicatore_NperNbit_Robertson_timesim.nlf"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_SDF" xil_pn:name="netgen/par/Moltiplicatore_NperNbit_Robertson_timesim.sdf"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/par/Moltiplicatore_NperNbit_Robertson_timesim.vhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="registro.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="registro.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="registro.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="registro.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="registro.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="registro.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="registro.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="registro.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="registro.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="registro.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="registro.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="registro.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="registro.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="registro.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="registro.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="registro.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="registro.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="registro.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="registro.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="registro_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="registro_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="registro_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="registro_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="registro_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="registro_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="registro_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="registro_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="registro_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="registro_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="registro_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="registro_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="registro_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="registro_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="registro_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="registro_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_moltiplicatore_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_moltiplicatore_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="test_isim_beh.wdb"/>
+    <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_isim_par.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="test_isim_par.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_par.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_stx_par.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini">
+      <branch xil_pn:name="BehavioralSim"/>
+      <branch xil_pn:name="PostRouteSimulation"/>
+    </file>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1551984029" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1551984029">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1552077201" xil_pn:in_ck="5690146180678304364" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1552077201">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ControlUnit.vhd"/>
+      <outfile xil_pn:name="Controllo_Overflow.vhd"/>
+      <outfile xil_pn:name="Counter_ModN.vhd"/>
+      <outfile xil_pn:name="FFD.vhd"/>
+      <outfile xil_pn:name="MUX2.vhd"/>
+      <outfile xil_pn:name="Moltiplicatore_NperNbit_Robertson.vhd"/>
+      <outfile xil_pn:name="RCA_ADD_SUB.vhd"/>
+      <outfile xil_pn:name="Shift_register.vhd"/>
+      <outfile xil_pn:name="XOR_Inversion.vhd"/>
+      <outfile xil_pn:name="flipflopF.vhd"/>
+      <outfile xil_pn:name="flipflopmux.vhd"/>
+      <outfile xil_pn:name="fulladder.vhd"/>
+      <outfile xil_pn:name="registro.vhd"/>
+      <outfile xil_pn:name="ripplecarry.vhd"/>
+      <outfile xil_pn:name="tb_moltiplicatore.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1552073261" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="5156339051392389750" xil_pn:start_ts="1552073261">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1552073261" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-2634789479083236872" xil_pn:start_ts="1552073261">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1551984029" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="5568842518762112170" xil_pn:start_ts="1551984029">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1552077204" xil_pn:in_ck="5690146180678304364" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1552077204">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ControlUnit.vhd"/>
+      <outfile xil_pn:name="Controllo_Overflow.vhd"/>
+      <outfile xil_pn:name="Counter_ModN.vhd"/>
+      <outfile xil_pn:name="FFD.vhd"/>
+      <outfile xil_pn:name="MUX2.vhd"/>
+      <outfile xil_pn:name="Moltiplicatore_NperNbit_Robertson.vhd"/>
+      <outfile xil_pn:name="RCA_ADD_SUB.vhd"/>
+      <outfile xil_pn:name="Shift_register.vhd"/>
+      <outfile xil_pn:name="XOR_Inversion.vhd"/>
+      <outfile xil_pn:name="flipflopF.vhd"/>
+      <outfile xil_pn:name="flipflopmux.vhd"/>
+      <outfile xil_pn:name="fulladder.vhd"/>
+      <outfile xil_pn:name="registro.vhd"/>
+      <outfile xil_pn:name="ripplecarry.vhd"/>
+      <outfile xil_pn:name="tb_moltiplicatore.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1552077206" xil_pn:in_ck="5690146180678304364" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-1528882741478011506" xil_pn:start_ts="1552077204">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="test_beh.prj"/>
+      <outfile xil_pn:name="test_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1552077206" xil_pn:in_ck="1529269921319542784" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="4711108170630904923" xil_pn:start_ts="1552077206">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="test_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1551793762" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1551793762">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1551976297" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-8382811024981107669" xil_pn:start_ts="1551976297">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1551976297" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="5568842518762112170" xil_pn:start_ts="1551976297">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1551976297" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1551976297">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1551976297" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="2648111717117623081" xil_pn:start_ts="1551976297">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1551976297" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280842703814" xil_pn:start_ts="1551976297">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1551976297" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-4176111789331793292" xil_pn:start_ts="1551976297">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1552081128" xil_pn:in_ck="554316986127947460" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="5193452186283390631" xil_pn:start_ts="1552081122">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Controllo_Overflow.ngr"/>
+      <outfile xil_pn:name="Moltiplicatore_NperNbit_Robertson.lso"/>
+      <outfile xil_pn:name="Moltiplicatore_NperNbit_Robertson.ngc"/>
+      <outfile xil_pn:name="Moltiplicatore_NperNbit_Robertson.ngr"/>
+      <outfile xil_pn:name="Moltiplicatore_NperNbit_Robertson.prj"/>
+      <outfile xil_pn:name="Moltiplicatore_NperNbit_Robertson.stx"/>
+      <outfile xil_pn:name="Moltiplicatore_NperNbit_Robertson.syr"/>
+      <outfile xil_pn:name="Moltiplicatore_NperNbit_Robertson.xst"/>
+      <outfile xil_pn:name="Moltiplicatore_NperNbit_Robertson_stx_beh.prj"/>
+      <outfile xil_pn:name="Moltiplicatore_NperNbit_Robertson_xst.xrpt"/>
+      <outfile xil_pn:name="RCA_ADD_SUB.ngr"/>
+      <outfile xil_pn:name="Shift_register.ngr"/>
+      <outfile xil_pn:name="XOR_Inversion.ngr"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="registro.ngr"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1551810572" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="740406223041363774" xil_pn:start_ts="1551810572">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1552081131" xil_pn:in_ck="61452140965557065" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-1464553745709284873" xil_pn:start_ts="1552081128">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Moltiplicatore_NperNbit_Robertson.bld"/>
+      <outfile xil_pn:name="Moltiplicatore_NperNbit_Robertson.ngd"/>
+      <outfile xil_pn:name="Moltiplicatore_NperNbit_Robertson_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1552081135" xil_pn:in_ck="8776084338948247322" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-6349267131326700252" xil_pn:start_ts="1552081131">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Moltiplicatore_NperNbit_Robertson.pcf"/>
+      <outfile xil_pn:name="Moltiplicatore_NperNbit_Robertson_map.map"/>
+      <outfile xil_pn:name="Moltiplicatore_NperNbit_Robertson_map.mrp"/>
+      <outfile xil_pn:name="Moltiplicatore_NperNbit_Robertson_map.ncd"/>
+      <outfile xil_pn:name="Moltiplicatore_NperNbit_Robertson_map.ngm"/>
+      <outfile xil_pn:name="Moltiplicatore_NperNbit_Robertson_map.xrpt"/>
+      <outfile xil_pn:name="Moltiplicatore_NperNbit_Robertson_summary.xml"/>
+      <outfile xil_pn:name="Moltiplicatore_NperNbit_Robertson_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1552081144" xil_pn:in_ck="-6587114968147963977" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="1934304854298957634" xil_pn:start_ts="1552081135">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Moltiplicatore_NperNbit_Robertson.ncd"/>
+      <outfile xil_pn:name="Moltiplicatore_NperNbit_Robertson.pad"/>
+      <outfile xil_pn:name="Moltiplicatore_NperNbit_Robertson.par"/>
+      <outfile xil_pn:name="Moltiplicatore_NperNbit_Robertson.ptwx"/>
+      <outfile xil_pn:name="Moltiplicatore_NperNbit_Robertson.unroutes"/>
+      <outfile xil_pn:name="Moltiplicatore_NperNbit_Robertson.xpi"/>
+      <outfile xil_pn:name="Moltiplicatore_NperNbit_Robertson_pad.csv"/>
+      <outfile xil_pn:name="Moltiplicatore_NperNbit_Robertson_pad.txt"/>
+      <outfile xil_pn:name="Moltiplicatore_NperNbit_Robertson_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1552077720" xil_pn:in_ck="1827189179961661344" xil_pn:name="TRAN_postParSimModel" xil_pn:prop_ck="7663632586897380335" xil_pn:start_ts="1552077717">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="netgen"/>
+      <outfile xil_pn:name="netgen/par/Moltiplicatore_NperNbit_Robertson_timesim.nlf"/>
+      <outfile xil_pn:name="netgen/par/Moltiplicatore_NperNbit_Robertson_timesim.sdf"/>
+      <outfile xil_pn:name="netgen/par/Moltiplicatore_NperNbit_Robertson_timesim.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1552077720" xil_pn:in_ck="2191795985784678374" xil_pn:name="TRAN_copyPost-ParAbstractToPreSimulation" xil_pn:start_ts="1552077720">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="netgen/par/Moltiplicatore_NperNbit_Robertson_timesim.sdf"/>
+      <outfile xil_pn:name="netgen/par/Moltiplicatore_NperNbit_Robertson_timesim.vhd"/>
+      <outfile xil_pn:name="tb_moltiplicatore.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1552077725" xil_pn:in_ck="4142348871868576444" xil_pn:name="TRAN_ISimulatePostPlace&amp;RouteModelRunFuse" xil_pn:prop_ck="1338317200061972046" xil_pn:start_ts="1552077720">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="test_isim_par.exe"/>
+      <outfile xil_pn:name="test_par.prj"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1552077725" xil_pn:in_ck="4140465191299482115" xil_pn:name="TRAN_ISimulatePostPlace&amp;RouteModel" xil_pn:prop_ck="4408145384010662893" xil_pn:start_ts="1552077725">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="test_isim_par.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1552081144" xil_pn:in_ck="1827189179961661344" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1552081142">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Moltiplicatore_NperNbit_Robertson.twr"/>
+      <outfile xil_pn:name="Moltiplicatore_NperNbit_Robertson.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

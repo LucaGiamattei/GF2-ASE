@@ -1,0 +1,102 @@
+Release 14.7 - reportgen P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Sun Mar 17 11:53:38 2019
+
+SUMMARY
+-------
+There are 4 clock regions:
+
+Clock Reports by Clock Regions
+------------------------------
+
+Clock Region X0Y0:
+------------------
+Number of global clocks in this region: 0
+
+Number of regional clocks in this region: 0
+
+Number of local clocks in this region: 0
+
+Summary of components used in this region:
+
+
+Clock Region X1Y0:
+------------------
+Number of global clocks in this region: 0
+
+Number of regional clocks in this region: 0
+
+Number of local clocks in this region: 0
+
+Summary of components used in this region:
+
+
+Clock Region X0Y1:
+------------------
+Number of global clocks in this region: 0
+
+Number of regional clocks in this region: 0
+
+Number of local clocks in this region: 0
+
+Summary of components used in this region:
+
+
+Clock Region X1Y1:
+------------------
+Number of global clocks in this region: 0
+
+Number of regional clocks in this region: 0
+
+Number of local clocks in this region: 0
+
+Summary of components used in this region:
+
+
+
+There are unplaced comps in the design:
+
+reset_n
+i
+clk
+Q
+clk_BUFGP/BUFG
+current_FSM_FFd2
+current_FSM_FFd3
+reset_n
+i
+clk
+Q
+clk_BUFGP/BUFG
+current_FSM_FFd2
+current_FSM_FFd3
+reset_n
+i
+clk
+Q
+clk_BUFGP/BUFG
+current_FSM_FFd2
+current_FSM_FFd3
+reset_n
+i
+clk
+Q
+clk_BUFGP/BUFG
+current_FSM_FFd2
+current_FSM_FFd3
+
+There are unplaced pins in the design:
+
+current_FSM_FFd2.CLK
+current_FSM_FFd3.CLK
+clk_BUFGP\/BUFG.I0
+current_FSM_FFd2.CLK
+current_FSM_FFd3.CLK
+clk_BUFGP\/BUFG.I0
+current_FSM_FFd2.CLK
+current_FSM_FFd3.CLK
+clk_BUFGP\/BUFG.I0
+current_FSM_FFd2.CLK
+current_FSM_FFd3.CLK
+clk_BUFGP\/BUFG.I0

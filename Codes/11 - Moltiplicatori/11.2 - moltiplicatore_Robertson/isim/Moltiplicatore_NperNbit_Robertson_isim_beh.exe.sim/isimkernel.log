@@ -1,0 +1,29 @@
+Command line:
+   Moltiplicatore_NperNbit_Robertson_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54587
+
+Thu Mar  7 19:40:14 2019
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 197.96 Meg
+
+ Total Signals          : 431
+ Total Nets             : 198
+ Total Signal Drivers   : 151
+ Total Blocks           : 119
+ Total Primitive Blocks : 57
+ Total Processes        : 142
+ Total Traceable Variables  : 87
+ Total Scalar Nets and Variables : 867
+Total Line Count : 260
+
+ Total Simulation Time: 0.02 sec
+
+ Current Memory Usage: 273.461 Meg
+
+Thu Mar  7 19:40:24 2019
+

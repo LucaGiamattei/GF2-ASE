@@ -1,0 +1,21 @@
+Running: /home/giorgio/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -relaunch -intstyle "ise" -incremental -o "/home/giorgio/Documenti/FSM/tb_FSM_isim_beh.exe" -prj "/home/giorgio/Documenti/FSM/tb_FSM_beh.prj" "work.tb_FSM" 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 3
+Turning on mult-threading, number of parallel sub-compilation jobs: 6 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/giorgio/Documenti/FSM/FSM.vhd" into library work
+Parsing VHDL file "/home/giorgio/Documenti/FSM/tb_FSM.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 95864 KB
+Fuse CPU Usage: 970 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity FSM [fsm_default]
+Compiling architecture behavior of entity tb_fsm
+Time Resolution for simulation is 1ps.
+Compiled 5 VHDL Units
+Built simulation executable /home/giorgio/Documenti/FSM/tb_FSM_isim_beh.exe
+Fuse Memory Usage: 530540 KB
+Fuse CPU Usage: 990 ms
+GCC CPU Usage: 110 ms

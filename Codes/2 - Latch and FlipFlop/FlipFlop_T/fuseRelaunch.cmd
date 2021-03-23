@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/luca/ISE_ws/FlipFlop_T/FF_T_FF_T_sch_tb_isim_par.exe" -prj "/home/luca/ISE_ws/FlipFlop_T/FF_T_FF_T_sch_tb_par.prj" "work.FF_T_FF_T_sch_tb" 

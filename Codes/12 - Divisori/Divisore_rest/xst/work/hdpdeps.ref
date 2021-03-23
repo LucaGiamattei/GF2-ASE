@@ -1,0 +1,179 @@
+V3 116
+FL /home/luca/ISE_ws/Divisore_rest/Controllo_Overflow.vhd 2016/12/14.14:10:02 P.20131013
+EN work/Controllo_Overflow 1552843054 \
+      FL /home/luca/ISE_ws/Divisore_rest/Controllo_Overflow.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Controllo_Overflow/Behavioral 1552843055 \
+      FL /home/luca/ISE_ws/Divisore_rest/Controllo_Overflow.vhd \
+      EN work/Controllo_Overflow 1552843054
+FL /home/luca/ISE_ws/Divisore_rest/control_unit.vhd 2019/03/16.11:36:55 P.20131013
+EN work/control_unit 1552843068 \
+      FL /home/luca/ISE_ws/Divisore_rest/control_unit.vhd PB ieee/std_logic_1164 1381692176
+AR work/control_unit/Behavioral 1552843069 \
+      FL /home/luca/ISE_ws/Divisore_rest/control_unit.vhd EN work/control_unit 1552843068
+FL /home/luca/ISE_ws/Divisore_rest/cont_modn.vhd 2016/12/23.16:22:47 P.20131013
+EN work/Counter_ModN 1552843064 FL /home/luca/ISE_ws/Divisore_rest/cont_modn.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/MATH_REAL 1381692182 \
+      PB ieee/std_logic_arith 1381692177
+AR work/Counter_ModN/Behavioral 1552843065 \
+      FL /home/luca/ISE_ws/Divisore_rest/cont_modn.vhd EN work/Counter_ModN 1552843064
+FL /home/luca/ISE_ws/Divisore_rest/cont_mod_n.vhd 2019/02/08.17:28:51 P.20131013
+EN work/cont_mod_n 1552572974 FL /home/luca/ISE_ws/Divisore_rest/cont_mod_n.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/cont_mod_n/Behavioral 1552572975 \
+      FL /home/luca/ISE_ws/Divisore_rest/cont_mod_n.vhd EN work/cont_mod_n 1552572974 \
+      PB ieee/std_logic_arith 1381692177
+FL /home/luca/ISE_ws/Divisore_rest/CU.vhd 2019/02/08.16:47:20 P.20131013
+EN work/CU 1552572978 FL /home/luca/ISE_ws/Divisore_rest/CU.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/CU/behavioral 1552572979 \
+      FL /home/luca/ISE_ws/Divisore_rest/CU.vhd EN work/CU 1552572978
+FL /home/luca/ISE_ws/Divisore_rest/divisore_restoring.vhd 2019/03/16.11:37:14 P.20131013
+EN work/divisore_restoring 1552843070 \
+      FL /home/luca/ISE_ws/Divisore_rest/divisore_restoring.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/MATH_REAL 1381692182
+AR work/divisore_restoring/Structural 1552843071 \
+      FL /home/luca/ISE_ws/Divisore_rest/divisore_restoring.vhd \
+      EN work/divisore_restoring 1552843070 CP reg CP Shift_Register CP MUXN \
+      CP Counter_ModN CP RCAddSub CP control_unit
+FL /home/luca/ISE_ws/Divisore_rest/FFD.vhd 2019/03/04.17:04:13 P.20131013
+EN work/FFD 1552588562 FL /home/luca/ISE_ws/Divisore_rest/FFD.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/FFD/Behavioral 1552588563 \
+      FL /home/luca/ISE_ws/Divisore_rest/FFD.vhd EN work/FFD 1552588562
+FL /home/luca/ISE_ws/Divisore_rest/FFDAbilitato.vhd 2019/02/06.17:25:10 P.20131013
+EN work/FFDAbilitato 1552572964 \
+      FL /home/luca/ISE_ws/Divisore_rest/FFDAbilitato.vhd PB ieee/std_logic_1164 1381692176
+AR work/FFDAbilitato/Behavioral 1552572965 \
+      FL /home/luca/ISE_ws/Divisore_rest/FFDAbilitato.vhd EN work/FFDAbilitato 1552572964
+FL /home/luca/ISE_ws/Divisore_rest/ffdmux.vhd 2019/02/05.15:46:30 P.20131013
+EN work/ffdmux 1552572968 FL /home/luca/ISE_ws/Divisore_rest/ffdmux.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ffdmux/structural 1552572969 \
+      FL /home/luca/ISE_ws/Divisore_rest/ffdmux.vhd EN work/ffdmux 1552572968 \
+      CP Mux CP FFDAbilitato
+FL /home/luca/ISE_ws/Divisore_rest/flipflopd.vhd 2016/12/13.18:01:57 P.20131013
+EN work/flipflopd 1552843048 FL /home/luca/ISE_ws/Divisore_rest/flipflopd.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/flipflopd/Behavioral 1552843049 \
+      FL /home/luca/ISE_ws/Divisore_rest/flipflopd.vhd EN work/flipflopd 1552843048
+FL /home/luca/ISE_ws/Divisore_rest/flipflopd_precaricato.vhd 2016/12/21.03:21:22 P.20131013
+EN work/flipflopd_precaricato 1552577567 \
+      FL /home/luca/ISE_ws/Divisore_rest/flipflopd_precaricato.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/flipflopd_precaricato/Behavioral 1552577568 \
+      FL /home/luca/ISE_ws/Divisore_rest/flipflopd_precaricato.vhd \
+      EN work/flipflopd_precaricato 1552577567
+EN work/flipflopMux 1552843056 FL /home/luca/ISE_ws/Divisore_rest/flipflopMux.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/flipflopMux/Structural 1552843057 \
+      FL /home/luca/ISE_ws/Divisore_rest/flipflopMux.vhd EN work/flipflopMux 1552843056 \
+      CP mux2 CP flipflopd
+FL /home/luca/ISE_ws/Divisore_rest/flipflopMux_precaricato.vhd 2016/12/21.02:12:24 P.20131013
+EN work/flipflopMux_precaricato 1552577577 \
+      FL /home/luca/ISE_ws/Divisore_rest/flipflopMux_precaricato.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/flipflopMux_precaricato/Behavioral 1552577578 \
+      FL /home/luca/ISE_ws/Divisore_rest/flipflopMux_precaricato.vhd \
+      EN work/flipflopMux_precaricato 1552577577 CP mux2_1 \
+      CP flipflopd_precaricato
+FL /home/luca/ISE_ws/Divisore_rest/fulladder.vhd 2016/12/14.14:10:04 P.20131013
+EN work/full_adder 1552843044 FL /home/luca/ISE_ws/Divisore_rest/fulladder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/full_adder/Dataflow 1552843045 \
+      FL /home/luca/ISE_ws/Divisore_rest/fulladder.vhd EN work/full_adder 1552843044
+FL /home/luca/ISE_ws/Divisore_rest/full_adder.vhd 2019/02/03.00:52:10 P.20131013
+FL /home/luca/ISE_ws/Divisore_rest/Mux.vhd 2019/02/06.16:35:03 P.20131013
+EN work/Mux 1552572962 FL /home/luca/ISE_ws/Divisore_rest/Mux.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Mux/dataflow 1552572963 \
+      FL /home/luca/ISE_ws/Divisore_rest/Mux.vhd EN work/Mux 1552572962
+FL /home/luca/ISE_ws/Divisore_rest/mux2.vhd 2016/12/13.16:32:10 P.20131013
+EN work/mux2 1552843046 FL /home/luca/ISE_ws/Divisore_rest/mux2.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/mux2/Dataflow 1552843047 \
+      FL /home/luca/ISE_ws/Divisore_rest/mux2.vhd EN work/mux2 1552843046
+FL /home/luca/ISE_ws/Divisore_rest/mux2_1.vhd 2016/12/21.03:21:58 P.20131013
+EN work/mux2_1 1552588560 FL /home/luca/ISE_ws/Divisore_rest/mux2_1.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/mux2_1/Dataflow 1552588561 \
+      FL /home/luca/ISE_ws/Divisore_rest/mux2_1.vhd EN work/mux2_1 1552588560
+FL /home/luca/ISE_ws/Divisore_rest/MUXN.vhd 2019/03/14.19:28:24 P.20131013
+EN work/MUXN 1552843062 FL /home/luca/ISE_ws/Divisore_rest/MUXN.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/MUXN/Behavioral 1552843063 \
+      FL /home/luca/ISE_ws/Divisore_rest/MUXN.vhd EN work/MUXN 1552843062
+FL /home/luca/ISE_ws/Divisore_rest/PO.vhd 2019/02/08.15:14:30 P.20131013
+EN work/PO 1552572980 FL /home/luca/ISE_ws/Divisore_rest/PO.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/PO/structural 1552572981 \
+      FL /home/luca/ISE_ws/Divisore_rest/PO.vhd EN work/PO 1552572980 \
+      CP FFDAbilitato CP shiftregister CP register_n CP cont_mod_n \
+      CP Ripple_Carry_AddSub
+FL /home/luca/ISE_ws/Divisore_rest/RCAddSub.vhd 2016/12/14.14:10:20 P.20131013
+EN work/RCAddSub 1552843066 FL /home/luca/ISE_ws/Divisore_rest/RCAddSub.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/RCAddSub/Structural 1552843067 \
+      FL /home/luca/ISE_ws/Divisore_rest/RCAddSub.vhd EN work/RCAddSub 1552843066 \
+      CP xorInversion CP ripple_carry CP Controllo_Overflow
+FL /home/luca/ISE_ws/Divisore_rest/reg.vhd 2016/12/14.14:10:22 P.20131013
+EN work/reg 1552843058 FL /home/luca/ISE_ws/Divisore_rest/reg.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/reg/Behavioral 1552843059 \
+      FL /home/luca/ISE_ws/Divisore_rest/reg.vhd EN work/reg 1552843058
+FL /home/luca/ISE_ws/Divisore_rest/register_n.vhd 2019/02/08.17:08:27 P.20131013
+EN work/register_n 1552572972 FL /home/luca/ISE_ws/Divisore_rest/register_n.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/register_n/Behavioral 1552572973 \
+      FL /home/luca/ISE_ws/Divisore_rest/register_n.vhd EN work/register_n 1552572972
+FL /home/luca/ISE_ws/Divisore_rest/registro_precaricato.vhd 2016/12/21.02:17:18 P.20131013
+EN work/registro_precaricato 1552577585 \
+      FL /home/luca/ISE_ws/Divisore_rest/registro_precaricato.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/registro_precaricato/Structural 1552577586 \
+      FL /home/luca/ISE_ws/Divisore_rest/registro_precaricato.vhd \
+      EN work/registro_precaricato 1552577585 CP flipflopMux_precaricato
+FL /home/luca/ISE_ws/Divisore_rest/Restoring.vhd 2019/02/08.15:06:49 P.20131013
+EN work/Restoring 1552572982 FL /home/luca/ISE_ws/Divisore_rest/Restoring.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Restoring/structural 1552572983 \
+      FL /home/luca/ISE_ws/Divisore_rest/Restoring.vhd EN work/Restoring 1552572982 \
+      CP CU CP PO
+FL /home/luca/ISE_ws/Divisore_rest/ripplecarry.vhd 2016/12/14.14:10:24 P.20131013
+EN work/ripple_carry 1552843052 \
+      FL /home/luca/ISE_ws/Divisore_rest/ripplecarry.vhd PB ieee/std_logic_1164 1381692176
+AR work/ripple_carry/Structural 1552843053 \
+      FL /home/luca/ISE_ws/Divisore_rest/ripplecarry.vhd EN work/ripple_carry 1552843052 \
+      CP full_adder
+FL /home/luca/ISE_ws/Divisore_rest/Ripple_Carry_AddSub.vhd 2019/02/05.16:15:54 P.20131013
+EN work/Ripple_Carry_AddSub 1552572976 \
+      FL /home/luca/ISE_ws/Divisore_rest/Ripple_Carry_AddSub.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Ripple_Carry_AddSub/Structural 1552572977 \
+      FL /home/luca/ISE_ws/Divisore_rest/Ripple_Carry_AddSub.vhd \
+      EN work/Ripple_Carry_AddSub 1552572976 CP full_adder
+FL /home/luca/ISE_ws/Divisore_rest/shiftregister.vhd 2019/02/08.14:13:57 P.20131013
+EN work/shiftregister 1552572970 \
+      FL /home/luca/ISE_ws/Divisore_rest/shiftregister.vhd PB ieee/std_logic_1164 1381692176
+AR work/shiftregister/structural 1552572971 \
+      FL /home/luca/ISE_ws/Divisore_rest/shiftregister.vhd EN work/shiftregister 1552572970 \
+      CP ffdmux
+EN work/Shift_register 1552843060 \
+      FL /home/luca/ISE_ws/Divisore_rest/Shift_register.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Shift_register/Behavioral 1552843061 \
+      FL /home/luca/ISE_ws/Divisore_rest/Shift_register.vhd \
+      EN work/Shift_register 1552843060 CP flipflopMux
+FL /home/luca/ISE_ws/Divisore_rest/shift_register_1bit.vhd 2019/03/14.19:50:38 P.20131013
+EN work/shift_register_1bit 1552591609 \
+      FL /home/luca/ISE_ws/Divisore_rest/shift_register_1bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/shift_register_1bit/Structural 1552591610 \
+      FL /home/luca/ISE_ws/Divisore_rest/shift_register_1bit.vhd \
+      EN work/shift_register_1bit 1552591609 CP flipflopMux
+FL /home/luca/ISE_ws/Divisore_rest/xorInversion.vhd 2016/12/14.14:10:30 P.20131013
+EN work/xorInversion 1552843050 \
+      FL /home/luca/ISE_ws/Divisore_rest/xorInversion.vhd PB ieee/std_logic_1164 1381692176
+AR work/xorInversion/Dataflow 1552843051 \
+      FL /home/luca/ISE_ws/Divisore_rest/xorInversion.vhd EN work/xorInversion 1552843050

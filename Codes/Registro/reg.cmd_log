@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/luca/ISE_ws/Registro/reg.xst" -ofn "/home/luca/ISE_ws/Registro/reg.syr" 

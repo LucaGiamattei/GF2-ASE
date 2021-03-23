@@ -1,0 +1,4 @@
+vhdl work "Latch_RS.vhd"
+vhdl work "invert.vhd"
+vhdl work "FFRSMS.vhd"
+vhdl work "FFRSMSTB.vhd"

@@ -1,0 +1,12 @@
+Command line:
+   ffms_ffms_sch_tb_isim_par.exe
+     -simmode  gui
+     -sdfmax  /UUT/=netgen/par/ffms_timesim.sdf
+     -sdfroot  /UUT
+     -simrunnum  0
+     -socket  56773
+
+Mon Feb 25 18:45:12 2019
+
+
+ Elaboration Time: 0.04 sec

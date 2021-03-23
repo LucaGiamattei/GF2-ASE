@@ -1,0 +1,15 @@
+Release 14.7 Drc P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Sun Mar 24 20:47:51 2019
+
+drc -z sistema_mic1.ncd sistema_mic1.pcf
+
+WARNING:PhysDesignRules:367 - The signal <load_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:739 - Unexpected DCM feedback loop. The signal ck_IBUFG
+   on the CLKFB pin of comp Inst_divisore_freq/DCM_SP_inst is not driven by an
+   IOB or BUFGMUX therefore the phase relationship of output clocks to CLKIN
+   cannot be guaranteed.
+DRC detected 0 errors and 2 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

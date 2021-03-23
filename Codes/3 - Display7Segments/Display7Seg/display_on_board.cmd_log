@@ -1,0 +1,139 @@
+xst -intstyle ise -ifn "C:/Users/Mario/Desktop/Display7Segs/Display7Seg/display_on_board.xst" -ofn "C:/Users/Mario/Desktop/Display7Segs/Display7Seg/display_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Mario/Desktop/Display7Segs/Display7Seg/display_on_board.xst" -ofn "C:/Users/Mario/Desktop/Display7Segs/Display7Seg/display_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Mario/Desktop/Display7Segs/Display7Seg/display_on_board.xst" -ofn "C:/Users/Mario/Desktop/Display7Segs/Display7Seg/display_on_board.syr" 
+xst -intstyle ise -ifn "C:/Users/Mario/Desktop/Display7Segs/Display7Seg/display_on_board.xst" -ofn "C:/Users/Mario/Desktop/Display7Segs/Display7Seg/display_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints_nexys2_1200.ucf -p xc3s1200e-fg320-5 display_on_board.ngc display_on_board.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints_nexys2_1200.ucf -p xc3s1200e-fg320-5 display_on_board.ngc display_on_board.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o display_on_board_map.ncd display_on_board.ngd display_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 display_on_board_map.ncd display_on_board.ncd display_on_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml display_on_board.twx display_on_board.ncd -o display_on_board.twr display_on_board.pcf -ucf constraints_nexys2_1200.ucf 
+bitgen -intstyle ise -f display_on_board.ut display_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Mario/Desktop/Display7Segs/Display7Seg/display_on_board.xst" -ofn "C:/Users/Mario/Desktop/Display7Segs/Display7Seg/display_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints_nexys2_1200.ucf -p xc3s1200e-fg320-5 display_on_board.ngc display_on_board.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o display_on_board_map.ncd display_on_board.ngd display_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 display_on_board_map.ncd display_on_board.ncd display_on_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml display_on_board.twx display_on_board.ncd -o display_on_board.twr display_on_board.pcf -ucf constraints_nexys2_1200.ucf 
+bitgen -intstyle ise -f display_on_board.ut display_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Mario/Desktop/Display7Segs/Display7Seg/display_on_board.xst" -ofn "C:/Users/Mario/Desktop/Display7Segs/Display7Seg/display_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints_nexys2_1200.ucf -p xc3s1200e-fg320-5 display_on_board.ngc display_on_board.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o display_on_board_map.ncd display_on_board.ngd display_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 display_on_board_map.ncd display_on_board.ncd display_on_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml display_on_board.twx display_on_board.ncd -o display_on_board.twr display_on_board.pcf -ucf constraints_nexys2_1200.ucf 
+bitgen -intstyle ise -f display_on_board.ut display_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Mario/Desktop/Display7Segs/Display7Seg/display_on_board.xst" -ofn "C:/Users/Mario/Desktop/Display7Segs/Display7Seg/display_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints_nexys2_1200.ucf -p xc3s1200e-fg320-5 display_on_board.ngc display_on_board.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o display_on_board_map.ncd display_on_board.ngd display_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 display_on_board_map.ncd display_on_board.ncd display_on_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml display_on_board.twx display_on_board.ncd -o display_on_board.twr display_on_board.pcf -ucf constraints_nexys2_1200.ucf 
+bitgen -intstyle ise -f display_on_board.ut display_on_board.ncd 
+xst -intstyle ise -ifn "C:/Users/Mario Barbareschi/Desktop/Display7Seg/display_on_board.xst" -ofn "C:/Users/Mario Barbareschi/Desktop/Display7Seg/display_on_board.syr" 
+bitgen -intstyle ise -f display_on_board.ut display_on_board.ncd 
+xst -intstyle ise -ifn "C:/didattica/Display7Seg/display_on_board.xst" -ofn "C:/didattica/Display7Seg/display_on_board.syr" 
+xst -intstyle ise -ifn "C:/didattica/Display7Seg/display_on_board.xst" -ofn "C:/didattica/Display7Seg/display_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints_nexys2_1200.ucf -p xc3s1200e-fg320-5 display_on_board.ngc display_on_board.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o display_on_board_map.ncd display_on_board.ngd display_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 display_on_board_map.ncd display_on_board.ncd display_on_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml display_on_board.twx display_on_board.ncd -o display_on_board.twr display_on_board.pcf -ucf constraints_nexys2_1200.ucf 
+bitgen -intstyle ise -f display_on_board.ut display_on_board.ncd 
+xst -intstyle ise -ifn "C:/didattica/Display7Seg/display_on_board.xst" -ofn "C:/didattica/Display7Seg/display_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints_nexys2_1200.ucf -p xc3s1200e-fg320-5 display_on_board.ngc display_on_board.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o display_on_board_map.ncd display_on_board.ngd display_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 display_on_board_map.ncd display_on_board.ncd display_on_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml display_on_board.twx display_on_board.ncd -o display_on_board.twr display_on_board.pcf -ucf constraints_nexys2_1200.ucf 
+bitgen -intstyle ise -f display_on_board.ut display_on_board.ncd 
+xst -intstyle ise -ifn "C:/didattica/Display7Seg/display_on_board.xst" -ofn "C:/didattica/Display7Seg/display_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints_nexys2_1200.ucf -p xc3s1200e-fg320-5 display_on_board.ngc display_on_board.ngd  
+map -intstyle ise -p xc3s1200e-fg320-5 -cm area -ir off -pr off -c 100 -o display_on_board_map.ncd display_on_board.ngd display_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 display_on_board_map.ncd display_on_board.ncd display_on_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml display_on_board.twx display_on_board.ncd -o display_on_board.twr display_on_board.pcf -ucf constraints_nexys2_1200.ucf 
+bitgen -intstyle ise -f display_on_board.ut display_on_board.ncd 
+xst -intstyle ise -ifn "/home/giorgio/Display7Seg/display_on_board.xst" -ofn "/home/giorgio/Display7Seg/display_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints_nexys2_1200.ucf -p xc3s250e-tq144-5 display_on_board.ngc display_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-5 -cm area -ir off -pr off -c 100 -o display_on_board_map.ncd display_on_board.ngd display_on_board.pcf 
+xst -intstyle ise -ifn "/home/giorgio/Display7Seg/display_on_board.xst" -ofn "/home/giorgio/Display7Seg/display_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints_nexys2_1200.ucf -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-5 display_on_board.ngc display_on_board.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-5 display_on_board.ngc display_on_board.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-5 display_on_board.ngc display_on_board.ngd  
+xst -intstyle ise -ifn "/home/giorgio/Display7Seg/display_on_board.xst" -ofn "/home/giorgio/Display7Seg/display_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-5 display_on_board.ngc display_on_board.ngd  
+xst -intstyle ise -ifn "/home/giorgio/Display7Seg/display_on_board.xst" -ofn "/home/giorgio/Display7Seg/display_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-5 display_on_board.ngc display_on_board.ngd  
+xst -intstyle ise -ifn "/home/giorgio/Display7Seg/display_on_board.xst" -ofn "/home/giorgio/Display7Seg/display_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-5 display_on_board.ngc display_on_board.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-5 display_on_board.ngc display_on_board.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-5 display_on_board.ngc display_on_board.ngd  
+xst -intstyle ise -ifn "/home/giorgio/Display7Seg/display_on_board.xst" -ofn "/home/giorgio/Display7Seg/display_on_board.syr" 
+xst -intstyle ise -ifn "/home/giorgio/Display7Seg/display_on_board.xst" -ofn "/home/giorgio/Display7Seg/display_on_board.syr" 
+xst -intstyle ise -ifn "/home/giorgio/Display7Seg/display_on_board.xst" -ofn "/home/giorgio/Display7Seg/display_on_board.syr" 
+xst -intstyle ise -ifn "/home/giorgio/Display7Seg/display_on_board.xst" -ofn "/home/giorgio/Display7Seg/display_on_board.syr" 
+xst -intstyle ise -ifn "/home/giorgio/Display7Seg/display_on_board.xst" -ofn "/home/giorgio/Display7Seg/display_on_board.syr" 
+xst -intstyle ise -ifn "/home/giorgio/Display7Seg/display_on_board.xst" -ofn "/home/giorgio/Display7Seg/display_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-5 display_on_board.ngc display_on_board.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-5 display_on_board.ngc display_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-5 -cm area -ir off -pr off -c 100 -o display_on_board_map.ncd display_on_board.ngd display_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 display_on_board_map.ncd display_on_board.ncd display_on_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml display_on_board.twx display_on_board.ncd -o display_on_board.twr display_on_board.pcf -ucf BasysRevEGeneral.ucf 
+xst -intstyle ise -ifn "/home/giorgio/Display7Seg/display_on_board.xst" -ofn "/home/giorgio/Display7Seg/display_on_board.syr" 
+xst -intstyle ise -ifn "/home/giorgio/Display7Seg/display_on_board.xst" -ofn "/home/giorgio/Display7Seg/display_on_board.syr" 
+xst -intstyle ise -ifn "/home/giorgio/Display7Seg/display_on_board.xst" -ofn "/home/giorgio/Display7Seg/display_on_board.syr" 
+xst -intstyle ise -ifn "/home/giorgio/Display7Seg/display_on_board.xst" -ofn "/home/giorgio/Display7Seg/display_on_board.syr" 
+xst -intstyle ise -ifn "/home/giorgio/Display7Seg/display_on_board.xst" -ofn "/home/giorgio/Display7Seg/display_on_board.syr" 
+xst -intstyle ise -ifn "/home/giorgio/Display7Seg/display_on_board.xst" -ofn "/home/giorgio/Display7Seg/display_on_board.syr" 
+xst -intstyle ise -ifn "/home/giorgio/Display7Seg/display_on_board.xst" -ofn "/home/giorgio/Display7Seg/display_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-5 display_on_board.ngc display_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-5 -cm area -ir off -pr off -c 100 -o display_on_board_map.ncd display_on_board.ngd display_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 display_on_board_map.ncd display_on_board.ncd display_on_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml display_on_board.twx display_on_board.ncd -o display_on_board.twr display_on_board.pcf -ucf BasysRevEGeneral.ucf 
+xst -intstyle ise -ifn "/home/giorgio/Display7Seg/display_on_board.xst" -ofn "/home/giorgio/Display7Seg/display_on_board.syr" 
+xst -intstyle ise -ifn "/home/giorgio/Display7Seg/display_on_board.xst" -ofn "/home/giorgio/Display7Seg/display_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-5 display_on_board.ngc display_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-5 -cm area -ir off -pr off -c 100 -o display_on_board_map.ncd display_on_board.ngd display_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 display_on_board_map.ncd display_on_board.ncd display_on_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml display_on_board.twx display_on_board.ncd -o display_on_board.twr display_on_board.pcf -ucf BasysRevEGeneral.ucf 
+xst -intstyle ise -ifn "/home/giorgio/Display7Seg/display_on_board.xst" -ofn "/home/giorgio/Display7Seg/display_on_board.syr" 
+xst -intstyle ise -ifn "/home/giorgio/Display7Seg/display_on_board.xst" -ofn "/home/giorgio/Display7Seg/display_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-5 display_on_board.ngc display_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-5 -cm area -ir off -pr off -c 100 -o display_on_board_map.ncd display_on_board.ngd display_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 display_on_board_map.ncd display_on_board.ncd display_on_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml display_on_board.twx display_on_board.ncd -o display_on_board.twr display_on_board.pcf -ucf BasysRevEGeneral.ucf 
+xst -intstyle ise -ifn "/home/luca/Scaricati/Display7Seg1/Display7Seg/display_on_board.xst" -ofn "/home/luca/Scaricati/Display7Seg1/Display7Seg/display_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-5 display_on_board.ngc display_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-5 -cm area -ir off -pr off -c 100 -o display_on_board_map.ncd display_on_board.ngd display_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 display_on_board_map.ncd display_on_board.ncd display_on_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml display_on_board.twx display_on_board.ncd -o display_on_board.twr display_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f display_on_board.ut display_on_board.ncd 
+xst -intstyle ise -ifn "/home/luca/Scaricati/Display7Seg1/Display7Seg/display_on_board.xst" -ofn "/home/luca/Scaricati/Display7Seg1/Display7Seg/display_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-5 display_on_board.ngc display_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-5 -cm area -ir off -pr off -c 100 -o display_on_board_map.ncd display_on_board.ngd display_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 display_on_board_map.ncd display_on_board.ncd display_on_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml display_on_board.twx display_on_board.ncd -o display_on_board.twr display_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f display_on_board.ut display_on_board.ncd 
+xst -intstyle ise -ifn "/home/luca/Scaricati/Display7Seg1/Display7Seg/display_on_board.xst" -ofn "/home/luca/Scaricati/Display7Seg1/Display7Seg/display_on_board.syr" 
+xst -intstyle ise -ifn "/home/luca/Scaricati/Display7Seg1/Display7Seg/display_on_board.xst" -ofn "/home/luca/Scaricati/Display7Seg1/Display7Seg/display_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-5 display_on_board.ngc display_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-5 -cm area -ir off -pr off -c 100 -o display_on_board_map.ncd display_on_board.ngd display_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 display_on_board_map.ncd display_on_board.ncd display_on_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml display_on_board.twx display_on_board.ncd -o display_on_board.twr display_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f display_on_board.ut display_on_board.ncd 
+xst -intstyle ise -ifn "/home/luca/Scaricati/Display7Seg1/Display7Seg/display_on_board.xst" -ofn "/home/luca/Scaricati/Display7Seg1/Display7Seg/display_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-5 display_on_board.ngc display_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-5 -cm area -ir off -pr off -c 100 -o display_on_board_map.ncd display_on_board.ngd display_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 display_on_board_map.ncd display_on_board.ncd display_on_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml display_on_board.twx display_on_board.ncd -o display_on_board.twr display_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f display_on_board.ut display_on_board.ncd 
+xst -intstyle ise -ifn "/home/luca/Scaricati/Display7Seg1/Display7Seg/display_on_board.xst" -ofn "/home/luca/Scaricati/Display7Seg1/Display7Seg/display_on_board.syr" 
+xst -intstyle ise -ifn "/home/luca/Scaricati/Display7Seg1/Display7Seg/display_on_board.xst" -ofn "/home/luca/Scaricati/Display7Seg1/Display7Seg/display_on_board.syr" 
+xst -intstyle ise -ifn "/home/luca/Scaricati/Display7Seg1/Display7Seg/display_on_board.xst" -ofn "/home/luca/Scaricati/Display7Seg1/Display7Seg/display_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-5 display_on_board.ngc display_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-5 -cm area -ir off -pr off -c 100 -o display_on_board_map.ncd display_on_board.ngd display_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 display_on_board_map.ncd display_on_board.ncd display_on_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml display_on_board.twx display_on_board.ncd -o display_on_board.twr display_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f display_on_board.ut display_on_board.ncd 
+xst -intstyle ise -ifn "/home/luca/Scaricati/Display7Seg1/Display7Seg/display_on_board.xst" -ofn "/home/luca/Scaricati/Display7Seg1/Display7Seg/display_on_board.syr" 
+xst -intstyle ise -ifn "/home/luca/Scaricati/Display7Seg1/Display7Seg/display_on_board.xst" -ofn "/home/luca/Scaricati/Display7Seg1/Display7Seg/display_on_board.syr" 
+xst -intstyle ise -ifn "/home/luca/Scaricati/Display7Seg1/Display7Seg/display_on_board.xst" -ofn "/home/luca/Scaricati/Display7Seg1/Display7Seg/display_on_board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BasysRevEGeneral.ucf -p xc3s250e-tq144-5 display_on_board.ngc display_on_board.ngd  
+map -intstyle ise -p xc3s250e-tq144-5 -cm area -ir off -pr off -c 100 -o display_on_board_map.ncd display_on_board.ngd display_on_board.pcf 
+par -w -intstyle ise -ol high -t 1 display_on_board_map.ncd display_on_board.ncd display_on_board.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml display_on_board.twx display_on_board.ncd -o display_on_board.twr display_on_board.pcf -ucf BasysRevEGeneral.ucf 
+bitgen -intstyle ise -f display_on_board.ut display_on_board.ncd 

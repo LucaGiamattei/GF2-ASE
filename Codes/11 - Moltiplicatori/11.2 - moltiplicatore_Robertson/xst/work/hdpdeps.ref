@@ -1,0 +1,103 @@
+V3 56
+FL /home/giorgio/Documenti/shiftregister/shiftregister/Controllo_Overflow.vhd 2016/12/14.23:10:03 P.20131013
+EN work/Controllo_Overflow 1552081135 \
+      FL /home/giorgio/Documenti/shiftregister/shiftregister/Controllo_Overflow.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Controllo_Overflow/Behavioral 1552081136 \
+      FL /home/giorgio/Documenti/shiftregister/shiftregister/Controllo_Overflow.vhd \
+      EN work/Controllo_Overflow 1552081135
+FL /home/giorgio/Documenti/shiftregister/shiftregister/ControlUnit.vhd 2016/12/17.18:54:59 P.20131013
+EN work/ControlUnit 1552081141 \
+      FL /home/giorgio/Documenti/shiftregister/shiftregister/ControlUnit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ControlUnit/Behavioral 1552081142 \
+      FL /home/giorgio/Documenti/shiftregister/shiftregister/ControlUnit.vhd \
+      EN work/ControlUnit 1552081141
+FL /home/giorgio/Documenti/shiftregister/shiftregister/Counter_ModN.vhd 2016/12/18.18:06:03 P.20131013
+EN work/Counter_ModN 1552081139 \
+      FL /home/giorgio/Documenti/shiftregister/shiftregister/Counter_ModN.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/MATH_REAL 1381692182 \
+      PB ieee/std_logic_arith 1381692177
+AR work/Counter_ModN/Behavioral 1552081140 \
+      FL /home/giorgio/Documenti/shiftregister/shiftregister/Counter_ModN.vhd \
+      EN work/Counter_ModN 1552081139
+FL /home/giorgio/Documenti/shiftregister/shiftregister/FFD.vhd 2019/03/04.17:04:13 P.20131013
+EN work/FFD 1552081129 \
+      FL /home/giorgio/Documenti/shiftregister/shiftregister/FFD.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/FFD/Behavioral 1552081130 \
+      FL /home/giorgio/Documenti/shiftregister/shiftregister/FFD.vhd EN work/FFD 1552081129
+FL /home/giorgio/Documenti/shiftregister/shiftregister/flipflopF.vhd 2019/03/08.20:25:51 P.20131013
+EN work/flipflopF 1552081147 \
+      FL /home/giorgio/Documenti/shiftregister/shiftregister/flipflopF.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/flipflopF/Behavioral 1552081148 \
+      FL /home/giorgio/Documenti/shiftregister/shiftregister/flipflopF.vhd \
+      EN work/flipflopF 1552081147
+FL /home/giorgio/Documenti/shiftregister/shiftregister/flipflopmux.vhd 2019/03/04.19:23:49 P.20131013
+EN work/flipflopmux 1552081137 \
+      FL /home/giorgio/Documenti/shiftregister/shiftregister/flipflopmux.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/flipflopmux/Structural 1552081138 \
+      FL /home/giorgio/Documenti/shiftregister/shiftregister/flipflopmux.vhd \
+      EN work/flipflopmux 1552081137 CP MUX2 CP FFD
+FL /home/giorgio/Documenti/shiftregister/shiftregister/flipflop_msb.vhd 2019/03/08.20:25:51 P.20131013
+FL /home/giorgio/Documenti/shiftregister/shiftregister/fulladder.vhd 2016/12/14.23:10:05 P.20131013
+EN work/full_adder 1552081125 \
+      FL /home/giorgio/Documenti/shiftregister/shiftregister/fulladder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/full_adder/Dataflow 1552081126 \
+      FL /home/giorgio/Documenti/shiftregister/shiftregister/fulladder.vhd \
+      EN work/full_adder 1552081125
+FL /home/giorgio/Documenti/shiftregister/shiftregister/Moltiplicatore_NperNbit_Robertson.vhd 2019/03/08.21:32:32 P.20131013
+EN work/Moltiplicatore_NperNbit_Robertson 1552081151 \
+      FL /home/giorgio/Documenti/shiftregister/shiftregister/Moltiplicatore_NperNbit_Robertson.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/MATH_REAL 1381692182
+AR work/Moltiplicatore_NperNbit_Robertson/Behavioral 1552081152 \
+      FL /home/giorgio/Documenti/shiftregister/shiftregister/Moltiplicatore_NperNbit_Robertson.vhd \
+      EN work/Moltiplicatore_NperNbit_Robertson 1552081151 CP Counter_ModN \
+      CP ControlUnit CP Shift_register CP registro CP flipflopF CP RCA_ADD_SUB
+FL /home/giorgio/Documenti/shiftregister/shiftregister/MUX2.vhd 2019/03/04.18:53:01 P.20131013
+EN work/MUX2 1552081127 \
+      FL /home/giorgio/Documenti/shiftregister/shiftregister/MUX2.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/MUX2/dataflow 1552081128 \
+      FL /home/giorgio/Documenti/shiftregister/shiftregister/MUX2.vhd \
+      EN work/MUX2 1552081127
+FL /home/giorgio/Documenti/shiftregister/shiftregister/RCA_ADD_SUB.vhd 2019/03/05.16:50:30 P.20131013
+EN work/RCA_ADD_SUB 1552081149 \
+      FL /home/giorgio/Documenti/shiftregister/shiftregister/RCA_ADD_SUB.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/RCA_ADD_SUB/Structural 1552081150 \
+      FL /home/giorgio/Documenti/shiftregister/shiftregister/RCA_ADD_SUB.vhd \
+      EN work/RCA_ADD_SUB 1552081149 CP XOR_Inversion CP ripple_carry \
+      CP Controllo_Overflow
+FL /home/giorgio/Documenti/shiftregister/shiftregister/registro.vhd 2019/03/07.17:35:42 P.20131013
+EN work/registro 1552081145 \
+      FL /home/giorgio/Documenti/shiftregister/shiftregister/registro.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/registro/Behavioral 1552081146 \
+      FL /home/giorgio/Documenti/shiftregister/shiftregister/registro.vhd \
+      EN work/registro 1552081145
+FL /home/giorgio/Documenti/shiftregister/shiftregister/ripplecarry.vhd 2016/12/14.23:10:24 P.20131013
+EN work/ripple_carry 1552081133 \
+      FL /home/giorgio/Documenti/shiftregister/shiftregister/ripplecarry.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ripple_carry/Structural 1552081134 \
+      FL /home/giorgio/Documenti/shiftregister/shiftregister/ripplecarry.vhd \
+      EN work/ripple_carry 1552081133 CP full_adder
+FL /home/giorgio/Documenti/shiftregister/shiftregister/Shift_register.vhd 2019/03/07.18:29:14 P.20131013
+EN work/Shift_register 1552081143 \
+      FL /home/giorgio/Documenti/shiftregister/shiftregister/Shift_register.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Shift_register/Behavioral 1552081144 \
+      FL /home/giorgio/Documenti/shiftregister/shiftregister/Shift_register.vhd \
+      EN work/Shift_register 1552081143 CP flipflopmux
+FL /home/giorgio/Documenti/shiftregister/shiftregister/XOR_Inversion.vhd 2019/03/07.19:40:11 P.20131013
+EN work/XOR_Inversion 1552081131 \
+      FL /home/giorgio/Documenti/shiftregister/shiftregister/XOR_Inversion.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/XOR_Inversion/Dataflow 1552081132 \
+      FL /home/giorgio/Documenti/shiftregister/shiftregister/XOR_Inversion.vhd \
+      EN work/XOR_Inversion 1552081131

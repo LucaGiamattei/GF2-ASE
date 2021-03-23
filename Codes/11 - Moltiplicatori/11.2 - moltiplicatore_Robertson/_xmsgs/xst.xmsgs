@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/flipflopF</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/giorgio/Documenti/shiftregister/shiftregister/flipflop_msb.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/giorgio/Documenti/shiftregister/shiftregister/flipflopF.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/flipflopF/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/giorgio/Documenti/shiftregister/shiftregister/flipflop_msb.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/giorgio/Documenti/shiftregister/shiftregister/flipflopF.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">/home/giorgio/Documenti/shiftregister/shiftregister/Moltiplicatore_NperNbit_Robertson.vhd</arg>&quot; line <arg fmt="%d" index="2">158</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">counter</arg>&apos; of component &apos;<arg fmt="%s" index="4">Counter_ModN</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">/home/giorgio/Documenti/shiftregister/shiftregister/Moltiplicatore_NperNbit_Robertson.vhd</arg>&quot; line <arg fmt="%d" index="2">232</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">overflow</arg>&apos; of component &apos;<arg fmt="%s" index="4">RCA_ADD_SUB</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">/home/giorgio/Documenti/shiftregister/shiftregister/RCA_ADD_SUB.vhd</arg>&quot; line <arg fmt="%d" index="2">89</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">riporto_out</arg>&apos; of component &apos;<arg fmt="%s" index="4">ripple_carry</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">valore_in_q</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">controllo</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Add_Sub_pm</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+</messages>
+

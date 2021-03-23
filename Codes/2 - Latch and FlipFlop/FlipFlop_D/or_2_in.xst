@@ -1,0 +1,5 @@
+set -tmpdir "/home/luca/ISE_ws/FFD_edg/xst/projnav.tmp"
+set -xsthdpdir "/home/luca/ISE_ws/FFD_edg/xst"
+elaborate
+-ifn or_2_in.prj
+-ifmt mixed

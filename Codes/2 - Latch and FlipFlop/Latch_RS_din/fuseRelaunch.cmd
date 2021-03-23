@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/luca/ISE_ws/Latch_RS/Latch_RS_Latch_RS_sch_tb_isim_beh.exe" -prj "/home/luca/ISE_ws/Latch_RS/Latch_RS_Latch_RS_sch_tb_beh.prj" "work.Latch_RS_Latch_RS_sch_tb" 

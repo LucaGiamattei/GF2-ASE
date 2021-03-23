@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Mario/Desktop/Display7Segs/Display7Seg/tb_clock_filter_isim_translate.exe" -prj "C:/Users/Mario/Desktop/Display7Segs/Display7Seg/tb_clock_filter_translate.prj" "work.tb_clock_filter" 

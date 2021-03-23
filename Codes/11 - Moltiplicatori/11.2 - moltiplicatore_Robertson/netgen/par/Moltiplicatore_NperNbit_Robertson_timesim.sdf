@@ -1,0 +1,3142 @@
+(DELAYFILE
+  (SDFVERSION "3.0")
+  (DESIGN "Moltiplicatore_NperNbit_Robertson")
+  (DATE "Fri Mar  8 21:42:00 2019")
+  (VENDOR "Xilinx")
+  (PROGRAM "Xilinx SDF Writer")
+  (VERSION "P.20131013")
+  (DIVIDER /)
+  (VOLTAGE 1.14)
+  (TEMPERATURE 85)
+  (TIMESCALE 1 ps)
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE risultato_5_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I (479:599:599))
+          (IOPATH I O (1632:2041:2041))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE stop_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I (479:599:599))
+          (IOPATH I O (1632:2041:2041))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE risultato_6_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I (479:599:599))
+          (IOPATH I O (1632:2041:2041))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE reset_n_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (69:87:87)(69:87:87))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE reset_n_IFF_IMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (835:1044:1044))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE risultato_7_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I (479:599:599))
+          (IOPATH I O (1632:2041:2041))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE risultato_8_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I (479:599:599))
+          (IOPATH I O (1632:2041:2041))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE risultato_9_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I (479:599:599))
+          (IOPATH I O (1632:2041:2041))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE risultato_10_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I (479:599:599))
+          (IOPATH I O (1632:2041:2041))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE risultato_11_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I (479:599:599))
+          (IOPATH I O (1632:2041:2041))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE risultato_12_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I (479:599:599))
+          (IOPATH I O (1632:2041:2041))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE risultato_13_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I (479:599:599))
+          (IOPATH I O (1632:2041:2041))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE risultato_14_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I (479:599:599))
+          (IOPATH I O (1632:2041:2041))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE risultato_15_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I (479:599:599))
+          (IOPATH I O (1632:2041:2041))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE start_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (69:87:87))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE start_IFF_IMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (835:1044:1044))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE clock_BUFGP_IBUFG)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (69:87:87))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE op1_0_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (69:87:87))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE op1_0_IFF_IMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (835:1044:1044))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE op1_1_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (69:87:87))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE op1_1_IFF_IMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (835:1044:1044))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE op1_2_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (69:87:87))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE op1_2_IFF_IMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (835:1044:1044))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE op1_3_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (69:87:87))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE op1_3_IFF_IMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (835:1044:1044))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE op2_0_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (69:87:87))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE op1_4_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (69:87:87))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE op1_4_IFF_IMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (835:1044:1044))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE op2_1_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (69:87:87))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE op1_5_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (69:87:87))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE op1_5_IFF_IMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (835:1044:1044))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE op2_2_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (69:87:87))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE op1_6_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (69:87:87))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE op1_6_IFF_IMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (835:1044:1044))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE op2_3_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (69:87:87))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE op1_7_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (69:87:87))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE op1_7_IFF_IMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (835:1044:1044))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE op2_4_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (69:87:87))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE risultato_0_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I (479:599:599))
+          (IOPATH I O (1632:2041:2041))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE op2_5_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (69:87:87))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE risultato_1_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I (479:599:599))
+          (IOPATH I O (1632:2041:2041))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE op2_6_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (69:87:87))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE risultato_2_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I (479:599:599))
+          (IOPATH I O (1632:2041:2041))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE op2_7_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (69:87:87))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE risultato_3_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I (479:599:599))
+          (IOPATH I O (1632:2041:2041))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE risultato_4_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I (479:599:599))
+          (IOPATH I O (1632:2041:2041))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUFGMUX")
+    (INSTANCE clock_BUFGP_BUFG)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I0 O (1165:1457:1457))
+          (IOPATH I1 O (1165:1457:1457))
+        )
+      )
+      (TIMINGCHECK
+        (SETUPHOLD (posedge S) (negedge I0) (434:543:543)(0))
+      )
+  )
+  (CELL (CELLTYPE "X_INV")
+    (INSTANCE clock_BUFGP_BUFG_SINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O ( 0 )( 0 ))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE clock_BUFGP_BUFG_I0_USED)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (867:1076:1084)(867:1076:1084))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE N16_XUSED)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (83:104:104))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_MUX2")
+    (INSTANCE N16_F5MUX)
+      (DELAY
+        (ABSOLUTE
+          (PORT IA (328:410:410))
+          (PORT IB (328:410:410))
+          (PORT SEL (318:398:398))
+          (IOPATH IA O ( 0 )( 0 ))
+          (IOPATH IB O ( 0 )( 0 ))
+          (IOPATH SEL O ( 0 )( 0 ))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE N16_BXINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (431:471:539))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_7_shift_right_ffm_mux_temp_out_mux_SW0_F)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (396:396:494))
+          (PORT ADR1 (254:254:318))
+          (PORT ADR2 (267:267:334))
+          (PORT ADR3 (281:281:351))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_7_shift_right_ffm_mux_temp_out_mux_SW0_G)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (392:392:489))
+          (PORT ADR1 (227:227:284))
+          (PORT ADR2 (388:388:485))
+          (PORT ADR3 (236:236:295))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_6_shift_right_ffm_flipflop_Q_DXMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (83:104:104))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_MUX2")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_6_shift_right_ffm_flipflop_Q_F5MUX)
+      (DELAY
+        (ABSOLUTE
+          (PORT IA (328:410:410))
+          (PORT IB (328:410:410))
+          (PORT SEL (318:398:398))
+          (IOPATH IA O ( 0 )( 0 ))
+          (IOPATH IB O ( 0 )( 0 ))
+          (IOPATH SEL O ( 0 )( 0 ))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_6_shift_right_ffm_flipflop_Q_BXINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (434:474:544))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_6_shift_right_ffm_flipflop_Q_CLKINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (30:30:35))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_6_shift_right_ffm_flipflop_Q_CEINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (467:467:584))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_6_shift_right_ffm_mux_temp_out_mux_F)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (100:100:125))
+          (PORT ADR1 (698:698:872))
+          (PORT ADR2 (991:991:1239))
+          (PORT ADR3 (549:549:686))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_5_shift_right_ffm_flipflop_Q_DXMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (104:131:131))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_MUX2")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_5_shift_right_ffm_flipflop_Q_F5MUX)
+      (DELAY
+        (ABSOLUTE
+          (PORT IA (218:273:273))
+          (PORT IB (218:273:273))
+          (PORT SEL (286:358:358))
+          (IOPATH IA O ( 0 )( 0 ))
+          (IOPATH IB O ( 0 )( 0 ))
+          (IOPATH SEL O ( 0 )( 0 ))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_5_shift_right_ffm_flipflop_Q_BXINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (476:507:596))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_5_shift_right_ffm_flipflop_Q_CLKINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (34:34:39))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_5_shift_right_ffm_flipflop_Q_CEINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (685:685:857))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_5_shift_right_ffm_mux_temp_out_mux_F)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (821:821:1026))
+          (PORT ADR1 (53:53:66))
+          (PORT ADR2 (997:997:1247))
+          (PORT ADR3 (1014:1014:1268))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE Add_Sub_pm_rca_vettore_riporti_4_XUSED)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (83:104:104))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_MUX2")
+    (INSTANCE Add_Sub_pm_rca_vettore_riporti_4_F5MUX)
+      (DELAY
+        (ABSOLUTE
+          (PORT IA (328:410:410))
+          (PORT IB (328:410:410))
+          (PORT SEL (318:398:398))
+          (IOPATH IA O ( 0 )( 0 ))
+          (IOPATH IB O ( 0 )( 0 ))
+          (IOPATH SEL O ( 0 )( 0 ))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE Add_Sub_pm_rca_vettore_riporti_4_BXINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (425:465:532))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE Add_Sub_pm_rca_serie_di_fa_3_fa_riporto_out1_F)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (100:100:125))
+          (PORT ADR1 (91:91:114))
+          (PORT ADR2 (838:838:1048))
+          (PORT ADR3 (528:528:660))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE Add_Sub_pm_rca_serie_di_fa_3_fa_riporto_out1_G)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (96:96:120))
+          (PORT ADR1 (64:64:80))
+          (PORT ADR2 (838:838:1048))
+          (PORT ADR3 (1083:1083:1354))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE N19_XUSED)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (83:104:104))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_MUX2")
+    (INSTANCE N19_F5MUX)
+      (DELAY
+        (ABSOLUTE
+          (PORT IA (328:410:410))
+          (PORT IB (328:410:410))
+          (PORT SEL (318:398:398))
+          (IOPATH IA O ( 0 )( 0 ))
+          (IOPATH IB O ( 0 )( 0 ))
+          (IOPATH SEL O ( 0 )( 0 ))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE N19_BXINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (940:980:1176))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE Add_Sub_pm_rca_serie_di_fa_4_fa_riporto_out1_SW0_F)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (452:452:565))
+          (PORT ADR1 (520:520:650))
+          (PORT ADR2 (408:408:510))
+          (PORT ADR3 (659:659:824))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE Add_Sub_pm_rca_serie_di_fa_4_fa_riporto_out1_SW0_G)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (448:448:560))
+          (PORT ADR1 (493:493:616))
+          (PORT ADR2 (408:408:510))
+          (PORT ADR3 (615:615:768))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE N20_XUSED)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (104:131:131))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_MUX2")
+    (INSTANCE N20_F5MUX)
+      (DELAY
+        (ABSOLUTE
+          (PORT IA (218:273:273))
+          (PORT IB (218:273:273))
+          (PORT SEL (286:358:358))
+          (IOPATH IA O ( 0 )( 0 ))
+          (IOPATH IB O ( 0 )( 0 ))
+          (IOPATH SEL O ( 0 )( 0 ))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE N20_BXINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (569:600:712))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE Add_Sub_pm_rca_serie_di_fa_4_fa_riporto_out1_SW1_F)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (735:735:919))
+          (PORT ADR1 (445:445:557))
+          (PORT ADR2 (481:481:602))
+          (PORT ADR3 (371:371:464))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE Add_Sub_pm_rca_serie_di_fa_4_fa_riporto_out1_SW1_G)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (707:707:884))
+          (PORT ADR1 (462:462:578))
+          (PORT ADR2 (458:458:573))
+          (PORT ADR3 (370:370:462))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE Add_Sub_pm_rca_vettore_riporti_2_XUSED)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (100:126:126))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE Add_Sub_pm_rca_vettore_riporti_2_YUSED)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (100:126:126))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE Add_Sub_pm_rca_serie_di_fa_0_fa_riporto_out1)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR1 (393:393:491))
+          (PORT ADR2 (388:388:485))
+          (PORT ADR3 (294:294:367))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE N40_XUSED)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (100:126:126))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE N40_YUSED)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (100:126:126))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE Add_Sub_pm_xor_inv_Mxor_temp_4_Result1)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR1 (592:592:739))
+          (PORT ADR2 (298:298:373))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_3_shift_right_ffm_flipflop_Q_DXMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (100:126:126))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_3_shift_right_ffm_flipflop_Q_YUSED)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (100:126:126))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_3_shift_right_ffm_flipflop_Q_CLKINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (32:32:37))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_3_shift_right_ffm_flipflop_Q_CEINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1045:1045:1306))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_3_shift_right_ffm_flipflop_Q_XUSED)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (139:174:174))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_3_shift_right_ffm_flipflop_Q_DYMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (139:174:174))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_3_shift_right_ffm_flipflop_Q_CLKINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (32:32:38))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_3_shift_right_ffm_flipflop_Q_CEINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (426:426:533))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE Inst_Counter_ModN_res_out_DXMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (100:126:126))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE Inst_Counter_ModN_res_out_DYMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (100:126:126))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE Inst_Counter_ModN_res_out_SRINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (604:604:755))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE Inst_Counter_ModN_res_out_CLKINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (34:34:40))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE Inst_Counter_ModN_res_out_CEINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (857:857:1071))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE Inst_Counter_ModN_Mcount_c_xor_2_11)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (503:503:628))
+          (PORT ADR1 (375:375:469))
+          (PORT ADR2 (332:332:415))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_7_shift_right_ffm_flipflop_Q_XUSED)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (100:126:126))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_7_shift_right_ffm_flipflop_Q_DYMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (100:126:126))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_7_shift_right_ffm_flipflop_Q_CLKINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (32:32:38))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_7_shift_right_ffm_flipflop_Q_CEINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (435:435:544))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_2_shift_right_ffm_flipflop_Q_XUSED)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (139:174:174))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_2_shift_right_ffm_flipflop_Q_DYMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (139:174:174))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_2_shift_right_ffm_flipflop_Q_CLKINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (33:33:39))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_2_shift_right_ffm_flipflop_Q_CEINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (463:463:579))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_0_shift_right_ffm_flipflop_Q_DYMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (100:126:126))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_0_shift_right_ffm_flipflop_Q_CLKINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (30:30:35))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_0_shift_right_ffm_flipflop_Q_CEINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (467:467:584))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_1_shift_right_ffm_flipflop_Q_DXMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (139:174:174))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_1_shift_right_ffm_flipflop_Q_DYMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (139:174:174))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_INV")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_1_shift_right_ffm_flipflop_Q_SRINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1484:1484:1856))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_1_shift_right_ffm_flipflop_Q_CLKINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (32:32:37))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_1_shift_right_ffm_flipflop_Q_CEINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (706:706:883))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_0_shift_right_ffm_mux_temp_out_mux1)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (356:356:445))
+          (PORT ADR2 (864:864:1080))
+          (PORT ADR3 (426:426:532))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_4_shift_right_ffm_flipflop_Q_DXMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (100:126:126))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_4_shift_right_ffm_flipflop_Q_DYMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (100:126:126))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_INV")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_4_shift_right_ffm_flipflop_Q_SRINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1748:1748:2185))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_4_shift_right_ffm_flipflop_Q_CLKINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (32:32:38))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_4_shift_right_ffm_flipflop_Q_CEINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (435:435:544))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_6_shift_right_ffm_mux_temp_out_mux1)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR1 (916:916:1145))
+          (PORT ADR2 (416:416:519))
+          (PORT ADR3 (288:288:359))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE cu_stato_corrente_FSM_FFd2_DXMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (100:126:126))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE cu_stato_corrente_FSM_FFd2_DYMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (100:126:126))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_INV")
+    (INSTANCE cu_stato_corrente_FSM_FFd2_SRINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1682:1682:2102))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE cu_stato_corrente_FSM_FFd2_CLKINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (33:33:39))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE cu_stato_corrente_FSM_FFd1_In1)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR1 (695:695:868))
+          (PORT ADR2 (285:285:356))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE cu_stato_corrente_FSM_FFd4_DXMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (139:174:174))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE cu_stato_corrente_FSM_FFd4_DYMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (139:174:174))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_INV")
+    (INSTANCE cu_stato_corrente_FSM_FFd4_SRINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1302:1302:1627))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE cu_stato_corrente_FSM_FFd4_CLKINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (33:33:39))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE cu_stato_corrente_FSM_FFd3_In1)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (356:356:445))
+          (PORT ADR1 (1170:1170:1463))
+          (PORT ADR3 (476:476:595))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE cu_stato_corrente_FSM_FFd5_DYMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (139:174:174))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE cu_stato_corrente_FSM_FFd5_CLKINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (33:33:39))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE cu_stato_corrente_FSM_FFd5_In1)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (1372:1372:1716))
+          (PORT ADR1 (768:768:960))
+          (PORT ADR2 (625:625:781))
+          (PORT ADR3 (377:377:471))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_5_shift_right_ffm_flipflop_Q_DYMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (139:174:174))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_5_shift_right_ffm_flipflop_Q_CLKINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (32:32:38))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_5_shift_right_ffm_flipflop_Q_CEINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (426:426:533))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_INV")
+    (INSTANCE Inst_Counter_ModN_c_0_DXMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (605:645:757))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE Inst_Counter_ModN_c_0_DYMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (139:174:174))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE Inst_Counter_ModN_c_0_SRINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (795:795:994))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE Inst_Counter_ModN_c_0_CLKINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (35:35:42))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE Inst_Counter_ModN_c_0_CEINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (656:656:820))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE Inst_Counter_ModN_reset_YUSED)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (139:174:174))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_0_shift_right_ffm_flipflop_reset_n_inv1)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR1 (1454:1454:1818))
+          (PORT ADR2 (642:642:803))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_4_shift_right_ffm_flipflop_Q_DXMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (139:174:174))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_4_shift_right_ffm_flipflop_Q_YUSED)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (139:174:174))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_4_shift_right_ffm_flipflop_Q_CLKINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (34:34:39))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_4_shift_right_ffm_flipflop_Q_CEINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (468:468:585))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE Add_Sub_pm_OP2_effettivo_3_XUSED)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (139:174:174))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE Add_Sub_pm_OP2_effettivo_3_YUSED)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (139:174:174))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_3_shift_right_ffm_mux_temp_out_mux_SW0)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (370:370:463))
+          (PORT ADR2 (488:488:610))
+          (PORT ADR3 (659:659:824))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_2_shift_right_ffm_flipflop_Q_DXMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (139:174:174))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_2_shift_right_ffm_flipflop_Q_YUSED)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (139:174:174))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_2_shift_right_ffm_flipflop_Q_CLKINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (32:32:37))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_2_shift_right_ffm_flipflop_Q_CEINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1055:1055:1319))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE Add_Sub_pm_OP2_effettivo_6_XUSED)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (100:126:126))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE Add_Sub_pm_OP2_effettivo_6_YUSED)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (100:126:126))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_6_shift_right_ffm_mux_temp_out_mux_SW0)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (452:452:565))
+          (PORT ADR1 (473:473:591))
+          (PORT ADR3 (1068:1068:1334))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_1_shift_right_ffm_flipflop_Q_DXMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (139:174:174))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_1_shift_right_ffm_flipflop_Q_YUSED)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (139:174:174))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_1_shift_right_ffm_flipflop_Q_CLKINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (30:30:35))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_1_shift_right_ffm_flipflop_Q_CEINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (467:467:584))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_7_shift_right_ffm_flipflop_Q_DXMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (100:126:126))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_7_shift_right_ffm_flipflop_Q_YUSED)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (100:126:126))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_7_shift_right_ffm_flipflop_Q_CLKINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (32:32:37))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_7_shift_right_ffm_flipflop_Q_CEINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (680:680:850))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE Add_Sub_pm_OP2_effettivo_7_XUSED)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (100:126:126))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE Add_Sub_pm_OP2_effettivo_7_YUSED)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (100:126:126))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE Add_Sub_pm_xor_inv_Mxor_temp_2_Result1)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR1 (325:325:407))
+          (PORT ADR3 (393:393:492))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_m_temp_1_DXMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1829:2078:2287))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_m_temp_1_DYMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1806:2059:2259))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_INV")
+    (INSTANCE registro_m_temp_1_SRINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1751:1751:2189))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_m_temp_1_CLKINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (32:32:37))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_m_temp_1_CEINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (851:851:1063))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_m_temp_3_DXMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1849:2098:2313))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_m_temp_3_DYMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1464:1717:1831))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_INV")
+    (INSTANCE registro_m_temp_3_SRINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1940:1940:2425))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_m_temp_3_CLKINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (36:36:43))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_m_temp_3_CEINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1215:1215:1519))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_m_temp_5_DXMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1417:1657:1772))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_m_temp_5_DYMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1711:1960:2139))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_INV")
+    (INSTANCE registro_m_temp_5_SRINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1749:1749:2186))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_m_temp_5_CLKINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (36:36:43))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_m_temp_5_CEINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1008:1008:1260))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_m_temp_7_DXMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1461:1701:1827))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_m_temp_7_DYMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1711:1960:2139))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_INV")
+    (INSTANCE registro_m_temp_7_SRINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1938:1938:2422))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_m_temp_7_CLKINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (35:35:42))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_m_temp_7_CEINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1016:1016:1270))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE ff_msb_temp_and00001)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR1 (1074:1074:1342))
+          (PORT ADR3 (752:752:940))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE N42_XUSED)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (139:174:174))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE Add_Sub_pm_rca_serie_di_fa_4_fa_riporto_out1_SW3_SW0)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (491:491:614))
+          (PORT ADR1 (65:65:82))
+          (PORT ADR2 (759:759:949))
+          (PORT ADR3 (288:288:361))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ff_msb_temp_DYMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (158:198:198))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ff_msb_temp_BYINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (158:198:198))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ff_msb_temp_CLKINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (30:30:36))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ff_msb_temp_CEINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (872:898:1090))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE Add_Sub_pm_rca_serie_di_fa_1_fa_riporto_out1)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (621:621:776))
+          (PORT ADR1 (608:608:760))
+          (PORT ADR2 (309:309:387))
+          (PORT ADR3 (16:16:20))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE Add_Sub_pm_rca_serie_di_fa_4_fa_riporto_out1_SW2_SW0)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (381:381:477))
+          (PORT ADR1 (814:814:1017))
+          (PORT ADR2 (31:31:39))
+          (PORT ADR3 (425:425:531))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE Add_Sub_pm_rca_serie_di_fa_2_fa_riporto_out1)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (1052:1052:1315))
+          (PORT ADR1 (323:323:404))
+          (PORT ADR2 (449:449:561))
+          (PORT ADR3 (854:854:1068))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_3_shift_right_ffm_mux_temp_out_mux)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (441:441:552))
+          (PORT ADR1 (652:652:814))
+          (PORT ADR2 (1344:1344:1680))
+          (PORT ADR3 (16:16:20))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_3_shift_right_ffm_flipflop_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH CLK O (410:513:513)(410:513:513))
+          (IOPATH SET O ( 0 )( 0 ))
+          (IOPATH RST O (1259:1574:1574)(1259:1574:1574))
+        )
+      )
+      (TIMINGCHECK
+        (SETUPHOLD (posedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (negedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (posedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (SETUPHOLD (negedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (PERIOD (posedge CLK) (1110:1388:1388))
+        (RECOVERY (negedge RST) (posedge CLK) (689:862:862))
+        (WIDTH (posedge RST) (1248:1561:1561))
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_3_shift_right_ffm_flipflop_Q_FFX_RSTAND)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (774:774:968)(774:774:968))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_3_shift_right_ffm_mux_temp_out_mux1)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (295:295:369))
+          (PORT ADR1 (361:361:451))
+          (PORT ADR3 (1382:1382:1728))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_3_shift_right_ffm_flipflop_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH CLK O (452:566:566)(452:566:566))
+          (IOPATH SET O ( 0 )( 0 ))
+          (IOPATH RST O (1259:1574:1574)(1259:1574:1574))
+        )
+      )
+      (TIMINGCHECK
+        (SETUPHOLD (posedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (negedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (posedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (SETUPHOLD (negedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (PERIOD (posedge CLK) (1148:1436:1436))
+        (RECOVERY (negedge RST) (posedge CLK) (689:862:862))
+        (WIDTH (posedge RST) (1248:1561:1561))
+      )
+  )
+  (CELL (CELLTYPE "X_INV")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_3_shift_right_ffm_flipflop_Q_FFY_RSTAND)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1211:1211:1514)(1211:1211:1514))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE cu_conteggio_up1)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR1 (955:955:1193))
+          (PORT ADR2 (879:879:1098))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE Inst_Counter_ModN_c_2)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH CLK O (408:510:510)(408:510:510))
+          (IOPATH SET O ( 0 )( 0 ))
+          (IOPATH RST O (1259:1574:1574)(1259:1574:1574))
+        )
+      )
+      (TIMINGCHECK
+        (SETUPHOLD (posedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (negedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (posedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (SETUPHOLD (negedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (PERIOD (posedge CLK) (1110:1388:1388))
+        (RECOVERY (negedge RST) (posedge CLK) (689:862:862))
+        (WIDTH (posedge RST) (1248:1561:1561))
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE Inst_Counter_ModN_res_out_cmp_eq00001)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (475:475:593))
+          (PORT ADR1 (392:392:490))
+          (PORT ADR2 (309:309:386))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE Inst_Counter_ModN_res_out)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH CLK O (410:513:513)(410:513:513))
+          (IOPATH SET O ( 0 )( 0 ))
+          (IOPATH RST O (1259:1574:1574)(1259:1574:1574))
+        )
+      )
+      (TIMINGCHECK
+        (SETUPHOLD (posedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (negedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (posedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (SETUPHOLD (negedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (PERIOD (posedge CLK) (1110:1388:1388))
+        (RECOVERY (negedge RST) (posedge CLK) (689:862:862))
+        (WIDTH (posedge RST) (1248:1561:1561))
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_7_shift_right_ffm_mux_temp_out_mux1)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (1458:1458:1823))
+          (PORT ADR1 (434:434:542))
+          (PORT ADR3 (566:566:707))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_7_shift_right_ffm_flipflop_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH CLK O (408:510:510)(408:510:510))
+          (IOPATH SET O ( 0 )( 0 ))
+          (IOPATH RST O (1259:1574:1574)(1259:1574:1574))
+        )
+      )
+      (TIMINGCHECK
+        (SETUPHOLD (posedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (negedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (posedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (SETUPHOLD (negedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (PERIOD (posedge CLK) (1110:1388:1388))
+        (RECOVERY (negedge RST) (posedge CLK) (689:862:862))
+        (WIDTH (posedge RST) (1248:1561:1561))
+      )
+  )
+  (CELL (CELLTYPE "X_INV")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_7_shift_right_ffm_flipflop_Q_FFY_RSTAND)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1748:1748:2185)(1748:1748:2185))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE cu_stato_corrente_FSM_Out51)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR1 (513:513:641))
+          (PORT ADR3 (1083:1083:1354))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_2_shift_right_ffm_mux_temp_out_mux1)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (652:652:815))
+          (PORT ADR1 (286:286:357))
+          (PORT ADR3 (721:721:902))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_2_shift_right_ffm_flipflop_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH CLK O (452:566:566)(452:566:566))
+          (IOPATH SET O ( 0 )( 0 ))
+          (IOPATH RST O (1259:1574:1574)(1259:1574:1574))
+        )
+      )
+      (TIMINGCHECK
+        (SETUPHOLD (posedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (negedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (posedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (SETUPHOLD (negedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (PERIOD (posedge CLK) (1148:1436:1436))
+        (RECOVERY (negedge RST) (posedge CLK) (689:862:862))
+        (WIDTH (posedge RST) (1248:1561:1561))
+      )
+  )
+  (CELL (CELLTYPE "X_INV")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_2_shift_right_ffm_flipflop_Q_FFY_RSTAND)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (937:937:1172)(937:937:1172))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_7_shift_right_ffm_mux_temp_out_mux)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (415:415:519))
+          (PORT ADR1 (1029:1029:1286))
+          (PORT ADR2 (16:16:20))
+          (PORT ADR3 (16:16:20))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_7_shift_right_ffm_flipflop_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH CLK O (410:513:513)(410:513:513))
+          (IOPATH SET O ( 0 )( 0 ))
+          (IOPATH RST O (1259:1574:1574)(1259:1574:1574))
+        )
+      )
+      (TIMINGCHECK
+        (SETUPHOLD (posedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (negedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (posedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (SETUPHOLD (negedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (PERIOD (posedge CLK) (1110:1388:1388))
+        (RECOVERY (negedge RST) (posedge CLK) (689:862:862))
+        (WIDTH (posedge RST) (1248:1561:1561))
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_7_shift_right_ffm_flipflop_Q_FFX_RSTAND)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (403:403:504)(403:403:504))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE Add_Sub_pm_xor_inv_Mxor_temp_7_Result1)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (707:707:884))
+          (PORT ADR2 (302:302:377))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE registro_m_temp_0)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH CLK O (452:566:566)(452:566:566))
+          (IOPATH SET O ( 0 )( 0 ))
+          (IOPATH RST O (1259:1574:1574)(1259:1574:1574))
+        )
+      )
+      (TIMINGCHECK
+        (SETUPHOLD (posedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (negedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (posedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (SETUPHOLD (negedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (PERIOD (posedge CLK) (1148:1436:1436))
+        (RECOVERY (negedge RST) (posedge CLK) (689:862:862))
+        (WIDTH (posedge RST) (1248:1561:1561))
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE registro_m_temp_1)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH CLK O (411:514:514)(411:514:514))
+          (IOPATH SET O ( 0 )( 0 ))
+          (IOPATH RST O (1259:1574:1574)(1259:1574:1574))
+        )
+      )
+      (TIMINGCHECK
+        (SETUPHOLD (posedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (negedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (posedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (SETUPHOLD (negedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (PERIOD (posedge CLK) (1148:1436:1436))
+        (RECOVERY (negedge RST) (posedge CLK) (689:862:862))
+        (WIDTH (posedge RST) (1248:1561:1561))
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE registro_m_temp_2)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH CLK O (452:566:566)(452:566:566))
+          (IOPATH SET O ( 0 )( 0 ))
+          (IOPATH RST O (1259:1574:1574)(1259:1574:1574))
+        )
+      )
+      (TIMINGCHECK
+        (SETUPHOLD (posedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (negedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (posedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (SETUPHOLD (negedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (PERIOD (posedge CLK) (1148:1436:1436))
+        (RECOVERY (negedge RST) (posedge CLK) (689:862:862))
+        (WIDTH (posedge RST) (1248:1561:1561))
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE registro_m_temp_3)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH CLK O (411:514:514)(411:514:514))
+          (IOPATH SET O ( 0 )( 0 ))
+          (IOPATH RST O (1259:1574:1574)(1259:1574:1574))
+        )
+      )
+      (TIMINGCHECK
+        (SETUPHOLD (posedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (negedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (posedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (SETUPHOLD (negedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (PERIOD (posedge CLK) (1148:1436:1436))
+        (RECOVERY (negedge RST) (posedge CLK) (689:862:862))
+        (WIDTH (posedge RST) (1248:1561:1561))
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_6_shift_right_ffm_mux_temp_out_mux_G)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (96:96:120))
+          (PORT ADR1 (1040:1040:1300))
+          (PORT ADR2 (391:391:489))
+          (PORT ADR3 (504:504:630))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_6_shift_right_ffm_flipflop_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH CLK O (411:514:514)(411:514:514))
+          (IOPATH SET O ( 0 )( 0 ))
+          (IOPATH RST O (1259:1574:1574)(1259:1574:1574))
+        )
+      )
+      (TIMINGCHECK
+        (SETUPHOLD (posedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (negedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (posedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (SETUPHOLD (negedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (PERIOD (posedge CLK) (1148:1436:1436))
+        (RECOVERY (negedge RST) (posedge CLK) (689:862:862))
+        (WIDTH (posedge RST) (1248:1561:1561))
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_6_shift_right_ffm_flipflop_Q_FFX_RSTAND)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (240:240:300)(240:240:300))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_5_shift_right_ffm_mux_temp_out_mux_G)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (1272:1272:1590))
+          (PORT ADR1 (561:561:701))
+          (PORT ADR2 (16:16:20))
+          (PORT ADR3 (1013:1013:1266))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_5_shift_right_ffm_flipflop_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH CLK O (410:513:513)(410:513:513))
+          (IOPATH SET O ( 0 )( 0 ))
+          (IOPATH RST O (1259:1574:1574)(1259:1574:1574))
+        )
+      )
+      (TIMINGCHECK
+        (SETUPHOLD (posedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (negedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (posedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (SETUPHOLD (negedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (PERIOD (posedge CLK) (1110:1388:1388))
+        (RECOVERY (negedge RST) (posedge CLK) (689:862:862))
+        (WIDTH (posedge RST) (1248:1561:1561))
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_5_shift_right_ffm_flipflop_Q_FFX_RSTAND)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (409:409:511)(409:409:511))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_4_shift_right_ffm_flipflop_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH CLK O (410:513:513)(410:513:513))
+          (IOPATH SET O ( 0 )( 0 ))
+          (IOPATH RST O (1259:1574:1574)(1259:1574:1574))
+        )
+      )
+      (TIMINGCHECK
+        (SETUPHOLD (posedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (negedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (posedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (SETUPHOLD (negedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (PERIOD (posedge CLK) (1110:1388:1388))
+        (RECOVERY (negedge RST) (posedge CLK) (689:862:862))
+        (WIDTH (posedge RST) (1248:1561:1561))
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE cu_stato_corrente_FSM_FFd1)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH CLK O (408:510:510)(408:510:510))
+          (IOPATH SET O ( 0 )( 0 ))
+          (IOPATH RST O (1259:1574:1574)(1259:1574:1574))
+        )
+      )
+      (TIMINGCHECK
+        (SETUPHOLD (posedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (negedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (PERIOD (posedge CLK) (1110:1388:1388))
+        (RECOVERY (negedge RST) (posedge CLK) (689:862:862))
+        (WIDTH (posedge RST) (1248:1561:1561))
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE cu_stato_corrente_FSM_FFd2_In1)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (392:392:490))
+          (PORT ADR1 (712:712:889))
+          (PORT ADR2 (262:262:327))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE cu_stato_corrente_FSM_FFd2)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH CLK O (410:513:513)(410:513:513))
+          (IOPATH SET O ( 0 )( 0 ))
+          (IOPATH RST O (1259:1574:1574)(1259:1574:1574))
+        )
+      )
+      (TIMINGCHECK
+        (SETUPHOLD (posedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (negedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (PERIOD (posedge CLK) (1110:1388:1388))
+        (RECOVERY (negedge RST) (posedge CLK) (689:862:862))
+        (WIDTH (posedge RST) (1248:1561:1561))
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE cu_stato_corrente_FSM_FFd3)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH CLK O (452:566:566)(452:566:566))
+          (IOPATH SET O ( 0 )( 0 ))
+          (IOPATH RST O (1259:1574:1574)(1259:1574:1574))
+        )
+      )
+      (TIMINGCHECK
+        (SETUPHOLD (posedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (negedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (PERIOD (posedge CLK) (1148:1436:1436))
+        (RECOVERY (negedge RST) (posedge CLK) (689:862:862))
+        (WIDTH (posedge RST) (1248:1561:1561))
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE cu_stato_corrente_FSM_FFd4_In1)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR1 (741:741:926))
+          (PORT ADR3 (332:332:415))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE cu_stato_corrente_FSM_FFd4)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH CLK O (411:514:514)(411:514:514))
+          (IOPATH SET O ( 0 )( 0 ))
+          (IOPATH RST O (1259:1574:1574)(1259:1574:1574))
+        )
+      )
+      (TIMINGCHECK
+        (SETUPHOLD (posedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (negedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (PERIOD (posedge CLK) (1148:1436:1436))
+        (RECOVERY (negedge RST) (posedge CLK) (689:862:862))
+        (WIDTH (posedge RST) (1248:1561:1561))
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE cu_stato_corrente_FSM_FFd5)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH CLK O (452:566:566)(452:566:566))
+          (IOPATH SET O (1259:1574:1574)(1259:1574:1574))
+          (IOPATH RST O ( 0 )( 0 ))
+        )
+      )
+      (TIMINGCHECK
+        (SETUPHOLD (posedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (negedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (PERIOD (posedge CLK) (1148:1436:1436))
+        (RECOVERY (negedge SET) (posedge CLK) (689:862:862))
+        (WIDTH (posedge SET) (1248:1561:1561))
+      )
+  )
+  (CELL (CELLTYPE "X_INV")
+    (INSTANCE cu_stato_corrente_FSM_FFd5_FFY_SETOR)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1302:1302:1627)(1302:1302:1627))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE ff_msb_reset_n_inv1)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR1 (1143:1143:1429))
+          (PORT ADR3 (1115:1115:1394))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_5_shift_right_ffm_mux_temp_out_mux1)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR1 (286:286:357))
+          (PORT ADR2 (879:879:1098))
+          (PORT ADR3 (331:331:413))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_5_shift_right_ffm_flipflop_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH CLK O (452:566:566)(452:566:566))
+          (IOPATH SET O ( 0 )( 0 ))
+          (IOPATH RST O (1259:1574:1574)(1259:1574:1574))
+        )
+      )
+      (TIMINGCHECK
+        (SETUPHOLD (posedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (negedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (posedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (SETUPHOLD (negedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (PERIOD (posedge CLK) (1148:1436:1436))
+        (RECOVERY (negedge RST) (posedge CLK) (689:862:862))
+        (WIDTH (posedge RST) (1248:1561:1561))
+      )
+  )
+  (CELL (CELLTYPE "X_INV")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_5_shift_right_ffm_flipflop_Q_FFY_RSTAND)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1211:1211:1514)(1211:1211:1514))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE Inst_Counter_ModN_Mcount_c_xor_1_11)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (564:564:705))
+          (PORT ADR1 (637:637:796))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE Inst_Counter_ModN_c_1)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH CLK O (452:566:566)(452:566:566))
+          (IOPATH SET O ( 0 )( 0 ))
+          (IOPATH RST O (1259:1574:1574)(1259:1574:1574))
+        )
+      )
+      (TIMINGCHECK
+        (SETUPHOLD (posedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (negedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (posedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (SETUPHOLD (negedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (PERIOD (posedge CLK) (1148:1436:1436))
+        (RECOVERY (negedge RST) (posedge CLK) (689:862:862))
+        (WIDTH (posedge RST) (1248:1561:1561))
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE Inst_Counter_ModN_c_0)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH CLK O (411:514:514)(411:514:514))
+          (IOPATH SET O ( 0 )( 0 ))
+          (IOPATH RST O (1259:1574:1574)(1259:1574:1574))
+        )
+      )
+      (TIMINGCHECK
+        (SETUPHOLD (posedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (negedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (posedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (SETUPHOLD (negedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (PERIOD (posedge CLK) (1148:1436:1436))
+        (RECOVERY (negedge RST) (posedge CLK) (689:862:862))
+        (WIDTH (posedge RST) (1248:1561:1561))
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_4_shift_right_ffm_mux_temp_out_mux_SW0)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (1083:1083:1354))
+          (PORT ADR1 (337:337:421))
+          (PORT ADR3 (461:461:576))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_4_shift_right_ffm_mux_temp_out_mux)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (355:355:444))
+          (PORT ADR1 (413:413:517))
+          (PORT ADR2 (1374:1374:1718))
+          (PORT ADR3 (16:16:20))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_4_shift_right_ffm_flipflop_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH CLK O (411:514:514)(411:514:514))
+          (IOPATH SET O ( 0 )( 0 ))
+          (IOPATH RST O (1259:1574:1574)(1259:1574:1574))
+        )
+      )
+      (TIMINGCHECK
+        (SETUPHOLD (posedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (negedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (posedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (SETUPHOLD (negedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (PERIOD (posedge CLK) (1148:1436:1436))
+        (RECOVERY (negedge RST) (posedge CLK) (689:862:862))
+        (WIDTH (posedge RST) (1248:1561:1561))
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_4_shift_right_ffm_flipflop_Q_FFX_RSTAND)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (465:465:581)(465:465:581))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE cu_stato_corrente_FSM_Out61)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR1 (423:423:528))
+          (PORT ADR3 (299:299:374))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_0_shift_right_ffm_mux_temp_out_mux)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (406:406:507))
+          (PORT ADR1 (420:420:525))
+          (PORT ADR2 (1029:1029:1286))
+          (PORT ADR3 (370:370:462))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_0_shift_right_ffm_flipflop_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH CLK O (408:510:510)(408:510:510))
+          (IOPATH SET O ( 0 )( 0 ))
+          (IOPATH RST O (1259:1574:1574)(1259:1574:1574))
+        )
+      )
+      (TIMINGCHECK
+        (SETUPHOLD (posedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (negedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (posedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (SETUPHOLD (negedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (PERIOD (posedge CLK) (1110:1388:1388))
+        (RECOVERY (negedge RST) (posedge CLK) (689:862:862))
+        (WIDTH (posedge RST) (1248:1561:1561))
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_0_shift_right_ffm_flipflop_Q_FFY_RSTAND)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (775:775:969)(775:775:969))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_0_shift_right_ffm_flipflop_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH CLK O (452:566:566)(452:566:566))
+          (IOPATH SET O ( 0 )( 0 ))
+          (IOPATH RST O (1259:1574:1574)(1259:1574:1574))
+        )
+      )
+      (TIMINGCHECK
+        (SETUPHOLD (posedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (negedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (posedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (SETUPHOLD (negedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (PERIOD (posedge CLK) (1148:1436:1436))
+        (RECOVERY (negedge RST) (posedge CLK) (689:862:862))
+        (WIDTH (posedge RST) (1248:1561:1561))
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_1_shift_right_ffm_mux_temp_out_mux1)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR1 (909:909:1137))
+          (PORT ADR2 (846:846:1057))
+          (PORT ADR3 (228:228:285))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_1_shift_right_ffm_flipflop_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH CLK O (411:514:514)(411:514:514))
+          (IOPATH SET O ( 0 )( 0 ))
+          (IOPATH RST O (1259:1574:1574)(1259:1574:1574))
+        )
+      )
+      (TIMINGCHECK
+        (SETUPHOLD (posedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (negedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (posedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (SETUPHOLD (negedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (PERIOD (posedge CLK) (1148:1436:1436))
+        (RECOVERY (negedge RST) (posedge CLK) (689:862:862))
+        (WIDTH (posedge RST) (1248:1561:1561))
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_6_shift_right_ffm_flipflop_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH CLK O (408:510:510)(408:510:510))
+          (IOPATH SET O ( 0 )( 0 ))
+          (IOPATH RST O (1259:1574:1574)(1259:1574:1574))
+        )
+      )
+      (TIMINGCHECK
+        (SETUPHOLD (posedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (negedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (posedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (SETUPHOLD (negedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (PERIOD (posedge CLK) (1110:1388:1388))
+        (RECOVERY (negedge RST) (posedge CLK) (689:862:862))
+        (WIDTH (posedge RST) (1248:1561:1561))
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE registro_Q_LOOP_FOR_ISTANTIATE_FFM_4_shift_right_ffm_mux_temp_out_mux1)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (1430:1430:1788))
+          (PORT ADR1 (610:610:762))
+          (PORT ADR2 (411:411:513))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE Add_Sub_pm_xor_inv_Mxor_temp_3_Result1)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (366:366:458))
+          (PORT ADR2 (395:395:494))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_2_shift_right_ffm_mux_temp_out_mux_SW0)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR1 (487:487:609))
+          (PORT ADR2 (738:738:922))
+          (PORT ADR3 (509:509:636))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_2_shift_right_ffm_mux_temp_out_mux)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (557:557:696))
+          (PORT ADR1 (1378:1378:1723))
+          (PORT ADR2 (16:16:20))
+          (PORT ADR3 (290:290:362))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_2_shift_right_ffm_flipflop_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH CLK O (411:514:514)(411:514:514))
+          (IOPATH SET O ( 0 )( 0 ))
+          (IOPATH RST O (1259:1574:1574)(1259:1574:1574))
+        )
+      )
+      (TIMINGCHECK
+        (SETUPHOLD (posedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (negedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (posedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (SETUPHOLD (negedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (PERIOD (posedge CLK) (1148:1436:1436))
+        (RECOVERY (negedge RST) (posedge CLK) (689:862:862))
+        (WIDTH (posedge RST) (1248:1561:1561))
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_2_shift_right_ffm_flipflop_Q_FFX_RSTAND)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (226:226:282)(226:226:282))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE Add_Sub_pm_xor_inv_Mxor_temp_6_Result1)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR1 (489:489:612))
+          (PORT ADR3 (1066:1066:1332))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_1_shift_right_ffm_mux_temp_out_mux_SW1)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (543:543:679))
+          (PORT ADR1 (444:444:555))
+          (PORT ADR2 (734:734:918))
+          (PORT ADR3 (330:330:412))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_1_shift_right_ffm_mux_temp_out_mux)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (435:435:543))
+          (PORT ADR1 (460:460:575))
+          (PORT ADR2 (799:799:999))
+          (PORT ADR3 (16:16:20))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_1_shift_right_ffm_flipflop_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH CLK O (411:514:514)(411:514:514))
+          (IOPATH SET O ( 0 )( 0 ))
+          (IOPATH RST O (1259:1574:1574)(1259:1574:1574))
+        )
+      )
+      (TIMINGCHECK
+        (SETUPHOLD (posedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (negedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (posedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (SETUPHOLD (negedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (PERIOD (posedge CLK) (1148:1436:1436))
+        (RECOVERY (negedge RST) (posedge CLK) (689:862:862))
+        (WIDTH (posedge RST) (1248:1561:1561))
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_1_shift_right_ffm_flipflop_Q_FFX_RSTAND)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (240:240:300)(240:240:300))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_LUT4")
+    (INSTANCE registro_A_LOOP_FOR_ISTANTIATE_FFM_7_shift_right_ffm_mux_temp_out_mux_SW1)
+      (DELAY
+        (ABSOLUTE
+          (PORT ADR0 (868:868:1085))
+          (PORT ADR1 (813:813:1017))
+          (PORT ADR2 (692:692:865))
+          (PORT ADR3 (303:303:379))
+          (IOPATH ADR0 O (388:486:486)(388:486:486))
+          (IOPATH ADR1 O (388:486:486)(388:486:486))
+          (IOPATH ADR2 O (388:486:486)(388:486:486))
+          (IOPATH ADR3 O (388:486:486)(388:486:486))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE registro_m_temp_4)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH CLK O (408:510:510)(408:510:510))
+          (IOPATH SET O ( 0 )( 0 ))
+          (IOPATH RST O (1259:1574:1574)(1259:1574:1574))
+        )
+      )
+      (TIMINGCHECK
+        (SETUPHOLD (posedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (negedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (posedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (SETUPHOLD (negedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (PERIOD (posedge CLK) (1110:1388:1388))
+        (RECOVERY (negedge RST) (posedge CLK) (689:862:862))
+        (WIDTH (posedge RST) (1248:1561:1561))
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE registro_m_temp_5)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH CLK O (410:513:513)(410:513:513))
+          (IOPATH SET O ( 0 )( 0 ))
+          (IOPATH RST O (1259:1574:1574)(1259:1574:1574))
+        )
+      )
+      (TIMINGCHECK
+        (SETUPHOLD (posedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (negedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (posedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (SETUPHOLD (negedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (PERIOD (posedge CLK) (1110:1388:1388))
+        (RECOVERY (negedge RST) (posedge CLK) (689:862:862))
+        (WIDTH (posedge RST) (1248:1561:1561))
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE registro_m_temp_6)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH CLK O (408:510:510)(408:510:510))
+          (IOPATH SET O ( 0 )( 0 ))
+          (IOPATH RST O (1259:1574:1574)(1259:1574:1574))
+        )
+      )
+      (TIMINGCHECK
+        (SETUPHOLD (posedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (negedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (posedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (SETUPHOLD (negedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (PERIOD (posedge CLK) (1110:1388:1388))
+        (RECOVERY (negedge RST) (posedge CLK) (689:862:862))
+        (WIDTH (posedge RST) (1248:1561:1561))
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE registro_m_temp_7)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH CLK O (410:513:513)(410:513:513))
+          (IOPATH SET O ( 0 )( 0 ))
+          (IOPATH RST O (1259:1574:1574)(1259:1574:1574))
+        )
+      )
+      (TIMINGCHECK
+        (SETUPHOLD (posedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (negedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (posedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (SETUPHOLD (negedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (PERIOD (posedge CLK) (1110:1388:1388))
+        (RECOVERY (negedge RST) (posedge CLK) (689:862:862))
+        (WIDTH (posedge RST) (1248:1561:1561))
+      )
+  )
+  (CELL (CELLTYPE "X_FF")
+    (INSTANCE ff_msb_temp)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH CLK O (408:510:510)(408:510:510))
+          (IOPATH SET O ( 0 )( 0 ))
+          (IOPATH RST O (1259:1574:1574)(1259:1574:1574))
+        )
+      )
+      (TIMINGCHECK
+        (SETUPHOLD (posedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (negedge I) (posedge CLK) (92:115:115)(33:42:42))
+        (SETUPHOLD (posedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (SETUPHOLD (negedge CE) (posedge CLK) (385:482:482)(-56:-70:-70))
+        (PERIOD (posedge CLK) (1110:1388:1388))
+        (RECOVERY (negedge RST) (posedge CLK) (689:862:862))
+        (WIDTH (posedge RST) (1248:1561:1561))
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ff_msb_temp_FFY_RSTAND)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (924:959:1155)(924:959:1155))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE risultato_5_OUTPUT_OFF_OMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1272:1373:1590))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE stop_OUTPUT_OFF_OMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1505:1606:1881))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE risultato_6_OUTPUT_OFF_OMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1099:1200:1374))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE risultato_7_OUTPUT_OFF_OMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1226:1327:1532))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE risultato_8_OUTPUT_OFF_OMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1162:1263:1452))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE risultato_9_OUTPUT_OFF_OMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (895:996:1118))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE risultato_10_OUTPUT_OFF_OMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (712:813:890))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE risultato_11_OUTPUT_OFF_OMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1154:1255:1442))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE risultato_12_OUTPUT_OFF_OMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1487:1588:1859))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE risultato_13_OUTPUT_OFF_OMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1116:1217:1395))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE risultato_14_OUTPUT_OFF_OMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1099:1200:1374))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE risultato_15_OUTPUT_OFF_OMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1083:1184:1353))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE risultato_0_OUTPUT_OFF_OMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1088:1189:1360))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE risultato_1_OUTPUT_OFF_OMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1044:1145:1305))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE risultato_2_OUTPUT_OFF_OMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1260:1361:1576))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE risultato_3_OUTPUT_OFF_OMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1654:1755:2068))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE risultato_4_OUTPUT_OFF_OMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1300:1401:1625))
+        )
+      )
+  )
+)

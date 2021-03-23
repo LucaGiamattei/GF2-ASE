@@ -1,0 +1,40 @@
+xst -intstyle ise -ifn "/home/luca/ISE_ws/FlipFlopRSMS/FFRSMS.xst" -ofn "/home/luca/ISE_ws/FlipFlopRSMS/FFRSMS.syr" 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/FlipFlopRSMS/FFRSMS.xst" -ofn "/home/luca/ISE_ws/FlipFlopRSMS/FFRSMS.syr" 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/FlipFlopRSMS/FFRSMS.xst" -ofn "/home/luca/ISE_ws/FlipFlopRSMS/FFRSMS.syr" 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/FlipFlopRSMS/FFRSMS.xst" -ofn "/home/luca/ISE_ws/FlipFlopRSMS/FFRSMS.syr" 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/FlipFlopRSMS/FFRSMS.xst" -ofn "/home/luca/ISE_ws/FlipFlopRSMS/FFRSMS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 FFRSMS.ngc FFRSMS.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o FFRSMS_map.ncd FFRSMS.ngd FFRSMS.pcf 
+par -w -intstyle ise -ol high -t 1 FFRSMS_map.ncd FFRSMS.ncd FFRSMS.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FFRSMS.twx FFRSMS.ncd -o FFRSMS.twr FFRSMS.pcf 
+bitgen -intstyle ise -f FFRSMS.ut FFRSMS.ncd 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/FlipFlopRSMS/FFRSMS.xst" -ofn "/home/luca/ISE_ws/FlipFlopRSMS/FFRSMS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 FFRSMS.ngc FFRSMS.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o FFRSMS_map.ncd FFRSMS.ngd FFRSMS.pcf 
+par -w -intstyle ise -ol high -t 1 FFRSMS_map.ncd FFRSMS.ncd FFRSMS.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FFRSMS.twx FFRSMS.ncd -o FFRSMS.twr FFRSMS.pcf 
+bitgen -intstyle ise -f FFRSMS.ut FFRSMS.ncd 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/FlipFlopRSMS/FFRSMS.xst" -ofn "/home/luca/ISE_ws/FlipFlopRSMS/FFRSMS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 FFRSMS.ngc FFRSMS.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o FFRSMS_map.ncd FFRSMS.ngd FFRSMS.pcf 
+par -w -intstyle ise -ol high -t 1 FFRSMS_map.ncd FFRSMS.ncd FFRSMS.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FFRSMS.twx FFRSMS.ncd -o FFRSMS.twr FFRSMS.pcf 
+bitgen -intstyle ise -f FFRSMS.ut FFRSMS.ncd 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/FlipFlopRSMS/FFRSMS.xst" -ofn "/home/luca/ISE_ws/FlipFlopRSMS/FFRSMS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 FFRSMS.ngc FFRSMS.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o FFRSMS_map.ncd FFRSMS.ngd FFRSMS.pcf 
+par -w -intstyle ise -ol high -t 1 FFRSMS_map.ncd FFRSMS.ncd FFRSMS.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FFRSMS.twx FFRSMS.ncd -o FFRSMS.twr FFRSMS.pcf 
+bitgen -intstyle ise -f FFRSMS.ut FFRSMS.ncd 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/FlipFlopRSMS/FFRSMS.xst" -ofn "/home/luca/ISE_ws/FlipFlopRSMS/FFRSMS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 FFRSMS.ngc FFRSMS.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o FFRSMS_map.ncd FFRSMS.ngd FFRSMS.pcf 
+par -w -intstyle ise -ol high -t 1 FFRSMS_map.ncd FFRSMS.ncd FFRSMS.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FFRSMS.twx FFRSMS.ncd -o FFRSMS.twr FFRSMS.pcf 
+bitgen -intstyle ise -f FFRSMS.ut FFRSMS.ncd 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/FlipFlopRSMS/FFRSMS.xst" -ofn "/home/luca/ISE_ws/FlipFlopRSMS/FFRSMS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 FFRSMS.ngc FFRSMS.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o FFRSMS_map.ncd FFRSMS.ngd FFRSMS.pcf 
+par -w -intstyle ise -ol high -t 1 FFRSMS_map.ncd FFRSMS.ncd FFRSMS.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FFRSMS.twx FFRSMS.ncd -o FFRSMS.twr FFRSMS.pcf 
+bitgen -intstyle ise -f FFRSMS.ut FFRSMS.ncd 

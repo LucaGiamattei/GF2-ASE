@@ -1,0 +1,62 @@
+V3 34
+FL /home/giorgio/Display7Seg/anodes_manager.vhd 2018/11/09.12:52:00 P.20131013
+FL /home/giorgio/Display7Seg/cathodes_manager.vhd 2018/11/09.12:52:00 P.20131013
+FL /home/giorgio/Display7Seg/clock_filter.vhd 2019/02/25.16:16:05 P.20131013
+FL /home/giorgio/Display7Seg/control_unit.vhd 2018/11/09.12:52:00 P.20131013
+FL /home/giorgio/Display7Seg/counter_mod4.vhd 2019/02/25.16:14:33 P.20131013
+FL /home/giorgio/Display7Seg/display_on_board.vhd 2018/11/09.12:52:00 P.20131013
+FL /home/giorgio/Display7Seg/display_seven_segments.vhd 2019/02/25.15:20:24 P.20131013
+FL /home/luca/Scaricati/Display7Seg1/Display7Seg/anodes_manager.vhd 2018/11/09.12:52:00 P.20131013
+EN work/anodes_manager 1551111740 \
+      FL /home/luca/Scaricati/Display7Seg1/Display7Seg/anodes_manager.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/anodes_manager/Behavioral 1551111741 \
+      FL /home/luca/Scaricati/Display7Seg1/Display7Seg/anodes_manager.vhd \
+      EN work/anodes_manager 1551111740
+FL /home/luca/Scaricati/Display7Seg1/Display7Seg/cathodes_manager.vhd 2018/11/09.12:52:00 P.20131013
+EN work/cathodes_manager 1551111738 \
+      FL /home/luca/Scaricati/Display7Seg1/Display7Seg/cathodes_manager.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/cathodes_manager/Behavioral 1551111739 \
+      FL /home/luca/Scaricati/Display7Seg1/Display7Seg/cathodes_manager.vhd \
+      EN work/cathodes_manager 1551111738
+FL /home/luca/Scaricati/Display7Seg1/Display7Seg/clock_filter.vhd 2019/02/25.16:35:36 P.20131013
+EN work/clock_filter 1551111736 \
+      FL /home/luca/Scaricati/Display7Seg1/Display7Seg/clock_filter.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/MATH_REAL 1381692182 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/NUMERIC_STD 1381692181
+AR work/clock_filter/Structural 1551111737 \
+      FL /home/luca/Scaricati/Display7Seg1/Display7Seg/clock_filter.vhd \
+      EN work/clock_filter 1551111736 CP counter_modN
+FL /home/luca/Scaricati/Display7Seg1/Display7Seg/control_unit.vhd 2018/11/09.12:52:00 P.20131013
+EN work/control_unit 1551111744 \
+      FL /home/luca/Scaricati/Display7Seg1/Display7Seg/control_unit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/control_unit/Behavioral 1551111745 \
+      FL /home/luca/Scaricati/Display7Seg1/Display7Seg/control_unit.vhd \
+      EN work/control_unit 1551111744
+FL /home/luca/Scaricati/Display7Seg1/Display7Seg/counter_mod4.vhd 2019/02/25.17:22:10 P.20131013
+EN work/counter_modN 1551111734 \
+      FL /home/luca/Scaricati/Display7Seg1/Display7Seg/counter_mod4.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/MATH_REAL 1381692182 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/NUMERIC_STD 1381692181
+AR work/counter_modN/Behavioral 1551111735 \
+      FL /home/luca/Scaricati/Display7Seg1/Display7Seg/counter_mod4.vhd \
+      EN work/counter_modN 1551111734
+FL /home/luca/Scaricati/Display7Seg1/Display7Seg/display_on_board.vhd 2019/02/25.16:51:02 P.20131013
+EN work/display_on_board 1551111746 \
+      FL /home/luca/Scaricati/Display7Seg1/Display7Seg/display_on_board.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/display_on_board/Structural 1551111747 \
+      FL /home/luca/Scaricati/Display7Seg1/Display7Seg/display_on_board.vhd \
+      EN work/display_on_board 1551111746 CP display_seven_segments \
+      CP control_unit
+FL /home/luca/Scaricati/Display7Seg1/Display7Seg/display_seven_segments.vhd 2019/02/25.16:35:36 P.20131013
+EN work/display_seven_segments 1551111742 \
+      FL /home/luca/Scaricati/Display7Seg1/Display7Seg/display_seven_segments.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/MATH_REAL 1381692182 \
+      PB ieee/std_logic_arith 1381692177
+AR work/display_seven_segments/Structural 1551111743 \
+      FL /home/luca/Scaricati/Display7Seg1/Display7Seg/display_seven_segments.vhd \
+      EN work/display_seven_segments 1551111742 CP clock_filter CP counter_modN \
+      CP cathodes_manager CP anodes_manager

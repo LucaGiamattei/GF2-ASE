@@ -1,0 +1,6 @@
+EN ffrsms NULL /home/luca/ISE_ws/FlipFlopRSMS/FFRSMS.vhd sub00/vhpl00 1550849561
+AR ffrsms structural /home/luca/ISE_ws/FlipFlopRSMS/FFRSMS.vhd sub00/vhpl05 1550849562
+EN invert NULL /home/luca/ISE_ws/FlipFlopRSMS/invert.vhd sub00/vhpl03 1550849559
+AR latch_rs dataflow /home/luca/ISE_ws/FlipFlopRSMS/Latch_RS.vhd sub00/vhpl02 1550849558
+AR invert dataflow /home/luca/ISE_ws/FlipFlopRSMS/invert.vhd sub00/vhpl04 1550849560
+EN latch_rs NULL /home/luca/ISE_ws/FlipFlopRSMS/Latch_RS.vhd sub00/vhpl01 1550849557

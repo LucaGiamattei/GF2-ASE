@@ -1,0 +1,10 @@
+
+Constraints file: sistema_mic1.pcf.
+
+Level/      Design      Timing      Number      Number     Number      Number      Run         NCD
+Cost [ncd]  Score       Score       Unrouted    Errors     Warnings    Infos       Time        Status
+----------  ------      --------    --------    -----      --------    ------     ------      ------------
+M_M_1   *   207         0           0           0           1           1           0:54        Complete        
+
+
+* : Design saved.

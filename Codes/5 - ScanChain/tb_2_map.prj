@@ -1,0 +1,2 @@
+vhdl work "netgen/map/ScanChain_map.vhd"
+vhdl work "tb_2.vhd"

@@ -1,0 +1,99 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/home/giorgio/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 12 -s 4
+-n 12 -fastpaths -xml ScanChain.twx ScanChain.ncd -o ScanChain.twr
+ScanChain.pcf -ucf ScanChain.ucf
+
+Design file:              ScanChain.ncd
+Physical constraint file: ScanChain.pcf
+Device,package,speed:     xc3s100e,tq144,-4 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report, limited to 12 items per endpoint, 12 endpoints per constraint
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clock
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+mode        |    0.961(R)|    0.409(R)|clock_BUFGP       |   0.000|
+posizione<0>|    0.327(R)|    0.917(R)|clock_BUFGP       |   0.000|
+posizione<1>|    0.006(R)|    1.173(R)|clock_BUFGP       |   0.000|
+posizione<2>|    0.351(R)|    0.899(R)|clock_BUFGP       |   0.000|
+reg_in<0>   |    0.325(R)|    0.917(R)|clock_BUFGP       |   0.000|
+reg_in<1>   |    0.819(R)|    0.522(R)|clock_BUFGP       |   0.000|
+reg_in<2>   |    0.729(R)|    0.593(R)|clock_BUFGP       |   0.000|
+reg_in<3>   |    0.632(R)|    0.670(R)|clock_BUFGP       |   0.000|
+reg_in<4>   |    0.812(R)|    0.527(R)|clock_BUFGP       |   0.000|
+reg_in<5>   |    0.501(R)|    0.776(R)|clock_BUFGP       |   0.000|
+reg_in<6>   |    0.264(R)|    0.965(R)|clock_BUFGP       |   0.000|
+reg_in<7>   |    0.773(R)|    0.590(R)|clock_BUFGP       |   0.000|
+scan_in     |    0.634(R)|    0.669(R)|clock_BUFGP       |   0.000|
+start       |    1.150(R)|    0.257(R)|clock_BUFGP       |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock clock to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+Q<0>        |    7.656(R)|clock_BUFGP       |   0.000|
+Q<1>        |    7.071(R)|clock_BUFGP       |   0.000|
+Q<2>        |    7.645(R)|clock_BUFGP       |   0.000|
+Q<3>        |    8.119(R)|clock_BUFGP       |   0.000|
+Q<4>        |    8.078(R)|clock_BUFGP       |   0.000|
+Q<5>        |    8.319(R)|clock_BUFGP       |   0.000|
+Q<6>        |    8.277(R)|clock_BUFGP       |   0.000|
+Q<7>        |    8.856(R)|clock_BUFGP       |   0.000|
+stop        |    8.804(R)|clock_BUFGP       |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clock
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |    3.947|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Fri Mar 15 22:59:36 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 334 MB
+
+
+

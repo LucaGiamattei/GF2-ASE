@@ -1,0 +1,5 @@
+vhdl work "counter_mod4.vhd"
+vhdl work "clock_filter.vhd"
+vhdl work "cathodes_manager.vhd"
+vhdl work "anodes_manager.vhd"
+vhdl work "display_seven_segments.vhd"

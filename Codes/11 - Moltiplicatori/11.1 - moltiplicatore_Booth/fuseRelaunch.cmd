@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/giorgio/Documenti/Prova/test_isim_par.exe" -prj "/home/giorgio/Documenti/Prova/test_par.prj" "work.test" 

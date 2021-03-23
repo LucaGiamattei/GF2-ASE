@@ -1,0 +1,22 @@
+xst -intstyle ise -ifn "/home/luca/ISE_ws/Latch_rs/Latch_rs.xst" -ofn "/home/luca/ISE_ws/Latch_rs/Latch_rs.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 Latch_rs.ngc Latch_rs.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Latch_rs_map.ncd Latch_rs.ngd Latch_rs.pcf 
+par -w -intstyle ise -ol high -t 1 Latch_rs_map.ncd Latch_rs.ncd Latch_rs.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Latch_rs.twx Latch_rs.ncd -o Latch_rs.twr Latch_rs.pcf 
+bitgen -intstyle ise -f Latch_rs.ut Latch_rs.ncd 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/Latch_rs/Latch_rs.xst" -ofn "/home/luca/ISE_ws/Latch_rs/Latch_rs.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 Latch_rs.ngc Latch_rs.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Latch_rs_map.ncd Latch_rs.ngd Latch_rs.pcf 
+par -w -intstyle ise -ol high -t 1 Latch_rs_map.ncd Latch_rs.ncd Latch_rs.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Latch_rs.twx Latch_rs.ncd -o Latch_rs.twr Latch_rs.pcf 
+bitgen -intstyle ise -f Latch_rs.ut Latch_rs.ncd 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/Latch_rs/Latch_rs.xst" -ofn "/home/luca/ISE_ws/Latch_rs/Latch_rs.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 Latch_rs.ngc Latch_rs.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Latch_rs_map.ncd Latch_rs.ngd Latch_rs.pcf 
+par -w -intstyle ise -ol high -t 1 Latch_rs_map.ncd Latch_rs.ncd Latch_rs.pcf 
+xst -intstyle ise -ifn "/home/luca/ISE_ws/Latch_rs/Latch_rs.xst" -ofn "/home/luca/ISE_ws/Latch_rs/Latch_rs.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 Latch_rs.ngc Latch_rs.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Latch_rs_map.ncd Latch_rs.ngd Latch_rs.pcf 
+par -w -intstyle ise -ol high -t 1 Latch_rs_map.ncd Latch_rs.ncd Latch_rs.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Latch_rs.twx Latch_rs.ncd -o Latch_rs.twr Latch_rs.pcf 
+bitgen -intstyle ise -f Latch_rs.ut Latch_rs.ncd 

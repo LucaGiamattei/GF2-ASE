@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/luca/Scaricati/Display7Seg1/Display7Seg/display_seven_segments.vhd</arg>&quot; line <arg fmt="%d" index="2">104</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">overflow</arg>&apos; of component &apos;<arg fmt="%s" index="4">counter_modN</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/luca/Scaricati/Display7Seg1/Display7Seg/clock_filter.vhd</arg>&quot; line <arg fmt="%d" index="2">64</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">counter</arg>&apos; of component &apos;<arg fmt="%s" index="4">counter_modN</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="1610" delta="new" >&quot;<arg fmt="%s" index="1">/home/luca/Scaricati/Display7Seg1/Display7Seg/counter_mod4.vhd</arg>&quot; line <arg fmt="%d" index="2">68</arg>: Width mismatch. &lt;<arg fmt="%s" index="3">c</arg>&gt; has a width of <arg fmt="%d" index="4">21</arg> bits but assigned expression is <arg fmt="%d" index="5">20</arg>-bit wide.
+</msg>
+
+<msg type="info" file="Xst" num="1561" delta="new" >&quot;<arg fmt="%s" index="1">/home/luca/Scaricati/Display7Seg1/Display7Seg/cathodes_manager.vhd</arg>&quot; line <arg fmt="%d" index="2">79</arg>: Mux is complete : default of case is discarded
+</msg>
+
+<msg type="info" file="Xst" num="1561" delta="new" >&quot;<arg fmt="%s" index="1">/home/luca/Scaricati/Display7Seg1/Display7Seg/cathodes_manager.vhd</arg>&quot; line <arg fmt="%d" index="2">103</arg>: Mux is complete : default of case is discarded
+</msg>
+
+<msg type="info" file="Xst" num="1561" delta="new" >&quot;<arg fmt="%s" index="1">/home/luca/Scaricati/Display7Seg1/Display7Seg/anodes_manager.vhd</arg>&quot; line <arg fmt="%d" index="2">58</arg>: Mux is complete : default of case is discarded
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">c_20</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">counter_modx</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">c_20</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">counter_modN_2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">seven_segment_array/counter_instance/overflow</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">display_on_board</arg>&gt;.
+</msg>
+
+</messages>
+

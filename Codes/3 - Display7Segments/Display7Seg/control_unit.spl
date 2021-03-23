@@ -1,0 +1,12 @@
+[Inputs]
+clock
+reset_n
+load_lsb_value
+load_msb_value
+load_dots_enable
+=in_byte[7:0]=
+[Outputs]
+=value[15:0]=
+=dots[3:0]=
+=enable[3:0]=
+[BiDir]

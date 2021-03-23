@@ -1,0 +1,12 @@
+Command line:
+   tb_2_isim_par.exe
+     -simmode  gui
+     -sdfmax  /uut/=netgen/par/ScanChain_timesim.sdf
+     -sdfroot  /uut
+     -simrunnum  1
+     -socket  46357
+
+Fri Mar 15 18:15:38 2019
+
+
+ Elaboration Time: 0.03 sec

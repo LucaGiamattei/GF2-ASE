@@ -1,0 +1,81 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/mic_tb_echo_isim_beh.exe -prj C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/mic_tb_echo_beh.prj work.mic_tb_echo 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/shifter.vhd" into library work
+Parsing VHDL file "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/posedge_reg_enable.vhd" into library work
+Parsing VHDL file "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/oring.vhd" into library work
+Parsing VHDL file "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/neg_edge_reg.vhd" into library work
+Parsing VHDL file "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/negedge_dff.vhd" into library work
+Parsing VHDL file "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/mpc.vhd" into library work
+Parsing VHDL file "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/mdr_register.vhd" into library work
+Parsing VHDL file "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/mbr.vhd" into library work
+Parsing VHDL file "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/high_bit.vhd" into library work
+Parsing VHDL file "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/dff.vhd" into library work
+Parsing VHDL file "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/control_store.vhd" into library work
+Parsing VHDL file "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/alu.vhd" into library work
+Parsing VHDL file "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/4to16decoder.vhd" into library work
+Parsing VHDL file "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/pc.vhd" into library work
+Parsing VHDL file "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/parte_operativa.vhd" into library work
+Parsing VHDL file "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/Switch_Led.vhd" into library work
+Parsing VHDL file "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/rom8.vhd" into library work
+Parsing VHDL file "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/ram_core.vhd" into library work
+Parsing VHDL file "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/mic1.vhd" into library work
+Parsing VHDL file "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/divisore.vhd" into library work
+Parsing VHDL file "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/decodifica_indirizzi.vhd" into library work
+Parsing VHDL file "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/constant_pool_rom.vhd" into library work
+Parsing VHDL file "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/sistema_mic1.vhd" into library work
+Parsing VHDL file "C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/mic_tb_echo.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package vcomponents
+Compiling package numeric_std
+Compiling architecture behavioral of entity Switch_Led [switch_led_default]
+Compiling package textio
+Compiling package vital_timing
+Compiling package vital_primitives
+Compiling package vpkg
+Compiling architecture dcm_sp_clock_divide_by_2_v of entity dcm_sp_clock_divide_by_2 [dcm_sp_clock_divide_by_2_default]
+Compiling architecture dcm_sp_maximum_period_check_v of entity dcm_sp_maximum_period_check [\dcm_sp_maximum_period_check("*"...]
+Compiling architecture dcm_sp_maximum_period_check_v of entity dcm_sp_maximum_period_check [\dcm_sp_maximum_period_check("*"...]
+Compiling architecture dcm_sp_clock_lost_v of entity dcm_sp_clock_lost [dcm_sp_clock_lost_default]
+Compiling architecture dcm_sp_v of entity DCM_SP [\DCM_SP(true,"*",true,false,5.0,...]
+Compiling architecture behavioral of entity divisore_freq [divisore_freq_default]
+Compiling package costanti
+Compiling architecture behavioral of entity control_store [control_store_default]
+Compiling architecture behavioral of entity oring [oring_default]
+Compiling architecture behavioral of entity mpc [mpc_default]
+Compiling architecture dataflow of entity high_bit [high_bit_default]
+Compiling architecture behavioral of entity decoder [decoder_default]
+Compiling architecture behavioral of entity parte_di_controllo [parte_di_controllo_default]
+Compiling architecture behavioral of entity negedge_dff [negedge_dff_default]
+Compiling architecture behavioral of entity dff [dff_default]
+Compiling architecture behavioral of entity shifter [shifter_default]
+Compiling architecture behavioral of entity posedge_reg_enable [\posedge_reg_enable(('0','0','0'...]
+Compiling architecture behavioral of entity mdr_register [mdr_register_default]
+Compiling architecture behavioral of entity posedge_reg_enable [\posedge_reg_enable(('1','1','1'...]
+Compiling architecture behavioral of entity posedge_reg_enable [\posedge_reg_enable(('0','0','0'...]
+Compiling architecture behavioral of entity posedge_reg_enable [\posedge_reg_enable(('0','0','0'...]
+Compiling architecture behavioral of entity posedge_reg_enable [\posedge_reg_enable(('0','0','0'...]
+Compiling architecture behavioral of entity mbr_register [mbr_register_default]
+Compiling architecture alu_structural of entity ALU [alu_default]
+Compiling architecture behavioral of entity neg_edge_reg [neg_edge_reg_default]
+Compiling architecture behavioral of entity parte_operativa [parte_operativa_default]
+Compiling architecture behavioral of entity mic1 [mic1_default]
+Compiling architecture basic of entity boot_rom [boot_rom_default]
+Compiling architecture behavioral of entity ram [\ram(7,32)\]
+Compiling architecture basic of entity cpool_rom [cpool_rom_default]
+Compiling architecture behavioral of entity decodifica_indirizzi [decodifica_indirizzi_default]
+Compiling architecture behavioral of entity sistema_mic1 [sistema_mic1_default]
+Compiling architecture behavior of entity mic_tb_echo
+Time Resolution for simulation is 1ps.
+Waiting for 27 sub-compilation(s) to finish...
+Compiled 76 VHDL Units
+Built simulation executable C:/Users/Marco/Desktop/mic1_fpga-20190226T151123Z-001/mic1_fpga/mic_tb_echo_isim_beh.exe
+Fuse Memory Usage: 59520 KB
+Fuse CPU Usage: 1574 ms

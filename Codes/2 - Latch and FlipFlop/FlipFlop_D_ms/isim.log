@@ -1,0 +1,16 @@
+ISim log file
+Running: /home/luca/ISE_ws/FF_ms/ffms_ffms_sch_tb_isim_par.exe -intstyle ise -gui -sdfmax /UUT/=netgen/par/ffms_timesim.sdf -sdfroot /UUT -tclbatch isim.cmd -wdb /home/luca/ISE_ws/FF_ms/ffms_ffms_sch_tb_isim_par.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+INFO: SDF backannotation was successful with SDF file netgen/par/ffms_timesim.sdf, for root module /UUT/.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+at 2968 ps(5), Instance /ffms_ffms_sch_tb/UUT/XLXI_7/ : Warning: /X_LATCHE SETUP  Low VIOLATION ON I WITH RESPECT TO CLK;
+  Expected := 0.132 ns; Observed := 0.109 ns; At : 2.968 ns

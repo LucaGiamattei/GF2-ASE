@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "/home/giorgio/Documenti/shiftregister/shiftregister/Shift_register.xst" -ofn "/home/giorgio/Documenti/shiftregister/shiftregister/Shift_register.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-tq144-5 Shift_register.ngc Shift_register.ngd  
+map -intstyle ise -p xc3s100e-tq144-5 -cm area -ir off -pr off -c 100 -o Shift_register_map.ncd Shift_register.ngd Shift_register.pcf 
+par -w -intstyle ise -ol high -t 1 Shift_register_map.ncd Shift_register.ncd Shift_register.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Shift_register.twx Shift_register.ncd -o Shift_register.twr Shift_register.pcf 

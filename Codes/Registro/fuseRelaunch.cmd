@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/luca/ISE_ws/Registro/reg_tb_isim_beh.exe" -prj "/home/luca/ISE_ws/Registro/reg_tb_beh.prj" "work.reg_tb" 

@@ -1,0 +1,52 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -relaunch -intstyle "ise" -incremental -o "/home/luca/ISE_ws/Divisore_non_rest/tb_0_isim_beh.exe" -prj "/home/luca/ISE_ws/Divisore_non_rest/tb_0_beh.prj" "tb_0" 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/luca/ISE_ws/Divisore_non_rest/mux2.vhd" into library work
+Parsing VHDL file "/home/luca/ISE_ws/Divisore_non_rest/fulladder.vhd" into library work
+Parsing VHDL file "/home/luca/ISE_ws/Divisore_non_rest/flipflopd.vhd" into library work
+Parsing VHDL file "/home/luca/ISE_ws/Divisore_non_rest/xorInversion.vhd" into library work
+Parsing VHDL file "/home/luca/ISE_ws/Divisore_non_rest/ripplecarry.vhd" into library work
+Parsing VHDL file "/home/luca/ISE_ws/Divisore_non_rest/flipflopmux.vhd" into library work
+Parsing VHDL file "/home/luca/ISE_ws/Divisore_non_rest/Controllo_Overflow.vhd" into library work
+Parsing VHDL file "/home/luca/ISE_ws/Divisore_non_rest/shift_register.vhd" into library work
+Parsing VHDL file "/home/luca/ISE_ws/Divisore_non_rest/reg.vhd" into library work
+Parsing VHDL file "/home/luca/ISE_ws/Divisore_non_rest/RCAddSub.vhd" into library work
+Parsing VHDL file "/home/luca/ISE_ws/Divisore_non_rest/MUXN.vhd" into library work
+Parsing VHDL file "/home/luca/ISE_ws/Divisore_non_rest/cont_modn.vhd" into library work
+Parsing VHDL file "/home/luca/ISE_ws/Divisore_non_rest/control_unit.vhd" into library work
+Parsing VHDL file "/home/luca/ISE_ws/Divisore_non_rest/divisore_non_restoring.vhd" into library work
+WARNING:HDLCompiler:946 - "/home/luca/ISE_ws/Divisore_non_rest/divisore_non_restoring.vhd" Line 209: Actual for formal port scan_in is neither a static name nor a globally static expression
+Parsing VHDL file "/home/luca/ISE_ws/Divisore_non_rest/tb_0.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 99580 KB
+Fuse CPU Usage: 1290 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package math_real
+Compiling package std_logic_arith
+Compiling architecture behavioral of entity reg [\reg(4)\]
+Compiling architecture dataflow of entity mux2 [mux2_default]
+Compiling architecture behavioral of entity flipflopd [flipflopd_default]
+Compiling architecture structural of entity flipflopmux [flipflopmux_default]
+Compiling architecture behavioral of entity shift_register [\shift_register(1,'1')\]
+Compiling architecture behavioral of entity shift_register [\shift_register(4,'1')\]
+Compiling architecture behavioral of entity MUXN [\MUXN(4)\]
+Compiling architecture behavioral of entity Counter_ModN [\Counter_ModN(4)\]
+Compiling architecture dataflow of entity xorInversion [\xorInversion(5)\]
+Compiling architecture dataflow of entity full_adder [full_adder_default]
+Compiling architecture structural of entity ripple_carry [\ripple_carry(5)\]
+Compiling architecture behavioral of entity Controllo_Overflow [controllo_overflow_default]
+Compiling architecture structural of entity RCAddSub [\RCAddSub(5)\]
+Compiling architecture behavioral of entity control_unit [control_unit_default]
+Compiling architecture structural of entity divisore_non_restoring [\divisore_non_restoring(4)\]
+Compiling architecture behavior of entity tb_0
+Time Resolution for simulation is 1ps.
+Compiled 36 VHDL Units
+Built simulation executable /home/luca/ISE_ws/Divisore_non_rest/tb_0_isim_beh.exe
+Fuse Memory Usage: 413556 KB
+Fuse CPU Usage: 1570 ms
+GCC CPU Usage: 200 ms

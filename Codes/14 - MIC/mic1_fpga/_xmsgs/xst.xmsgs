@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="817" delta="old" >&quot;<arg fmt="%s" index="1">/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/control_store.vhd</arg>&quot; Line <arg fmt="%d" index="2">4287</arg>. Choice <arg fmt="%s" index="3">goto2</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="old" >&quot;<arg fmt="%s" index="1">/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/control_store.vhd</arg>&quot; Line <arg fmt="%d" index="2">4288</arg>. Choice <arg fmt="%s" index="3">goto3</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="old" >&quot;<arg fmt="%s" index="1">/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/control_store.vhd</arg>&quot; Line <arg fmt="%d" index="2">4289</arg>. Choice <arg fmt="%s" index="3">goto4</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="old" >&quot;<arg fmt="%s" index="1">/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/control_store.vhd</arg>&quot; Line <arg fmt="%d" index="2">4290</arg>. Choice <arg fmt="%s" index="3">goto5</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="old" >&quot;<arg fmt="%s" index="1">/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/control_store.vhd</arg>&quot; Line <arg fmt="%d" index="2">4293</arg>. Choice <arg fmt="%s" index="3">bipush2</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="old" >&quot;<arg fmt="%s" index="1">/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/control_store.vhd</arg>&quot; Line <arg fmt="%d" index="2">4294</arg>. Choice <arg fmt="%s" index="3">bipush3</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="old" >&quot;<arg fmt="%s" index="1">/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/control_store.vhd</arg>&quot; Line <arg fmt="%d" index="2">4296</arg>. Choice <arg fmt="%s" index="3">iadd2</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="old" >&quot;<arg fmt="%s" index="1">/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/control_store.vhd</arg>&quot; Line <arg fmt="%d" index="2">4297</arg>. Choice <arg fmt="%s" index="3">iadd3</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="old" >&quot;<arg fmt="%s" index="1">/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/control_store.vhd</arg>&quot; Line <arg fmt="%d" index="2">4299</arg>. Choice <arg fmt="%s" index="3">isub2</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="old" >&quot;<arg fmt="%s" index="1">/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/control_store.vhd</arg>&quot; Line <arg fmt="%d" index="2">4300</arg>. Choice <arg fmt="%s" index="3">isub3</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="old" >&quot;<arg fmt="%s" index="1">/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/control_store.vhd</arg>&quot; Line <arg fmt="%d" index="2">4302</arg>. Choice <arg fmt="%s" index="3">iand2</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="old" >&quot;<arg fmt="%s" index="1">/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/control_store.vhd</arg>&quot; Line <arg fmt="%d" index="2">4303</arg>. Choice <arg fmt="%s" index="3">iand3</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="old" >&quot;<arg fmt="%s" index="1">/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/control_store.vhd</arg>&quot; Line <arg fmt="%d" index="2">4305</arg>. Choice <arg fmt="%s" index="3">ior2</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="old" >&quot;<arg fmt="%s" index="1">/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/control_store.vhd</arg>&quot; Line <arg fmt="%d" index="2">4306</arg>. Choice <arg fmt="%s" index="3">ior3</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="817" delta="old" >&quot;<arg fmt="%s" index="1">/home/luca/Scrivania/design/OR_con_constante/mic1_fpga/control_store.vhd</arg>&quot; Line <arg fmt="%d" index="2">4308</arg>. Choice <arg fmt="%s" index="3">dup2</arg> is not a locally static expression.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">load</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">STATUS_s</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">RST_s</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">PSINCDEC_s</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">PSEN_s</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">PSDONE_s</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">PSCLK_s</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">LOCKED_s</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">CLKIN_s</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">CLKFX_S</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">CLKFX180_s</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">CLKFB_s</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">CLKDV_s</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">CLK90_s</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">CLK2X_s</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">CLK2X180_s</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">CLK270_s</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">CLK180_s</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">CLK0_s</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">lineedec_appese</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">wwrite_ritardato_intermedio</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">wr_sig</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">wcbtr_mdr_sig</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">rread_ritardato_intermedio</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">rd_sig</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">input</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">fi2_sig</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">fi1_sig</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">fe_sig</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">uscita_mar_sig&lt;31:30&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">uscita_pc_sig&lt;31:9&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">leds_sig</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">DATA_sig</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">CE_sig</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Mtridata_IO_MDR&lt;10&gt;</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Inst_Switch_Led</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">23 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Mtridata_IO_MDR&lt;11&gt;&gt; &lt;Mtridata_IO_MDR&lt;12&gt;&gt; &lt;Mtridata_IO_MDR&lt;13&gt;&gt; &lt;Mtridata_IO_MDR&lt;14&gt;&gt; &lt;Mtridata_IO_MDR&lt;20&gt;&gt; &lt;Mtridata_IO_MDR&lt;15&gt;&gt; &lt;Mtridata_IO_MDR&lt;21&gt;&gt; &lt;Mtridata_IO_MDR&lt;16&gt;&gt; &lt;Mtridata_IO_MDR&lt;22&gt;&gt; &lt;Mtridata_IO_MDR&lt;17&gt;&gt; &lt;Mtridata_IO_MDR&lt;23&gt;&gt; &lt;Mtridata_IO_MDR&lt;18&gt;&gt; &lt;Mtridata_IO_MDR&lt;24&gt;&gt; &lt;Mtridata_IO_MDR&lt;19&gt;&gt; &lt;Mtridata_IO_MDR&lt;30&gt;&gt; &lt;Mtridata_IO_MDR&lt;25&gt;&gt; &lt;Mtridata_IO_MDR&lt;8&gt;&gt; &lt;Mtridata_IO_MDR&lt;31&gt;&gt; &lt;Mtridata_IO_MDR&lt;26&gt;&gt; &lt;Mtridata_IO_MDR&lt;28&gt;&gt; &lt;Mtridata_IO_MDR&lt;27&gt;&gt; &lt;Mtridata_IO_MDR&lt;9&gt;&gt; &lt;Mtridata_IO_MDR&lt;29&gt;&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Inst_Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;11&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;11&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Inst_Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;12&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;12&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Inst_Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;13&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;13&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Inst_Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;14&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;14&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Inst_Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;20&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;20&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Inst_Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;15&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;15&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Inst_Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;21&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;21&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Inst_Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;16&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;16&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Inst_Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;22&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;22&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Inst_Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;17&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;17&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Inst_Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;23&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;23&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Inst_Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;18&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;18&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Inst_Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;24&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;24&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Inst_Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;19&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;19&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Inst_Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;30&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;30&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Inst_Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;25&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;25&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Inst_Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;8&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;8&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Inst_Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;31&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;31&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Inst_Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;26&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;26&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Inst_Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;28&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;28&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Inst_Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;27&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;27&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Inst_Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;9&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;9&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Inst_Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;29&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;29&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">output_reg_16</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cpp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">output_reg_17</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cpp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">output_reg_18</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cpp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">output_reg_19</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cpp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">output_reg_20</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cpp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">output_reg_21</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cpp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">output_reg_22</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cpp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">output_reg_23</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cpp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">output_reg_24</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cpp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">output_reg_25</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cpp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">output_reg_26</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cpp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">output_reg_27</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cpp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">output_reg_28</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cpp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">output_reg_29</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cpp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">output_reg_30</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cpp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">output_reg_31</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cpp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">output_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Inst_neg_edge_reg</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">Mtridata_IO_MDR&lt;10&gt;</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Inst_Switch_Led</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">output_reg_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cpp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">output_reg_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cpp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">output_reg_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cpp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">output_reg_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cpp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">output_reg_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cpp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">output_reg_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cpp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">output_reg_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cpp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">output_reg_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cpp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">output_reg_8</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cpp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">output_reg_9</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cpp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">output_reg_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cpp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">output_reg_11</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cpp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">output_reg_12</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cpp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">output_reg_13</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cpp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">output_reg_14</arg>&gt; has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">cpp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">output_reg_15</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">cpp</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">output_reg_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mar</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">output_reg_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mar</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">output_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Inst_neg_edge_reg</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">cpp</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Inst_parte_operativa</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="info" file="Xst" num="3216" delta="new" >HDL ADVISOR - LUT implementation is currently selected for the RAM &lt;<arg fmt="%s" index="1">Mram_ram</arg>&gt;. If you want the register to be removed and the RAM to be implemented as block RAM, please change the RAM implementation style accordingly.
+</msg>
+
+<msg type="info" file="Xst" num="3044" delta="new" >The ROM &lt;<arg fmt="%s" index="1">Inst_cpool_rom/Mrom_DATA_rom0000</arg>&gt; will be implemented as a read-only BLOCK RAM, absorbing the register: &lt;<arg fmt="%s" index="2">Inst_mic1/Inst_parte_operativa/mar/output_reg</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3225" delta="new" >The RAM &lt;<arg fmt="%s" index="1">Inst_cpool_rom/Mrom_DATA_rom0000</arg>&gt; will be implemented as BLOCK RAM
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_operativa/mar/output_reg_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">sistema_mic1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_operativa/mar/output_reg_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">sistema_mic1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">Mtridata_IO_MDR&lt;29&gt;</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Switch_Led</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Mtridata_IO_MDR&lt;28&gt;</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Switch_Led</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Mtridata_IO_MDR&lt;27&gt;</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Switch_Led</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Mtridata_IO_MDR&lt;8&gt;</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Switch_Led</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Mtridata_IO_MDR&lt;9&gt;</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Switch_Led</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Mtridata_IO_MDR&lt;31&gt;</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Switch_Led</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Mtridata_IO_MDR&lt;25&gt;</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Switch_Led</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Mtridata_IO_MDR&lt;26&gt;</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Switch_Led</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Mtridata_IO_MDR&lt;19&gt;</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Switch_Led</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Mtridata_IO_MDR&lt;24&gt;</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Switch_Led</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Mtridata_IO_MDR&lt;30&gt;</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Switch_Led</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Mtridata_IO_MDR&lt;23&gt;</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Switch_Led</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Mtridata_IO_MDR&lt;17&gt;</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Switch_Led</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Mtridata_IO_MDR&lt;18&gt;</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Switch_Led</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Mtridata_IO_MDR&lt;16&gt;</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Switch_Led</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Mtridata_IO_MDR&lt;21&gt;</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Switch_Led</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Mtridata_IO_MDR&lt;22&gt;</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Switch_Led</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Mtridata_IO_MDR&lt;20&gt;</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Switch_Led</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Mtridata_IO_MDR&lt;14&gt;</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Switch_Led</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Mtridata_IO_MDR&lt;15&gt;</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Switch_Led</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Mtridata_IO_MDR&lt;13&gt;</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Switch_Led</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Mtridata_IO_MDR&lt;12&gt;</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Switch_Led</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Mtridata_IO_MDR&lt;11&gt;</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Switch_Led</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Mtridata_IO_MDR&lt;10&gt;</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Switch_Led</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;11&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;11&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;12&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;12&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;13&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;13&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;15&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;15&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;14&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;14&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;20&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;20&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;22&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;22&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;21&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;21&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;16&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;16&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;18&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;18&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;17&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;17&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;23&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;23&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;30&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;30&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;24&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;24&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;19&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;19&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;26&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;26&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;25&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;25&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;31&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;31&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;9&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;9&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;8&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;8&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;27&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;27&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;28&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;28&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Switch_Led</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">Mtridata_IO_MDR&lt;10&gt;</arg> and <arg fmt="%s" index="3">Mtridata_IO_MDR&lt;29&gt;</arg> <arg fmt="%s" index="4">Mtridata_IO_MDR&lt;29&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="2040" delta="new" >Unit <arg fmt="%s" index="1">sistema_mic1</arg>: <arg fmt="%d" index="2">32</arg> multi-source signals are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
+
+<msg type="warning" file="Xst" num="2042" delta="new" >Unit <arg fmt="%s" index="1">ram</arg>: <arg fmt="%d" index="2">32</arg> internal tristates are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
+
+<msg type="warning" file="Xst" num="2042" delta="new" >Unit <arg fmt="%s" index="1">boot_rom</arg>: <arg fmt="%d" index="2">8</arg> internal tristates are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
+
+<msg type="warning" file="Xst" num="2042" delta="new" >Unit <arg fmt="%s" index="1">Switch_Led</arg>: <arg fmt="%d" index="2">32</arg> internal tristates are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_operativa/Inst_neg_edge_reg/output_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sistema_mic1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_operativa/cpp/output_reg_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sistema_mic1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_operativa/cpp/output_reg_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sistema_mic1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_operativa/cpp/output_reg_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sistema_mic1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_operativa/cpp/output_reg_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sistema_mic1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_operativa/cpp/output_reg_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sistema_mic1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_operativa/cpp/output_reg_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sistema_mic1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_operativa/cpp/output_reg_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sistema_mic1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_operativa/cpp/output_reg_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sistema_mic1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_operativa/cpp/output_reg_8</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sistema_mic1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_operativa/cpp/output_reg_9</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sistema_mic1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_operativa/cpp/output_reg_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sistema_mic1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_operativa/cpp/output_reg_11</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sistema_mic1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_operativa/cpp/output_reg_12</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sistema_mic1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_operativa/cpp/output_reg_13</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sistema_mic1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_operativa/cpp/output_reg_14</arg>&gt; has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">sistema_mic1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_operativa/cpp/output_reg_31</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sistema_mic1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_operativa/cpp/output_reg_30</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sistema_mic1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_operativa/cpp/output_reg_29</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sistema_mic1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_operativa/cpp/output_reg_28</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sistema_mic1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_operativa/cpp/output_reg_27</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sistema_mic1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_operativa/cpp/output_reg_26</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sistema_mic1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_operativa/cpp/output_reg_25</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sistema_mic1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_operativa/cpp/output_reg_24</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sistema_mic1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_operativa/cpp/output_reg_23</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sistema_mic1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_operativa/cpp/output_reg_22</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sistema_mic1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_operativa/cpp/output_reg_21</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sistema_mic1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_operativa/cpp/output_reg_20</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sistema_mic1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_operativa/cpp/output_reg_19</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sistema_mic1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_operativa/cpp/output_reg_18</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sistema_mic1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_operativa/cpp/output_reg_17</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sistema_mic1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_operativa/cpp/output_reg_16</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sistema_mic1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_operativa/cpp/output_reg_15</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">sistema_mic1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_operativa/Inst_neg_edge_reg/output_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">sistema_mic1</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_ena_cmp_eq01081_SW0_FRB</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sistema_mic1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_ena_cmp_eq00451_SW0_FRB&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_ena_cmp_eq01081_SW0_FRB</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">sistema_mic1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Inst_mic1/Inst_parte_di_controllo/Inst_control_store/mir_ena_cmp_eq00451_SW0_FRB&gt; </arg>
+</msg>
+
+</messages>
+

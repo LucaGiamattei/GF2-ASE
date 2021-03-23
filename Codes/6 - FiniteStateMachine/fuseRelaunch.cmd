@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/giorgio/Documenti/FSM/tb_FSM_isim_beh.exe" -prj "/home/giorgio/Documenti/FSM/tb_FSM_beh.prj" "work.tb_FSM" 

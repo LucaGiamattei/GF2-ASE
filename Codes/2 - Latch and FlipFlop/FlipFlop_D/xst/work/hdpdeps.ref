@@ -1,0 +1,22 @@
+V3 14
+FL /home/luca/ISE_ws/FFD_edg/FFD_edg.vhd 2019/02/21.19:16:25 P.20131013
+EN work/FFD_edg 1550772991 FL /home/luca/ISE_ws/FFD_edg/FFD_edg.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/FFD_edg/Structural 1550772992 \
+      FL /home/luca/ISE_ws/FFD_edg/FFD_edg.vhd EN work/FFD_edg 1550772991 \
+      CP nor_2_in
+FL /home/luca/ISE_ws/FFD_edg/nor_2_in.vhd 2019/02/20.13:26:00 P.20131013
+EN work/nor_2_in 1550772989 FL /home/luca/ISE_ws/FFD_edg/nor_2_in.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/nor_2_in/nor_2_in 1550772990 \
+      FL /home/luca/ISE_ws/FFD_edg/nor_2_in.vhd EN work/nor_2_in 1550772989
+FL /home/luca/ISE_ws/FFD_edg/nor_3_in.vhd 2019/02/20.13:50:12 P.20131013
+EN work/nor_3_in 1550677179 FL /home/luca/ISE_ws/FFD_edg/nor_3_in.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/nor_3_in/nor_3_in 1550677180 \
+      FL /home/luca/ISE_ws/FFD_edg/nor_3_in.vhd EN work/nor_3_in 1550677179
+FL /home/luca/ISE_ws/FFD_edg/or_2_in.vhd 2019/02/20.13:26:07 P.20131013
+EN work/or_2_in 1550665603 FL /home/luca/ISE_ws/FFD_edg/or_2_in.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/or_2_in/or_2_in 1550665604 \
+      FL /home/luca/ISE_ws/FFD_edg/or_2_in.vhd EN work/or_2_in 1550665603

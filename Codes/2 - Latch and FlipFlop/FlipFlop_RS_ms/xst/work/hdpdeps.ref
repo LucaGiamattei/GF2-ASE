@@ -1,0 +1,17 @@
+V3 11
+FL /home/luca/ISE_ws/FlipFlopRSMS/FFRSMS.vhd 2019/02/22.16:32:32 P.20131013
+EN work/FFRSMS 1550849561 FL /home/luca/ISE_ws/FlipFlopRSMS/FFRSMS.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/FFRSMS/Structural 1550849562 \
+      FL /home/luca/ISE_ws/FlipFlopRSMS/FFRSMS.vhd EN work/FFRSMS 1550849561 \
+      CP Latch_rs CP invert
+FL /home/luca/ISE_ws/FlipFlopRSMS/invert.vhd 2019/02/22.16:21:35 P.20131013
+EN work/invert 1550849559 FL /home/luca/ISE_ws/FlipFlopRSMS/invert.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/invert/dataflow 1550849560 \
+      FL /home/luca/ISE_ws/FlipFlopRSMS/invert.vhd EN work/invert 1550849559
+FL /home/luca/ISE_ws/FlipFlopRSMS/Latch_RS.vhd 2019/02/22.14:09:09 P.20131013
+EN work/Latch_rs 1550849557 FL /home/luca/ISE_ws/FlipFlopRSMS/Latch_RS.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Latch_rs/dataflow 1550849558 \
+      FL /home/luca/ISE_ws/FlipFlopRSMS/Latch_RS.vhd EN work/Latch_rs 1550849557
